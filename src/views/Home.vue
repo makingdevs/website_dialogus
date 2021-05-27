@@ -26,6 +26,11 @@
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide-to="2"
             aria-label="Slide 3"></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
 
         </div>
         <div class="carousel-inner">
@@ -70,7 +75,15 @@
               <h4 align="right"><b>ESTÉ SIEMPRE EN REGLA </b></h4>
             </div>
           </div>
-          
+          <div class="carousel-item">
+            <video
+              width="400"
+              controls
+              class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+              <source src="../assets/mov_bbb.mp4" type="video/mp4" />
+              <source src="assets/mov_bbb.ogg" type="video/ogg" />
+            </video>
+          </div>
         </div>
         <button
           class="carousel-control-prev"
