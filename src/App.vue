@@ -77,13 +77,8 @@ export default {
   components: {},
   created: function () {
     console.log("Hello word app");
-    window.addEventListener('scroll', function () {
-      if (window.pageYOffset > 100) {
-        this.nav.classList.add('bg-dark', 'shadow');
-      } else {
-        this.nav.classList.remove('bg-dark', 'shadow');
-      }
-    });
+    this.changeColorNabvarWithScroll();
+  
 
   },
   mounted(){
@@ -94,6 +89,16 @@ export default {
   methods: {
     test(){
       console.log("test")
+    },
+    changeColorNabvarWithScroll(){
+      console.log("changeColorNabvarWithScroll")
+        window.addEventListener('scroll', function () {
+      if (window.pageYOffset > 100) {
+        this.nav.classList.add('bg-dark', 'shadow');
+      } else {
+        this.nav.classList.remove('bg-dark', 'shadow');
+      }
+    });
     }
   },
 };
