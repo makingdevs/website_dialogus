@@ -73,12 +73,12 @@
               <h4 align="right"><b> MANTENTE ACTUALIZADO </b></h4>
               <h4 align="right"><b> PARA QUE TU EMPRESA </b></h4>
               <h4 align="right"><b>ESTÉ SIEMPRE EN REGLA </b></h4>
+             
             </div>
           </div>
           <div class="carousel-item">
             <video
-              width="400"
-              controls
+              width="400" loop="true" muted autoplay
               class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
               <source src="../assets/mov_bbb.mp4" type="video/mp4" />
               <source src="assets/mov_bbb.ogg" type="video/ogg" />
@@ -104,14 +104,22 @@
       </div>
     </div>
 
-    <div class="container my-5 d-grid gap-5">
-      <div class="p-5 border">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
-          natus iusto fugit id saepe neque rerum magni laudantium accusantium
-          dolorem numquam quasi.
-        </p>
+    <div class="container my-5 d-grid gap-5" >
+      <div class="p-5 border" style="background-color:#010101">
+        <img align="right" src="../assets/mag1.webp" alt="">
+        <h5 style="color:#FFFFFF" align="left">SOBRE NOSOTROS</h5>
+        <h5 style="color:#FFFFFF" align="left">_____________________</h5>
+        <img   align="left" src="../assets/DIALOGUS[1].webp" class="image-size" >
+        <br>
+        <br>
+        <h5 style="color:#FFFFFF" align="left">Visión</h5>
+        <h6 style="color:#FFFFFF" align="left">Nuestra visión es generar prosperidad incluyente,</h6>
+        <h6 style="color:#FFFFFF" align="left"> asegurando el crecimiento y la permanencia de las empresas</h6>
+        <h6 style="color:#FFFFFF" align="left">en el mercado</h6>
+        <h5 style="color:#FFFFFF" align="left">Misión</h5>
+        <h6 style="color:#FFFFFF" align="left">Nuestra misión es acompañar el desarrollo de nuestros</h6>
+        <h6 style="color:#FFFFFF" align="left">clientes, mediante metodologías innovadoras contribuyendo</h6>
+        <h6 style="color:#FFFFFF" align="left">en su rentabilidad, productividad y satisfacción.</h6>
       </div>
       <div class="p-5 border">
         <p>
@@ -139,12 +147,11 @@
       </div>
       <div class="p-5 border">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
-          natus iusto fugit id saepe neque rerum magni laudantium accusantium
-          dolorem numquam quasi. df
+          Washapp: 
+          <button type="button" class="btn btn-default btn-circle"><i class="rounded float-end"></i></button>
         </p>
       </div>
+      
     </div>
 
   </div>
@@ -162,6 +169,9 @@ export default {
 };
 </script>
 <style>
+.image-size {
+  width: 10%;
+}
 .banner-image {
   background-size: cover;
 }
