@@ -105,7 +105,7 @@
     </div>
 
     <div class="container my-5 d-grid gap-5" >
-      <div class="p-5 border" style="background-color:#010101">
+      <div class="p-5">
         <img align="right" src="../assets/mag1.webp" alt="">
         <h5 style="color:#FFFFFF" align="left">SOBRE NOSOTROS</h5>
         <h5 style="color:#FFFFFF" align="left">_____________________</h5>
@@ -175,4 +175,5 @@ export default {
 .banner-image {
   background-size: cover;
 }
+
 </style>
