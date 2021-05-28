@@ -109,7 +109,7 @@
         <img align="right" src="../assets/mag1.webp" alt="">
         <h5 style="color:#FFFFFF" align="left">SOBRE NOSOTROS</h5>
         <h5 style="color:#FFFFFF" align="left">_____________________</h5>
-        <img   align="left" src="../assets/DIALOGUS[1].webp" class="image-size" >
+        <img   align="left" src="../assets/dualo1.webp" class="image-size" >
         <br>
         <br>
         <h5 style="color:#FFFFFF" align="left">Visión</h5>
