@@ -121,37 +121,16 @@
         <h6 style="color:#FFFFFF" align="left">clientes, mediante metodologías innovadoras contribuyendo</h6>
         <h6 style="color:#FFFFFF" align="left">en su rentabilidad, productividad y satisfacción.</h6>
       </div>
-      <div class="p-5 border">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
-          natus iusto fugit id saepe neque rerum magni laudantium accusantium
-          dolorem numquam quasi.
-        </p>
-      </div>
-      <div class="p-5 border">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
-          natus iusto fugit id saepe neque rerum magni laudantium accusantium
-          dolorem numquam quasi.
-        </p>
-      </div>
-      <div class="p-5 border">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus veniam ipsa earum quibusdam, atque ipsum error maiores
-          natus iusto fugit id saepe neque rerum magni laudantium accusantium
-          dolorem numquam quasi.
-        </p>
-      </div>
-      <div class="p-5 border">
-        <p>
-          Washapp: 
-          <button type="button" class="btn btn-default btn-circle"><i class="rounded float-end"></i></button>
-        </p>
-      </div>
-      
+    </div>
+    <div id="padre">
+      <h3 align="center" class="titu">CONOCE NUESTROS SERVICIOS</h3>
+      <h3 align="center" class="line">______________________________________________</h3>
+      <span class="uno">1</span>
+      <span class="dos">2</span>
+      <span class="tres">3</span>
+      <a href="">
+      <h3 style="color:#fbfcfd" class="posicion-texto">CAPITAL HUMANO</h3>
+      </a>
     </div>
 
   </div>
@@ -169,11 +148,91 @@ export default {
 };
 </script>
 <style>
+.uno {
+  color: rgb(var(--color_34));
+  position: relative;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  margin-top: 100px;
+  top: 80px;
+  right: 306px;
+  grid-area: 3 / 1 / 4 / 2;
+  justify-self: start;
+  align-self: start;
+}
+.dos{
+  color: rgb(var(--color_34));
+  position: relative;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  margin-top: 100px;
+  top: 80px;
+  center: 10px;
+  grid-area: 3 / 1 / 4 / 2;
+  justify-self: start;
+  align-self: start;
+}
+.tres{
+  color: rgb(var(--color_34));
+  position: relative;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  margin-top: 100px;
+  top: 80px;
+  left: 306px;
+  grid-area: 3 / 1 / 4 / 2;
+  justify-self: start;
+  align-self: start;
+}
+.line{
+  color: rgb(var(--color_34));
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  top: 100px;
+}
+.titu{
+  color: rgb(var(--color_34));
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  top: 100px;
+}
+.posicion-texto{
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  top: 0px;
+}
+
+
 .image-size {
   width: 10%;
 }
 .banner-image {
   background-size: cover;
+}
+#padre {
+  background-image: url("../assets/fondo4.webp");
+  height: 468px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  background-size: cover;
+}
+.bg-text {
+  background-color: rgb(250, 250, 250);
+}
+.card-title {
+  position: absolute;    /* posición absolute con respecto al padre */
+  bottom: 0;             /* posicionada en la esquina inferior derecha */
+  right: 1rem;
 }
 
 </style>
