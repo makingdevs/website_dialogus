@@ -63,6 +63,10 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+.bg-nav {
+  background-color: #2f547c;
+}
 </style>
 <script>
 
@@ -93,9 +97,9 @@ export default {
       console.log("changeColorNabvarWithScroll")
         window.addEventListener('scroll', function () {
       if (window.pageYOffset > 100) {
-        this.nav.classList.add('bg-dark', 'shadow');
+        this.nav.classList.add('bg-nav', 'shadow');
       } else {
-        this.nav.classList.remove('bg-dark', 'shadow');
+        this.nav.classList.remove('bg-nav', 'shadow');
       }
     });
     }
