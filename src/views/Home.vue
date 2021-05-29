@@ -103,8 +103,8 @@
         </button>
       </div>
     </div>
-
-    <button @click="createWord">Crear Palabra</button>
+      <br>
+    <button @click="createWord" type="button" class="btn btn-success">Crear Palabra</button>
     <li v-for="w in HomePageTable" :key="w['.key']" style="color:white">{{w.value}}</li>
     <div class="container my-5 d-grid gap-5" >
       <div class="p-5">
