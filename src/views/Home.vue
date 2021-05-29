@@ -40,7 +40,7 @@
               class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
               alt="../assets/fondo1.webp"/>
             <div class="carousel-caption d-none d-md-block">
-              <h5 align="right">ESTRATEGIA</h5>
+              <h5 align="right" v-if="title">{{title.value}}</h5>
               <p align="right">_____________________</p>
               <h4 align="right"><b> LOS MEJORES ASESORES </b></h4>
               <h4 align="right"><b> SE ASEGURAN DE QUE TU </b></h4>
@@ -104,6 +104,8 @@
       </div>
     </div>
 
+    <button @click="createWord">Crear Palabra</button>
+    <li v-for="w in HomePageTable" :key="w['.key']" style="color:white">{{w.value}}</li>
     <div class="container my-5 d-grid gap-5" >
       <div class="p-5">
         <img align="right" src="../assets/mag1.webp" alt="">
@@ -133,18 +135,58 @@
       </a>
     </div>
 
+
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
-
+import {HomePageTableRef} from '../dbConnection'
 export default {
   name: "Home",
+  firebase: {
+    HomePageTable: HomePageTableRef
+  },
+  data: function (){
+    return {
+      word: {
+        name: "",
+        value: ""
+      },
+      title: {
+        value: ""
+      },
+      HomePageTable: []
+    }
+  },
+  created: function () {
+    this.exampleMethod()
+    console.log(this.HomePageTable)
+    this.title = this.HomePageTable[0];
+  },
+  mounted(){
+   this.title = this.HomePageTable[0]; 
+  },
   components: {
     HelloWorld,
   },
+  methods: {
+    exampleMethod(){
+      console.log("Hola mundo")
+    },
+    createWord(){
+      this.word.name = "title";
+      this.word.value = "tus colaboradores son";
+      HomePageTableRef.push(this.word); 
+      console.log("Palabra Crreada");
+    },
+    setTitle(){
+      console.log(this.HomePageTable[0])
+      this.title = this.HomePageTable[0]; 
+    }
+  }
+
 };
 </script>
 <style>
