@@ -131,6 +131,12 @@
       <a href="">
       <h3 style="color:#fbfcfd" class="posicion-texto">CAPITAL HUMANO</h3>
       </a>
+       <a href="">
+      <h3 style="color:#fbfcfd" class="posicion-texto2">ESTRATEGIA</h3>
+      </a>
+      <a href="">
+      <h3 style="color:#fbfcfd" class="posicion-texto3">CUMPLIMIENTO</h3>
+      </a>
     </div>
 
   </div>
@@ -210,7 +216,22 @@ export default {
   font-weight: bold;
   top: 0px;
 }
-
+.posicion-texto2{
+  position: relative;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  top: -40px;
+  left: 350px;
+}
+.posicion-texto3{
+  position: relative;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  top: -70px;
+  right: 306px;
+}
 
 .image-size {
   width: 10%;
