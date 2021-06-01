@@ -19,7 +19,7 @@
           <div class="mx-auto"></div>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link text-white" href="#" id="dialogus">Dialogus | </a> 
+              <a class="nav-link text-white" href="/home" id="dialogus">Dialogus | </a> 
             </li>
             <li class="nav-item">
               <a class="nav-link text-white dialogus" href="#">Nosotros | </a>
@@ -31,7 +31,10 @@
               <a class="nav-link text-white dialogus" href="#">Blog | </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Contacto</a>
+              <a class="nav-link text-white" href="#">Contacto | </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/textAdministration">Agregar Texto</a> 
             </li>
           </ul>
         </div>
