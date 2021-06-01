@@ -114,9 +114,7 @@
         <br>
         <br>
         <h5 style="color:#FFFFFF" align="left">Visión</h5>
-        <h6 style="color:#FFFFFF" align="left">Nuestra visión es generar prosperidad incluyente,</h6>
-        <h6 style="color:#FFFFFF" align="left"> asegurando el crecimiento y la permanencia de las empresas</h6>
-        <h6 style="color:#FFFFFF" align="left">en el mercado</h6>
+        <h6 style="color:#FFFFFF" align="left">{{vision}}</h6>
         <h5 style="color:#FFFFFF" align="left">Misión</h5>
         <h6 style="color:#FFFFFF" align="left">Nuestra misión es acompañar el desarrollo de nuestros</h6>
         <h6 style="color:#FFFFFF" align="left">clientes, mediante metodologías innovadoras contribuyendo</h6>
@@ -162,7 +160,18 @@ export default {
       title: {
         value: ""
       },
+      vision: "",
+      mision: "",
       HomePageTable: []
+    }
+  },
+  watch: {
+    HomePageTable: function (){
+      console.log("cambio");
+      this.HomePageTable.forEach( word => console.log(word['.key']));
+      let word = this.HomePageTable.find( word => word['name'] == "vision");
+      console.log(word)
+      this.vision = word?.value
     }
   },
   created: function () {
@@ -171,7 +180,7 @@ export default {
     this.title = this.HomePageTable[0];
   },
   mounted(){
-   this.title = this.HomePageTable[0]; 
+    this.title = this.HomePageTable[0]; 
   },
   components: {
     HelloWorld,
