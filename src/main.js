@@ -6,7 +6,8 @@ import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 Vue.use(VueRouter)
-
+import { rtdbPlugin } from 'vuefire'
+Vue.use(rtdbPlugin)
 Vue.config.productionTip = false
 
 new Vue({
