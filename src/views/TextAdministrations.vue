@@ -21,20 +21,23 @@
             </tr>
           </thead>
           <tbody>
-            <tr  v-for="w in HomePageTable" :key="w['.key']" style="color:white" >
-              <td>{{w.name}}</td>
-              <td>{{w.value}}</td>
+            <tr  v-for="(word, index) in HomePageTable" :key="word['.key']" style="color:white" >
+              <td>
+                <h6 :class="'index_text' + index">{{word.name}}</h6>
+                <input type="text" class="form-control" name="" :class="'index_' + index" aria-describedby="helpId" placeholder="" v-model="word.name" style="display: none"/>
+              </td>
+              <td>
+                <h6 :class="'index_text' + index">{{word.value}}</h6>
+                <input type="text" class="form-control" name="" :class="'index_' + index" aria-describedby="helpId" placeholder="" v-model="word.value" style="display: none"/>
+              </td>
               <td>
                 <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-                  <button type="button" class="btn btn-success">Editar</button>
-                  <button type="button" class="btn btn-danger">Eliminar</button>
+                  <button type="button" class="btn btn-success" :id="'index_edit' + index" @click="editEnable(index)">Editar</button>
+                  <button type="button" class="btn btn-success" :class="'index_' + index" style="display:none" @click="unableEdit(index); updateWord(word)">Save</button>
+                  <button type="button" class="btn btn-danger" @click="deleteWord(word)">Eliminar</button>
                 </div>
               </td>
             </tr>
-            <tr v-for ="w in HomePageTable" :key="w['.key']" style="color:white">
-
-            </tr>
-            
           </tbody>
         </table>
     </div>
@@ -83,6 +86,32 @@ export default {
     setTitle(){
       console.log(this.HomePageTable[0])
       this.title = this.HomePageTable[0]; 
+    },
+    editEnable(index){
+      let inputs =  document.getElementsByClassName("index_" + index)
+      let texts =  document.getElementsByClassName("index_text" + index)
+      let editButton = document.getElementById("index_edit" + index)
+      editButton.style.display = "none"
+      inputs.forEach(element => element.style.display = "block")
+      texts.forEach(element => element.style.display = "none")
+    },
+    unableEdit(index){
+      let inputs =  document.getElementsByClassName("index_" + index)
+      let texts =  document.getElementsByClassName("index_text" + index)
+      let editButton = document.getElementById("index_edit" + index)
+      editButton.style.display = "block"
+      inputs.forEach(element => element.style.display = "none")
+      texts.forEach(element => element.style.display = "block")
+    },
+    deleteWord(word){
+      HomePageTableRef.child(word['.key']).remove()
+    },
+    updateWord(word){
+      console.log(word)
+      let nuevo = HomePageTableRef.child(word['.key'])
+      console.log(nuevo)
+      nuevo.set(word)
+      
     }
   }
 
