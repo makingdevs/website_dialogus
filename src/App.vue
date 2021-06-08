@@ -34,7 +34,7 @@
 
                   <!-- menu area -->
                   <ul class="navbar-nav ms-auto" id="nav" style="display: none">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="themeexample.html">Home</a></li>
                     <li>
                       <a href="#!">Pages</a>
                       <ul>
@@ -197,7 +197,7 @@
   }
 
   .bg-nav {
-    background-color: #2f547c;
+    background-color: #ffffff;
   }
 </style>
 <script>
