@@ -298,7 +298,7 @@ export default {
   background-size: cover;
 }
 .bg-text {
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(14, 24, 33);
 }
 .card-title {
   position: absolute;    /* posición absolute con respecto al padre */
