@@ -1,5 +1,6 @@
 <template>
   <div>
+    
   <section class="bg-img cover-background full-screen pt-16 pb-8 p-lg-0 top-position min-md-height-auto" data-overlay-dark="0" id="banner">
 
     <div class="container d-flex flex-column">
@@ -133,13 +134,15 @@
 
        <!-- ONLINE COURSES
         ================================================== -->
-        <section>
-            <div class="container">
-                <div class="section-heading">
-                    <h2 class="h1 text-secondary">Explore Popular Courses</h2>
-                </div>    
-            </div>
-        </section>
+        <vueper-slides
+        class="no-shadow"
+        
+        slide-multiple ="false"
+        :slide-ratio="1 / 4"
+        :dragging-distance="70">
+          <vueper-slide class="text-black" v-for="(slide, i) in slides" :key="i" :title="slide.title" :content="slide.content" :style="'background-color: red'" :image="slide.image" />
+        </vueper-slides>
+    
 </div>
 </template>
 
@@ -158,12 +161,46 @@
 }
 </style>
 <script>
-
+import { VueperSlides, VueperSlide } from 'vueperslides'
+import 'vueperslides/dist/vueperslides.css'
   export default {
     name: "ThemeExample",
     data: function () {
       return {
-
+        slides: [
+          {
+            title: 'Blog #1',
+            content: 'Esta página, que además de ser un blog se presenta como red social de literatura, comunidad de lectores y comentarios de libros, posee una gran cantidad de contenido, ofreciendo resúmenes y sinopsis de más de miles de ellos y permitiendo informarse tanto de estos como de los autores o de los premios que se han ido otorgando.',
+            image: require('@/assets/blog1.jpeg'),
+          },
+          
+          {
+            title: 'Slide #2',
+            content: 'Slide content.',
+            image: require('@/assets/entrena.png'),
+          },          
+          {
+            title: 'Slide #1',
+            content: 'Slide content.',
+            image: require('@/assets/blog2.jpeg'),
+          },
+          {
+            title: 'Blog #1',
+            content: 'Slide content.',
+            image: require('@/assets/curso1.jpeg'),
+          },
+          
+          {
+            title: 'Slide #2',
+            content: 'Slide content.',
+            image: require('@/assets/about-01.jpeg'),
+          },
+          {
+            title: 'Blog #1',
+            content: 'Slide content.',
+            image: require('@/assets/fondo4.webp'),
+          }   
+        ]
       }
     },
     created: function () {
@@ -173,6 +210,8 @@
 
     },
     components: {
+      VueperSlides, 
+      VueperSlide
     },
     methods: {
       exampleMethod() {
