@@ -32,9 +32,6 @@ import 'coach/js/lightgallery-all.js'
 import 'coach/js/isotope.pkgd.min.js'
 import './assets/js/main-theme.js'
 
-
-
-
 Vue.use(VueRouter)
 import { rtdbPlugin } from 'vuefire'
 Vue.use(rtdbPlugin)
