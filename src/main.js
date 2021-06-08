@@ -12,7 +12,6 @@ import 'coach/css/custom.css'
 
 import jQuery from 'jquery'
 window.jQuery = jQuery
-
 import 'coach/js/jquery.min.js'
 import 'coach/js/popper.min.js'
 //import 'coach/search/search.js'
@@ -20,11 +19,18 @@ import 'coach/js/popper.min.js'
 import './assets/js/search.js'
 import './assets/js/nav-menu.js'
 import 'coach/js/easy.responsive.tabs.js'
+//import 'owl.carousel';
 //import 'coach/js/owl.carousel.js'
 import 'coach/js/jquery.counterup.min.js'
 //import 'coach/js/jquery.stellar.min.js'
 import 'coach/js/waypoints.min.js'
 import 'coach/js/countdown.js'
+import 'coach/js/jquery.magnific-popup.min.js'
+//let owl_carousel = require('coach/js/owl.carousel.js');
+//window.fn = owl_carousel;
+import 'coach/js/lightgallery-all.js'
+import 'coach/js/isotope.pkgd.min.js'
+import './assets/js/main-theme.js'
 
 
 
