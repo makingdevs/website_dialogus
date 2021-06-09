@@ -248,54 +248,20 @@
           <div class="container mb-2-6">
               <div class="row">
                   <div class="col-lg-12 mb-1-6">
-                      <h2 class="h1 text-secondary">Whatever challenges you face, we have the groundbreaking training courses and assets to help you with your optimal life.</h2>
+                      <h2 class="h1 text-secondary">Propósioto :Apasionados por colaborar en la transformación de nuestros clientes y fomentar relaciones de confianza a largo plazo.</h2>
                   </div>
                   <div class="col-lg-6 mb-1-6 mb-lg-0">
-                      <p class="mb-0 text-black">Life Coach is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+                    <h2 class="h1 text-dark">Misión</h2>
+                      <p class="mb-0 text-black">Acompañamos el desarrollo de nuestros clientes, mediante metodologías innovadoras contribuyendo en su rentabilidad, productividad y satisfacción.</p>
                   </div>
                   <div class="col-lg-6">
-                      <p class="mb-0 text-black">Courses text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop.</p>
+                    <h2 class="h1 text-dark">Visión</h2>
+                      <p class="mb-0 text-black">Generar Prosperidad Incluyente, mediante el crecimiento y la permanencia de las empresas en el mercado.</p>
+                      <p class="text-dark"><b> * Que nos vaya bien a todos.</b></p>
                   </div>
               </div>
           </div>
-          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../assets/blog2.jpeg" class="d-block banner-image w-100 vh-100 d-flex justify-content-center align-items-center" alt="">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="text-white">First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/fondo2.webp" class="d-block banner-image w-100 vh-100 d-flex justify-content-center align-items-center" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="text-white">Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/fondo3.webp" class="d-block banner-image w-100 vh-100 d-flex justify-content-center align-items-center" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="text-white">Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+          
       </section>
     
 </div>
