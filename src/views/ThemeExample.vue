@@ -136,10 +136,9 @@
         ================================================== -->
         <vueper-slides
         class="no-shadow"
-        
-        slide-multiple ="false"
-        :slide-ratio="1 / 4"
-        :dragging-distance="70">
+            :visible-slides="3"
+            :slide-ratio="1 / 4"
+            :dragging-distance="70">
           <vueper-slide class="text-black" v-for="(slide, i) in slides" :key="i" :title="slide.title" :content="slide.content" :style="'background-color: red'" :image="slide.image" />
         </vueper-slides>
 
@@ -161,11 +160,11 @@
                       <div class="team-wrapper">
                           <div class="img-holder">
                               <div class="team-wrapper-inner">
-                                  <img src="../assets/fondo3.webp" alt="...">
+                                  <img class="tamañoNosotros" src="../assets/persona2.webp" alt="...">
                                   <div class="team-social-links">
                                       <ul class="social-icons">
                                           <li>
-                                              <a href="#!"><i class="fab fa-facebook-f"></i></a>
+                                              <a href="https://www.facebook.com/DialogusConsultores"><i class="fab fa-facebook-f"></i></a>
                                           </li>
                                           <li>
                                               <a href="https://twitter.com/search?q=%40Dialogus_LAT&src=typed_query"><i class="fab fa-twitter"></i></a>
@@ -188,7 +187,7 @@
                       <div class="team-wrapper">
                           <div class="img-holder">
                               <div class="team-wrapper-inner">
-                                  <img src="../assets/fondo2.webp" alt="...">
+                                  <img class="tamañoNosotros" src="../assets/persona1.webp" alt="...">
                                   <div class="team-social-links">
                                       <ul class="social-icons">
                                           <li>
@@ -263,7 +262,100 @@
           </div>
           
       </section>
-    
+
+              <!-- UPCOMING EVENT
+        ================================================== -->
+        <section class="bg-light">
+          <div class="container">
+              <div class="section-heading">
+                  <h2 class="h1 text-secondary">Nuestros Próximos Eventos</h2>
+                  <div class="dotted-box">
+                      <span class="dotted"></span>
+                      <span class="dotted"></span>
+                      <span class="dotted"></span>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-4 mb-1-6 mb-md-1-9 mb-lg-0">
+                      <div class="card card-style4">
+                          <div class="card-img">
+                              <img class="tamañoEventos" src="../assets/fondo2.webp" alt="...">
+                          </div>
+                          <div class="card-body">
+                              <div class="date-wrapper">
+                                  <span class="date">06</span>
+                                  <span class="month">Apr</span>
+                              </div>
+                              <h4 class="h5"><a href="#!">Consejos para contratar el coach correcto para tu empresa.</a></h4>
+                              <p class="text-dark">Contratar a un coach profesional de tu compañía es la tendencia de las empresas. Abundan los diferentes coaches que puedes contratar para...</p>
+                              <div class="event-meta-list">
+                                  <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>11:00 AM - 04:00 PM</span>
+                                  <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Colorado</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 mb-1-6 mb-md-1-9 mb-lg-0">
+                      <div class="card card-style4">
+                          <div class="card-img">
+                              <img class="tamañoEventos" src="../assets/fondo3.webp" alt="...">
+                          </div>
+                          <div class="card-body">
+                              <div class="date-wrapper">
+                                  <span class="date">23</span>
+                                  <span class="month">Oct</span>
+                              </div>
+                              <h4 class="h5"><a href="#!">¿Qué debo saber sobre la NOM-035?</a></h4>
+                              <p class="text-dark">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
+                              <div class="event-meta-list">
+                                  <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
+                                  <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Delaware</span>
+                                  
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4">
+                      <div class="card card-style4">
+                          <div class="card-img">
+                              <img class="tamañoEventos" src="../assets/persona1.webp" alt="...">
+                          </div>
+                          <div class="card-body">
+                              <div class="date-wrapper">
+                                  <span class="date">21</span>
+                                  <span class="month">Sep</span>
+                              </div>
+                              <h4 class="h5"><a href="#!">Expectativas en equilibrio</a></h4>
+                              <p class="text-dark">Todos conocen la expectativa, ya sea porque los ha hecho sentirse felices o desafortunados, pero todos los seres humanos en algún punto...</p>
+                              <div class="event-meta-list">
+                                  <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>8:00 AM - 11:00 AM</span>
+                                  <span class="text-dark"><i class="ti-map-alt text-primary me-2 "></i>California</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      
+        <!-- EXTRA
+        ================================================== -->
+        <section class="parallax bg-img cover-background " data-overlay-dark="6" data-background="" id="banner">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <div class="border-bottom border-white-opacity2 pb-2-6 mb-2-6">
+                          <h2 class="h1 text-center text-white">Capital Humano</h2>
+                          <p class="lead text-white text-center w-95 w-lg-60 w-xl-50 w-xxl-45 mx-auto">Nuestra división de Capital Humano genera soluciones para la gestión de talento, el desarrollo organizacional y las estrategias de bienestar para tu organización.</p>
+                          <div class="text-center">
+                              <a class="butn btn-white" href="contact.html"><span>Contactacto</span> <i class="fas fa-arrow-right ms-2"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      
 </div>
 </template>
 
@@ -277,7 +369,10 @@
   height: 302px;
 }
 .tamañoNosotros{
-  height: 196px;
+  height: 310px;
+}
+.tamañoEventos{
+  height: 260px;
 }
 .imagenCarruse{
   width: 80%;
@@ -295,8 +390,8 @@ import 'vueperslides/dist/vueperslides.css'
       return {
         slides: [
           {
-            title: 'Blog #1',
-            content: 'Esta página, que además de ser un blog se presenta como red social de literatura, comunidad de lectores y comentarios de libros, posee una gran cantidad de contenido, ofreciendo resúmenes y sinopsis de más de miles de ellos y permitiendo informarse tanto de estos como de los autores o de los premios que se han ido otorgando.',
+            title: 'curso #1',
+            content: 'Esta página, que además de ser un blog se presenta como red social de literatura, comunidad de lectores y comentarios de libros, ',
             image: require('@/assets/blog1.jpeg'),
           },
           
@@ -311,7 +406,7 @@ import 'vueperslides/dist/vueperslides.css'
             image: require('@/assets/blog2.jpeg'),
           },
           {
-            title: 'Blog #1',
+            title: 'curso #1',
             content: 'Slide content.',
             image: require('@/assets/curso1.jpeg'),
           },
@@ -322,7 +417,7 @@ import 'vueperslides/dist/vueperslides.css'
             image: require('@/assets/about-01.jpeg'),
           },
           {
-            title: 'Blog #1',
+            title: 'curso #1',
             content: 'Slide content.',
             image: require('@/assets/fondo4.webp'),
           }   
