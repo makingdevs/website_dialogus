@@ -26,7 +26,7 @@
                   <div class="navbar-header navbar-header-custom">
                     <!-- start logo -->
                     <a href="index.html" class="navbar-brand">
-                      <img  id="logo" src="./assets/logo2.webp" alt="logo" /></a>
+                      <img  id="logo" src="./assets/dualo1.webp" alt="logo" /></a>
                     <!-- end logo -->
                   </div>
 
