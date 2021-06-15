@@ -1,7 +1,7 @@
 <template>
   <div>
     
-  <section class="bg-img cover-background full-screen pt-16 pb-8 p-lg-0 top-position min-md-height-auto" data-overlay-dark="0" id="banner">
+  <section class="parallax bg-img cover-background  bg-img cover-background full-screen pt-16 pb-8 p-lg-0 top-position min-md-height-auto" data-overlay-dark="0" id="banner" >
 
     <div class="container d-flex flex-column">
         <div class="row align-items-center min-lg-vh-100">
@@ -78,22 +78,6 @@
                       </div>
                   </div>
               </div>
-              <div class="col-md-8 col-lg-4">
-                <div class="service-wrapper">
-                    <div class="service-content">
-                        <img src="../assets/fondo1.webp" alt="...">
-                        <div class="service-inner">
-                            <div class="content">
-                                <h3>Diagnóstico</h3>
-                                <p class="mb-0">Identicamos áreas de oportunidad de las empresas por medio de diversas herramientas de monitoreo y análisis</p>
-                                <div class="service-button">
-                                    <a class="butn btn-white" href="#!"><span>Ver Más</span> <i class="fas fa-arrow-right ms-2"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
           </div>
       </div>
 
@@ -106,7 +90,7 @@
               <div class="row align-items-center">
                   <div class="col-lg-6 mb-6 mb-md-8 mb-lg-0">
                       <div class="pe-lg-1-9 pe-xl-2-5 text-center">
-                          <img src="../assets/about-01.jpeg" alt="...">
+                          <img class="box" src="../assets/about-01.jpeg" alt="...">
                       </div>
                   </div>
                   <div class="col-lg-6">
@@ -134,13 +118,110 @@
 
        <!-- ONLINE COURSES
         ================================================== -->
-        <vueper-slides
-        class="no-shadow"
-            :visible-slides="3"
-            :slide-ratio="1 / 4"
-            :dragging-distance="70">
-          <vueper-slide class="text-black" v-for="(slide, i) in slides" :key="i" :title="slide.title" :content="slide.content" :style="'background-color: red'" :image="slide.image" />
-        </vueper-slides>
+        <h2 class="h1 text-secondary">Nuestros Cursos</h2>
+        <carousel-3d>
+          <slide :index="0">
+            <div class="card card-style4">
+              <div class="card-img">
+              </div>
+              <br>
+              <div class="card-body">
+                  <div class="date-wrapper">
+                      <span class="date">23</span>
+                      <span class="month">Oct</span>
+                  </div>
+                  <h4 class="h5"><a href="#!">¿Que es dialogus?</a></h4>
+                  <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
+                  <div class="event-meta-list">
+                      <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
+                      <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Delaware</span>
+                      
+                  </div>
+              </div>
+          </div>
+          </slide>
+          <slide :index="1">
+            <div class="card card-style4">
+              <div class="card-img">
+              </div>
+              <br>
+              <div class="card-body">
+                  <div class="date-wrapper">
+                      <span class="date">10</span>
+                      <span class="month">Dic</span>
+                  </div>
+                  <h4 class="h5"><a href="#!">¿Que es dialogus?</a></h4>
+                  <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
+                  <div class="event-meta-list">
+                      <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
+                      <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Delaware</span>
+                      
+                  </div>
+              </div>
+          </div>
+          </slide>
+          <slide :index="2">
+            <div class="card card-style4">
+              <div class="card-img">
+              </div>
+              <br>
+              <div class="card-body">
+                  <div class="date-wrapper">
+                      <span class="date">20</span>
+                      <span class="month">Feb</span>
+                  </div>
+                  <h4 class="h5"><a href="#!">¿Que es dialogus?</a></h4>
+                  <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
+                  <div class="event-meta-list">
+                      <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
+                      <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Delaware</span>
+                      
+                  </div>
+              </div>
+          </div>
+          </slide>
+          <slide :index="3">
+            <div class="card card-style4">
+              <div class="card-img">
+              </div>
+              <br>
+              <div class="card-body">
+                  <div class="date-wrapper">
+                      <span class="date">13</span>
+                      <span class="month">Jun</span>
+                  </div>
+                  <h4 class="h5"><a href="#!">¿Que es dialogus?</a></h4>
+                  <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
+                  <div class="event-meta-list">
+                      <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
+                      <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Delaware</span>
+                      
+                  </div>
+              </div>
+          </div>
+          </slide>
+          <slide :index="4">
+            <div class="card card-style4">
+              <div class="card-img">
+              </div>
+              <br>
+              <div class="card-body">
+                  <div class="date-wrapper">
+                      <span class="date">02</span>
+                      <span class="month">Ago</span>
+                  </div>
+                  <h4 class="h5"><a href="#!">¿Que es dialogus?</a></h4>
+                  <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
+                  <div class="event-meta-list">
+                      <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
+                      <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Delaware</span>
+                      
+                  </div>
+              </div>
+          </div>
+
+          </slide>
+        </carousel-3d>
 
         <!-- Team 
         _________________________________________________________________________-->
@@ -247,7 +328,7 @@
           <div class="container mb-2-6">
               <div class="row">
                   <div class="col-lg-12 mb-1-6">
-                      <h2 class="h1 text-secondary">Propósioto :Apasionados por colaborar en la transformación de nuestros clientes y fomentar relaciones de confianza a largo plazo.</h2>
+                      <h2 class="h1 text-secondary">Propósito :Apasionados por colaborar en la transformación de nuestros clientes y fomentar relaciones de confianza a largo plazo.</h2>
                   </div>
                   <div class="col-lg-6 mb-1-6 mb-lg-0">
                     <h2 class="h1 text-dark">Misión</h2>
@@ -356,141 +437,11 @@
           </div>
       </section>
 
-
               <!-- FOOTER
         ================================================== -->
-        <footer>
-          <div class="container">
-              <div class="row">
-                  <div class="col-sm-6 col-lg-3 mb-2-6 mb-lg-0">
-                      <div class="mb-1-6">
-                          <img src="../assets/logo2.webp" alt="...">
-                      </div>
-                      <p class="mb-1-6 text-white">Brindamos instrucción de vida, junto con el grupo y la empresa también.</p>
-                      <div class="row align-items-center">
-                          <div class="col-lg-12 mb-3">
-                              <div class="media">
-                                  <div class="address-icon">
-                                      <i class="far fa-envelope"></i>
-                                  </div>
-                                  <div class="media-body align-self-center">
-                                      <h6 class="text-white mb-0">Email </h6>
-                                      <p class="text-white mb-0">contactanos@dialogus.com.mx</p>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="col-lg-12 mb-3">
-                              <div class="media">
-                                  <div class="address-icon">
-                                      <i class="fas fa-mobile-alt"></i>
-                                  </div>
-                                  <div class="media-body align-self-center">
-                                      <h6 class="text-white mb-0">Telefono</h6>
-                                      <p class="text-white mb-0">(+44) 123 456 789</p>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="col-lg-12">
-                              <div class="media">
-                                  <div class="address-icon">
-                                      <i class="fas fa-map-marker-alt"></i>
-                                  </div>
-                                  <div class="media-body align-self-center">
-                                      <h6 class="text-white mb-0">Localización</h6>
-                                      <p class="text-white mb-0">66 Guild Street 512B, Great North Town.</p>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-sm-6 col-lg-3 mb-2-6 mb-lg-0">
-                      <div class="ps-md-1-6 ps-xl-1-9">
-                          <h3 class="footer-title h5">Explorar</h3>
-                          <ul class="list-style3">
-                              <li><a href="#!">About</a></li>
-                              <li><a href="#!">Portfolio</a></li>
-                              <li><a href="#!">Courses</a></li>
-                              <li><a href="#!">FAQ</a></li>
-                              <li><a href="#!">Blog</a></li>
-                              <li><a href="#!">Contact</a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="col-sm-6 col-lg-3 mb-2-6 mb-sm-0">
-                      <div class="ps-lg-1-6 ps-xl-1-9">
-                          <h3 class="footer-title h5">Experiencia</h3>
-                          <ul class="list-style3">
-                              <li><a href="#!">Coaching</a></li>
-                              <li><a href="#!">Certification</a></li>
-                              <li><a href="#!">Consulting</a></li>
-                              <li><a href="#!">Membership</a></li>
-                              <li><a href="#!">Online Courses</a></li>
-                              <li><a href="#!">Events</a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="col-sm-6 col-lg-3">
-                      <div class="ps-md-1-6 ps-xl-1-9">
-                          <h3 class="footer-title h5">Boletin informativo</h3>
-                          <p class="text-white">Manténgase actualizado con nuestras últimas noticias. ¡Prometemos no hacer spam!</p>
-                          <form class="quform newsletter-form w-90 w-sm-100" action="quform/newsletter-two.php" method="post" enctype="multipart/form-data" onclick="">
 
-                              <div class="quform-elements">
 
-                                  <div class="row">
 
-                                      <!-- Begin Text input element -->
-                                      <div class="col-md-12">
-                                          <div class="quform-element">
-                                              <div class="quform-input">
-                                                  <input class="form-control" id="email_address" type="text" name="email_address" placeholder="Subscribe with us" />
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <!-- End Text input element -->
-
-                                      <!-- Begin Submit button -->
-                                      <div class="col-md-12">
-                                          <div class="quform-submit-inner">
-                                              <button class="butn m-0" type="submit"><span>Subscribete <i class="fas fa-arrow-right ms-2"></i></span></button>
-                                          </div>
-                                          <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
-                                      </div>
-                                      <!-- End Submit button -->
-
-                                  </div>
-
-                              </div>
-
-                          </form>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="footer-bar">
-              <div class="container">
-                  <div class="row">
-                      <div class="col-md-6 text-center text-md-start mt-3 mt-md-0 order-2 order-md-1">
-                          <p class="d-inline-block text-white mb-0">&copy; 2021 Desarrollado por <a href="https://www.makingdevs.com/" class="text-secondary">MakingDevs</a></p>
-                      </div>
-                      <div class="col-md-6 text-md-end order-1 order-md-2">
-                          <p class="text-white d-inline-block font-weight-600 mb-0 align-middle">Estamos en: </p>
-                          <ul class="share-post">
-                              <li>
-                                  <a href="https://www.facebook.com/DialogusConsultores"><i class="fab fa-facebook-f"></i></a>
-                              </li>
-                              <li>
-                                  <a href="https://twitter.com/search?q=%40Dialogus_LAT&src=typed_query"><i class="fab fa-twitter"></i></a>
-                              </li>
-                              <li>
-                                  <a href="https://mx.linkedin.com/jobs/search?keywords=Dialogus-consultores&location=Ecatepec%20de%20Morelos%2C%20M%C3%A9xico%2C%20M%C3%A9xico&geoId=101340577&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0"><i class="fab fa-linkedin-in"></i></a>
-                              </li>
-                          </ul>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </footer>
 </div>
 </template>
 
@@ -498,6 +449,27 @@
 #banner {
   background-image: url('../assets/blog1.jpeg');
  
+}
+
+body {
+  color: #fff;
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+.box {
+  background: #2db34a;
+  border-radius: auto;
+  cursor: pointer;
+  height: auto;
+  line-height: auto;
+  text-align: center;
+  transition-property: background, border-radius;
+  transition-duration: .2s, 1s;
+  transition-timing-function: linear;
+  width: auto;
+}
+.box:hover {
+  background: #ff7b29;
+  border-radius: 50%;
 }
 
 .image-tamaño{
@@ -517,48 +489,16 @@
 }
 </style>
 <script>
-import { VueperSlides, VueperSlide } from 'vueperslides'
-import 'vueperslides/dist/vueperslides.css'
+import { Carousel3d, Slide } from 'vue-carousel-3d';
   export default {
     name: "ThemeExample",
     data: function () {
+      
       return {
-        slides: [
-          {
-            title: 'curso #1',
-            content: 'Esta página, que además de ser un blog se presenta como red social de literatura, comunidad de lectores y comentarios de libros, ',
-            image: require('@/assets/blog1.jpeg'),
-          },
-          
-          {
-            title: 'Slide #2',
-            content: 'Slide content.',
-            image: require('@/assets/entrena.png'),
-          },          
-          {
-            title: 'Slide #1',
-            content: 'Slide content.',
-            image: require('@/assets/blog2.jpeg'),
-          },
-          {
-            title: 'curso #1',
-            content: 'Slide content.',
-            image: require('@/assets/curso1.jpeg'),
-          },
-          
-          {
-            title: 'Slide #2',
-            content: 'Slide content.',
-            image: require('@/assets/about-01.jpeg'),
-          },
-          {
-            title: 'curso #1',
-            content: 'Slide content.',
-            image: require('@/assets/fondo4.webp'),
-          }   
-        ]
+        
       }
     },
+
     created: function () {
 
     },
@@ -566,8 +506,9 @@ import 'vueperslides/dist/vueperslides.css'
 
     },
     components: {
-      VueperSlides, 
-      VueperSlide
+
+      Carousel3d,
+        Slide
     },
     methods: {
       exampleMethod() {
