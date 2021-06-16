@@ -34,7 +34,11 @@
 
                   <!-- menu area -->
                   <ul class="navbar-nav ms-auto" id="nav" style="display: none">
-                    <li><a href="themeexample.html">Home</a></li>
+                    <li>
+                      <router-link to="/themeexample" class="">
+                        Home
+                      </router-link>
+                    </li>
                     <li>
                       <a href="#!">Pages</a>
                       <ul>
