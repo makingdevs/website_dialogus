@@ -1,309 +1,601 @@
 <template>
   <div>
-    <div
-      class="home banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
-      <HelloWorld msg="Welcome to Your Vue.js App" />
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide home banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
-        data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="3"
-            aria-label="Slide 4"></button>
 
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item">
-            <img
-              src="../assets/fondo1.webp"
-              class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
-              alt="../assets/fondo1.webp"/>
-            <div class="carousel-caption d-none d-md-block">
-              <h5 align="right" v-if="title">{{title.value}}</h5>
-              <p align="right">_____________________</p>
-              <h4 align="right"><b> LOS MEJORES ASESORES </b></h4>
-              <h4 align="right"><b> SE ASEGURAN DE QUE TU </b></h4>
-              <h4 align="right"><b>EMPRESA ALCANCE SUS </b></h4>
-              <h4 align="right"><b>METAS </b></h4>
-            </div>
-          </div>
-          <div class="carousel-item active">
-            <img
-              src="../assets/fondo2.webp"
-              class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
-              alt="../assets/fondo2.webp"/>
-            <div class="carousel-caption d-none d-md-block">
-              <h5 align="right">CAPITAL HUMANO</h5>
-              <p align="right">_____________________</p>
-              <h4 align="right"><b> TUS COLABORADORES SON </b></h4>
-              <h4 align="right"><b> LA BASE DE TU </b></h4>
-              <h4 align="right"><b>CRECIMIENTO </b></h4>
-            </div>
-          </div>
+    <section
+      class="parallax bg-img cover-background  bg-img cover-background full-screen pt-16 pb-8 p-lg-0 top-position min-md-height-auto"
+      data-overlay-dark="0" id="banner">
 
-          <div class="carousel-item">
-            <img
-              src="../assets/fondo3.webp"
-              class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
-              alt="../assets/fondo3.webp"/>
-            <div class="carousel-caption d-none d-md-block">
-              <h5 align="right">CUMPLIMIENTO</h5>
-              <p align="right">_____________________</p>
-              <h4 align="right"><b> MANTENTE ACTUALIZADO </b></h4>
-              <h4 align="right"><b> PARA QUE TU EMPRESA </b></h4>
-              <h4 align="right"><b>ESTÉ SIEMPRE EN REGLA </b></h4>
-             
+      <div class="container d-flex flex-column">
+        <div class="row align-items-center min-lg-vh-100">
+          <div class="col-lg-8 mb-5 mb-lg-0">
+            <h1 class="text-white display-16 display-md-9 display-lg-7 display-xl-4 mb-1-6 text-shadow font-weight-800">
+              El mejor caso de éxito es cuando existe una transformación</h1>
+            <p class="mb-2-2 w-95 w-md-75 display-29 display-md-28 text-black">En Dialogus nos hemos preocupado y
+              enfocado en el desarrollo del activo más valioso con el que contamos: nuestra gente.</p>
+            <a href="#!" class="butn me-2-4 mb-2-4 mb-sm-0"><span>Descargar guia de Dialogüs</span></a>
+            <div class="d-block d-sm-inline-block">
+              <a class="popup-social-video video_btn small" href="https://www.youtube.com/watch?v=-ESQmzDbnL8"><i
+                  class="fas fa-play"></i></a>
+              <div class="d-inline-block align-middle ps-2-5 text-black text-start font-weight-600">Ver<span
+                  class="text-uppercase d-block text-black">Video</span></div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <video
-              width="400" loop="true" muted autoplay
-              class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
-              <source src="../assets/mov_bbb.mp4" type="video/mp4" />
-              <source src="assets/mov_bbb.ogg" type="video/ogg" />
-            </video>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </div>
-      <br>
+    </section>
+    <!-- SERVICE================================================== -->
 
-    <div class="container my-5 d-grid gap-5" >
-      <div class="p-5">
-        <img align="right" src="../assets/mag1.webp" alt="">
-        <h5 style="color:#FFFFFF" align="left">SOBRE NOSOTROS</h5>
-        <h5 style="color:#FFFFFF" align="left">_____________________</h5>
-        <img   align="left" src="../assets/dualo1.webp" class="image-size" >
-        <br>
-        <br>
-        <h5 style="color:#FFFFFF" align="left">Visión</h5>
-        <h6 style="color:#FFFFFF" align="left">{{vision}}</h6>
-        <h5 style="color:#FFFFFF" align="left">Misión</h5>
-        <h6 style="color:#FFFFFF" align="left">Nuestra misión es acompañar el desarrollo de nuestros</h6>
-        <h6 style="color:#FFFFFF" align="left">clientes, mediante metodologías innovadoras contribuyendo</h6>
-        <h6 style="color:#FFFFFF" align="left">en su rentabilidad, productividad y satisfacción.</h6>
+    <section>
+      <div class="container">
+        <div class="section-heading">
+          <h2 class="h1 text-secondary">¡Cómo puedo ayudarte!</h2>
+          <div class="dotted-box">
+            <span class="dotted"></span>
+            <span class="dotted"></span>
+            <span class="dotted"></span>
+          </div>
+        </div>
+        <div class="row justify-content-center g-0">
+          <div class="col-md-8 col-lg-4">
+            <div class="service-wrapper">
+              <div class="service-content">
+                <img class="image-tamaño" src="../assets/entrena.png" alt="...">
+                <div class="service-inner">
+                  <div class="content">
+                    <h3>Capital Humano</h3>
+                    <p class="mb-0">Nuestra división de Capital Humano genera soluciones para la gestión de talento, el
+                      desarrollo organizacional y las estrategias</p>
+                    <div class="service-button">
+                      <a class="butn btn-white" href="#!"><span>Ver Más</span> <i
+                          class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 col-lg-4">
+            <div class="service-wrapper">
+              <div class="service-content">
+                <img src="../assets/blog2.jpeg" alt="...">
+                <div class="service-inner">
+                  <div class="content">
+                    <h3>Estrategia</h3>
+                    <p class="mb-0">En conjunto con tu empresa, unidad de negocio o área, aplicamos metodologías
+                      efectivas e innovadoras para definir el marco de acción.</p>
+                    <div class="service-button">
+                      <a class="butn btn-white" href="#!"><span>Ver Más</span> <i
+                          class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 col-lg-4">
+            <div class="service-wrapper">
+              <div class="service-content">
+                <img class="image-tamaño" src="../assets/curso1.jpeg" alt="...">
+                <div class="service-inner">
+                  <div class="content">
+                    <h3>Cumplimiento</h3>
+                    <p class="mb-0">Desarrollamos sistemas que fomentan la integridad y ética para crear una cultura de
+                      honestidad y buenos valores</p>
+                    <div class="service-button">
+                      <a class="butn btn-white" href="#!"><span>Ver Más</span> <i
+                          class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div id="padre">
-      <h3 align="center" class="titu">CONOCE NUESTROS SERVICIOS</h3>
-      <h3 align="center" class="line">______________________________________________</h3>
-      <span class="uno">1</span>
-      <span class="dos">2</span>
-      <span class="tres">3</span>
-      <a href="">
-      <h3 style="color:#fbfcfd" class="posicion-texto">CAPITAL HUMANO</h3>
-      </a>
-       <a href="">
-      <h3 style="color:#fbfcfd" class="posicion-texto2">ESTRATEGIA</h3>
-      </a>
-      <a href="">
-      <h3 style="color:#fbfcfd" class="posicion-texto3">CUMPLIMIENTO</h3>
-      </a>
-    </div>
+
+    </section>
+
+    <!-- ABOUTUS
+        ================================================== -->
+    <section class="bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-6 mb-md-8 mb-lg-0">
+            <div class="pe-lg-1-9 pe-xl-2-5 text-center">
+              <img class="box" src="../assets/about-01.jpeg" alt="...">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h2 class="h1 text-black text-secondary mb-1-6 font-weight-700">¿Que es Dialogüs?</h2>
+            <p class="text-black">es una firma de consultoría dedicada a construir confianza para sus clientes mediante servicios especializados y prácticas de negocio innovadoras,
+               generando eficiencia y prosperidad. Es una empresa con cinco años de experiencia en el mercado y una amplia gama de clientes en diversos sectores.</p>
+            <ul class="list-style1">
+            </ul>
+          </div>
+          <div class="col-md-12 ">
+            <div class="about-content rounded">
+              <p class="lead text-black">Apasionados por colaborar en la transformación de nuestros clientes y fomentar relaciones de confianza a largo plazo.</p>
+              <div class="text-end">
+                <img src="../assets/dualo1.webp" alt="...">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ONLINE COURSES
+        ================================================== -->
+    <h2 class="h1 text-secondary">Nuestros Cursos</h2>
+    <carousel-3d>
+      <slide :index="0">
+        <div class="card card-style4">
+          <div class="card-img">
+          </div>
+          <br>
+          <div class="card-body">
+            <div class="date-wrapper">
+              <span class="date">23</span>
+              <span class="month">Oct</span>
+            </div>
+            <h4 class="h5"><a href="#!">¿Que es dialogus?</a></h4>
+            <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
+            <div class="event-meta-list">
+              <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
+              <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Delaware</span>
+
+            </div>
+          </div>
+        </div>
+      </slide>
+      <slide :index="1">
+        <div class="card card-style4">
+          <div class="card-img">
+          </div>
+          <br>
+          <div class="card-body">
+            <div class="date-wrapper">
+              <span class="date">10</span>
+              <span class="month">Dic</span>
+            </div>
+            <h4 class="h5"><a href="#!">¿Que es dialogus?</a></h4>
+            <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
+            <div class="event-meta-list">
+              <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
+              <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Delaware</span>
+
+            </div>
+          </div>
+        </div>
+      </slide>
+      <slide :index="2">
+        <div class="card card-style4">
+          <div class="card-img">
+          </div>
+          <br>
+          <div class="card-body">
+            <div class="date-wrapper">
+              <span class="date">20</span>
+              <span class="month">Feb</span>
+            </div>
+            <h4 class="h5"><a href="#!">¿Que es dialogus?</a></h4>
+            <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
+            <div class="event-meta-list">
+              <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
+              <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Delaware</span>
+
+            </div>
+          </div>
+        </div>
+      </slide>
+      <slide :index="3">
+        <div class="card card-style4">
+          <div class="card-img">
+          </div>
+          <br>
+          <div class="card-body">
+            <div class="date-wrapper">
+              <span class="date">13</span>
+              <span class="month">Jun</span>
+            </div>
+            <h4 class="h5"><a href="#!">¿Que es dialogus?</a></h4>
+            <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
+            <div class="event-meta-list">
+              <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
+              <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Delaware</span>
+
+            </div>
+          </div>
+        </div>
+      </slide>
+      <slide :index="4">
+        <div class="card card-style4">
+          <div class="card-img">
+          </div>
+          <br>
+          <div class="card-body">
+            <div class="date-wrapper">
+              <span class="date">02</span>
+              <span class="month">Ago</span>
+            </div>
+            <h4 class="h5"><a href="#!">¿Que es dialogus?</a></h4>
+            <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
+            <div class="event-meta-list">
+              <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
+              <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Delaware</span>
+
+            </div>
+          </div>
+        </div>
+
+      </slide>
+    </carousel-3d>
+
+    <!-- Team 
+        _________________________________________________________________________-->
+
+    <section class="bg-light">
+      <div class="container">
+        <div class="section-heading">
+          <h2 class="h1 text-secondary">Equipo </h2>
+          <div class="dotted-box">
+            <span class="dotted"></span>
+            <span class="dotted"></span>
+            <span class="dotted"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-4 mb-1-9 mb-lg-0">
+            <div class="team-wrapper">
+              <div class="img-holder">
+                <div class="team-wrapper-inner">
+                  <img class="tamañoNosotros" src="../assets/persona2.webp" alt="...">
+                  <div class="team-social-links">
+                    <ul class="social-icons">
+                      <li>
+                        <a href="https://www.facebook.com/DialogusConsultores"><i class="fab fa-facebook-f"></i></a>
+                      </li>
+                      <li>
+                        <a href="https://twitter.com/search?q=%40Dialogus_LAT&src=typed_query"><i
+                            class="fab fa-twitter"></i></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://mx.linkedin.com/jobs/search?keywords=Dialogus-consultores&location=Ecatepec%20de%20Morelos%2C%20M%C3%A9xico%2C%20M%C3%A9xico&geoId=101340577&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0"><i
+                            class="fab fa-linkedin-in"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="team-content">
+                  <h4 class="h5"><a href="https://www.facebook.com/DialogusConsultores">Lynn Santana</a></h4>
+                  <p class="text-primary font-weight-600 mb-0">Founder</p>
+                  <i class="fas fa-share-alt pink"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-1-9 mb-lg-0">
+            <div class="team-wrapper">
+              <div class="img-holder">
+                <div class="team-wrapper-inner">
+                  <img class="tamañoNosotros" src="../assets/persona1.webp" alt="...">
+                  <div class="team-social-links">
+                    <ul class="social-icons">
+                      <li>
+                        <a href="https://www.facebook.com/DialogusConsultores"><i class="fab fa-facebook-f"></i></a>
+                      </li>
+                      <li>
+                        <a href="https://twitter.com/search?q=%40Dialogus_LAT&src=typed_query"><i
+                            class="fab fa-twitter"></i></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://mx.linkedin.com/jobs/search?keywords=Dialogus-consultores&location=Ecatepec%20de%20Morelos%2C%20M%C3%A9xico%2C%20M%C3%A9xico&geoId=101340577&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0"><i
+                            class="fab fa-linkedin-in"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="team-content">
+                  <h4 class="h5"><a href="#!">Pam Cox</a></h4>
+                  <p class="text-primary font-weight-600 mb-0">Life Coach</p>
+                  <i class="fas fa-share-alt pink"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="team-wrapper">
+              <div class="img-holder">
+                <div class="team-wrapper-inner">
+                  <img class="tamañoNosotros" src="../assets/blog1.jpeg" alt="...">
+                  <div class="team-social-links">
+                    <ul class="social-icons">
+                      <li>
+                        <a href="https://www.facebook.com/DialogusConsultores"><i class="fab fa-facebook-f"></i></a>
+                      </li>
+                      <li>
+                        <a href="https://twitter.com/search?q=%40Dialogus_LAT&src=typed_query"><i
+                            class="fab fa-twitter"></i></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://mx.linkedin.com/jobs/search?keywords=Dialogus-consultores&location=Ecatepec%20de%20Morelos%2C%20M%C3%A9xico%2C%20M%C3%A9xico&geoId=101340577&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0"><i
+                            class="fab fa-linkedin-in"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="team-content">
+                  <h4 class="h5"><a href="#!">George Murray</a></h4>
+                  <p class="text-primary font-weight-600 mb-0">Business Coach</p>
+                  <i class="fas fa-share-alt pink"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MY PHILOSOPHY AND MISSION
+        ================================================== -->
+    <section class="pb-0">
+      <div class="container my-5 d-grid gap-5" >
+        <div class="p-5">
+          <img align="right" src="../assets/mag1.webp" alt="">
+          <vue-text-transition align="left" class="h3 text-secondary" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
+          SOBRE NOSOTROS </vue-text-transition>
+          <vue-text-transition align="left" class="h3 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
+            _____________________</vue-text-transition>
+          <img align="left" src="../assets/dualo1.webp" class="image-size" >
+          <br>
+          <br>
+          <vue-text-transition align="left" class="h4 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
+            Visión
+          </vue-text-transition>
+          <vue-text-transition align="left" class="h5 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
+            Nuestra visión es generar prosperidad incluyente,
+          </vue-text-transition>
+          <vue-text-transition align="left" class="h5 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
+            asegurando el crecimiento y la permanencia de las empresas
+          </vue-text-transition>
+          <vue-text-transition align="left" class="h5 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
+              en el mercado.
+            </vue-text-transition>
+          <vue-text-transition align="left" class="h4 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
+            Misión
+          </vue-text-transition>
+          <vue-text-transition align="left" class="h5 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
+            Nuestra misión es acompañar el desarrollo de nuestros
+          </vue-text-transition>
+          <vue-text-transition align="left" class="h5 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
+            clientes, mediante metodologías innovadoras contribuyendo
+          </vue-text-transition>
+          <vue-text-transition align="left" class="h5 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
+            en su rentabilidad, productividad y satisfacción.
+          </vue-text-transition>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- UPCOMING EVENT
+        ================================================== -->
+    <section class="bg-light">
+      <div class="container">
+        <div class="section-heading">
+          <h2 class="h1 text-secondary">Nuestros Próximos Eventos</h2>
+          <div class="dotted-box">
+            <span class="dotted"></span>
+            <span class="dotted"></span>
+            <span class="dotted"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mb-1-6 mb-md-1-9 mb-lg-0">
+            <div class="card card-style4">
+              <div class="card-img">
+                <img class="tamañoEventos" src="../assets/fondo2.webp" alt="...">
+              </div>
+              <div class="card-body">
+                <div class="date-wrapper">
+                  <span class="date">06</span>
+                  <span class="month">Apr</span>
+                </div>
+                <h4 class="h5"><a href="#!">Consejos para contratar el coach correcto para tu empresa.</a></h4>
+                <p class="text-dark">Contratar a un coach profesional de tu compañía es la tendencia de las empresas.
+                  Abundan los diferentes coaches que puedes contratar para...</p>
+                <div class="event-meta-list">
+                  <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>11:00 AM - 04:00
+                    PM</span>
+                  <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Colorado</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-1-6 mb-md-1-9 mb-lg-0">
+            <div class="card card-style4">
+              <div class="card-img">
+                <img class="tamañoEventos" src="../assets/fondo3.webp" alt="...">
+              </div>
+              <div class="card-body">
+                <div class="date-wrapper">
+                  <span class="date">23</span>
+                  <span class="month">Oct</span>
+                </div>
+                <h4 class="h5"><a href="#!">¿Qué debo saber sobre la NOM-035?</a></h4>
+                <p class="text-dark">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma
+                  Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
+                <div class="event-meta-list">
+                  <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00
+                    PM</span>
+                  <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Delaware</span>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card card-style4">
+              <div class="card-img">
+                <img class="tamañoEventos" src="../assets/persona1.webp" alt="...">
+              </div>
+              <div class="card-body">
+                <div class="date-wrapper">
+                  <span class="date">21</span>
+                  <span class="month">Sep</span>
+                </div>
+                <h4 class="h5"><a href="#!">Expectativas en equilibrio</a></h4>
+                <p class="text-dark">Todos conocen la expectativa, ya sea porque los ha hecho sentirse felices o
+                  desafortunados, pero todos los seres humanos en algún punto...</p>
+                <div class="event-meta-list">
+                  <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>8:00 AM - 11:00
+                    AM</span>
+                  <span class="text-dark"><i class="ti-map-alt text-primary me-2 "></i>California</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXTRA
+        ================================================== -->
+    <section class="parallax bg-img cover-background " data-overlay-dark="6" data-background="" id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="border-bottom border-white-opacity2 pb-2-6 mb-2-6">
+              <h2 class="h1 text-center text-white">Capital Humano</h2>
+              <p class="lead text-white text-center w-95 w-lg-60 w-xl-50 w-xxl-45 mx-auto">Nuestra división de Capital
+                Humano genera soluciones para la gestión de talento, el desarrollo organizacional y las estrategias de
+                bienestar para tu organización.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER
+        ================================================== -->
+
 
 
   </div>
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-import {HomePageTableRef} from '../dbConnection'
-export default {
-  name: "Home",
-  firebase: {
-    HomePageTable: HomePageTableRef
-  },
-  data: function (){
-    return {
-      word: {
-        name: "",
-        value: ""
-      },
-      title: {
-        value: ""
-      },
-      vision: "",
-      mision: "",
-      HomePageTable: []
-    }
-  },
-  watch: {
-    HomePageTable: function (){
-      console.log("cambio");
-      this.HomePageTable.forEach( word => console.log(word['.key']));
-      let word = this.HomePageTable.find( word => word['name'] == "vision");
-      console.log(word)
-      this.vision = word?.value
-    }
-  },
-  created: function () {
-    this.exampleMethod()
-    console.log(this.HomePageTable)
-    this.title = this.HomePageTable[0];
-  },
-  mounted(){
-    this.title = this.HomePageTable[0]; 
-  },
-  components: {
-    HelloWorld,
-  },
-  methods: {
-    exampleMethod(){
-      console.log("Hola mundo")
-    },
-    createWord(){
-      this.word.name = "title";
-      this.word.value = "tus colaboradores son";
-      HomePageTableRef.push(this.word); 
-      console.log("Palabra Crreada");
-    },
-    setTitle(){
-      console.log(this.HomePageTable[0])
-      this.title = this.HomePageTable[0]; 
-    }
+<style>
+  #banner {
+    background-image: url('../assets/blog1.jpeg');
+
   }
 
-};
-</script>
-<style>
-.uno {
-  color: rgb(var(--color_34));
-  position: relative;
-  text-align: center;
-  font-size: 100px;
-  font-weight: bold;
-  margin-top: 100px;
-  top: 80px;
-  right: 306px;
-  grid-area: 3 / 1 / 4 / 2;
-  justify-self: start;
-  align-self: start;
-}
-.dos{
-  color: rgb(var(--color_34));
-  position: relative;
-  text-align: center;
-  font-size: 100px;
-  font-weight: bold;
-  margin-top: 100px;
-  top: 80px;
-  center: 10px;
-  grid-area: 3 / 1 / 4 / 2;
-  justify-self: start;
-  align-self: start;
-}
-.tres{
-  color: rgb(var(--color_34));
-  position: relative;
-  text-align: center;
-  font-size: 100px;
-  font-weight: bold;
-  margin-top: 100px;
-  top: 80px;
-  left: 306px;
-  grid-area: 3 / 1 / 4 / 2;
-  justify-self: start;
-  align-self: start;
-}
-.line{
-  color: rgb(var(--color_34));
-  position: relative;
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  top: 100px;
-}
-.titu{
-  color: rgb(var(--color_34));
-  position: relative;
-  text-align: center;
-  font-size: 30px;
-  font-weight: bold;
-  top: 100px;
-}
-.posicion-texto{
-  position: relative;
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  top: 0px;
-}
-.posicion-texto2{
-  position: relative;
-  text-align: left;
-  font-size: 20px;
-  font-weight: bold;
-  top: -40px;
-  left: 350px;
-}
-.posicion-texto3{
-  position: relative;
-  text-align: right;
-  font-size: 20px;
-  font-weight: bold;
-  top: -70px;
-  right: 306px;
-}
+  body {
+    color: #fff;
+    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  }
 
-.image-size {
-  width: 10%;
-}
-.banner-image {
-  background-size: cover;
-}
-#padre {
-  background-image: url("../assets/fondo4.webp");
-  height: 468px;
-  width: 100%;
-  object-fit: cover;
-  object-position: 50% 50%;
-  background-size: cover;
-}
-.bg-text {
-  background-color: rgb(14, 24, 33);
-}
-.card-title {
-  position: absolute;    /* posición absolute con respecto al padre */
-  bottom: 0;             /* posicionada en la esquina inferior derecha */
-  right: 1rem;
-}
+  .box {
+    background: #2db34a;
+    border-radius: auto;
+    cursor: pointer;
+    height: auto;
+    line-height: auto;
+    text-align: center;
+    transition-property: background, border-radius;
+    transition-duration: .2s, 1s;
+    transition-timing-function: linear;
+    width: auto;
+  }
 
+  .box:hover {
+    background: #ff7b29;
+    border-radius: 50%;
+  }
+
+  .image-tamaño {
+    height: 302px;
+  }
+
+  .tamañoNosotros {
+    height: 310px;
+  }
+
+  .tamañoEventos {
+    height: 260px;
+  }
+
+  .imagenCarruse {
+    width: 80%;
+  }
+
+  .color_34 {
+    background-color: rgb(182, 180, 180);
+  }
+
+  .v--vtt-test,
+  .v--vtt-test_odd {
+    will-change: transform, opacity;
+    transition: opacity 0.3s ease-in-out, transform 1s ease-in-out;
+  }
+
+  .v--vtt-test_visible,
+  .v--vtt-test_odd_visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .v--vtt-test_hidden {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  .v--vtt-test_odd_hidden {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
 </style>
+<script>
+  import { Carousel3d, Slide } from 'vue-carousel-3d';
+  import VueTextTransition from 'vue-text-transition';
+  export default {
+    name: "ThemeExample",
+    data: function () {
+
+      return {
+        stateEffect: true,
+        displayСonditions: false 
+      }
+    },
+
+    created: function () {
+      window.addEventListener('scroll', this.handleScroll);
+    },
+    mounted() {
+
+    },
+    components: {
+      Carousel3d,
+      Slide,
+      // eslint-disable-next-line vue/no-unused-components
+      VueTextTransition
+    },
+    methods: {
+      exampleMethod() {
+        console.log("Hola mundo")
+      },
+      handleScroll() {
+        if (window.scrollY > 3000 && this.stateEffect) {
+          console.log("Execute method")
+          this.displayСonditions = true;
+          this.stateEffect = false;
+        }
+      }
+    }
+  };
+</script>
