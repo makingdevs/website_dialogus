@@ -41,51 +41,9 @@
                     </li>
 
                     <li>
-                      <a href="#!">Pages</a>
-                      <ul>
-                        <li><a href="about.html">About Us</a></li>
-                        <li>
-                          <a href="success-stories.html">Sucess Stories</a>
-                        </li>
-                        <li><a href="team.html">Team</a></li>
-                        <li><a href="pricing.html">Pricing</a></li>
-                        <li>
-                          <a href="#!">Program</a>
-                          <ul>
-                            <li>
-                              <a href="program-grid.html">Program Grid</a>
-                            </li>
-                            <li>
-                              <a href="program-list.html">Program List</a>
-                            </li>
-                            <li>
-                              <a href="program-details.html">Program Details</a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li>
-                          <a href="#!">Events</a>
-                          <ul>
-                            <li><a href="event-grid.html">Event Grid</a></li>
-                            <li>
-                              <a href="event-details.html">Event Details</a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li>
-                          <a href="#!">Podcast</a>
-                          <ul>
-                            <li>
-                              <a href="podcast-list.html">Podcast List</a>
-                            </li>
-                            <li>
-                              <a href="podcast-details.html">Podcast Details</a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li><a href="404.html">Page 404</a></li>
-                        <li><a href="coming-soon.html">Coming Soon</a></li>
-                      </ul>
+                      <router-link to="/about" class="">
+                        Nosotros
+                      </router-link>
                     </li>
                     <li>
                       <a href="#!">Courses</a>
