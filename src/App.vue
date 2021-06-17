@@ -45,73 +45,25 @@
                         Nosotros
                       </router-link>
                     </li>
+
                     <li>
-                      <a href="#!">Courses</a>
-                      <ul>
-                        <li><a href="courses-grid.html">Courses Grid</a></li>
-                        <li>
-                          <a href="courses-details.html">Courses Details</a>
-                        </li>
-                      </ul>
+                      <router-link to="#" class="">
+                        Servicios
+                      </router-link>
                     </li>
+
                     <li>
-                      <a href="#!">Portfolio</a>
-                      <ul>
-                        <li>
-                          <a href="portfolio-2-col.html">Portfolio 2 Columns</a>
-                        </li>
-                        <li>
-                          <a href="portfolio-3-col.html">Portfolio 3 Columns</a>
-                        </li>
-                        <li>
-                          <a href="portfolio-details.html">Portfolio Details</a>
-                        </li>
-                      </ul>
+                      <router-link to="#" class="">
+                        Noticias
+                      </router-link>
                     </li>
+
                     <li>
-                      <a href="#!">Resources</a>
-                      <ul>
-                        <li>
-                          <a href="#!">Help Center</a>
-                          <ul>
-                            <li><a href="help.html">Help</a></li>
-                            <li><a href="category.html">Category</a></li>
-                            <li>
-                              <a href="category-article.html">Category Article</a>
-                            </li>
-                            <li>
-                              <a href="help-center-profile.html">Help Center Profile</a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li>
-                          <a href="#!">Webinar</a>
-                          <ul>
-                            <li>
-                              <a href="webinar-list.html">Webinar List</a>
-                            </li>
-                            <li>
-                              <a href="webinar-booking.html">Webinar Booking</a>
-                            </li>
-                            <li>
-                              <a href="webinar-details.html">Webinar Details</a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li><a href="download-book.html">Download Book</a></li>
-                        <li>
-                          <a href="free-session-booking.html">Free Session Booking</a>
-                        </li>
-                      </ul>
+                      <router-link to="#" class="">
+                        Contacto
+                      </router-link>
                     </li>
-                    <li>
-                      <a href="#!">Blog</a>
-                      <ul>
-                        <li><a href="blog-grid.html">Blog Grid</a></li>
-                        <li><a href="blog-list.html">Blog List</a></li>
-                        <li><a href="blog-details.html">Blog Details</a></li>
-                      </ul>
-                    </li>
+
                   </ul>
                   <!-- end menu area -->
 
