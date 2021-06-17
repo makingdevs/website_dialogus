@@ -192,52 +192,33 @@
                           </ul>
                       </div>
                   </div>
-                  <div class="col-sm-6 col-lg-3 mb-2-6 mb-sm-0">
-                      <div class="ps-lg-1-6 ps-xl-1-9">
-                          <h3 class="footer-title h5">Experiencia</h3>
-                          <ul class="list-style3">
-                              <li><a href="#!">Coaching</a></li>
-                              <li><a href="#!">Certification</a></li>
-                              <li><a href="#!">Consulting</a></li>
-                              <li><a href="#!">Membership</a></li>
-                              <li><a href="#!">Online Courses</a></li>
-                              <li><a href="#!">Events</a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="col-sm-6 col-lg-3">
+
+                  <div class="col-sm-6 col-lg-6">
                       <div class="ps-md-1-6 ps-xl-1-9">
-                          <h3 class="footer-title h5">Boletin informativo</h3>
-                          <p class="text-white">Manténgase actualizado con nuestras últimas noticias. ¡Prometemos no hacer spam!</p>
+                          <h3 class="footer-title h5">Generar una cita</h3>
                           <form class="quform newsletter-form w-90 w-sm-100" action="quform/newsletter-two.php" method="post" enctype="multipart/form-data" onclick="">
+                            <div class="input-group mb-3">
+                              <span class="input-group-text" id="basic-addon1">Nombre</span>
+                              <input type="text" class="form-control" placeholder="Nombre Completo" aria-label="Nombre Completo" aria-describedby="basic-addon1">
+                            </div>
 
-                              <div class="quform-elements">
+                            <div class="input-group mb-3">
+                              <span class="input-group-text" id="basic-addon1">Telefono</span>
+                              <input type="text" class="form-control" placeholder="Ingrese Telefono" aria-label="Ingrese Telefono" aria-describedby="basic-addon1">
+                            </div>
+                            
+                            <div class="input-group mb-3">
+                              <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
+                              <span class="input-group-text" id="basic-addon2">@example.com</span>
+                            </div>
 
-                                  <div class="row">
-
-                                      <!-- Begin Text input element -->
-                                      <div class="col-md-12">
-                                          <div class="quform-element">
-                                              <div class="quform-input">
-                                                  <input class="form-control" id="email_address" type="text" name="email_address" placeholder="Subscribe with us" />
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <!-- End Text input element -->
-
-                                      <!-- Begin Submit button -->
-                                      <div class="col-md-12">
-                                          <div class="quform-submit-inner">
-                                              <button class="butn m-0" type="submit"><span>Subscribete <i class="fas fa-arrow-right ms-2"></i></span></button>
-                                          </div>
-                                          <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
-                                      </div>
-                                      <!-- End Submit button -->
-
-                                  </div>
-
-                              </div>
-
+                            <div class="input-group">
+                              <span class="input-group-text">Motivo de cita</span>
+                              <textarea class="form-control" aria-label="With textarea"></textarea>
+                            </div>
+                            <br>
+                            <button type="button" class="btn btn-warning">Enviar</button>
+                              
                           </form>
                       </div>
                   </div>
