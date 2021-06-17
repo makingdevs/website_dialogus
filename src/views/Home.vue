@@ -129,6 +129,7 @@
         ================================================== -->
     <h2 class="h1 text-secondary">Nuestros Cursos</h2>
     <carousel-3d>
+      
       <slide :index="0">
         <div class="card card-style4">
           <div class="card-img">
@@ -230,6 +231,7 @@
         </div>
 
       </slide>
+      <a data-v-05517ad0="" href="" aria-label="Next slide" class="next flechaCarus" style="width: 20px; height: 10px; line-height: 250px;"><span data-v-05517ad0="">›</span></a>
     </carousel-3d>
 
     <!-- Team 
@@ -358,7 +360,9 @@
     color: #fff;
     font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
   }
-
+  .flechaCarus {
+    width : 100px
+  }
   .box {
     background: #2db34a;
     border-radius: auto;
