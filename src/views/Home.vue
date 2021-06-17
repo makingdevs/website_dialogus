@@ -116,7 +116,7 @@
             <div class="about-content rounded">
               <p class="lead text-black">Apasionados por colaborar en la transformación de nuestros clientes y fomentar relaciones de confianza a largo plazo.</p>
               <div class="text-end">
-                <img src="../assets/dualo1.webp" alt="...">
+                <img src="../assets/firma.jpeg" alt="...">
               </div>
             </div>
           </div>
@@ -235,152 +235,11 @@
     <!-- Team 
         _________________________________________________________________________-->
 
-    <section class="bg-light">
-      <div class="container">
-        <div class="section-heading">
-          <h2 class="h1 text-secondary">Equipo </h2>
-          <div class="dotted-box">
-            <span class="dotted"></span>
-            <span class="dotted"></span>
-            <span class="dotted"></span>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-lg-4 mb-1-9 mb-lg-0">
-            <div class="team-wrapper">
-              <div class="img-holder">
-                <div class="team-wrapper-inner">
-                  <img class="tamañoNosotros" src="../assets/persona2.webp" alt="...">
-                  <div class="team-social-links">
-                    <ul class="social-icons">
-                      <li>
-                        <a href="https://www.facebook.com/DialogusConsultores"><i class="fab fa-facebook-f"></i></a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com/search?q=%40Dialogus_LAT&src=typed_query"><i
-                            class="fab fa-twitter"></i></a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://mx.linkedin.com/jobs/search?keywords=Dialogus-consultores&location=Ecatepec%20de%20Morelos%2C%20M%C3%A9xico%2C%20M%C3%A9xico&geoId=101340577&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0"><i
-                            class="fab fa-linkedin-in"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="team-content">
-                  <h4 class="h5"><a href="https://www.facebook.com/DialogusConsultores">Lynn Santana</a></h4>
-                  <p class="text-primary font-weight-600 mb-0">Founder</p>
-                  <i class="fas fa-share-alt pink"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 mb-1-9 mb-lg-0">
-            <div class="team-wrapper">
-              <div class="img-holder">
-                <div class="team-wrapper-inner">
-                  <img class="tamañoNosotros" src="../assets/persona1.webp" alt="...">
-                  <div class="team-social-links">
-                    <ul class="social-icons">
-                      <li>
-                        <a href="https://www.facebook.com/DialogusConsultores"><i class="fab fa-facebook-f"></i></a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com/search?q=%40Dialogus_LAT&src=typed_query"><i
-                            class="fab fa-twitter"></i></a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://mx.linkedin.com/jobs/search?keywords=Dialogus-consultores&location=Ecatepec%20de%20Morelos%2C%20M%C3%A9xico%2C%20M%C3%A9xico&geoId=101340577&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0"><i
-                            class="fab fa-linkedin-in"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="team-content">
-                  <h4 class="h5"><a href="#!">Pam Cox</a></h4>
-                  <p class="text-primary font-weight-600 mb-0">Life Coach</p>
-                  <i class="fas fa-share-alt pink"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4">
-            <div class="team-wrapper">
-              <div class="img-holder">
-                <div class="team-wrapper-inner">
-                  <img class="tamañoNosotros" src="../assets/blog1.jpeg" alt="...">
-                  <div class="team-social-links">
-                    <ul class="social-icons">
-                      <li>
-                        <a href="https://www.facebook.com/DialogusConsultores"><i class="fab fa-facebook-f"></i></a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com/search?q=%40Dialogus_LAT&src=typed_query"><i
-                            class="fab fa-twitter"></i></a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://mx.linkedin.com/jobs/search?keywords=Dialogus-consultores&location=Ecatepec%20de%20Morelos%2C%20M%C3%A9xico%2C%20M%C3%A9xico&geoId=101340577&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0"><i
-                            class="fab fa-linkedin-in"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="team-content">
-                  <h4 class="h5"><a href="#!">George Murray</a></h4>
-                  <p class="text-primary font-weight-600 mb-0">Business Coach</p>
-                  <i class="fas fa-share-alt pink"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    
 
     <!-- MY PHILOSOPHY AND MISSION
         ================================================== -->
-    <section class="pb-0">
-      <div class="container my-5 d-grid gap-5" >
-        <div class="p-5">
-          <img align="right" src="../assets/mag1.webp" alt="">
-          <vue-text-transition align="left" class="h3 text-secondary" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-          SOBRE NOSOTROS </vue-text-transition>
-          <vue-text-transition align="left" class="h3 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-            _____________________</vue-text-transition>
-          <img align="left" src="../assets/dualo1.webp" class="image-size" >
-          <br>
-          <br>
-          <vue-text-transition align="left" class="h4 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-            Visión
-          </vue-text-transition>
-          <vue-text-transition align="left" class="h5 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-            Nuestra visión es generar prosperidad incluyente,
-          </vue-text-transition>
-          <vue-text-transition align="left" class="h5 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-            asegurando el crecimiento y la permanencia de las empresas
-          </vue-text-transition>
-          <vue-text-transition align="left" class="h5 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-              en el mercado.
-            </vue-text-transition>
-          <vue-text-transition align="left" class="h4 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-            Misión
-          </vue-text-transition>
-          <vue-text-transition align="left" class="h5 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-            Nuestra misión es acompañar el desarrollo de nuestros
-          </vue-text-transition>
-          <vue-text-transition align="left" class="h5 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-            clientes, mediante metodologías innovadoras contribuyendo
-          </vue-text-transition>
-          <vue-text-transition align="left" class="h5 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-            en su rentabilidad, productividad y satisfacción.
-          </vue-text-transition>
-        </div>
-      </div>
-
-    </section>
+    
 
     <!-- UPCOMING EVENT
         ================================================== -->
