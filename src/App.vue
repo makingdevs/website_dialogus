@@ -26,7 +26,7 @@
                   <div class="navbar-header navbar-header-custom">
                     <!-- start logo -->
                     <a href="index.html" class="navbar-brand">
-                      <img  id="logo" src="./assets/dualo1.webp" alt="logo" /></a>
+                      <img  id="logo" src="./assets/logo2.webp" alt="logo" /></a>
                     <!-- end logo -->
                   </div>
 
@@ -71,7 +71,7 @@
                   <div class="attr-nav">
                     <ul>
                       <li class="search">
-                        <a href="#!"><i class="fas fa-search"></i></a>
+                        <a class="color-white" href="#!"><i class="fas fa-search"></i></a>
                       </li>
                     </ul>
                   </div>
@@ -211,7 +211,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #fdfdfd;
+    color: #eb2020;
   }
 
   #nav {
@@ -221,7 +221,7 @@
 
   #nav a {
     font-weight: bold;
-    color: #000000;
+    color: #ffffff;
   }
 
   #nav a.router-link-exact-active {
@@ -229,8 +229,11 @@
   }
 
   .bg-nav {
-    background-color: #ffffff;
+    background-color: #35547c;
   }
+  header.scrollHeader .navbar-default {
+  background-color: #35547c !important;
+}
 </style>
 <script>
   import jQuery from 'jquery';
