@@ -63,7 +63,11 @@
                         Contacto
                       </router-link>
                     </li>
-
+                    <li>
+                      <router-link to="/login" class="">
+                        Login
+                      </router-link>
+                    </li>
                   </ul>
                   <!-- end menu area -->
 
@@ -158,6 +162,11 @@
                             <li>
                               <router-link to="#" class="">
                                 Contacto
+                              </router-link>
+                            </li>
+                            <li>
+                              <router-link to="login" class="">
+                                login
                               </router-link>
                             </li>
                           </ul>
@@ -273,7 +282,7 @@
     name: "app",
     data: function () {
       return {
-        title: "La Jungla",
+        title: "Dialogus",
       };
     },
     components: {},
