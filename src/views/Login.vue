@@ -15,6 +15,12 @@
 	</div>
 </template>
 
+<style>
+.fondoPage {
+	background: rgb(247, 0, 0);
+}
+
+</style>
 <script>
 import auth from '@/assets/js/auth/auth.js';
 export default {
