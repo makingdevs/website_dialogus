@@ -12,7 +12,7 @@
               El mejor caso de éxito es cuando existe una transformación</h1>
             <p class="mb-2-2 w-95 w-md-75 display-29 display-md-28 text-black">En Dialogus nos hemos preocupado y
               enfocado en el desarrollo del activo más valioso con el que contamos: nuestra gente.</p>
-            <a href="#!" class="butn me-2-4 mb-2-4 mb-sm-0"><span>Descargar guia de Dialogüs</span></a>
+            <a href="#!" class="butn me-2-4 mb-2-4 mb-sm-0"><span class="text-dark" >Descargar guia de Dialogüs</span></a>
             <div class="d-block d-sm-inline-block">
               <a class="popup-social-video video_btn small" href="https://www.youtube.com/watch?v=-ESQmzDbnL8"><i
                   class="fas fa-play"></i></a>
@@ -363,6 +363,10 @@
   .flechaCarus {
     width : 100px
   }
+  .butn {
+    background:rgb( 255 ,212, 31) !important;
+  }
+
   .box {
     background: #2db34a;
     border-radius: auto;
@@ -375,7 +379,9 @@
     transition-timing-function: linear;
     width: auto;
   }
-
+  .card-style4 .date-wrapper {
+    background: #35547c!important;
+  }
   .box:hover {
     background: #ff7b29;
     border-radius: 50%;
