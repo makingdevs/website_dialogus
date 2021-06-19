@@ -1,6 +1,6 @@
 <template>
 	<div class="login container">
-		<form @submit="checkLogin">
+		<form @submit.prevent="checkLogin">
 			<div class="mb-3">
 				<label for="exampleInputuser1" class="form-label">user address</label>
 				<input type="user" class="form-control" v-model="user.username">
@@ -16,6 +16,7 @@
 </template>
 
 <script>
+import auth from '@/assets/js/auth/auth.js';
 export default {
   name: "Login",
   data: function (){
@@ -40,12 +41,11 @@ export default {
   components: {
   },
   methods: {
-		checkLogin(e){
+		checkLogin(){
 			if(this.user.username == "test" && this.user.pass == "test"){
-				return true;
+				auth.setUserLogged(this.user);
+				this.$router.go("/home");
 			}
-			console.log("Contraseña incorrecta");
-			e.preventDefault();
 		}
   }
 
