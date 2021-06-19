@@ -28,7 +28,7 @@
     <section>
       <div class="container">
         <div class="section-heading">
-          <h2 class="h1 text-secondary">¡Cómo puedo ayudarte!</h2>
+          <h2 class="h1 text-secondary">¡Servicios!</h2>
           <div class="dotted-box">
             <span class="dotted"></span>
             <span class="dotted"></span>
@@ -46,8 +46,7 @@
                     <p class="mb-0">Nuestra división de Capital Humano genera soluciones para la gestión de talento, el
                       desarrollo organizacional y las estrategias</p>
                     <div class="service-button">
-                      <a class="butn btn-white" href="#!"><span>Ver Más</span> <i
-                          class="fas fa-arrow-right ms-2"></i></a>
+
                     </div>
                   </div>
                 </div>
@@ -64,8 +63,6 @@
                     <p class="mb-0">En conjunto con tu empresa, unidad de negocio o área, aplicamos metodologías
                       efectivas e innovadoras para definir el marco de acción.</p>
                     <div class="service-button">
-                      <a class="butn btn-white" href="#!"><span>Ver Más</span> <i
-                          class="fas fa-arrow-right ms-2"></i></a>
                     </div>
                   </div>
                 </div>
@@ -82,8 +79,6 @@
                     <p class="mb-0">Desarrollamos sistemas que fomentan la integridad y ética para crear una cultura de
                       honestidad y buenos valores</p>
                     <div class="service-button">
-                      <a class="butn btn-white" href="#!"><span>Ver Más</span> <i
-                          class="fas fa-arrow-right ms-2"></i></a>
                     </div>
                   </div>
                 </div>
