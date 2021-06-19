@@ -35,7 +35,7 @@
                   <!-- menu area -->
                   <ul class="navbar-nav ms-auto" id="nav" style="display: none">
                     <li>
-                      <router-link to="/themeexample" class="">
+                      <router-link to="/home" class="">
                         Home
                       </router-link>
                     </li>
@@ -135,12 +135,31 @@
                       <div class="ps-md-1-6 ps-xl-1-9">
                           <h3 class="footer-title h5">Explorar</h3>
                           <ul class="list-style3">
-                              <li><a href="#!">About</a></li>
-                              <li><a href="#!">Portfolio</a></li>
-                              <li><a href="#!">Courses</a></li>
-                              <li><a href="#!">FAQ</a></li>
-                              <li><a href="#!">Blog</a></li>
-                              <li><a href="#!">Contact</a></li>
+                            <li>
+                              <router-link to="/home" class="">
+                                Home
+                              </router-link>
+                            </li>
+                            <li>
+                              <router-link to="/about" class="">
+                                Nosotros
+                              </router-link>
+                            </li>
+                            <li>
+                              <router-link to="#" class="">
+                                Servicios
+                              </router-link>
+                            </li>
+                            <li>
+                              <router-link to="#" class="">
+                                Noticias
+                              </router-link>
+                            </li>
+                            <li>
+                              <router-link to="#" class="">
+                                Contacto
+                              </router-link>
+                            </li>
                           </ul>
                       </div>
                   </div>
@@ -169,7 +188,7 @@
                               <textarea class="form-control" aria-label="With textarea"></textarea>
                             </div>
                             <br>
-                            <button type="button" class="btn btn-warning">Enviar</button>
+                            <button type="button" class="btn btn-success">Enviar</button>
                               
                           </form>
                       </div>
@@ -186,7 +205,7 @@
                           <p class="text-white d-inline-block font-weight-600 mb-0 align-middle">Estamos en: </p>
                           <ul class="share-post">
                               <li>
-                                  <a href="https://www.facebook.com/DialogusConsultores"><i class="fab fa-facebook-f"></i></a>
+                                  <a href="https://www.facebook.com/DialogusConsultores"><i class="fab fa-facebook-f "></i></a>
                               </li>
                               <li>
                                   <a href="https://twitter.com/search?q=%40Dialogus_LAT&src=typed_query"><i class="fab fa-twitter"></i></a>
@@ -231,6 +250,17 @@
   .bg-nav {
     background-color: #35547c;
   }
+  .address-icon {
+    background-color : #35547c !important;
+
+  }
+  .share-post li a{
+    background-color: #35547c !important;
+  }
+  .footer-title:before {
+    background: rgb(255 212 31) !important;
+  }
+
   header.scrollHeader .navbar-default {
   background-color: #35547c !important;
 }
