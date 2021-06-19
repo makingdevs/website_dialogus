@@ -10,6 +10,7 @@
           <input type="text" class="form-control" placeholder="Nombre del valor" aria-label="Nombre del valor" aria-describedby="basic-addon1" v-model="word.value">
         </div>
         <button @click="createWord" type="button" class="btn btn-success">Crear Palabra</button>
+        <button @click="logout" type="button" class="btn btn-success">Cerrar Sesión</button>
         <br>
         <br>
         <table class="table table-dark table-striped">
@@ -47,6 +48,7 @@
 <script>
 
 import {HomePageTableRef} from '../dbConnection'
+import auth from '@/assets/js/auth/auth.js';
 export default {
   name: "TextAdministration",
   firebase: {
@@ -111,7 +113,10 @@ export default {
       let nuevo = HomePageTableRef.child(word['.key'])
       console.log(nuevo)
       nuevo.set(word)
-      
+    },
+    logout() {
+      auth.deleteUserLogged();
+      this.$router.go("/login");
     }
   }
 
