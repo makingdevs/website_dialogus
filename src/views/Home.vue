@@ -135,7 +135,8 @@
               <span class="date">23</span>
               <span class="month">Oct</span>
             </div>
-            <h4 class="h5">¿Que es dialogus?</h4>
+            <h4>Evento</h4>
+            <h4 class="h5"><router-link to="/noticias">¿Que es dialogus?</router-link></h4>
             <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
             <div class="event-meta-list">
               <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
@@ -155,7 +156,8 @@
               <span class="date">10</span>
               <span class="month">Dic</span>
             </div>
-            <h4 class="h5"><a href="#!">¿Que es dialogus?</a></h4>
+            <h4>Evento</h4>
+            <h4 class="h5"><router-link to="/noticias">¿Que es dialogus?</router-link></h4>
             <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
             <div class="event-meta-list">
               <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
@@ -175,7 +177,7 @@
               <span class="date">20</span>
               <span class="month">Feb</span>
             </div>
-            <h4 class="h5"><a href="#!">¿Que es dialogus?</a></h4>
+            <h4 class="h5"><router-link to="/noticias">¿Que es dialogus?</router-link></h4>
             <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
             <div class="event-meta-list">
               <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
@@ -195,6 +197,7 @@
               <span class="date">13</span>
               <span class="month">Jun</span>
             </div>
+            <h4>Evento</h4>
             <h4 class="h5"><router-link to="/noticias">¿Que es dialogus?</router-link></h4>
             <p background-image="../assets/blog1.jpeg" class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
             <div class="event-meta-list">
@@ -215,7 +218,7 @@
               <span class="date">02</span>
               <span class="month">Ago</span>
             </div>
-            <h4 class="h5"><a href="#!">¿Que es dialogus?</a></h4>
+            <h4 class="h5"><router-link to="/noticias">¿Que es dialogus?</router-link></h4>
             <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
             <div class="event-meta-list">
               <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
