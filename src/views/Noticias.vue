@@ -54,6 +54,7 @@
                                 </ul>
                                 <h3 class="h4 mb-3"><a href="blog-details.html">5 Facts about life coach that will make you think twice.</a></h3>
                                 <p>The purpose of the masterclass is to introduce the key thoughts supporting the psychodynamic approach.</p>
+                                <router-link to="#" class=""></router-link>
                                 <a href="blog-details.html" class="font-weight-600">read more...</a>
                             </div>
                         </article>
