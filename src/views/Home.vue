@@ -122,7 +122,7 @@
 
     <!-- ONLINE COURSES
         ================================================== -->
-    <h2 class="h1 text-secondary">Nuestros Cursos</h2>
+    <h2 class="h1 text-secondary">Noticias</h2>
     <carousel-3d>
       
       <slide :index="0">
@@ -321,21 +321,7 @@
 
     <!-- EXTRA
         ================================================== -->
-    <section class="parallax bg-img cover-background " data-overlay-dark="6" data-background="" id="banner">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="border-bottom border-white-opacity2 pb-2-6 mb-2-6">
-              <h2 class="h1 text-center text-white">Capital Humano</h2>
-              <p class="lead text-white text-center w-95 w-lg-60 w-xl-50 w-xxl-45 mx-auto">Nuestra división de Capital
-                Humano genera soluciones para la gestión de talento, el desarrollo organizacional y las estrategias de
-                bienestar para tu organización.</p>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    
 
     <!-- FOOTER
         ================================================== -->
