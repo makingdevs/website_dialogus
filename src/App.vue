@@ -53,7 +53,7 @@
                     </li>
 
                     <li>
-                      <router-link to="#" class="">
+                      <router-link to="/noticias" class="">
                         Noticias
                       </router-link>
                     </li>
@@ -72,13 +72,7 @@
                   <!-- end menu area -->
 
                   <!-- start attribute navigation -->
-                  <div class="attr-nav">
-                    <ul>
-                      <li class="search">
-                        <a class="color-white" href="#!"><i class="fas fa-search"></i></a>
-                      </li>
-                    </ul>
-                  </div>
+
                   <!-- end attribute navigation -->
                 </nav>
               </div>
@@ -155,7 +149,7 @@
                               </router-link>
                             </li>
                             <li>
-                              <router-link to="#" class="">
+                              <router-link to="/noticias" class="">
                                 Noticias
                               </router-link>
                             </li>
