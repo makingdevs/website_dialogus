@@ -3,21 +3,21 @@
 
     <section
       class="parallax bg-img cover-background  bg-img cover-background full-screen pt-16 pb-8 p-lg-0 top-position min-md-height-auto"
-      data-overlay-dark="0" id="banner">
+      data-overlay-dark="55" id="banner">
 
       <div class="container d-flex flex-column">
         <div class="row align-items-center min-lg-vh-100">
           <div class="col-lg-8 mb-5 mb-lg-0">
             <h1 class="text-white display-16 display-md-9 display-lg-7 display-xl-4 mb-1-6 text-shadow font-weight-800">
               El mejor caso de éxito es cuando existe una transformación</h1>
-            <p class="mb-2-2 w-95 w-md-75 display-29 display-md-28 text-black">En Dialogus nos hemos preocupado y
+            <p class="mb-2-2 w-95 w-md-75 display-29 display-md-28 text-white font-weight-800">En Dialogus nos hemos preocupado y
               enfocado en el desarrollo del activo más valioso con el que contamos: nuestra gente.</p>
             <a href="#!" class="butn me-2-4 mb-2-4 mb-sm-0"><span class="text-dark" >Descargar guia de Dialogüs</span></a>
             <div class="d-block d-sm-inline-block">
               <a class="popup-social-video video_btn small" href="https://www.youtube.com/watch?v=-ESQmzDbnL8"><i
                   class="fas fa-play"></i></a>
-              <div class="d-inline-block align-middle ps-2-5 text-black text-start font-weight-600">Ver<span
-                  class="text-uppercase d-block text-black">Video</span></div>
+              <div class="d-inline-block align-middle ps-2-5 text-white text-start font-weight-600">Ver<span
+                  class="text-uppercase d-block text-white">Video</span></div>
             </div>
           </div>
         </div>
@@ -135,7 +135,7 @@
               <span class="date">23</span>
               <span class="month">Oct</span>
             </div>
-            <h4 class="h5"><a href="#!">¿Que es dialogus?</a></h4>
+            <h4 class="h5">¿Que es dialogus?</h4>
             <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
             <div class="event-meta-list">
               <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
@@ -195,8 +195,8 @@
               <span class="date">13</span>
               <span class="month">Jun</span>
             </div>
-            <h4 class="h5"><a href="#!">¿Que es dialogus?</a></h4>
-            <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
+            <h4 class="h5"><router-link to="/noticias">¿Que es dialogus?</router-link></h4>
+            <p background-image="../assets/blog1.jpeg" class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
             <div class="event-meta-list">
               <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
               <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Delaware</span>
@@ -226,7 +226,6 @@
         </div>
 
       </slide>
-      <a data-v-05517ad0="" href="" aria-label="Next slide" class="next flechaCarus" style="width: 20px; height: 10px; line-height: 250px;"><span data-v-05517ad0="">›</span></a>
     </carousel-3d>
 
     <!-- Team 
@@ -334,7 +333,6 @@
 <style>
   #banner {
     background-image: url('../assets/blog1.jpeg');
-
   }
 
   body {
