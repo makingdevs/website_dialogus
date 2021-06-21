@@ -59,9 +59,9 @@
                     </li>
 
                     <li>
-                      <router-link to="#" class="">
+                      <a href="#contacto" class="">
                         Contacto
-                      </router-link>
+                      </a>
                     </li>
                     <li>
                       <router-link to="/login" class="">
@@ -86,6 +86,7 @@
                   <!-- FOOTER
         ================================================== -->
         <footer>
+          <div id="contacto">
           <div class="container">
               <div class="row">
                   <div class="col-sm-6 col-lg-3 mb-2-6 mb-lg-0">
@@ -221,6 +222,7 @@
                   </div>
               </div>
           </div>
+        </div>
       </footer>
 
 
