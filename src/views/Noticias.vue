@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="noticias">
         
         <!-- PAGE TITLE
         ================================================== -->
@@ -100,6 +100,8 @@
                             </div>
                         </article>
                     </div>
+                            <!-- Event GRID
+        ================================================== -->
                     <div class="section-heading">
                         <h2 class="h1 text-secondary">Nuestros Eventos</h2>
                         <div class="dotted-box">
@@ -189,6 +191,7 @@
                 </div>
             </div>
         </section> 
+
     </div>
 </template>
 
@@ -208,3 +211,12 @@
     border-radius: 0;
 }
 </style>
+<script>
+export default{
+    created: function () {
+      window.addEventListener('scroll', this.handleScroll);
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    },
+};
+</script>
