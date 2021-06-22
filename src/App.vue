@@ -25,8 +25,8 @@
                 <nav class="navbar navbar-expand-lg navbar-light p-0">
                   <div class="navbar-header navbar-header-custom">
                     <!-- start logo -->
-                    <a href="index.html" class="navbar-brand">
-                      <img  id="logo" src="./assets/logo2.webp" alt="logo" /></a>
+                    <router-link to="/home" class="navbar-brand">
+                      <img  id="logo" src="./assets/logo2.webp" alt="logo" /></router-link>
                     <!-- end logo -->
                   </div>
 
