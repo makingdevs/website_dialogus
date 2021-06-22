@@ -100,6 +100,8 @@
                             </div>
                         </article>
                     </div>
+                            <!-- Event GRID
+        ================================================== -->
                     <div class="section-heading">
                         <h2 class="h1 text-secondary">Nuestros Eventos</h2>
                         <div class="dotted-box">
