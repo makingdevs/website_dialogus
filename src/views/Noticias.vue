@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="noticias">
         
         <!-- PAGE TITLE
         ================================================== -->
@@ -189,6 +189,7 @@
                 </div>
             </div>
         </section> 
+
     </div>
 </template>
 
