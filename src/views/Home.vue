@@ -39,7 +39,7 @@
           <div class="col-md-8 col-lg-4">
             <div class="service-wrapper">
               <div class="service-content">
-                <img class="image-tamaño" src="../assets/entrena.png" alt="...">
+                <img  src="../assets/persona3.webp" alt="...">
                 <div class="service-inner">
                   <div class="content">
                     <h3>Capital Humano</h3>
@@ -56,7 +56,7 @@
           <div class="col-md-8 col-lg-4">
             <div class="service-wrapper">
               <div class="service-content">
-                <img src="../assets/blog2.jpeg" alt="...">
+                <img src="../assets/persona4.webp" alt="...">
                 <div class="service-inner">
                   <div class="content">
                     <h3>Estrategia</h3>
@@ -69,6 +69,7 @@
               </div>
             </div>
           </div>
+          <div></div>
           <div class="col-md-8 col-lg-4">
             <div class="service-wrapper">
               <div class="service-content">
@@ -78,6 +79,22 @@
                     <h3>Cumplimiento</h3>
                     <p class="mb-0">Desarrollamos sistemas que fomentan la integridad y ética para crear una cultura de
                       honestidad y buenos valores</p>
+                    <div class="service-button">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 col-lg-4">
+            <div class="service-wrapper">
+              <div class="service-content">
+                <img class="image-tamaño" src="../assets/fondo5.jpeg" alt="...">
+                <div class="service-inner">
+                  <div class="content">
+                    <h3>Estrategia</h3>
+                    <p class="mb-0">En conjunto con tu empresa, unidad de negocio o área, aplicamos metodologías
+                      efectivas e innovadoras para definir el marco de acción.</p>
                     <div class="service-button">
                     </div>
                   </div>
