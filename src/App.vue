@@ -47,7 +47,7 @@
                     </li>
 
                     <li>
-                      <router-link to="#" class="">
+                      <router-link to="/servicios" class="">
                         Servicios
                       </router-link>
                     </li>
@@ -145,7 +145,7 @@
                               </router-link>
                             </li>
                             <li>
-                              <router-link to="#" class="">
+                              <router-link to="/servicios" class="">
                                 Servicios
                               </router-link>
                             </li>
