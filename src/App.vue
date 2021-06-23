@@ -312,7 +312,7 @@
     },
     components: {},
     created: function () {
-      console.log("Hello word app");
+      console.log("Hello word app test hook");
       this.changeColorNabvarWithScroll();
     },
     mounted() {
