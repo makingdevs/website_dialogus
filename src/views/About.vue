@@ -339,10 +339,9 @@
     background-image: url('../assets/img4.jpg');
 
   }
-<<<<<<< HEAD
+
 </style>
-=======
-</style>
+
 <script>
 export default{
     created: function () {
@@ -352,4 +351,4 @@ export default{
     },
 };
 </script>
->>>>>>> df0cf955d680399b79e8a80a1733a6c1bdf9140b
+

@@ -70,6 +70,8 @@
             </div>
           </div>
           <div></div>
+          ----------------------------------------------------------------
+          <div></div>
           <div class="col-md-8 col-lg-4">
             <div class="service-wrapper">
               <div class="service-content">
