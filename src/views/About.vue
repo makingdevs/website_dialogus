@@ -2,7 +2,7 @@
   <div class="about">
         <!-- PAGE TITLE
         ================================================== -->
-        <section class="page-title-section top-position bg-img cover-background" id="bannerabout" data-overlay-dark="55" data-background="img/bg/bg-04.jpg">
+        <section class="parallax page-title-section top-position bg-img cover-background" data-overlay-dark="55" id="bannerabout">
             <div class="container">
 
                 <div class="row">
@@ -12,7 +12,7 @@
                     <div class="col-md-12">
                         <ul class="ps-0">
                             <li><a href="/home">Home</a></li>
-                            <li><a href="#!">Nosotros</a></li>
+                            <li><router-link to="/about" class="text-warning">Nosotros</router-link></li>
                         </ul>
                     </div>
                 </div>
@@ -116,7 +116,7 @@
                                 </div>
                                 <div class="team-content">
                                     <h4 class="h5"><a href="#!">Cliente 1</a></h4>
-                                    <p class="text-primary font-weight-600 mb-0">Empresa X</p>
+                                    <p class="text-warning font-weight-600 mb-0">Empresa X</p>
                                     <i class="fas fa-share-alt pink"></i>
                                 </div>
                             </div>
@@ -143,7 +143,7 @@
                                 </div>
                                 <div class="team-content">
                                     <h4 class="h5"><a href="#!">Cliente 2</a></h4>
-                                    <p class="text-primary font-weight-600 mb-0">Empresa Y</p>
+                                    <p class="text-warning font-weight-600 mb-0">Empresa Y</p>
                                     <i class="fas fa-share-alt pink"></i>
                                 </div>
                             </div>
@@ -170,7 +170,7 @@
                                 </div>
                                 <div class="team-content">
                                     <h4 class="h5"><a href="#!">Cliente 3</a></h4>
-                                    <p class="text-primary font-weight-600 mb-0">Empresa Z</p>
+                                    <p class="text-warning font-weight-600 mb-0">Empresa Z</p>
                                     <i class="fas fa-share-alt pink"></i>
                                 </div>
                             </div>
@@ -198,6 +198,10 @@
     color: #fff;
     font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
   }
+  .colorLineas{
+    background-color: #ffc107 !important;
+}
+
   .flechaCarus {
     width : 100px
   }
@@ -220,7 +224,13 @@
   .card-style4 .date-wrapper {
     background: #35547c!important;
   }
-  .team-wrapper .team-wrapper-inner .team-social-links{
+  .team-wrapper .team-content i {
+    background: #35547c!important;
+  }
+  .team-wrapper  .team-social-links{
+    background: #35547c!important;
+  }
+  .team-social-links .social-icons li a{
     background: #35547c!important;
   }
   .box:hover {
