@@ -35,11 +35,11 @@
             <span class="dotted"></span>
           </div>
         </div>
-        <div class="row justify-content-center g-0">
-          <div class="col-md-8 col-lg-4">
+        <div class="row justify-content-center g-1">
+          <div class="col-md-8 col-lg-3">
             <div class="service-wrapper">
               <div class="service-content">
-                <img  src="../assets/persona3.webp" alt="...">
+                <img class="image-tamaño " src="../assets/entrena.png" alt="...">
                 <div class="service-inner">
                   <div class="content">
                     <h3>Capital Humano</h3>
@@ -53,10 +53,10 @@
               </div>
             </div>
           </div>
-          <div class="col-md-8 col-lg-4">
+          <div class="col-md-8 col-lg-3">
             <div class="service-wrapper">
               <div class="service-content">
-                <img src="../assets/persona4.webp" alt="...">
+                <img class="image-tamaño" src="../assets/persona4.webp" alt="...">
                 <div class="service-inner">
                   <div class="content">
                     <h3>Estrategia</h3>
@@ -69,10 +69,8 @@
               </div>
             </div>
           </div>
-          <div></div>
-          ----------------------------------------------------------------
-          <div></div>
-          <div class="col-md-8 col-lg-4">
+
+          <div class="col-md-8 col-lg-3">
             <div class="service-wrapper">
               <div class="service-content">
                 <img class="image-tamaño" src="../assets/curso1.jpeg" alt="...">
@@ -88,15 +86,14 @@
               </div>
             </div>
           </div>
-          <div class="col-md-8 col-lg-4">
+          <div class="col-md-8 col-lg-3">
             <div class="service-wrapper">
               <div class="service-content">
                 <img class="image-tamaño" src="../assets/fondo5.jpeg" alt="...">
                 <div class="service-inner">
                   <div class="content">
-                    <h3>Estrategia</h3>
-                    <p class="mb-0">En conjunto con tu empresa, unidad de negocio o área, aplicamos metodologías
-                      efectivas e innovadoras para definir el marco de acción.</p>
+                    <h3>Diagnóstico</h3>
+                    <p class="mb-0">Identicamos áreas de oportunidad de las empresas por medio de diversas herramientas de monitoreo y análisis.</p>
                     <div class="service-button">
                     </div>
                   </div>
@@ -158,8 +155,8 @@
             <h4 class="h5"><router-link to="/noticias">¿Que es dialogus?</router-link></h4>
             <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
             <div class="event-meta-list">
-              <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
-              <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Delaware</span>
+              <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
+              <span class="text-dark"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
 
             </div>
           </div>
@@ -179,8 +176,8 @@
             <h4 class="h5"><router-link to="/noticias">¿Que es dialogus?</router-link></h4>
             <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
             <div class="event-meta-list">
-              <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
-              <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Delaware</span>
+              <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
+              <span class="text-dark"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
 
             </div>
           </div>
@@ -199,8 +196,8 @@
             <h4 class="h5"><router-link to="/noticias">¿Que es dialogus?</router-link></h4>
             <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
             <div class="event-meta-list">
-              <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
-              <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Delaware</span>
+              <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
+              <span class="text-dark"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
 
             </div>
           </div>
@@ -220,8 +217,8 @@
             <h4 class="h5"><router-link to="/noticias">¿Que es dialogus?</router-link></h4>
             <p background-image="../assets/blog1.jpeg" class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
             <div class="event-meta-list">
-              <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
-              <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Delaware</span>
+              <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
+              <span class="text-dark"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
 
             </div>
           </div>
@@ -240,8 +237,8 @@
             <h4 class="h5"><router-link to="/noticias">¿Que es dialogus?</router-link></h4>
             <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
             <div class="event-meta-list">
-              <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00 PM</span>
-              <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Delaware</span>
+              <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
+              <span class="text-dark"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
 
             </div>
           </div>
@@ -286,9 +283,9 @@
                 <p class="text-dark">Contratar a un coach profesional de tu compañía es la tendencia de las empresas.
                   Abundan los diferentes coaches que puedes contratar para...</p>
                 <div class="event-meta-list">
-                  <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>11:00 AM - 04:00
+                  <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>11:00 AM - 04:00
                     PM</span>
-                  <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Colorado</span>
+                  <span class="text-dark"><i class="ti-map-alt text-warning me-2"></i>Colorado</span>
                 </div>
               </div>
             </div>
@@ -307,9 +304,9 @@
                 <p class="text-dark">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma
                   Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
                 <div class="event-meta-list">
-                  <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>9:00 AM - 12:00
+                  <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00
                     PM</span>
-                  <span class="text-dark"><i class="ti-map-alt text-primary me-2"></i>Delaware</span>
+                  <span class="text-dark"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
 
                 </div>
               </div>
@@ -329,9 +326,9 @@
                 <p class="text-dark">Todos conocen la expectativa, ya sea porque los ha hecho sentirse felices o
                   desafortunados, pero todos los seres humanos en algún punto...</p>
                 <div class="event-meta-list">
-                  <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-primary me-2"></i>8:00 AM - 11:00
+                  <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>8:00 AM - 11:00
                     AM</span>
-                  <span class="text-dark"><i class="ti-map-alt text-primary me-2 "></i>California</span>
+                  <span class="text-dark"><i class="ti-map-alt text-warning me-2 "></i>California</span>
                 </div>
               </div>
             </div>
@@ -384,12 +381,32 @@
     background: #35547c!important;
   }
   .box:hover {
-    background: #ff7b29;
+    background: rgb( 255 ,212, 31) ;
     border-radius: 50%;
   }
-
+  
+  .section-heading:before {
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 3px;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    background: #ffc107 !important;
+    z-index: 1; }
+  .section-heading .dotted-box .dotted {
+    position: absolute;
+    left: 50%;
+    margin-left: 25px;
+    width: 3px;
+    height: 3px;
+    bottom: 0px;
+    background: #ffc107 !important;
+    z-index: 1; }
   .image-tamaño {
-    height: 302px;
+    height: 255px;
+    
   }
 
   .tamañoNosotros {
