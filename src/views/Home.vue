@@ -281,7 +281,7 @@
                 </div>
                 <h4 class="h5"><a href="#!">Consejos para contratar el coach correcto para tu empresa.</a></h4>
                 <p class="text-dark">Contratar a un coach profesional de tu compañía es la tendencia de las empresas.
-                  Abundan los diferentes coaches que puedes contratar para...</p>
+                  Abundan los diferentes coaches que puedes.</p>
                 <div class="event-meta-list">
                   <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>11:00 AM - 04:00
                     PM</span>
@@ -385,6 +385,21 @@
     border-radius: 50%;
   }
   
+  .card-style4 .card-img:before {
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 8;
+    opacity: 0;
+    transform: perspective(400px) rotateX(-90deg);
+    transform-origin: top;
+    transition: all 0.5s;
+    background: rgba(255, 255, 255, 0) !important; }
+
   .section-heading:before {
     position: absolute;
     content: '';
