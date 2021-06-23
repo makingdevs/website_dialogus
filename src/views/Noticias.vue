@@ -17,7 +17,7 @@
                                     Home
                                   </router-link></li>
                             <li>
-                                <router-link to="/noticias" class="">
+                                <router-link to="/noticias" class="text-warning">
                                     Noticias
                                 </router-link>
                             </li>
@@ -210,6 +210,7 @@
     overflow: hidden;
     border-radius: 0;
 }
+
 </style>
 <script>
 export default{
