@@ -59,7 +59,7 @@
                     </li>
 
                     <li>
-                      <a href="#contacto" class="">
+                      <a href="/contacto" class="">
                         Contacto
                       </a>
                     </li>
