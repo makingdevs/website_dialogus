@@ -127,7 +127,7 @@
                             <div class="img-holder">
                                 <div class="team-wrapper-inner">
                                     <img src="../assets/persona3.webp" alt="...">
-                                    <div class="team-social-links">
+                                    <div class="team-social-links" >
                                         <ul class="social-icons">
                                             <li>
                                                 <a href="#!"><i class="fab fa-facebook-f"></i></a>
@@ -180,153 +180,7 @@
             </div>
         </section>
          
-         <!-- CARROUSEL -->
-        <section class="position-relative z-index-9">
-        <div class="parallax bg-img section-bg" data-overlay-dark="4" data-background="img/bg/bg-02.jpg" style="background-image: url(&quot;img/bg/bg-02.jpg&quot;);"></div>
-        <div class="container">
-            <div class="section-heading">
-            <h2 class="h1 text-white">Nuestros CLientes</h2>
-            </div>
-            <div class="testimonial-carousel owl-carousel owl-theme owl-loaded owl-drag">
-            <div class="owl-stage-outer">
-                <div class="owl-stage" style="transform: translate3d(-2940px, 0px, 0px); transition: all 1.5s ease 0s; width: 4704px;">
-                <div class="owl-item cloned" style="width: 558px; margin-right: 30px;">
-                    <div class="testimonial-wrapper">
-                    <div class="testimonial-author d-flex justify-content-center">
-                        <img src="img/avatar/avatar-09.jpg" alt="...">
-                    </div>
-                    <div class="testimonial-text">
-                        <p class="font-weight-500 display-29 display-lg-28">Thanks to Life coach, After using Life coach my business skyrocketed! It really saves me time and effort. Life coach is exactly what our business has been lacking.</p>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="author-details">
-                        <h4 class="h6 text-primary">Rock James</h4>
-                        <div class="rating">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <p class="mb-0">Internal Revenue Service Agent</p>
-                        </div>
-                        <div class="testimonial-quote">
-                        <i class="fas fa-quote-right"></i>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="owl-item cloned" style="width: 558px; margin-right: 30px;">
-                    <div class="testimonial-wrapper">
-                    <div class="testimonial-author d-flex justify-content-center">
-                        <img src="img/avatar/avatar-10.jpg" alt="...">
-                    </div>
-                    <div class="testimonial-text">
-                        <p class="font-weight-500 display-29 display-lg-28">Needless to say we are extremely satisfied with the results. Very easy to use. It really saves me time and effort. Life coach is exactly what our business has been lacking.</p>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="author-details">
-                        <h4 class="h6 text-primary">Gussy Sarah</h4>
-                        <div class="rating">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <p class="mb-0">Smokehouse Worker</p>
-                        </div>
-                        <div class="testimonial-quote">
-                        <i class="fas fa-quote-right"></i>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="owl-item" style="width: 558px; margin-right: 30px;">
-                    <div class="testimonial-wrapper">
-                    <div class="testimonial-author d-flex justify-content-center">
-                        <img src="img/avatar/avatar-07.jpg" alt="...">
-                    </div>
-                    <div class="testimonial-text">
-                        <p class="font-weight-500 display-29 display-lg-28">I like Life coach more and more each day because it makes my life a lot easier. Thanks for the great service. Since I invested in Life coach I made over 100,000 dollars profits.</p>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="author-details">
-                        <h4 class="h6 text-primary">Shurwood Smith</h4>
-                        <div class="rating">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <p class="mb-0">Museum Exhibit Technician</p>
-                        </div>
-                        <div class="testimonial-quote">
-                            <i class="fas fa-quote-right"></i>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="owl-item" style="width: 558px; margin-right: 30px;">
-                    <div class="testimonial-wrapper">
-                    <div class="testimonial-author d-flex justify-content-center">
-                        <img src="img/avatar/avatar-08.jpg" alt="...">
-                    </div>
-                    <div class="testimonial-text">
-                        <p class="font-weight-500 display-29 display-lg-28">Thanks for the great service. You won't regret it. I use Life coach often. Life coach is the most valuable business resource we have EVER purchased courses. I use Life coach often.</p>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="author-details">
-                        <h4 class="h6 text-primary">Kyla Turner</h4>
-                        <div class="rating">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <p class="mb-0">Electronics Warfare</p>
-                        </div>
-                        <div class="testimonial-quote">
-                        <i class="fas fa-quote-right"></i>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="owl-item" style="width: 558px; margin-right: 30px;">
-                    <div class="testimonial-wrapper">
-                    <div class="testimonial-author d-flex justify-content-center">
-                        <img src="img/avatar/avatar-08.jpg" alt="...">
-                    </div>
-                    <div class="testimonial-text">
-                        <p class="font-weight-500 display-29 display-lg-28">Thanks for the great service. You won't regret it. I use Life coach often. Life coach is the most valuable business resource we have EVER purchased courses. I use Life coach often.</p>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="author-details">
-                        <h4 class="h6 text-primary">Kyla Turner</h4>
-                        <div class="rating">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                        </div>
-                        <p class="mb-0">Electronics Warfare</p>
-                        </div>
-                        <div class="testimonial-quote">
-                        <i class="fas fa-quote-right"></i>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        </section>
-    <!-- CARROUSEL -->
-
+         
         
   </div>
 </template>
@@ -339,7 +193,85 @@
     background-image: url('../assets/img4.jpg');
 
   }
+
+  body {
+    color: #fff;
+    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  }
+  .flechaCarus {
+    width : 100px
+  }
+  .butn {
+    background:rgb( 255 ,212, 31) !important;
+  }
+
+  .box {
+    background: #2db34a;
+    border-radius: auto;
+    cursor: pointer;
+    height: auto;
+    line-height: auto;
+    text-align: center;
+    transition-property: background, border-radius;
+    transition-duration: .2s, 1s;
+    transition-timing-function: linear;
+    width: auto;
+  }
+  .card-style4 .date-wrapper {
+    background: #35547c!important;
+  }
+  .team-wrapper .team-wrapper-inner .team-social-links{
+    background: #35547c!important;
+  }
+  .box:hover {
+    background: #ff7b29;
+    border-radius: 50%;
+  }
+
+  .image-tamaño {
+    height: 302px;
+  }
+
+  .tamañoNosotros {
+    height: 310px;
+  }
+
+  .tamañoEventos {
+    height: 260px;
+  }
+
+  .imagenCarruse {
+    width: 80%;
+  }
+
+  .color_34 {
+    background-color: rgb(182, 180, 180);
+  }
+
+  .v--vtt-test,
+  .v--vtt-test_odd {
+    will-change: transform, opacity;
+    transition: opacity 0.3s ease-in-out, transform 1s ease-in-out;
+  }
+
+  .v--vtt-test_visible,
+  .v--vtt-test_odd_visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .v--vtt-test_hidden {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  .v--vtt-test_odd_hidden {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
 </style>
+
 <script>
 export default{
     created: function () {
@@ -349,3 +281,4 @@ export default{
     },
 };
 </script>
+
