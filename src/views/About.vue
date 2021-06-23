@@ -333,27 +333,8 @@
 <style>
   #bannerabout {
     background-image: url('../assets/img1.jpg');
-  }
 
-  .section-heading:before {
-    position: absolute;
-    content: '';
-    width: 40px;
-    height: 3px;
-    left: 50%;
-    bottom: 0px;
-    transform: translateX(-50%);
-    background: #ffc107 !important;
-    z-index: 1; }
-  .section-heading .dotted-box .dotted {
-    position: absolute;
-    left: 50%;
-    margin-left: 25px;
-    width: 3px;
-    height: 3px;
-    bottom: 0px;
-    background: #ffc107 !important;
-    z-index: 1; }
+  }
   #conteo {
     background-image: url('../assets/img4.jpg');
 
