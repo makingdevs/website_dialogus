@@ -155,7 +155,7 @@
                               </router-link>
                             </li>
                             <li>
-                              <router-link to="#" class="">
+                              <router-link to="/contacto" class="">
                                 Contacto
                               </router-link>
                             </li>
