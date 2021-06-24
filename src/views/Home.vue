@@ -282,7 +282,7 @@
                   <span class="date">06</span>
                   <span class="month">Apr</span>
                 </div>
-                <h4 class="h5"><a href="#!">Consejos para contratar el coach correcto para tu empresa.</a></h4>
+                <h4 class="h5"><router-link to="/noticias">Consejos para contratar el coach correcto para tu empresa.</router-link></h4>
                 <p class="text-dark">Contratar a un coach profesional de tu compañía es la tendencia de las empresas.
                   Abundan los diferentes coaches que puedes.</p>
                 <div class="event-meta-list">
@@ -303,7 +303,7 @@
                   <span class="date">23</span>
                   <span class="month">Oct</span>
                 </div>
-                <h4 class="h5"><a href="#!">¿Qué debo saber sobre la NOM-035?</a></h4>
+                <h4 class="h5"><router-link to="/noticias">¿Qué debo saber sobre la NOM-035?</router-link></h4>
                 <p class="text-dark">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma
                   Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
                 <div class="event-meta-list">
@@ -325,7 +325,7 @@
                   <span class="date">21</span>
                   <span class="month">Sep</span>
                 </div>
-                <h4 class="h5"><a href="#!">Expectativas en equilibrio</a></h4>
+                <h4 class="h5"><router-link to="/noticias">Expectativas en equilibrio</router-link></h4>
                 <p class="text-dark">Todos conocen la expectativa, ya sea porque los ha hecho sentirse felices o
                   desafortunados, pero todos los seres humanos en algún punto...</p>
                 <div class="event-meta-list">
@@ -367,7 +367,7 @@
     width : 100px
   }
   .butn {
-    background:rgb( 90 ,91, 93) !important;
+    background:rgb( 255 ,212, 31) !important;
   }
 
   .box {
