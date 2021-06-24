@@ -234,7 +234,7 @@
     background: #35547c!important;
   }
   .box:hover {
-    background: #ff7b29;
+    background: #ffc107;
     border-radius: 50%;
   }
 
