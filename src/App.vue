@@ -124,7 +124,7 @@
                                   </div>
                                   <div class="media-body align-self-center">
                                       <h6 class="text-white mb-0">Localización</h6>
-                                      <p class="text-white mb-0">66 Guild Street 512B, Great North Town.</p>
+                                      <p class="text-white mb-0">Dialogus, Periferico Sur, Equipamiento Periférico Picacho Ajusco Canal 13</p>
                                   </div>
                               </div>
                           </div>
@@ -173,22 +173,22 @@
                           <h3 class="footer-title h5">Generar una cita</h3>
                           <form class="quform newsletter-form w-90 w-sm-100" action="quform/newsletter-two.php" method="post" enctype="multipart/form-data" onclick="">
                             <div class="input-group mb-3">
-                              <span class="input-group-text" id="basic-addon1">Nombre</span>
+                              <span class="input-group-text fondoCuadros" id="basic-addon1">Nombre</span>
                               <input type="text" class="form-control" placeholder="Nombre Completo" aria-label="Nombre Completo" aria-describedby="basic-addon1">
                             </div>
 
                             <div class="input-group mb-3">
-                              <span class="input-group-text" id="basic-addon1">Telefono</span>
+                              <span class="input-group-text fondoCuadros" id="basic-addon1">Telefono</span>
                               <input type="text" class="form-control" placeholder="Ingrese Telefono" aria-label="Ingrese Telefono" aria-describedby="basic-addon1">
                             </div>
                             
                             <div class="input-group mb-3">
                               <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
-                              <span class="input-group-text" id="basic-addon2">@example.com</span>
+                              <span class="input-group-text fondoCuadros" id="basic-addon2">@example.com</span>
                             </div>
 
                             <div class="input-group">
-                              <span class="input-group-text">Motivo de cita</span>
+                              <span class="input-group-text fondoCuadros">Motivo de cita</span>
                               <textarea class="form-control" aria-label="With textarea"></textarea>
                             </div>
                             <br>
@@ -198,8 +198,7 @@
                       </div>
                   </div>
               </div>
-          </div>
-          <div class="footer-bar">
+                        <div class="footer-bar">
               <div class="container">
                   <div class="row">
                       <div class="col-md-6 text-center text-md-start mt-3 mt-md-0 order-2 order-md-1">
@@ -222,6 +221,8 @@
                   </div>
               </div>
           </div>
+          </div>
+
         </div>
       </footer>
 
@@ -256,14 +257,19 @@
     background-color: #35547c;
   }
   .address-icon {
-    background-color : #35547c !important;
-
+    background-color : #191919 !important;
+  }
+  .footer-bar {
+    background: #191919 !important;
   }
   .share-post li a{
-    background-color: #35547c !important;
+    background-color: #191919 !important;
   }
   .footer-title:before {
     background: rgb(255 212 31) !important;
+  }
+  .fondoCuadros{
+    background-color : #ffc107 !important;
   }
 
   header.scrollHeader .navbar-default {
