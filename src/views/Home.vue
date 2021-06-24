@@ -367,11 +367,11 @@
     width : 100px
   }
   .butn {
-    background:rgb( 255 ,212, 31) !important;
+    background:rgb( 90 ,91, 93) !important;
   }
 
   .box {
-    background: #2db34a;
+    background: rgb(59,84,123);
     border-radius: auto;
     cursor: pointer;
     height: auto;
@@ -380,8 +380,8 @@
     transition-property: background, border-radius;
     transition-duration: .2s, 1s;
     transition-timing-function: linear;
-    width: auto;
   }
+
   .card-style4 .date-wrapper {
     background: #35547c!important;
   }
