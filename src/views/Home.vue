@@ -125,8 +125,8 @@
             <ul class="list-style1">
             </ul>
           </div>
-          <div class="col-md-12 ">
-            <div class="about-content rounded">
+          <div class="col-md-12">
+            <div class="about-content rounded border border-5 border-info">
               <vue-text-transition class="lead text-black" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
                 Apasionados por colaborar en la transformación de nuestros clientes y fomentar relaciones de confianza a largo plazo.</vue-text-transition>
               <div class="text-end">
@@ -342,7 +342,9 @@
 
     <!-- EXTRA
         ================================================== -->
-    
+    <section >
+
+    </section>
 
     <!-- FOOTER
         ================================================== -->
@@ -440,7 +442,7 @@
   }
 
   .color_34 {
-    background-color: rgb(182, 180, 180);
+    background-color: #35547c ;
   }
 
   .v--vtt-test,
@@ -468,13 +470,14 @@
 <script>
   import { Carousel3d, Slide } from 'vue-carousel-3d';
   import VueTextTransition from 'vue-text-transition';
+
   export default {
     name: "ThemeExample",
     data: function () {
 
       return {
         stateEffect: true,
-        displayСonditions: false 
+        displayСonditions: false
       }
     },
 
@@ -490,7 +493,8 @@
       Carousel3d,
       Slide,
       // eslint-disable-next-line vue/no-unused-components
-      VueTextTransition
+      VueTextTransition,
+
     },
     methods: {
       exampleMethod() {
