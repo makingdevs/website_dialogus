@@ -342,9 +342,7 @@
 
     <!-- EXTRA
         ================================================== -->
-    <section >
 
-    </section>
 
     <!-- FOOTER
         ================================================== -->
@@ -381,7 +379,7 @@
     transition-duration: .2s, 1s;
     transition-timing-function: linear;
   }
-
+  
   .card-style4 .date-wrapper {
     background: #35547c!important;
   }
