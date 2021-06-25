@@ -1,25 +1,26 @@
 <template>
+	<section class="page-title-section top-position bg-img cover-background parallax bg-img " data-overlay-dark="55" id="imageLogin">
 	<div class="login container">
 		<form @submit.prevent="checkLogin">
-			<div class="mb-3">
-				<label for="exampleInputuser1" class="form-label">user address</label>
+			<div class="mb-4">
+				<label for="exampleInputuser1" class="h1 form-label text-info">Usuario</label>
 				<input type="user" class="form-control" v-model="user.username">
-				<div class="form-text">We'll never share your user with anyone else.</div>
 			</div>
-			<div class="mb-3">
-				<label for="exampleInputPassword1" class="form-label">Password</label>
+			<div class="mb-4">
+				<label for="exampleInputPassword1" class="h1 form-label text-info">Contraseña</label>
 				<input type="password" class="form-control" id="exampleInputPassword1" v-model="user.pass">
 			</div>
-			<button type="submit" class="btn btn-primary">Submit</button>
+			<button type="submit" class="btn btn-success">Ingresar</button>
 		</form>
 	</div>
+</section>
 </template>
 
 <style>
-.fondoPage {
-	background: rgb(247, 0, 0);
-}
 
+#imageLogin{
+	background-image: url('../assets/Login-Mágico.png');
+}
 </style>
 <script>
 import auth from '@/assets/js/auth/auth.js';
