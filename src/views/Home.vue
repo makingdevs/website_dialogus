@@ -113,20 +113,20 @@
         <div class="row align-items-center">
           <div class="col-lg-6 mb-6 mb-md-8 mb-lg-0">
             <div class="pe-lg-1-9 pe-xl-2-5 text-center">
-              <img class="box" src="../assets/about-01.jpeg" alt="...">
+              <img class="box-custom" src="../assets/about-01.jpeg" alt="...">
             </div>
           </div>
           <div class="col-lg-6">
             <vue-text-transition class="h1 text-black text-secondary mb-1-6 font-weight-700" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
               ¿Que es Dialogüs?</vue-text-transition>
             <vue-text-transition align="left" class="h4 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-               es una firma de consultoría dedicada a construir confianza para sus clientes mediante servicios especializados y prácticas de negocio innovadoras,
+               Es una firma de consultoría dedicada a construir confianza para sus clientes mediante servicios especializados y prácticas de negocio innovadoras,
                generando eficiencia y prosperidad. Es una empresa con cinco años de experiencia en el mercado y una amplia gama de clientes en diversos sectores.</vue-text-transition>
             <ul class="list-style1">
             </ul>
           </div>
           <div class="col-md-12">
-            <div class="about-content rounded border border-5 border-info">
+            <div class="about-content rounded border-show">
               <vue-text-transition class="lead text-black" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
                 Apasionados por colaborar en la transformación de nuestros clientes y fomentar relaciones de confianza a largo plazo.</vue-text-transition>
               <div class="text-end">
@@ -142,107 +142,89 @@
     <!-- ONLINE COURSES
         ================================================== -->
     <h2 class="h1 text-secondary">Noticias</h2>
-    <carousel-3d>
+    <carousel-3d height="526px" border="2" controlsVisible="true" >
       
       <slide :index="0">
         <div class="card card-style4">
-          <div class="card-img">
+        <div class="card-img"><img src="/img/fondo3.b2a4e6d6.webp" alt="..." class="tamañoEventos">
+        </div>
+        <div class="card-body">
+          <div class="date-wrapper">
+            <span class="date">23</span>
+            <span class="month">Oct</span>
           </div>
-          <br>
-          <div class="card-body">
-            <div class="date-wrapper">
-              <span class="date">23</span>
-              <span class="month">Oct</span>
-            </div>
-            <h4>Evento</h4>
-            <h4 class="h5"><router-link to="/noticias">¿Que es dialogus?</router-link></h4>
-            <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
-            <div class="event-meta-list">
-              <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
-              <span class="text-dark"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
-
-            </div>
+          <h4 class="h5"><router-link to="/noticias" class="">¿Qué debo saber sobre la NOM-035?</router-link></h4>
+          <p class="text-dark">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
+          <div class="event-meta-list"><span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
+            <span class="text-dark"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
           </div>
         </div>
+      </div>
       </slide>
       <slide :index="1">
         <div class="card card-style4">
-          <div class="card-img">
+          <div class="card-img"><img src="../assets/fondo2.webp" alt="..." class="tamañoEventos">
           </div>
-          <br>
           <div class="card-body">
             <div class="date-wrapper">
-              <span class="date">10</span>
-              <span class="month">Dic</span>
+              <span class="date">03</span>
+              <span class="month">Jun</span>
             </div>
-            <h4>Evento</h4>
-            <h4 class="h5"><router-link to="/noticias">¿Que es dialogus?</router-link></h4>
-            <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
-            <div class="event-meta-list">
-              <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
+            <h4 class="h5"><router-link to="/noticias" class="">¿Qué debo saber sobre la NOM-035?</router-link></h4>
+            <p class="text-dark">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
+            <div class="event-meta-list"><span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
               <span class="text-dark"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
-
             </div>
           </div>
         </div>
       </slide>
       <slide :index="2">
         <div class="card card-style4">
-          <div class="card-img">
+          <div class="card-img"><img src="../assets/fondo1.webp" alt="..." class="tamañoEventos">
           </div>
-          <br>
           <div class="card-body">
             <div class="date-wrapper">
-              <span class="date">20</span>
-              <span class="month">Feb</span>
+              <span class="date">13</span>
+              <span class="month">Mar</span>
             </div>
-            <h4 class="h5"><router-link to="/noticias">¿Que es dialogus?</router-link></h4>
-            <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
-            <div class="event-meta-list">
-              <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
+            <h4 class="h5"><router-link to="/noticias" class="">¿Qué debo saber sobre la NOM-035?</router-link></h4>
+            <p class="text-dark">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
+            <div class="event-meta-list"><span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
               <span class="text-dark"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
-
             </div>
           </div>
         </div>
       </slide>
       <slide :index="3">
         <div class="card card-style4">
-          <div class="card-img">
+          <div class="card-img"><img src="../assets/persona1.webp" alt="..." class="tamañoEventos">
           </div>
-          <br>
           <div class="card-body">
             <div class="date-wrapper">
-              <span class="date">13</span>
-              <span class="month">Jun</span>
+              <span class="date">10</span>
+              <span class="month">Ago</span>
             </div>
-            <h4>Evento</h4>
-            <h4 class="h5"><router-link to="/noticias">¿Que es dialogus?</router-link></h4>
-            <p background-image="../assets/blog1.jpeg" class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
-            <div class="event-meta-list">
-              <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
+            <h4 class="h5"><router-link to="/noticias" class="">¿Qué debo saber sobre la NOM-035?</router-link></h4>
+            <p class="text-dark">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
+            <div class="event-meta-list"><span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
               <span class="text-dark"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
-
             </div>
           </div>
         </div>
       </slide>
       <slide :index="4">
         <div class="card card-style4">
-          <div class="card-img">
+          <div class="card-img"><img src="../assets/persona4.webp" alt="..." class="tamañoEventos">
           </div>
-          <br>
           <div class="card-body">
             <div class="date-wrapper">
-              <span class="date">02</span>
-              <span class="month">Ago</span>
+              <span class="date">13</span>
+              <span class="month">Mar</span>
             </div>
-            <h4 class="h5"><router-link to="/noticias">¿Que es dialogus?</router-link></h4>
-            <p class="text-dark">El 02 de octubre 2018 se publicó en el Diario Oficial de la Federación..</p>
-            <div class="event-meta-list">
-              <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
+            <h4 class="h5"><router-link to="/noticias" class="">¿Qué debo saber sobre la NOM-035?</router-link></h4>
+            <p class="text-dark">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
+            <div class="event-meta-list"><span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
               <span class="text-dark"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
-
             </div>
           </div>
         </div>
@@ -353,6 +335,9 @@
 </template>
 
 <style>
+  .border-show {
+    box-shadow: 0px 0px 5px 2px gray;
+  }
   #banner {
     background-image: url('../assets/blog1.jpeg');
   }
@@ -368,24 +353,23 @@
     background:rgb( 255 ,212, 31) !important;
   }
 
-  .box {
+  .box-custom {
     background: rgb(59,84,123);
-    border-radius: auto;
     cursor: pointer;
     height: auto;
     line-height: auto;
     text-align: center;
-    transition-property: background, border-radius;
-    transition-duration: .2s, 1s;
-    transition-timing-function: linear;
+    transition: clip-path 1s;
+    clip-path: polygon(0% 0, 50% 0%, 100% 0%, 100% 100%, 50%  100%, 0 100%);
+    
   }
   
   .card-style4 .date-wrapper {
     background: #35547c!important;
   }
-  .box:hover {
+  .box-custom:hover {
     background: rgb( 255 ,212, 31) ;
-    border-radius: 50%;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
   }
   
   .card-style4 .card-img:before {
