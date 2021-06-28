@@ -10,17 +10,17 @@
 			</div>
           <div class="row justify-content-center">
             <div class="col-xl-5 col-md-8">
-              <form class="bg-white  rounded-5 shadow-5-strong p-5" @submit.prevent="checkLogin">
+              <form @submit.prevent="checkLogin" class="bg-white  rounded-5 shadow-5-strong p-5" >
                 <!-- Email input -->
                 <div class="form-outline mb-4">
-					<label class="h5 form-label" for="exampleInputuser1">Usuario</label>
-                  <input type="user" id="form1Example1" class="form-control" v-model="user.username">
+					<label for="exampleInputuser1" class="h5 form-label">Usuario</label>
+					<input type="user" class="form-control" v-model="user.username">
                 </div>
 
                 <!-- Password input -->
                 <div class="form-outline mb-4">
-					<label class="h5 form-label" for="exampleInputPassword1">Contraseña</label>
-                  <input type="password" id="exampleInputPassword1" class="form-control" exampleInputPassword1>
+					<label for="exampleInputPassword1" class="h5 form-label">Contraseña</label>
+					<input type="password" class="form-control" id="exampleInputPassword1" v-model="user.pass">
                 </div>
 
                 <!-- Submit button -->
