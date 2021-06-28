@@ -42,7 +42,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
-                        <article class="card card-style2 h-100">
+                        <article class="card card-style2 card-style4  h-100">
                             <div class="card-img">
                                 <img src="../assets/persona2.webp" alt="...">
                             </div>
@@ -56,13 +56,12 @@
                                 </ul>
                                 <h3 class="h4 mb-3">5 Facts about life coach that will make you think twice.</h3>
                                 <p  align="left" class="text-dark">The purpose of the masterclass is to introduce the key thoughts supporting the psychodynamic approach.</p>
-                                <router-link to="/noticiasDetalles" class="font-weight-600"> Ver Más</router-link>
 
                             </div>
                         </article>
                     </div>
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9 ">
-                        <article class="card card-style2 h-100 ">
+                        <article class="card card-style2 card-style4 h-100 ">
                             <div class="card-img">
                                 <img src="../assets/persona4.webp" alt="">
                             </div>
@@ -76,12 +75,11 @@
                                 </ul>
                                 <h3 class="h4 mb-3">20 Wonderful life coach. Number 16 is absolutely stunning!</h3>
                                 <p align="left" class="text-dark">The purpose of the masterclass is to introduce the key thoughts supporting the psychodynamic approach.</p>
-                                <router-link to="/noticiasDetalles" class="font-weight-600">Ver Más</router-link>
                             </div>
                         </article>
                     </div>
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
-                        <article class="card card-style2 h-100">
+                        <article class="card card-style2 card-style4 h-100">
                             <div class="card-img">
                                 <img src="../assets/persona3.webp" alt="...">
                             </div>
@@ -96,7 +94,6 @@
                                 </ul>
                                 <h3 class="h4 mb-3"><router-link to="">How to have a fantastic life coach with minimal spending?</router-link></h3>
                                 <p  align="left" class="text-dark">The purpose of the masterclass is to introduce the key thoughts supporting the psychodynamic approach.</p>
-                                <router-link to="blog-details.html" class="font-weight-600">Ver Más</router-link>
                             </div>
                         </article>
                     </div>
@@ -111,7 +108,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
-                        <article class="card card-style2 h-100">
+                        <article class="card card-style2 card-style4 h-100">
                             <div class="card-img">
                                 <img src="../assets/persona5.webp" alt="...">
                             </div>
@@ -126,12 +123,11 @@
                                 </ul>
                                 <h3 class="h4 mb-3"><router-link to="">How to have a fantastic life coach with minimal spending?</router-link></h3>
                                 <p  align="left" class="text-dark">The purpose of the masterclass is to introduce the key thoughts supporting the psychodynamic approach.</p>
-                                <router-link to="blog-details.html" class="font-weight-600">Ver Más</router-link>
                             </div>
                         </article>
                     </div>
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
-                        <article class="card card-style2 h-100">
+                        <article class="card card-style2 card-style4 h-100">
                             <div class="card-img">
                                 <img src="../assets/persona2.webp" alt="...">
                             </div>
@@ -146,12 +142,11 @@
                                 </ul>
                                 <h3 class="h4 mb-3"><router-link to="">How to have a fantastic life coach with minimal spending?</router-link></h3>
                                 <p  align="left" class="text-dark">The purpose of the masterclass is to introduce the key thoughts supporting the psychodynamic approach.</p>
-                                <router-link to="blog-details.html" class="font-weight-600">Ver Más</router-link>
                             </div>
                         </article>
                     </div>
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
-                        <article class="card card-style2 h-100">
+                        <article class="card card-style2 card-style4 h-100">
                             <div class="card-img">
                                 <img src="../assets/persona4.webp" alt="...">
                             </div>
@@ -166,7 +161,6 @@
                                 </ul>
                                 <h3 class="h4 mb-3"><router-link to="">How to have a fantastic life coach with minimal spending?</router-link></h3>
                                 <p  align="left" class="text-dark">The purpose of the masterclass is to introduce the key thoughts supporting the psychodynamic approach.</p>
-                                <router-link to="blog-details.html" class="font-weight-600">Ver Más</router-link>
                             </div>
                         </article>
                     </div>
