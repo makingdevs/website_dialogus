@@ -1,5 +1,11 @@
 <template>
-	<section class="page-title-section top-position bg-img cover-background parallax bg-img " data-overlay-dark="55" id="imageLogin">
+<div>
+	<!-- PAGE TITLE
+        ================================================== -->
+		<section class="page-title-section top-position bg-img cover-background" data-overlay-dark="55" id="imageLogin">
+		
+		</section>
+<section>
 	<div class="login container">
 		<form @submit.prevent="checkLogin">
 			<div class="mb-4">
@@ -14,6 +20,7 @@
 		</form>
 	</div>
 </section>
+</div>
 </template>
 
 <style>
@@ -21,6 +28,7 @@
 #imageLogin{
 	background-image: url('../assets/Login-Mágico.png');
 }
+
 </style>
 <script>
 import auth from '@/assets/js/auth/auth.js';
