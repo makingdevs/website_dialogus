@@ -24,7 +24,7 @@
                 </div>
 
                 <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-block">Ingresar</button>
+                <button type="submit" class=" btn btn-success">Ingresar</button>
               </form>
             </div>
           </div>
@@ -35,10 +35,6 @@
 </template>
 
 <style>
-
-#imageLogin{
-	background-image: url('../assets/Login-Mágico.png');
-}
 #intro {
         background-image: url('../assets/legin.jpeg');
         height: 100vh;
@@ -52,7 +48,6 @@
       }
 </style>
 <script>
-
 import auth from '@/assets/js/auth/auth.js';
 export default {
   name: "Login",
