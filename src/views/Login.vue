@@ -65,7 +65,10 @@ export default {
 		}
   },
   created: function () {
-		console.log("Nací");
+	console.log("Nací");
+	window.addEventListener('scroll', this.handleScroll);
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
   },
   mounted(){
 
