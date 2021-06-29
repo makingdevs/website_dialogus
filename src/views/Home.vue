@@ -153,7 +153,7 @@
     <!-- ONLINE COURSES
         ================================================== -->
     <h2 class="h1 text-secondary">Noticias</h2>
-    <carousel-3d height="526px" border="2" controlsVisible="true" >
+    <carousel-3d height="526px" border="2" :controlsVisible="controlsVisible" >
       
       <slide :index="0">
         <div class="card card-style4">
@@ -470,7 +470,8 @@
 
       return {
         stateEffect: true,
-        displayСonditions: false
+        displayСonditions: false,
+        controlsVisible: false
       }
     },
 
