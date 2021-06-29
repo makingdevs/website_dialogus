@@ -232,6 +232,9 @@
   #nav a.router-link-exact-active {
     color: #42b983;
   }
+  .header-style1 .navbar-toggler {
+    background: #ffffff;
+}
 
   .fa-mobile-alt:before{
     content: "\f3c5";
@@ -250,6 +253,13 @@
   .bg-nav {
     background-color: #35547c;
   }
+  @media screen and (max-width: 991px){
+  .navbar ul li a {
+    width: 100%;
+    border-bottom: 0;
+    background:#35547c;
+  }
+}
   .address-icon {
     background-color : #191919 !important;
   }
