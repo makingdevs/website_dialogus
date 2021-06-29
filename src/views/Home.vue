@@ -120,15 +120,26 @@
             <vue-text-transition class="h1 text-black text-secondary mb-1-6 font-weight-700" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
               ¿Que es Dialogüs?</vue-text-transition>
             <vue-text-transition align="left" class="h4 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-               Es una firma de consultoría dedicada a construir confianza para sus clientes mediante servicios especializados y prácticas de negocio innovadoras,
-               generando eficiencia y prosperidad. Es una empresa con cinco años de experiencia en el mercado y una amplia gama de clientes en diversos sectores.</vue-text-transition>
+               Es una firma de consultoría dedicada a construir</vue-text-transition>
+               <vue-text-transition align="left" class="h4 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
+               confianza para sus clientes mediante servicios </vue-text-transition>
+               <vue-text-transition align="left" class="h4 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
+               especializados y prácticas de negocio innovadoras,</vue-text-transition>
+               <vue-text-transition align="left" class="h4 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
+               generando eficiencia y prosperidad. Es una empresa </vue-text-transition>
+               <vue-text-transition align="left" class="h4 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
+               con cinco años de experiencia en el mercado y una </vue-text-transition>
+               <vue-text-transition align="left" class="h4 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
+               amplia gama de clientes en diversos sectores.</vue-text-transition>
             <ul class="list-style1">
             </ul>
           </div>
           <div class="col-md-12">
             <div class="about-content rounded border-show">
               <vue-text-transition class="lead text-black" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-                Apasionados por colaborar en la transformación de nuestros clientes y fomentar relaciones de confianza a largo plazo.</vue-text-transition>
+                Apasionados por colaborar en la transformación de nuestros clientes </vue-text-transition>
+                <vue-text-transition class="lead text-black" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
+                y fomentar relaciones de confianza a largo plazo.</vue-text-transition>
               <div class="text-end">
                 <img src="../assets/firma.jpeg" alt="...">
               </div>
@@ -483,7 +494,7 @@
         console.log("Hola mundo")
       },
       handleScroll() {
-        if (window.scrollY > 1240 && this.stateEffect) {
+        if (window.scrollY > 1100 && this.stateEffect) {
           console.log("Execute method")
           this.displayСonditions = true;
           this.stateEffect = false;
