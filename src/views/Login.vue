@@ -59,7 +59,8 @@ export default {
 		checkLogin(){
 			if(this.user.username == "test" && this.user.pass == "test"){
 				auth.setUserLogged(this.user);
-				this.$router.go("/home");
+				console.log("login")
+				this.$router.push({ name: 'TextAdministrations' })
 			}
 		}
   }

@@ -1,23 +1,20 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
 import auth from '@/assets/js/auth/auth.js';
 
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
     path: '/home',
     name: 'Home',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Home.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/Home.vue'),
+    meta: {
+      autentificado: false
+    }
   },
   {
     path: '/about',
@@ -91,13 +88,13 @@ router.beforeEach((to, from, next) => {
 
   let autoriazacion = to.matched.some(record => record.meta.autentificado);
 
-  if(autoriazacion && !usuario) {
-    next('login')
-  } else if (!autoriazacion && usuario) {
-    next('home')
-  } else {
+  if(usuario && autoriazacion){
     next();
   }
+  else if(autoriazacion){
+    next("/login");
+  }
+  next();
 
 })
 
