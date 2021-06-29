@@ -53,36 +53,36 @@ export default {
   name: "Login",
   data: function (){
     return {
-			user: {
-				username: "",
-				pass: ""
-			}
+            user: {
+                username: "",
+                pass: ""
+            }
     }
   },
   watch: {
-		msg: function (){
-			this.msg = this.msg.toUpperCase();
-		}
+        msg: function (){
+            this.msg = this.msg.toUpperCase();
+        }
   },
   created: function () {
-	console.log("Nací");
+        console.log("Nací");
 	window.addEventListener('scroll', this.handleScroll);
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+
   },
   mounted(){
-
   },
   components: {
   },
   methods: {
-		checkLogin(){
-			if(this.user.username == "test" && this.user.pass == "test"){
-				auth.setUserLogged(this.user);
-				this.$router.go("/home");
-			}
-		}
+        checkLogin(){
+            if(this.user.username == "test" && this.user.pass == "test"){
+                auth.setUserLogged(this.user);
+                console.log("login")
+                this.$router.push({ name: 'TextAdministrations' })
+            }
+        }
   }
-
 };
 </script>
