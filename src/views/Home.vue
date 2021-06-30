@@ -113,34 +113,34 @@
         <div class="row align-items-center">
           <div class="col-lg-6 mb-6 mb-md-8 mb-lg-0">
             <div class="pe-lg-1-9 pe-xl-2-5 text-center">
-              <img class="box-custom" src="../assets/about-01.jpeg" alt="...">
+              <img class="box-custom fade-in-image" src="../assets/about-01.jpeg" alt="...">
             </div>
           </div>
           <div class="col-lg-6">
-            <vue-text-transition class="h1 text-black text-secondary mb-1-6 font-weight-700" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-              ¿Que es Dialogüs?</vue-text-transition>
-            <vue-text-transition align="left" class="h4 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-               Es una firma de consultoría dedicada a construir</vue-text-transition>
-               <vue-text-transition align="left" class="h4 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-               confianza para sus clientes mediante servicios </vue-text-transition>
-               <vue-text-transition align="left" class="h4 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-               especializados y prácticas de negocio innovadoras,</vue-text-transition>
-               <vue-text-transition align="left" class="h4 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-               generando eficiencia y prosperidad. Es una empresa </vue-text-transition>
-               <vue-text-transition align="left" class="h4 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-               con cinco años de experiencia en el mercado y una </vue-text-transition>
-               <vue-text-transition align="left" class="h4 text-dark" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-               amplia gama de clientes en diversos sectores.</vue-text-transition>
+            <div class="fade-in-image h1 text-secondary">
+              ¿Que es Dialogüs?</div>
+            <div align="left" class="h4 text-dark fade-in-image">
+               Es una firma de consultoría dedicada a construir</div>
+               <div align="left" class="h4 text-dark fade-in-image">
+               confianza para sus clientes mediante servicios </div>
+               <div align="left" class="h4 text-dark fade-in-image">
+               especializados y prácticas de negocio innovadoras,</div>
+               <div align="left" class="h4 text-dark fade-in-image">
+               generando eficiencia y prosperidad. Es una empresa </div>
+               <div align="left" class="h4 text-dark fade-in-image">
+               con cinco años de experiencia en el mercado y una </div>
+               <div align="left" class="h4 text-dark fade-in-image">
+               amplia gama de clientes en diversos sectores.</div>
             <ul class="list-style1">
             </ul>
           </div>
           <div class="col-md-12">
             <div class="about-content rounded border-show">
-              <vue-text-transition class="lead text-black" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-                Apasionados por colaborar en la transformación de nuestros clientes </vue-text-transition>
-                <vue-text-transition class="lead text-black" tag="h1" name="test" :show="displayСonditions" :interval="40" :custom-class="[{ selector: ':nth-child(odd)', class: 'test_odd' }]">
-                y fomentar relaciones de confianza a largo plazo.</vue-text-transition>
-              <div class="text-end">
+              <div class="lead text-black fade-in-image">
+                Apasionados por colaborar en la transformación de nuestros clientes </div>
+                <div class="lead text-black fade-in-image">
+                y fomentar relaciones de confianza a largo plazo.</div>
+              <div class="text-end fade-in-image">
                 <img src="../assets/firma.jpeg" alt="...">
               </div>
             </div>
@@ -353,6 +353,38 @@
     background-image: url('../assets/blog1.jpeg');
   }
 
+  .fade-in-image {
+  animation: fadeIn 6s;
+  -webkit-animation: fadeIn 6s;
+  -moz-animation: fadeIn 6s;
+  -o-animation: fadeIn 6s;
+  -ms-animation: fadeIn 6s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
   body {
     color: #fff;
     font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
@@ -463,7 +495,6 @@
 <script>
   import { Carousel3d, Slide } from 'vue-carousel-3d';
   import VueTextTransition from 'vue-text-transition';
-
   export default {
     name: "ThemeExample",
     data: function () {
@@ -495,7 +526,7 @@
         console.log("Hola mundo")
       },
       handleScroll() {
-        if (window.scrollY > 1100 && this.stateEffect) {
+        if (window.scrollY > 1200 && this.stateEffect) {
           console.log("Execute method")
           this.displayСonditions = true;
           this.stateEffect = false;
