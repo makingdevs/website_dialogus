@@ -28,7 +28,7 @@
         <div class="row align-items-center">
           <div class="col-lg-6 mb-6 mb-md-8 mb-lg-0">
             <div class="pe-lg-1-9 pe-xl-2-5 text-center">
-              <img class="box" src="../assets/persona5.webp" alt="...">
+              <img class="box-custom" src="../assets/img2.jpg" alt="...">
             </div>
           </div>
           <div class="col-lg-6">
@@ -179,8 +179,185 @@
                 </div>
             </div>
         </section>
-         
-         
+
+    <!-- Testimonios
+        ================================================== -->
+          <section>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-10 mb-1-9 mb-lg-0">
+                        <div class="row">
+                            
+                            <div class="col-md-12 mb-1-6 mb-md-2-9">
+                                <div class="horizontaltab tab-style1">
+                                    
+                                    <div class="resp-tabs-container hor_1">
+                                        <div>
+                                            <div class="row mb-1-6 mb-md-1-9 mb-lg-2-5">
+                                                <div class="section-heading">
+                                                    <h2 class="h1 text-secondary">Testimonios</h2>
+                                                    <div class="dotted-box">
+                                                        <span class="dotted"></span>
+                                                        <span class="dotted"></span>
+                                                        <span class="dotted"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="order-2 order-lg-1 col-md-12 col-lg-8">
+                                                    <div class="media mb-4 pb-4 border-bottom border-color-extra-light-gray">
+                                                        <img class="border-radius-50" src="../assets/usuario.jpg" alt="...">
+                                                        <div class="media-body ms-3">
+                                                            <div class="mb-2">
+                                                                <h4 class="h5" align="left"><a href="#!" class="text-secondary">Testimonio 1</a></h4>
+                                                                <div class="display-30 text-warning" align="left">
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                </div>
+                                                            </div>
+                                                            <p align="left" style="color:rgb(0,0,0);">Me encantan sus cursos, he aprendido mucho con ellos...</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="media mb-4 pb-4 border-bottom border-color-extra-light-gray">
+                                                        <img class="border-radius-50" src="../assets/usuario.jpg" alt="...">
+                                                        <div class="media-body ms-3">
+                                                            <div class="mb-2">
+                                                                <h4 class="h5" align="left"><a href="#!" class="text-secondary">Testimonio 2</a></h4>
+                                                                <div class="display-30 text-warning" align="left">
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                </div>
+                                                            </div>
+                                                            <p align="left" style="color:rgb(0,0,0);">Los eventos que he visto me han gustado demasiado...</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="media mb-4 pb-4 border-bottom border-color-extra-light-gray">
+                                                        <img class="border-radius-50" src="../assets/usuario.jpg" alt="...">
+                                                        <div class="media-body ms-3">
+                                                            <div class="mb-2">
+                                                                <h4 class="h5" align="left"><a href="#!" class="text-secondary">Testimonio 3</a></h4>
+                                                                <div class="display-30 text-warning" align="left">
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                </div>
+                                                            </div>
+                                                            <p align="left" style="color:rgb(0,0,0);">Su página tiene un excelente diseño...</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="media mb-4 pb-4 border-bottom border-color-extra-light-gray">
+                                                        <img class="border-radius-50" src="../assets/usuario.jpg" alt="...">
+                                                        <div class="media-body ms-3">
+                                                            <div class="mb-2">
+                                                                <h4 class="h5" align="left"><a href="#!" class="text-secondary">Testimonio 4</a></h4>
+                                                                <div class="display-30 text-warning" align="left">
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                </div>
+                                                            </div>
+                                                            <p align="left" style="color:rgb(0,0,0);">Excelente atención la que brindan...</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="order-1 order-lg-2 col-md-12 col-lg-4 mb-1-9 mb-md-2-5 mb-xl-0">
+                                                    <div class="row">
+                                                        <div class="ps-lg-3 ps-xl-1-6">
+                                                            <div class="col-md-12 mb-1-6">
+                                                                <div class="bg-very-light-gray text-center text-secondary">
+                                                                    <div class="rating-box">
+                                                                        <span class="rating-number alt-font">5</span>
+                                                                        <ul class="list-unstyled">
+                                                                            <li><i class="fa fa-star"></i></li>
+                                                                            <li><i class="fa fa-star"></i></li>
+                                                                            <li><i class="fa fa-star"></i></li>
+                                                                            <li><i class="fa fa-star"></i></li>
+                                                                            <li><i class="fa fa-star"></i></li>
+                                                                        </ul>
+                                                                        <span class="font-weight-600">8 Calificaciones</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-sm-12 mb-3">
+                                                                        <div class="progress-text text-secondary">
+                                                                            <div class="row">
+                                                                                <div class="col-7">5 Estrellas</div>
+                                                                                <div class="col-5 text-end">95%</div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="progress progress-medium">
+                                                                            <div class="animated custom-bar progress-bar slideInLeft" style="width: 95%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10" role="progressbar"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12 mb-3">
+                                                                        <div class="progress-text text-secondary">
+                                                                            <div class="row">
+                                                                                <div class="col-7">4 Estrellas</div>
+                                                                                <div class="col-5 text-end">70%</div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="progress progress-medium">
+                                                                            <div class="animated custom-bar progress-bar slideInLeft" style="width: 70%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10" role="progressbar"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12 mb-3">
+                                                                        <div class="progress-text text-secondary">
+                                                                            <div class="row">
+                                                                                <div class="col-7">3 Estrellas</div>
+                                                                                <div class="col-5 text-end">45%</div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="progress progress-medium">
+                                                                            <div class="animated custom-bar progress-bar slideInLeft" style="width: 45%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10" role="progressbar"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12 mb-3">
+                                                                        <div class="progress-text text-secondary">
+                                                                            <div class="row">
+                                                                                <div class="col-7">2 Estrellas</div>
+                                                                                <div class="col-5 text-end">30%</div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="progress progress-medium">
+                                                                            <div class="animated custom-bar progress-bar slideInLeft" style="width: 30%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10" role="progressbar"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="progress-text text-secondary">
+                                                                            <div class="row">
+                                                                                <div class="col-7">1 Estrella</div>
+                                                                                <div class="col-5 text-end">15%</div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="progress progress-medium">
+                                                                            <div class="animated custom-bar progress-bar slideInLeft" style="width: 15%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10" role="progressbar"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         
   </div>
 </template>
@@ -193,13 +370,36 @@
     background-image: url('../assets/img4.jpg');
 
   }
+  #testi {
+    background-image: url('../assets/img4.jpg');
 
+  }
   body {
     color: #fff;
     font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
   }
   .colorLineas{
     background-color: #ffc107 !important;
+}
+.border-radius-50 {
+    border-radius: 50%;
+}
+element.style {
+  background-image: url('../assets/img4.jpg');
+
+  }
+  .h4 a, .h5 a, .h6 a {
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: #282b2d;
+}
+.media-body {
+    -ms-flex: 1;
+    flex: 1;
+    word-break: break-word;
+}
+.ms-3 {
+    margin-left: 1rem!important;
 }
 
   .flechaCarus {
@@ -209,17 +409,21 @@
     background:rgb( 255 ,212, 31) !important;
   }
 
-  .box {
-    background: #2db34a;
-    border-radius: auto;
+ .box-custom {
+    background: rgb(59,84,123);
     cursor: pointer;
     height: auto;
     line-height: auto;
     text-align: center;
-    transition-property: background, border-radius;
-    transition-duration: .2s, 1s;
-    transition-timing-function: linear;
-    width: auto;
+    transition: clip-path 1s;
+    clip-path: polygon(0% 0, 50% 0%, 100% 0%, 100% 100%, 50%  100%, 0 100%);
+    
+  }
+  .video_btn{
+    background: #35547c!important;
+  }
+  .bg-secondary{
+    background: #35547c!important;
   }
   .card-style4 .date-wrapper {
     background: #35547c!important;
