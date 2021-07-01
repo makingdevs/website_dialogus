@@ -165,7 +165,7 @@
                                                     <!-- Begin Submit button -->
                                                     <div class="col-md-12">
                                                         <div class="quform-submit-inner">
-                                                            <button class="butn theme butn-md" type="submit"><span class="colorT">ENVIAR MENSAJE</span></button>
+                                                            <button class="butn theme butn-md btn-circle" type="submit"><span class="colorT">ENVIAR MENSAJE</span></button>
                                                         </div>
                                                         <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
                                                     </div>
@@ -194,6 +194,15 @@
 </template>
 
 <style>
+.btn-circle {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
 .contact-icon i {
     color: #35547c !important;
     border: 2px solid #ffc107 !important;
