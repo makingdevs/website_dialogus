@@ -152,8 +152,9 @@
 
     <!-- ONLINE COURSES
         ================================================== -->
-    <h2 class="h1 text-secondary">Noticias</h2>
-    <carousel-3d height="526px" border="2" :controlsVisible="controlsVisible" >
+  <section>
+    <h2 class="h1 text-secondary">Eventos y Cursos</h2>
+    <carousel-3d height="526px" border="3" :controlsVisible="controlsVisible" :perspective="135" :inverseScaling="143" :space="356" >
       
       <slide :index="0">
         <div class="card card-style4">
@@ -165,10 +166,11 @@
             <span class="month">Oct</span>
           </div>
           <h4 class="h5"><router-link to="/noticias" class="">¿Qué debo saber sobre la NOM-035?</router-link></h4>
-          <p class="text-dark">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
-          <div class="event-meta-list"><span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
-            <span class="text-dark"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
+          <p class="text-white">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
+          <div class="event-meta-list"><span class="me-0 me-xl-3 text-white"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
+            <span class="text-white"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
           </div>
+          <button class="butn theme butn-md btn-circle" type="submit"><span class="colorT">ENVIAR MENSAJE</span></button>
         </div>
       </div>
       </slide>
@@ -182,10 +184,11 @@
               <span class="month">Jun</span>
             </div>
             <h4 class="h5"><router-link to="/noticias" class="">¿Qué debo saber sobre la NOM-035?</router-link></h4>
-            <p class="text-dark">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
-            <div class="event-meta-list"><span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
-              <span class="text-dark"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
+            <p class="text-white">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
+            <div class="event-meta-list"><span class="me-0 me-xl-3 text-white"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
+              <span class="text-white"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
             </div>
+            <button class="butn theme butn-md btn-circle" type="submit"><span class="colorT">ENVIAR MENSAJE</span></button>
           </div>
         </div>
       </slide>
@@ -199,50 +202,17 @@
               <span class="month">Mar</span>
             </div>
             <h4 class="h5"><router-link to="/noticias" class="">¿Qué debo saber sobre la NOM-035?</router-link></h4>
-            <p class="text-dark">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
-            <div class="event-meta-list"><span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
-              <span class="text-dark"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
+            <p class="text-white">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
+            <div class="event-meta-list"><span class="me-0 me-xl-3 text-white"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
+              <span class="text-white"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
             </div>
+            <button class="butn theme butn-md btn-circle" type="submit"><span class="colorT">ENVIAR MENSAJE</span></button>
           </div>
         </div>
       </slide>
-      <slide :index="3">
-        <div class="card card-style4">
-          <div class="card-img"><img src="../assets/persona1.webp" alt="..." class="tamañoEventos">
-          </div>
-          <div class="card-body">
-            <div class="date-wrapper">
-              <span class="date">10</span>
-              <span class="month">Ago</span>
-            </div>
-            <h4 class="h5"><router-link to="/noticias" class="">¿Qué debo saber sobre la NOM-035?</router-link></h4>
-            <p class="text-dark">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
-            <div class="event-meta-list"><span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
-              <span class="text-dark"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
-            </div>
-          </div>
-        </div>
-      </slide>
-      <slide :index="4">
-        <div class="card card-style4">
-          <div class="card-img"><img src="../assets/persona4.webp" alt="..." class="tamañoEventos">
-          </div>
-          <div class="card-body">
-            <div class="date-wrapper">
-              <span class="date">13</span>
-              <span class="month">Mar</span>
-            </div>
-            <h4 class="h5"><router-link to="/noticias" class="">¿Qué debo saber sobre la NOM-035?</router-link></h4>
-            <p class="text-dark">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
-            <div class="event-meta-list"><span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
-              <span class="text-dark"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
-            </div>
-          </div>
-        </div>
 
-      </slide>
     </carousel-3d>
-
+  </section>
     <!-- Team 
         _________________________________________________________________________-->
 
@@ -393,7 +363,8 @@
     width : 100px
   }
   .butn {
-    background:rgb( 255 ,212, 31) !important;
+    background: #20ad95 !important;
+    color: #fff !important;
   }
 
   .box-custom {
@@ -407,9 +378,28 @@
     
   }
   
+  /* STYLOS DEL CARRUSEL*/
   .card-style4 .date-wrapper {
-    background: #35547c!important;
+    background:rgb( 255 ,212, 31) !important;
   }
+  .card-style4 .card-body {
+    padding: 40px 30px;
+    position: relative;
+    background: #35547c !important;
+}
+  .card-style4 .card-body .date{
+    color: #35547c !important;
+}
+  .card-style4 .card-body .month{
+    color: #35547c !important;
+}
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff !important;
+}
+/* STYLOS DEL CARRUSEL*/
+
   .box-custom:hover {
     background: rgb( 255 ,212, 31) ;
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
