@@ -92,7 +92,7 @@
                                     </li>
 
                                 </ul>
-                                <h3 class="h4 mb-3"><router-link to="">How to have a fantastic life coach with minimal spending?</router-link></h3>
+                                <h3 class="h4 mb-3">How to have a fantastic life coach with minimal spending?</h3>
                                 <p  align="left" class="text-dark">The purpose of the masterclass is to introduce the key thoughts supporting the psychodynamic approach.</p>
                             </div>
                         </article>
@@ -121,7 +121,7 @@
                                     </li>
 
                                 </ul>
-                                <h3 class="h4 mb-3"><router-link to="">How to have a fantastic life coach with minimal spending?</router-link></h3>
+                                <h3 class="h4 mb-3">How to have a fantastic life coach with minimal spending?</h3>
                                 <p  align="left" class="text-dark">The purpose of the masterclass is to introduce the key thoughts supporting the psychodynamic approach.</p>
                             </div>
                         </article>
@@ -140,7 +140,7 @@
                                     </li>
 
                                 </ul>
-                                <h3 class="h4 mb-3"><router-link to="">How to have a fantastic life coach with minimal spending?</router-link></h3>
+                                <h3 class="h4 mb-3">How to have a fantastic life coach with minimal spending?</h3>
                                 <p  align="left" class="text-dark">The purpose of the masterclass is to introduce the key thoughts supporting the psychodynamic approach.</p>
                             </div>
                         </article>
@@ -159,7 +159,7 @@
                                     </li>
 
                                 </ul>
-                                <h3 class="h4 mb-3"><router-link to="">How to have a fantastic life coach with minimal spending?</router-link></h3>
+                                <h3 class="h4 mb-3">How to have a fantastic life coach with minimal spending?</h3>
                                 <p  align="left" class="text-dark">The purpose of the masterclass is to introduce the key thoughts supporting the psychodynamic approach.</p>
                             </div>
                         </article>
@@ -203,6 +203,11 @@
     margin: 0;
     overflow: hidden;
     border-radius: 0;
+}
+.card-style2 .card-body {
+    padding: 40px 30px;
+    position: relative;
+    background: #fff !important;
 }
 
 </style>
