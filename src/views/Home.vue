@@ -28,7 +28,8 @@
     <section>
       <div class="container">
         <div class="section-heading">
-          <h2 class="h1 text-secondary">¡Servicios!</h2>
+          <h2 class="h1 text-secondary">¡Servicios!</h2> <Recurso></Recurso>
+          <img src="../assets/testImage.png" />
           <div class="dotted-box">
             <span class="dotted"></span>
             <span class="dotted"></span>
@@ -131,7 +132,7 @@
         ================================================== -->
   <section>
 <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
-  <span class="color_34">EVENTOS Y CURSOS </span></h2>
+  <span class="text-secondary">EVENTOS Y CURSOS </span></h2>
     <carousel-3d height="510px" border="0" :controlsVisible="controlsVisible" :perspective="perspective" :inverseScaling="143" :space="385" style="height: 525px;">
       <slide :index="0" class="border-show2">
         <div class="card card-style4">
@@ -478,6 +479,7 @@
 <script>
   import { Carousel3d, Slide } from 'vue-carousel-3d';
   import VueTextTransition from 'vue-text-transition';
+  import Recurso from '../assets/js/services/Recurso 6.svg'
   export default {
     name: "ThemeExample",
     data: function () {
@@ -503,6 +505,7 @@
       Slide,
       // eslint-disable-next-line vue/no-unused-components
       VueTextTransition,
+      Recurso,
 
     },
     methods: {
