@@ -5,7 +5,7 @@
       class="parallax bg-img cover-background  bg-img cover-background full-screen pt-16 pb-8 p-lg-0 top-position min-md-height-auto"
       data-overlay-dark="55" id="banner">
 
-      <div class="container d-flex flex-column">
+      <div class="container d-flex flex-column ">
         <div class="row align-items-center min-lg-vh-100">
           <div class="col-lg-8 mb-5 mb-lg-0">
             <h1 class="text-white display-16 display-md-9 display-lg-7 display-xl-4 mb-1-6 text-shadow font-weight-800">
@@ -27,81 +27,54 @@
 
     <section>
       <div class="container">
-        <div class="section-heading">
-          <h2 class="h1 text-secondary">¡Servicios!</h2>
-          <div class="dotted-box">
-            <span class="dotted"></span>
-            <span class="dotted"></span>
-            <span class="dotted"></span>
-          </div>
-        </div>
-        <div class="row justify-content-center g-1">
-          <div class="col-md-8 col-lg-6">
-            <div class="service-wrapper">
-              <div class="service-content">
-                <img class="image-tamaño " src="../assets/trab2.jpeg" alt="...">
-                <div class="service-inner">
-                  <div class="content">
-                    <h3>Capital Humano</h3>
-                    <p class="h6 mb-0">Nuestra división de Capital Humano genera soluciones para la gestión de talento, el
-                      desarrollo organizacional y las estrategias</p>
-                    <div class="service-button">
+        <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
+          <span class="text-secondary">NUESTRAS DIVISIONES </span></h2>
+          <div class="d-flex justify-content-between bg-divisions d-flex-column">
+            <div class="d-flex flex-column bg-card">
+              <img class="img3" src="../assets/js/services/Recurso 17.svg">
+              <span class="text-title">Estrategia</span>
+              <div class="hr-border"/><br>
+              <span class="h6">Definimos el camino para alcanzar tus objetivos de manera exitosa.</span>
+              <br>
+              <div class="d-flex justify-content-center">
+                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
+              </div>
+            </div>
+            
+            <div class="d-flex flex-column bg-card">
+              <img class="img3" src="../assets/js/services/Recurso 1.svg">
+              <span class="text-title">Capital Humano</span>
+              <div class="hr-border"/><br>
+              <span class="h6">Generamos soluciones para el desarrollo del talento humano y el desarrollo organizacional.</span>
+              <br>
+              <div class="d-flex justify-content-center">
+                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
+              </div>
+            </div>
 
-                    </div>
-                  </div>
-                </div>
+            <div class="d-flex flex-column bg-card">
+              <img class="img3" src="../assets/js/services/Recurso 2.svg">
+              <span class="text-title">Cumplimiento</span>
+              <div class="hr-border"/><br>
+              <span class="h6">Blindamos a las empresas con sistemas de integridad, ética y gestión de riesgos.</span>
+              <br>
+              <div class="d-flex justify-content-center">
+                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
+              </div>
+            </div>
+
+            <div class="d-flex flex-column bg-card">
+              <img class="img3" src="../assets/js/services/Recurso 25.svg">
+              <span class="text-title">Diagnostico</span>
+              <div class="hr-border"/><br>
+              <span class="h6">Identificamos fortalezas y debilidades de empresas reforzando el ecosistema.</span>
+              <br>
+              <div class="d-flex justify-content-center">
+                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
               </div>
             </div>
           </div>
-          <div class="col-md-8 col-lg-6">
-            <div class="service-wrapper">
-              <div class="service-content">
-                <img class="image-tamaño" src="../assets/trab1.jpeg" alt="...">
-                <div class="service-inner">
-                  <div class="content">
-                    <h3>Estrategia</h3>
-                    <p class="h6 mb-0">En conjunto con tu empresa, unidad de negocio o área, aplicamos metodologías
-                      efectivas e innovadoras para definir el marco de acción.</p>
-                    <div class="service-button">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div></div>
-          <div class="col-md-8 col-lg-6">
-            <div class="service-wrapper">
-              <div class="service-content">
-                <img class="image-tamaño" src="../assets/trab3.png" alt="...">
-                <div class="service-inner">
-                  <div class="content">
-                    <h3>Cumplimiento</h3>
-                    <p class="h6 mb-0">Desarrollamos sistemas que fomentan la integridad y ética para crear una cultura de
-                      honestidad y buenos valores</p>
-                    <div class="service-button">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-8 col-lg-6">
-            <div class="service-wrapper">
-              <div class="service-content">
-                <img class="image-tamaño" src="../assets/trab4.jpeg" alt="...">
-                <div class="service-inner">
-                  <div class="content">
-                    <h3>Diagnóstico</h3>
-                    <p class="h6 mb-0">Identicamos áreas de oportunidad de las empresas por medio de diversas herramientas de monitoreo y análisis.</p>
-                    <div class="service-button">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
       </div>
 
     </section>
@@ -118,7 +91,7 @@
           </div>
           <div class="col-lg-6">
             <div class="h1 color_34">Te presentamos</div><br>
-            <img class="img2" src="../assets/dualo1.webp" alt="..."><br><br>
+            <img class="img2" src="../assets/js/services/Recurso 6.svg" alt="..."><br><br>
             <div class="h4 color_34">Somos una consultora que ofrece una amplia gama de servicios disruptivos e innovadores, siempre poniendo a la gente al centro de las soluciones.</div>
           </div>
 
@@ -131,7 +104,7 @@
         ================================================== -->
   <section>
 <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
-  <span class="color_34">EVENTOS Y CURSOS </span></h2>
+  <span class="text-secondary">EVENTOS Y CURSOS </span></h2>
     <carousel-3d height="510px" border="0" :controlsVisible="controlsVisible" :perspective="perspective" :inverseScaling="143" :space="385" style="height: 525px;">
       <slide :index="0" class="border-show2">
         <div class="card card-style4">
@@ -217,267 +190,11 @@
 
   </div>
 </template>
-
-<style>
-/*APARTADO DE QUE ES DIALOGUS */
-.img2 {
-    max-width: 100%;
-    height: 70px;
-    vertical-align: top;
-}
-/*APARTADO DE QUE ES DIALOGUS */
-  .carousel-3d-slide {
-    border-radius: 20px;
-  }
-
-  .border-show {
-    box-shadow: 1px 3px 4px 2px rgb(31, 31, 31);
-  }
-  .border-show2 {
-    box-shadow: 3px 3px 5px 2px rgb(175, 175, 175);
-  }
-
-  #banner {
-    background-image: url('../assets/blog1.jpeg');
-  }
-
-  .fade-in-image {
-  animation: fadeIn 6s;
-  -webkit-animation: fadeIn 6s;
-  -moz-animation: fadeIn 6s;
-  -o-animation: fadeIn 6s;
-  -ms-animation: fadeIn 6s;
-}
-@keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-  body {
-    color: #fff;
-    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
-  }
-  .flechaCarus {
-    width : 100px
-  }
-
-  .box-custom {
-    background: rgb(59,84,123);
-    cursor: pointer;
-    height: auto;
-    line-height: auto;
-    text-align: center;
-    transition: clip-path 1s;
-    clip-path: polygon(0% 0, 50% 0%, 100% 0%, 100% 100%, 50%  100%, 0 100%);
-    
-  }
-  
-  /* STYLOS DEL CARRUSEL*/
-
-  .custom-icon {
-    font-size: 20px;
-    font-weight: bold;
-  }
-  .card-style4 {
-    transition: all 0.3s ease;
-    position: relative;
-    text-align: left;
-    border: 0px solid #f9f9f9 !important;
-    height: 100%;
-}
-  .card-style4 .date-wrapper {
-    background:rgb( 255 ,212, 31) !important;
-  }
-.card-style4 .card-body:before {
-    position: absolute;
-    content: '';
-    background-color: rgb(59,84,123)!important;
-    height: 4px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    transition: .5s ease;
-}
-  .card-style4 .card-body {
-    padding: 40px 30px;
-    position: relative;
-    background: #35547c !important;
-}
-  .card-style4 .card-body .date{
-    color: #35547c !important;
-}
-  .card-style4 .card-body .month{
-    color: #35547c !important;
-}
-  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {
-    font-weight: 600;
-    font-family: 'Inter', sans-serif;
-    color: #ffffff !important;
-}
-/* STYLOS DEL CARRUSEL*/
-
-  .box-custom:hover {
-    background: rgb( 255 ,212, 31) ;
-    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-  }
-  .hr2{
-    color: white;
-    border: 1px solid;
-    opacity: .35;
-    top: 170px;
-    left: 0;
-    position: absolute;
-    width: 100%;
-}
-  .card-style4 .card-img:before {
-    position: absolute;
-    content: '';
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    display: block;
-    z-index: 8;
-    opacity: 0;
-    transform: perspective(400px) rotateX(-90deg);
-    transform-origin: top;
-    transition: all 0.5s;
-    background: rgba(255, 255, 255, 0) !important; }
-    /*+++++++++++++++++++++++++++carrusel++++++++++++++++++++++++++*/
-  .section-heading:before {
-    position: absolute;
-    content: '';
-    width: 40px;
-    height: 3px;
-    left: 50%;
-    bottom: 0px;
-    transform: translateX(-50%);
-    background: #ffc107 !important;
-    z-index: 1; }
-  .section-heading .dotted-box .dotted {
-    position: absolute;
-    left: 50%;
-    margin-left: 25px;
-    width: 3px;
-    height: 3px;
-    bottom: 0px;
-    background: #ffc107 !important;
-    z-index: 1; }
-  .image-tamaño {
-    height: 255px;
-    
-  }
-
-  .tamañoNosotros {
-    height: 310px;
-  }
-
-  .tamañoEventos {
-    height: 260px;
-  }
-
-  .imagenCarruse {
-    width: 80%;
-  }
-
-  .color_34 {
-    color: #35547c !important;
-  }
-
-  .v--vtt-test,
-  .v--vtt-test_odd {
-    will-change: transform, opacity;
-    transition: opacity 0.3s ease-in-out, transform 1s ease-in-out;
-  }
-
-  .v--vtt-test_visible,
-  .v--vtt-test_odd_visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-  .v--vtt-test_hidden {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-
-  .v--vtt-test_odd_hidden {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-
-  /*ESTILOS DEL BOTON*/
-  .butn {
-    background: #20ad95 !important;
-    color: #fff !important;
-  }
-  .butn {
-  position: relative;
-  display: inline-block;
-  background: #ff7029;
-  color: #fff;
-  text-align: center;
-  vertical-align: middle;
-  user-select: none;
-  border: none;
-  font-size: 12px;
-  cursor: pointer;
-  outline: none;
-  padding:  6px 0;
-  border-radius: 15px;
-  line-height: normal;
-  letter-spacing: 1.428571429;
-  text-transform: uppercase;
-  z-index: 1;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
-  .btn-circle{
-    width: 50% !important;
-    height: 30px !important;
-    text-align: center !important;
-    padding: 6px 0 !important;
-    font-size: 12px !important;
-    line-height: 1.428571429 !important;
-    border-radius: 15px !important;
-  }
-  .butn:hover:after, .butn:active:after, .butn:focus:after {
-    background: #ffc107 !important;
-    opacity: 1;
-    transform: scaleY(1);
-    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1); 
-
-    width: 100%;
-    height: 30px;
-    text-align: center;
-    padding: 6px 0;
-    font-size: 12px;
-    line-height: 1.428571429;
-    border-radius: 15px;
-}
-      /*ESTILOS DEL BOTON*/
-</style>
 <script>
   import { Carousel3d, Slide } from 'vue-carousel-3d';
   import VueTextTransition from 'vue-text-transition';
+  import '../assets/css/_main.scss'
+  import '../assets/css/home.scss'
   export default {
     name: "ThemeExample",
     data: function () {
@@ -503,7 +220,6 @@
       Slide,
       // eslint-disable-next-line vue/no-unused-components
       VueTextTransition,
-
     },
     methods: {
       exampleMethod() {

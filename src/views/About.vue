@@ -374,10 +374,6 @@
     background-image: url('../assets/img4.jpg');
 
   }
-  body {
-    color: #fff;
-    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
-  }
   .colorLineas{
     background-color: #ffc107 !important;
 }
@@ -388,11 +384,6 @@ element.style {
   background-image: url('../assets/img4.jpg');
 
   }
-  .h4 a, .h5 a, .h6 a {
-    font-weight: 600;
-    font-family: 'Inter', sans-serif;
-    color: #282b2d;
-}
 .media-body {
     -ms-flex: 1;
     flex: 1;
