@@ -374,10 +374,6 @@
     background-image: url('../assets/img4.jpg');
 
   }
-  body {
-    color: #fff;
-    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
-  }
   .colorLineas{
     background-color: #ffc107 !important;
 }
