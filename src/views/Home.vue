@@ -113,38 +113,15 @@
         <div class="row align-items-center">
           <div class="col-lg-6 mb-6 mb-md-8 mb-lg-0">
             <div class="pe-lg-1-9 pe-xl-2-5 text-center">
-              <img class="box-custom fade-in-image" src="../assets/about-01.jpeg" alt="...">
+              <img class="box-custom" src="../assets/que es.jpg" alt="...">
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="fade-in-image h1 text-secondary">
-              ¿Que es Dialogüs?</div>
-            <div align="left" class="h4 text-dark fade-in-image">
-               Es una firma de consultoría dedicada a construir</div>
-               <div align="left" class="h4 text-dark fade-in-image">
-               confianza para sus clientes mediante servicios </div>
-               <div align="left" class="h4 text-dark fade-in-image">
-               especializados y prácticas de negocio innovadoras,</div>
-               <div align="left" class="h4 text-dark fade-in-image">
-               generando eficiencia y prosperidad. Es una empresa </div>
-               <div align="left" class="h4 text-dark fade-in-image">
-               con cinco años de experiencia en el mercado y una </div>
-               <div align="left" class="h4 text-dark fade-in-image">
-               amplia gama de clientes en diversos sectores.</div>
-            <ul class="list-style1">
-            </ul>
+            <div class="h1 color_34">Te presentamos</div><br>
+            <img class="img2" src="../assets/dualo1.webp" alt="..."><br><br>
+            <div class="h4 color_34">Somos una consultora que ofrece una amplia gama de servicios disruptivos e innovadores, siempre poniendo a la gente al centro de las soluciones.</div>
           </div>
-          <div class="col-md-12">
-            <div class="about-content rounded border-show">
-              <div class="lead text-black fade-in-image">
-                Apasionados por colaborar en la transformación de nuestros clientes </div>
-                <div class="lead text-black fade-in-image">
-                y fomentar relaciones de confianza a largo plazo.</div>
-              <div class="text-end fade-in-image">
-                <img src="../assets/firma.jpeg" alt="...">
-              </div>
-            </div>
-          </div>
+
 
         </div>
       </div>
@@ -154,7 +131,7 @@
         ================================================== -->
   <section>
 <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
-  <span class="text-secondary">EVENTOS Y CURSOS </span></h2>
+  <span class="color_34">EVENTOS Y CURSOS </span></h2>
     <carousel-3d height="510px" border="0" :controlsVisible="controlsVisible" :perspective="perspective" :inverseScaling="143" :space="385" style="height: 525px;">
       <slide :index="0" class="border-show2">
         <div class="card card-style4">
@@ -242,7 +219,13 @@
 </template>
 
 <style>
-
+/*APARTADO DE QUE ES DIALOGUS */
+.img2 {
+    max-width: 100%;
+    height: 70px;
+    vertical-align: top;
+}
+/*APARTADO DE QUE ES DIALOGUS */
   .carousel-3d-slide {
     border-radius: 20px;
   }
@@ -418,7 +401,7 @@
   }
 
   .color_34 {
-    background-color: #35547c ;
+    color: #35547c !important;
   }
 
   .v--vtt-test,
