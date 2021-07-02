@@ -12,7 +12,7 @@
               El mejor caso de éxito es cuando existe una transformación</h1>
             <p class="mb-2-2 w-95 w-md-75 display-29 display-md-28 text-white font-weight-800">En Dialogus nos hemos preocupado y
               enfocado en el desarrollo del activo más valioso con el que contamos: nuestra gente.</p>
-            <a href="#!" class="butn me-2-4 mb-2-4 mb-sm-0"><span class="text-dark" >Descargar guia de Dialogüs</span></a>
+            <a href="#!" class="butn  me-2-4 mb-2-4 mb-sm-0"><span class="text-dark" >Descargar guia de Dialogüs</span></a>
             <div class="d-block d-sm-inline-block">
               <a class="popup-social-video video_btn small" href="https://www.youtube.com/watch?v=-ESQmzDbnL8"><i
                   class="fas fa-play"></i></a>
@@ -153,70 +153,74 @@
     <!-- ONLINE COURSES
         ================================================== -->
   <section>
-    <h2 class="h1 text-secondary">Eventos y Cursos</h2>
-    <carousel-3d height="526px" border="3" :controlsVisible="controlsVisible" :perspective="135" :inverseScaling="143" :space="356" >
-      
-      <slide :index="0">
+<h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
+  <span class="text-secondary">EVENTOS Y CURSOS </span></h2>
+    <carousel-3d height="510px" border="0" :controlsVisible="controlsVisible" :perspective="perspective" :inverseScaling="143" :space="385" style="height: 525px;">
+      <slide :index="0" class="border-show2">
         <div class="card card-style4">
-        <div class="card-img"><img src="/img/fondo3.b2a4e6d6.webp" alt="..." class="tamañoEventos">
+        <div class="card-img"><img src="../assets/iso.jpeg" alt="..." class="tamañoEventos">
         </div>
         <div class="card-body">
-          <div class="date-wrapper">
-            <span class="date">23</span>
-            <span class="month">Oct</span>
+          
+          <h4 align="center" class="h5"><router-link to="/noticias" class="">Implementacions ISO 9001</router-link></h4>
+          <div align="center" class="event-meta-list">
+            <span class="me-0 me-xl-2 text-white"><i class="ti-calendar me-2 custom-icon"></i> 23 Julio </span>
+            <span class="text-white"><i class="ti-time custom-icon me-2"></i>17:00 PM</span>
           </div>
-          <h4 class="h5"><router-link to="/noticias" class="">¿Qué debo saber sobre la NOM-035?</router-link></h4>
-          <p class="text-white">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
-          <div class="event-meta-list"><span class="me-0 me-xl-3 text-white"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
-            <span class="text-white"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
+          <p align="center" class="text-white">Generamos soluciones para el desarrollo del talento humano</p><br>
+
+          <hr class="hr2"/>
+          <div class="d-flex justify-content-center">
+            <button class="tolowercase butn btn-circle border-show" type="submit">Resgistrarse</button>
           </div>
-          <button class="butn theme butn-md btn-circle" type="submit"><span class="colorT">ENVIAR MENSAJE</span></button>
+          
         </div>
       </div>
       </slide>
-      <slide :index="1">
+      <slide :index="1" class="border-show2">
         <div class="card card-style4">
-          <div class="card-img"><img src="../assets/fondo2.webp" alt="..." class="tamañoEventos">
+          <div class="card-img"><img src="../assets/persona5.webp" alt="..." class="tamañoEventos">
           </div>
           <div class="card-body">
-            <div class="date-wrapper">
-              <span class="date">03</span>
-              <span class="month">Jun</span>
-            </div>
-            <h4 class="h5"><router-link to="/noticias" class="">¿Qué debo saber sobre la NOM-035?</router-link></h4>
-            <p class="text-white">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
-            <div class="event-meta-list"><span class="me-0 me-xl-3 text-white"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
-              <span class="text-white"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
-            </div>
-            <button class="butn theme butn-md btn-circle" type="submit"><span class="colorT">ENVIAR MENSAJE</span></button>
-          </div>
-        </div>
-      </slide>
-      <slide :index="2">
-        <div class="card card-style4">
-          <div class="card-img"><img src="../assets/fondo1.webp" alt="..." class="tamañoEventos">
-          </div>
-          <div class="card-body">
-            <div class="date-wrapper">
-              <span class="date">13</span>
-              <span class="month">Mar</span>
-            </div>
-            <h4 class="h5"><router-link to="/noticias" class="">¿Qué debo saber sobre la NOM-035?</router-link></h4>
-            <p class="text-white">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
-            <div class="event-meta-list"><span class="me-0 me-xl-3 text-white"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00 PM</span>
-              <span class="text-white"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
-            </div>
-            <button class="butn theme butn-md btn-circle" type="submit"><span class="colorT">ENVIAR MENSAJE</span></button>
-          </div>
-        </div>
-      </slide>
 
+            <h4 align="center" class="h5"><router-link to="/noticias" class="">Finanzas Personales</router-link></h4>
+            <div align="center" class="event-meta-list">
+              <span class="me-0 me-xl-2 text-white"><i class="ti-calendar me-2 custom-icon"></i> 05 Mayo </span>
+              <span class="text-white"><i class="ti-time custom-icon me-2"></i>17:00 PM</span>
+            </div>
+            <p align="center" class="text-white">Generamos soluciones para el desarrollo del talento humano</p><br>
+            <hr class="hr2"/>
+            <div class="d-flex justify-content-center">
+              <button class="butn btn-circle  border-show" type="submit"><span class="">Resgistrarse</span></button>
+            </div>
+
+          </div>
+        </div>
+      </slide>
+      <slide :index="2" class="border-show2">
+        <div class="card card-style4">
+          <div class="card-img"><img src="../assets/eve1.jpg" alt="..." class="tamañoEventos">
+          </div>
+          <div class="card-body">
+
+            <h4 align="center" class="h5"><router-link to="/noticias" class="">Sistema de Gestión Humana</router-link></h4>
+            <div align="center" class="event-meta-list">
+              <span class="me-0 me-xl-2 text-white"><i class="ti-calendar me-2 custom-icon"></i> 05 Agosto </span>
+              <span class="text-white"><i class="ti-time custom-icon me-2"></i>17:00 PM</span>
+            </div>
+            <p align="center" class="text-white">Generamos soluciones para el desarrollo del talento humano</p><br>
+            <hr class="hr2"/>
+            <div class="d-flex justify-content-center">
+              <button class="butn btn-circle  border-show" type="submit"><span class="">Resgistrarse</span></button>
+            </div>
+
+          </div>
+        </div>
+      </slide>
     </carousel-3d>
   </section>
     <!-- Team 
         _________________________________________________________________________-->
-
-    
 
     <!-- MY PHILOSOPHY AND MISSION
         ================================================== -->
@@ -224,84 +228,6 @@
 
     <!-- UPCOMING EVENT
         ================================================== -->
-    <section class="bg-light">
-      <div class="container">
-        <div class="section-heading">
-          <h2 class="h1 text-secondary">Nuestros Próximos Eventos</h2>
-          <div class="dotted-box">
-            <span class="dotted"></span>
-            <span class="dotted"></span>
-            <span class="dotted"></span>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 mb-1-6 mb-md-1-9 mb-lg-0">
-            <div class="card card-style4">
-              <div class="card-img">
-                <img class="tamañoEventos" src="../assets/fondo2.webp" alt="...">
-              </div>
-              <div class="card-body">
-                <div class="date-wrapper">
-                  <span class="date">06</span>
-                  <span class="month">Apr</span>
-                </div>
-                <h4 class="h5"><router-link to="/noticias">Consejos para contratar el coach correcto para tu empresa.</router-link></h4>
-                <p class="text-dark">Contratar a un coach profesional de tu compañía es la tendencia de las empresas.
-                  Abundan los diferentes coaches que puedes.</p>
-                <div class="event-meta-list">
-                  <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>11:00 AM - 04:00
-                    PM</span>
-                  <span class="text-dark"><i class="ti-map-alt text-warning me-2"></i>Colorado</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 mb-1-6 mb-md-1-9 mb-lg-0">
-            <div class="card card-style4">
-              <div class="card-img">
-                <img class="tamañoEventos" src="../assets/fondo3.webp" alt="...">
-              </div>
-              <div class="card-body">
-                <div class="date-wrapper">
-                  <span class="date">23</span>
-                  <span class="month">Oct</span>
-                </div>
-                <h4 class="h5"><router-link to="/noticias">¿Qué debo saber sobre la NOM-035?</router-link></h4>
-                <p class="text-dark">El 23 de octubre 2018 se publicó en el Diario Oficial de la Federación la Norma
-                  Oficial Mexicana 035 STPS-2018 Factores de riesgo...</p>
-                <div class="event-meta-list">
-                  <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>9:00 AM - 12:00
-                    PM</span>
-                  <span class="text-dark"><i class="ti-map-alt text-warning me-2"></i>Delaware</span>
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card card-style4">
-              <div class="card-img">
-                <img class="tamañoEventos" src="../assets/persona1.webp" alt="...">
-              </div>
-              <div class="card-body">
-                <div class="date-wrapper">
-                  <span class="date">21</span>
-                  <span class="month">Sep</span>
-                </div>
-                <h4 class="h5"><router-link to="/noticias">Expectativas en equilibrio</router-link></h4>
-                <p class="text-dark">Todos conocen la expectativa, ya sea porque los ha hecho sentirse felices o
-                  desafortunados, pero todos los seres humanos en algún punto...</p>
-                <div class="event-meta-list">
-                  <span class="me-0 me-xl-3 text-dark"><i class="ti-time text-warning me-2"></i>8:00 AM - 11:00
-                    AM</span>
-                  <span class="text-dark"><i class="ti-map-alt text-warning me-2 "></i>California</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- EXTRA
         ================================================== -->
@@ -316,9 +242,18 @@
 </template>
 
 <style>
-  .border-show {
-    box-shadow: 0px 0px 5px 2px gray;
+
+  .carousel-3d-slide {
+    border-radius: 20px;
   }
+
+  .border-show {
+    box-shadow: 1px 3px 4px 2px rgb(31, 31, 31);
+  }
+  .border-show2 {
+    box-shadow: 3px 3px 5px 2px rgb(175, 175, 175);
+  }
+
   #banner {
     background-image: url('../assets/blog1.jpeg');
   }
@@ -362,10 +297,6 @@
   .flechaCarus {
     width : 100px
   }
-  .butn {
-    background: #20ad95 !important;
-    color: #fff !important;
-  }
 
   .box-custom {
     background: rgb(59,84,123);
@@ -379,9 +310,31 @@
   }
   
   /* STYLOS DEL CARRUSEL*/
+
+  .custom-icon {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .card-style4 {
+    transition: all 0.3s ease;
+    position: relative;
+    text-align: left;
+    border: 0px solid #f9f9f9 !important;
+    height: 100%;
+}
   .card-style4 .date-wrapper {
     background:rgb( 255 ,212, 31) !important;
   }
+.card-style4 .card-body:before {
+    position: absolute;
+    content: '';
+    background-color: rgb(59,84,123)!important;
+    height: 4px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: .5s ease;
+}
   .card-style4 .card-body {
     padding: 40px 30px;
     position: relative;
@@ -404,7 +357,15 @@
     background: rgb( 255 ,212, 31) ;
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
   }
-  
+  .hr2{
+    color: white;
+    border: 1px solid;
+    opacity: .35;
+    top: 170px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
   .card-style4 .card-img:before {
     position: absolute;
     content: '';
@@ -419,7 +380,7 @@
     transform-origin: top;
     transition: all 0.5s;
     background: rgba(255, 255, 255, 0) !important; }
-
+    /*+++++++++++++++++++++++++++carrusel++++++++++++++++++++++++++*/
   .section-heading:before {
     position: absolute;
     content: '';
@@ -481,6 +442,55 @@
     opacity: 0;
     transform: translateY(-20px);
   }
+
+  /*ESTILOS DEL BOTON*/
+  .butn {
+    background: #20ad95 !important;
+    color: #fff !important;
+  }
+  .butn {
+  position: relative;
+  display: inline-block;
+  background: #ff7029;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+  padding:  6px 0;
+  border-radius: 15px;
+  line-height: normal;
+  letter-spacing: 1.428571429;
+  text-transform: uppercase;
+  z-index: 1;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+  .btn-circle{
+    width: 50% !important;
+    height: 30px !important;
+    text-align: center !important;
+    padding: 6px 0 !important;
+    font-size: 12px !important;
+    line-height: 1.428571429 !important;
+    border-radius: 15px !important;
+  }
+  .butn:hover:after, .butn:active:after, .butn:focus:after {
+    background: #ffc107 !important;
+    opacity: 1;
+    transform: scaleY(1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1); 
+
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+      /*ESTILOS DEL BOTON*/
 </style>
 <script>
   import { Carousel3d, Slide } from 'vue-carousel-3d';
@@ -492,14 +502,15 @@
       return {
         stateEffect: true,
         displayСonditions: false,
-        controlsVisible: false
+        controlsVisible: false,
+        perspective: 325
       }
     },
 
     created: function () {
       window.addEventListener('scroll', this.handleScroll);
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
+      //document.body.scrollTop = 0;
+      //document.documentElement.scrollTop = 0;
     },
     mounted() {
 
