@@ -5,6 +5,19 @@
   vertical-align: top;
 }
 /*APARTADO DE QUE ES DIALOGUS */
+
+/*apartado de servicios*/
+.flex-column {
+  flex-direction: column!important;
+  height: 400px;
+}
+.img3 {
+  max-width: 100%;
+  height: 127px;
+  vertical-align: top;
+  width: 303px;
+}
+/*APARTADO DE SERVICIOS*/
 .carousel-3d-slide {
   border-radius: 20px;
 }
@@ -128,22 +141,7 @@ body {
 .card-style4 .card-body .month {
   color: #35547c !important;
 }
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a,
-.h1 a,
-.h2 a,
-.h3 a,
-.h4 a,
-.h5 a,
-.h6 a {
-  font-weight: 600;
-  font-family: "Inter", sans-serif;
-  color: #ffffff !important;
-}
+
 /* STYLOS DEL CARRUSEL*/
 
 .box-custom:hover {
@@ -311,6 +309,8 @@ h6 a,
   padding: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 .bg-card:hover {
@@ -319,8 +319,11 @@ h6 a,
   border-radius : 18px;
   -moz-border-radius : 18px;
   -webkit-border-radius : 18px;
-  color: white !important;
+  color: rgb(252, 0, 0) !important;
 
+  .h6{
+    color: #ffffff !important;
+  }
   .hr-border {
     border-color : white;
   }

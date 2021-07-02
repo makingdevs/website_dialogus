@@ -5,7 +5,7 @@
       class="parallax bg-img cover-background  bg-img cover-background full-screen pt-16 pb-8 p-lg-0 top-position min-md-height-auto"
       data-overlay-dark="55" id="banner">
 
-      <div class="container d-flex flex-column">
+      <div class="container d-flex flex-column ">
         <div class="row align-items-center min-lg-vh-100">
           <div class="col-lg-8 mb-5 mb-lg-0">
             <h1 class="text-white display-16 display-md-9 display-lg-7 display-xl-4 mb-1-6 text-shadow font-weight-800">
@@ -27,103 +27,54 @@
 
     <section>
       <div class="container">
-        <div class="section-heading">
-          <h2 class="h1 h_title">NUESTRAS DIVISIONES</h2>
-          <div class="d-flex justify-content-between bg-divisions">
+        <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
+          <span class="text-secondary">NUESTRAS DIVISIONES </span></h2>
+          <div class="d-flex justify-content-between bg-divisions d-flex-column">
             <div class="d-flex flex-column bg-card">
+              <img class="img3" src="../assets/js/services/Recurso 17.svg">
               <span class="text-title">Estrategia</span>
-              <div class="hr-border"/>
-              <span>Definimos el camino para alcanzar tus objetivos de manera exitosa.</span>
+              <div class="hr-border"/><br>
+              <span class="h6">Definimos el camino para alcanzar tus objetivos de manera exitosa.</span>
+              <br>
+              <div class="d-flex justify-content-center">
+                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Regístrate</span></button>
+              </div>
             </div>
+            
             <div class="d-flex flex-column bg-card">
+              <img class="img3" src="../assets/js/services/Recurso 1.svg">
               <span class="text-title">Capital Humano</span>
-              <div class="hr-border"/>
-              <span>Generamos soluciones para el desarrollo del talento humano y el desarrollo organizacional.</span>
+              <div class="hr-border"/><br>
+              <span class="h6">Generamos soluciones para el desarrollo del talento humano y el desarrollo organizacional.</span>
+              <br>
+              <div class="d-flex justify-content-center">
+                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Regístrate</span></button>
+              </div>
             </div>
-            <div class="d-flex flex-column bg-card">
-              <span class="text-title">Cumplimiento</span>
-              <div class="hr-border"/>
-              <span>Generamos soluciones para el desarrollo del talento humano y el desarrollo organizacional.</span>
-            </div>
-            <div class="d-flex flex-column bg-card">
-              <span class="text-title">Diagnostico</span>
-              <div class="hr-border"/>
-              <span>Generamos soluciones para el desarrollo del talento humano y el desarrollo organizacional.</span>
-            </div>
-          </div>
-          <div class="dotted-box">
-            <span class="dotted"></span>
-            <span class="dotted"></span>
-            <span class="dotted"></span>
-          </div>
-        </div>
-        <div class="row justify-content-center g-1">
-          <div class="col-md-8 col-lg-6">
-            <div class="service-wrapper">
-              <div class="service-content">
-                <img class="image-tamaño " src="../assets/trab2.jpeg" alt="...">
-                <div class="service-inner">
-                  <div class="content">
-                    <h3>Capital Humano</h3>
-                    <p class="h6 mb-0">Nuestra división de Capital Humano genera soluciones para la gestión de talento, el
-                      desarrollo organizacional y las estrategias</p>
-                    <div class="service-button">
 
-                    </div>
-                  </div>
-                </div>
+            <div class="d-flex flex-column bg-card">
+              <img class="img3" src="../assets/js/services/Recurso 2.svg">
+              <span class="text-title">Cumplimiento</span>
+              <div class="hr-border"/><br>
+              <span class="h6">Blindamos a las empresas con sistemas de integridad, ética y gestión de riesgos.</span>
+              <br>
+              <div class="d-flex justify-content-center">
+                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Regístrate</span></button>
+              </div>
+            </div>
+
+            <div class="d-flex flex-column bg-card">
+              <img class="img3" src="../assets/js/services/Recurso 25.svg">
+              <span class="text-title">Diagnostico</span>
+              <div class="hr-border"/><br>
+              <span class="h6">Identificamos fortalezas y debilidades de empresas reforzando el ecosistema.</span>
+              <br>
+              <div class="d-flex justify-content-center">
+                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Regístrate</span></button>
               </div>
             </div>
           </div>
-          <div class="col-md-8 col-lg-6">
-            <div class="service-wrapper">
-              <div class="service-content">
-                <img class="image-tamaño" src="../assets/trab1.jpeg" alt="...">
-                <div class="service-inner">
-                  <div class="content">
-                    <h3>Estrategia</h3>
-                    <p class="h6 mb-0">En conjunto con tu empresa, unidad de negocio o área, aplicamos metodologías
-                      efectivas e innovadoras para definir el marco de acción.</p>
-                    <div class="service-button">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div></div>
-          <div class="col-md-8 col-lg-6">
-            <div class="service-wrapper">
-              <div class="service-content">
-                <img class="image-tamaño" src="../assets/trab3.png" alt="...">
-                <div class="service-inner">
-                  <div class="content">
-                    <h3>Cumplimiento</h3>
-                    <p class="h6 mb-0">Desarrollamos sistemas que fomentan la integridad y ética para crear una cultura de
-                      honestidad y buenos valores</p>
-                    <div class="service-button">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-8 col-lg-6">
-            <div class="service-wrapper">
-              <div class="service-content">
-                <img class="image-tamaño" src="../assets/trab4.jpeg" alt="...">
-                <div class="service-inner">
-                  <div class="content">
-                    <h3>Diagnóstico</h3>
-                    <p class="h6 mb-0">Identicamos áreas de oportunidad de las empresas por medio de diversas herramientas de monitoreo y análisis.</p>
-                    <div class="service-button">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
       </div>
 
     </section>
@@ -140,7 +91,7 @@
           </div>
           <div class="col-lg-6">
             <div class="h1 color_34">Te presentamos</div><br>
-            <img class="img2" src="../assets/dualo1.webp" alt="..."><br><br>
+            <img class="img2" src="../assets/js/services/Recurso 6.svg" alt="..."><br><br>
             <div class="h4 color_34">Somos una consultora que ofrece una amplia gama de servicios disruptivos e innovadores, siempre poniendo a la gente al centro de las soluciones.</div>
           </div>
 
