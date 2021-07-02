@@ -171,7 +171,7 @@
 
           <hr class="hr2"/>
           <div class="d-flex justify-content-center">
-            <button class="tolowercase butn btn-circle border-show" type="submit">Resgistrarse</button>
+            <button class="tolowercase butn btn-circle border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Regístrate </span></button>
           </div>
           
         </div>
@@ -191,7 +191,7 @@
             <p align="center" class="text-white">Generamos soluciones para el desarrollo del talento humano</p><br>
             <hr class="hr2"/>
             <div class="d-flex justify-content-center">
-              <button class="butn btn-circle  border-show" type="submit"><span class="">Resgistrarse</span></button>
+              <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Regístrate</span></button>
             </div>
 
           </div>
@@ -211,7 +211,7 @@
             <p align="center" class="text-white">Generamos soluciones para el desarrollo del talento humano</p><br>
             <hr class="hr2"/>
             <div class="d-flex justify-content-center">
-              <button class="butn btn-circle  border-show" type="submit"><span class="">Resgistrarse</span></button>
+              <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Regístrate</span></button>
             </div>
 
           </div>
