@@ -28,8 +28,29 @@
     <section>
       <div class="container">
         <div class="section-heading">
-          <h2 class="h1 text-secondary">¡Servicios!</h2> 
-          <img src="../assets/js/services/Recurso3.svg" style="height: 50px" />
+          <h2 class="h1 h_title">NUESTRAS DIVISIONES</h2>
+          <div class="d-flex justify-content-between bg-divisions">
+            <div class="d-flex flex-column bg-card">
+              <span class="text-title">Estrategia</span>
+              <div class="hr-border"/>
+              <span>Definimos el camino para alcanzar tus objetivos de manera exitosa.</span>
+            </div>
+            <div class="d-flex flex-column bg-card">
+              <span class="text-title">Capital Humano</span>
+              <div class="hr-border"/>
+              <span>Generamos soluciones para el desarrollo del talento humano y el desarrollo organizacional.</span>
+            </div>
+            <div class="d-flex flex-column bg-card">
+              <span class="text-title">Cumplimiento</span>
+              <div class="hr-border"/>
+              <span>Generamos soluciones para el desarrollo del talento humano y el desarrollo organizacional.</span>
+            </div>
+            <div class="d-flex flex-column bg-card">
+              <span class="text-title">Diagnostico</span>
+              <div class="hr-border"/>
+              <span>Generamos soluciones para el desarrollo del talento humano y el desarrollo organizacional.</span>
+            </div>
+          </div>
           <div class="dotted-box">
             <span class="dotted"></span>
             <span class="dotted"></span>
@@ -218,267 +239,11 @@
 
   </div>
 </template>
-
-<style>
-/*APARTADO DE QUE ES DIALOGUS */
-.img2 {
-    max-width: 100%;
-    height: 70px;
-    vertical-align: top;
-}
-/*APARTADO DE QUE ES DIALOGUS */
-  .carousel-3d-slide {
-    border-radius: 20px;
-  }
-
-  .border-show {
-    box-shadow: 1px 3px 4px 2px rgb(31, 31, 31);
-  }
-  .border-show2 {
-    box-shadow: 3px 3px 5px 2px rgb(175, 175, 175);
-  }
-
-  #banner {
-    background-image: url('../assets/blog1.jpeg');
-  }
-
-  .fade-in-image {
-  animation: fadeIn 6s;
-  -webkit-animation: fadeIn 6s;
-  -moz-animation: fadeIn 6s;
-  -o-animation: fadeIn 6s;
-  -ms-animation: fadeIn 6s;
-}
-@keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-  body {
-    color: #fff;
-    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
-  }
-  .flechaCarus {
-    width : 100px
-  }
-
-  .box-custom {
-    background: rgb(59,84,123);
-    cursor: pointer;
-    height: auto;
-    line-height: auto;
-    text-align: center;
-    transition: clip-path 1s;
-    clip-path: polygon(0% 0, 50% 0%, 100% 0%, 100% 100%, 50%  100%, 0 100%);
-    
-  }
-  
-  /* STYLOS DEL CARRUSEL*/
-
-  .custom-icon {
-    font-size: 20px;
-    font-weight: bold;
-  }
-  .card-style4 {
-    transition: all 0.3s ease;
-    position: relative;
-    text-align: left;
-    border: 0px solid #f9f9f9 !important;
-    height: 100%;
-}
-  .card-style4 .date-wrapper {
-    background:rgb( 255 ,212, 31) !important;
-  }
-.card-style4 .card-body:before {
-    position: absolute;
-    content: '';
-    background-color: rgb(59,84,123)!important;
-    height: 4px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    transition: .5s ease;
-}
-  .card-style4 .card-body {
-    padding: 40px 30px;
-    position: relative;
-    background: #35547c !important;
-}
-  .card-style4 .card-body .date{
-    color: #35547c !important;
-}
-  .card-style4 .card-body .month{
-    color: #35547c !important;
-}
-  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {
-    font-weight: 600;
-    font-family: 'Inter', sans-serif;
-    color: #ffffff !important;
-}
-/* STYLOS DEL CARRUSEL*/
-
-  .box-custom:hover {
-    background: rgb( 255 ,212, 31) ;
-    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-  }
-  .hr2{
-    color: white;
-    border: 1px solid;
-    opacity: .35;
-    top: 170px;
-    left: 0;
-    position: absolute;
-    width: 100%;
-}
-  .card-style4 .card-img:before {
-    position: absolute;
-    content: '';
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    display: block;
-    z-index: 8;
-    opacity: 0;
-    transform: perspective(400px) rotateX(-90deg);
-    transform-origin: top;
-    transition: all 0.5s;
-    background: rgba(255, 255, 255, 0) !important; }
-    /*+++++++++++++++++++++++++++carrusel++++++++++++++++++++++++++*/
-  .section-heading:before {
-    position: absolute;
-    content: '';
-    width: 40px;
-    height: 3px;
-    left: 50%;
-    bottom: 0px;
-    transform: translateX(-50%);
-    background: #ffc107 !important;
-    z-index: 1; }
-  .section-heading .dotted-box .dotted {
-    position: absolute;
-    left: 50%;
-    margin-left: 25px;
-    width: 3px;
-    height: 3px;
-    bottom: 0px;
-    background: #ffc107 !important;
-    z-index: 1; }
-  .image-tamaño {
-    height: 255px;
-    
-  }
-
-  .tamañoNosotros {
-    height: 310px;
-  }
-
-  .tamañoEventos {
-    height: 260px;
-  }
-
-  .imagenCarruse {
-    width: 80%;
-  }
-
-  .color_34 {
-    color: #35547c !important;
-  }
-
-  .v--vtt-test,
-  .v--vtt-test_odd {
-    will-change: transform, opacity;
-    transition: opacity 0.3s ease-in-out, transform 1s ease-in-out;
-  }
-
-  .v--vtt-test_visible,
-  .v--vtt-test_odd_visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-  .v--vtt-test_hidden {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-
-  .v--vtt-test_odd_hidden {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-
-  /*ESTILOS DEL BOTON*/
-  .butn {
-    background: #20ad95 !important;
-    color: #fff !important;
-  }
-  .butn {
-  position: relative;
-  display: inline-block;
-  background: #ff7029;
-  color: #fff;
-  text-align: center;
-  vertical-align: middle;
-  user-select: none;
-  border: none;
-  font-size: 12px;
-  cursor: pointer;
-  outline: none;
-  padding:  6px 0;
-  border-radius: 15px;
-  line-height: normal;
-  letter-spacing: 1.428571429;
-  text-transform: uppercase;
-  z-index: 1;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
-  .btn-circle{
-    width: 50% !important;
-    height: 30px !important;
-    text-align: center !important;
-    padding: 6px 0 !important;
-    font-size: 12px !important;
-    line-height: 1.428571429 !important;
-    border-radius: 15px !important;
-  }
-  .butn:hover:after, .butn:active:after, .butn:focus:after {
-    background: #ffc107 !important;
-    opacity: 1;
-    transform: scaleY(1);
-    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1); 
-
-    width: 100%;
-    height: 30px;
-    text-align: center;
-    padding: 6px 0;
-    font-size: 12px;
-    line-height: 1.428571429;
-    border-radius: 15px;
-}
-      /*ESTILOS DEL BOTON*/
-</style>
 <script>
   import { Carousel3d, Slide } from 'vue-carousel-3d';
   import VueTextTransition from 'vue-text-transition';
+  import '../assets/css/_main.scss'
+  import '../assets/css/home.scss'
   export default {
     name: "ThemeExample",
     data: function () {
