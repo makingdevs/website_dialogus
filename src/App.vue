@@ -90,116 +90,110 @@
           <div id="contacto">
           <div class="container">
               <div class="row">
-                  <div class="col-sm-6 col-lg-3 mb-2-6 mb-lg-0">
+                  <div class="col-sm-6 col-lg-4 mb-2-6 mb-lg-0">
                       <div class="mb-1-6">
                           <img src="./assets/logo2.webp" alt="...">
                       </div>
-                      <p class="mb-1-6 text-white">Brindamos instrucción de vida, junto con el grupo y la empresa también.</p>
+                      <p class="mb-1-6 text-white" align="left">
+                        55 16556739998<br>
+                        contactanos@dialogus.com.mx
+                      </p>
                       <div class="row align-items-center">
                           <div class="col-lg-12 mb-3">
                               <div class="media">
                                   <div class="address-icon">
-                                    <router-link to="/contacto"><i class="far fa-envelope"></i></router-link>
+                                    <router-link to="/contacto"><i class="fab fa-twitter"></i></router-link>
                                   </div>
-                                  <div class="col-lg-2">
-                                    <div class="media">
-                                        <div class="address-icon">
-                                            <router-link to="/contacto"><i class="fas fa-mobile-alt"></i></router-link>
-                                        </div>
-                                    </div>
-                                </div> 
-                          <div class="col-lg-4">
-                              <div class="media">
                                   <div class="address-icon">
-                                    <router-link to="/contacto"><i class="fas fa-map-marker-alt"></i></router-link>
+                                    <router-link to="/contacto"><i class="fab fa-facebook-f "></i></router-link>
                                   </div>
-                              </div>
-                          </div>    
+                                  <div class="address-icon">
+                                    <router-link to="/contacto"><i class="fab fa-linkedin-in"></i></router-link>
+                                  </div>
                               </div>
                           </div>
-                           <div class="col-lg-6 mb-3 text-md-end order-1 order-md-2">
-                          <p class="text-white d-inline-block font-weight-600 mb-0 align-middle">Estamos en: </p>
-                          <ul class="share-post">
-                              <li>
-                                  <router-link to="https://www.facebook.com/DialogusConsultores"><i class="fab fa-facebook-f "></i></router-link>
-                              </li>
-                              <li>
-                                  <router-link to="https://twitter.com/search?q=%40Dialogus_LAT&src=typed_query"><i class="fab fa-twitter"></i></router-link>
-                              </li>
-                              <li>
-                                  <router-link to="https://mx.linkedin.com/jobs/search?keywords=Dialogus-consultores&location=Ecatepec%20de%20Morelos%2C%20M%C3%A9xico%2C%20M%C3%A9xico&geoId=101340577&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0"><i class="fab fa-linkedin-in"></i></router-link>
-                              </li>
-                          </ul>
-                      </div>
                       </div>
                   </div>
-                  <div class="col-sm-6 col-lg-3 mb-2-6 mb-lg-0">
+                  <div class="col-sm-6 col-lg-2 mb-2-6 mb-lg-0">
                       <div class="ps-md-1-6 ps-xl-1-9">
-                          <h3 class="footer-title h5">Explorar</h3>
-                          <ul class="list-style3">
+                          <ul class="list-style1" align="left">
                             <li>
-                              <router-link to="/home" class="">
-                                Home
-                              </router-link>
-                            </li>
-                            <li>
-                              <router-link to="/about" class="">
+                              <router-link to="/about" class="footer-title h5">
                                 Nosotros
                               </router-link>
                             </li>
                             <li>
-                              <router-link to="/servicios" class="">
+                              <router-link to="/about" class="">
+                                Propósito
+                              </router-link>
+                            </li>
+                            <li>
+                              <router-link to="/about" class="">
+                                Misión
+                              </router-link>
+                            </li>
+                            <li>
+                              <router-link to="/about" class="">
+                                Visión
+                              </router-link>
+                            </li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-2 mb-2-6 mb-lg-0">
+                      <div class="ps-md-1-6 ps-xl-1-9">
+                          <ul class="list-style1" align="left">
+                            <li>
+                              <router-link to="/servicios" class="footer-title h5">
                                 Servicios
                               </router-link>
                             </li>
                             <li>
-                              <router-link to="/noticias" class="">
+                              <router-link to="/servicios" class="">
+                                Estrategia
+                              </router-link>
+                            </li>
+                            <li>
+                              <router-link to="/servicios" class="">
+                                Cumplimiento
+                              </router-link>
+                            </li>
+                            <li>
+                              <router-link to="/servicios" class="">
+                                Capital Humano
+                              </router-link>
+                            </li>
+                            <li>
+                              <router-link to="/servicios" class="">
+                                Diagnóstico
+                              </router-link>
+                            </li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-2 mb-2-6 mb-lg-0">
+                      <div class="ps-md-1-6 ps-xl-1-9">
+                          <ul class="list-style1" align="left">
+                            <li>
+                              <router-link to="/noticias" class="footer-title h5">
                                 Noticias
                               </router-link>
                             </li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-2 mb-2-6 mb-lg-0">
+                      <div class="ps-md-1-6 ps-xl-1-9">
+                          <ul class="list-style1" align="left">
                             <li>
-                              <router-link to="/contacto" class="">
+                              <router-link to="/contacto" class="footer-title h5">
                                 Contacto
-                              </router-link>
-                            </li>
-                            <li>
-                              <router-link to="login" class="">
-                                login
                               </router-link>
                             </li>
                           </ul>
                       </div>
                   </div>
 
-                  <div class="col-sm-6 col-lg-6">
-                      <div class="ps-md-1-6 ps-xl-1-9">
-                          <h3 class="footer-title h5">Generar una cita</h3>
-                          <form class="quform newsletter-form w-90 w-sm-100" action="quform/newsletter-two.php" method="post" enctype="multipart/form-data" onclick="">
-                            <div class="input-group mb-3">
-                              <span class="input-group-text fondoCuadros" id="basic-addon1">Nombre</span>
-                              <input type="text" class="form-control" placeholder="Nombre Completo" aria-label="Nombre Completo" aria-describedby="basic-addon1">
-                            </div>
-
-                            <div class="input-group mb-3">
-                              <span class="input-group-text fondoCuadros" id="basic-addon1">Telefono</span>
-                              <input type="text" class="form-control" placeholder="Ingrese Telefono" aria-label="Ingrese Telefono" aria-describedby="basic-addon1">
-                            </div>
-                            
-                            <div class="input-group mb-3">
-                              <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
-                              <span class="input-group-text fondoCuadros" id="basic-addon2">@example.com</span>
-                            </div>
-
-                            <div class="input-group">
-                              <span class="input-group-text fondoCuadros">Motivo de cita</span>
-                              <textarea class="form-control" aria-label="With textarea"></textarea>
-                            </div>
-                            <br>
-                            <button type="button" class="btn btn-success">Enviar</button>
-                              
-                          </form>
-                      </div>
-                  </div>
               </div>
           </div>
 
@@ -235,10 +229,13 @@
   .header-style1 .navbar-toggler {
     background: #ffffff;
 }
+.footer-title:before {
+    background: rgb(255 212 31) !important;
+}
 
   .fa-mobile-alt:before{
     content: "\f3c5";
-    color: #ffffff ;
+    color: #000000 ;
 }
 .fa-map-marker-alt:before{
     content: "\f3c5";
@@ -248,8 +245,27 @@
     content: "\f3c5";
     color: #ffffff ;
 }
-
-
+footer{
+  background-color: #777777 !important;
+}
+.col-lg-2 {
+    flex: 0 0 auto;
+    width: 15%;
+}
+a, a:active, a:focus {
+    color: #ffffff !important;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
   .bg-nav {
     background-color: #35547c;
   }
@@ -261,7 +277,17 @@
   }
 }
   .address-icon {
-    background-color : #191919 !important;
+    background-color : #777777 !important;
+    border-color: #ffffff !important;
+    display: block;
+    color: #fff !important;
+    background: #ff7029;
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 15px;
   }
   .footer-bar {
     background: #191919 !important;
