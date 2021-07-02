@@ -37,7 +37,7 @@
               <span class="h6">Definimos el camino para alcanzar tus objetivos de manera exitosa.</span>
               <br>
               <div class="d-flex justify-content-center">
-                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Regístrate</span></button>
+                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
               </div>
             </div>
             
@@ -48,7 +48,7 @@
               <span class="h6">Generamos soluciones para el desarrollo del talento humano y el desarrollo organizacional.</span>
               <br>
               <div class="d-flex justify-content-center">
-                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Regístrate</span></button>
+                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
               </div>
             </div>
 
@@ -59,7 +59,7 @@
               <span class="h6">Blindamos a las empresas con sistemas de integridad, ética y gestión de riesgos.</span>
               <br>
               <div class="d-flex justify-content-center">
-                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Regístrate</span></button>
+                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
               </div>
             </div>
 
@@ -70,7 +70,7 @@
               <span class="h6">Identificamos fortalezas y debilidades de empresas reforzando el ecosistema.</span>
               <br>
               <div class="d-flex justify-content-center">
-                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Regístrate</span></button>
+                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
               </div>
             </div>
           </div>
