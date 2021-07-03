@@ -28,24 +28,24 @@
     <section>
       <div class="container">
         <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
-          <span class="text-secondary">NUESTRAS DIVISIONES </span></h2>
+          <span class="text-secondary">NUESTRAS DIVISIONES </span></h2><br><br><br>
           <div class="d-flex justify-content-between bg-divisions d-flex-column">
             <div class="d-flex flex-column bg-card">
-              <img class="img3" src="../assets/js/services/Recurso 17.svg">
+              <img align="right" class="img3" src="../assets/js/services/Recurso 17.svg" style="position: absolute; margin: -100px;"><br>
               <span class="text-title">Estrategia</span>
               <div class="hr-border"/><br>
-              <span class="h6">Definimos el camino para alcanzar tus objetivos de manera exitosa.</span>
-              <br>
+              <span class="h5">Definimos el camino para alcanzar tus objetivos de manera exitosa.</span>
+              <br><br>
               <div class="d-flex justify-content-center">
                 <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
               </div>
             </div>
             
             <div class="d-flex flex-column bg-card">
-              <img class="img3" src="../assets/js/services/Recurso 1.svg">
+              <img class="img3" src="../assets/js/services/Recurso 1.svg" style="position: absolute; margin: -100px;"><br>
               <span class="text-title">Capital Humano</span>
               <div class="hr-border"/><br>
-              <span class="h6">Generamos soluciones para el desarrollo del talento humano y el desarrollo organizacional.</span>
+              <span class="h5">Generamos soluciones para el desarrollo del talento humano y el desarrollo organizacional.</span>
               <br>
               <div class="d-flex justify-content-center">
                 <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
@@ -53,10 +53,10 @@
             </div>
 
             <div class="d-flex flex-column bg-card">
-              <img class="img3" src="../assets/js/services/Recurso 2.svg">
+              <img class="img3" src="../assets/js/services/Recurso 2.svg" style="position: absolute; margin: -100px;"><br>
               <span class="text-title">Cumplimiento</span>
               <div class="hr-border"/><br>
-              <span class="h6">Blindamos a las empresas con sistemas de integridad, ética y gestión de riesgos.</span>
+              <span class="h5">Blindamos a las empresas con sistemas de integridad, ética y gestión de riesgos.</span>
               <br>
               <div class="d-flex justify-content-center">
                 <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
@@ -64,10 +64,10 @@
             </div>
 
             <div class="d-flex flex-column bg-card">
-              <img class="img3" src="../assets/js/services/Recurso 25.svg">
+              <img class="img3" src="../assets/js/services/Recurso 25.svg" style="position: absolute; margin: -100px;"><br>
               <span class="text-title">Diagnostico</span>
               <div class="hr-border"/><br>
-              <span class="h6">Identificamos fortalezas y debilidades de empresas reforzando el ecosistema.</span>
+              <span class="h5">Identificamos fortalezas y debilidades de empresas reforzando el ecosistema mexicano.</span>
               <br>
               <div class="d-flex justify-content-center">
                 <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
