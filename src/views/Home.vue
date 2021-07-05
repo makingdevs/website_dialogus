@@ -2,7 +2,7 @@
   <div>
 
     <section
-      class="parallax bg-img cover-background  bg-img cover-background full-screen pt-16 pb-8 p-lg-0 top-position min-md-height-auto min-height-300"
+      class="parallax bg-img cover-background  bg-img cover-background full-screen pt-16 pb-8 p-lg-0 top-position min-md-height-auto"
       data-overlay-dark="55" id="banner">
 
       <div class="container d-flex flex-column ">
