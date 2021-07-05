@@ -2,7 +2,7 @@
   <div>
 
     <section
-      class="parallax bg-img cover-background  bg-img cover-background full-screen pt-16 pb-8 p-lg-0 top-position min-md-height-auto"
+      class="parallax bg-img cover-background  bg-img cover-background full-screen pt-16 pb-8 p-lg-0 top-position min-md-height-auto min-height-300"
       data-overlay-dark="55" id="banner">
 
       <div class="container d-flex flex-column ">
@@ -105,65 +105,25 @@
   <section>
 <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
   <span class="text-secondary">EVENTOS Y CURSOS </span></h2>
-    <carousel-3d height="510px" border="0" :controlsVisible="controlsVisible" :perspective="perspective" :inverseScaling="143" :space="385" style="height: 525px;">
-      <slide :index="0" class="border-show2">
+    <carousel-3d v-if="renderComponent" height="510px" border="0" :controlsVisible="controlsVisible" :perspective="perspective" :inverseScaling="143" :space="385" style="height: 525px;" >
+      <slide :index="index" class="border-show2" v-for="(tarjeta, index) in TarjetasCarruselTable" :key="index">
         <div class="card card-style4">
-        <div class="card-img"><img src="../assets/iso.jpeg" alt="..." class="tamañoEventos">
-        </div>
-        <div class="card-body">
-          
-          <h4 align="center" class="h5"><router-link to="/noticias" class="">Implementacions ISO 9001</router-link></h4>
-          <div align="center" class="event-meta-list">
-            <span class="me-0 me-xl-2 text-white"><i class="ti-calendar me-2 custom-icon"></i> 23 Julio </span>
-            <span class="text-white"><i class="ti-time custom-icon me-2"></i>17:00 PM</span>
-          </div>
-          <p align="center" class="text-white">Generamos soluciones para el desarrollo del talento humano</p><br>
-
-          <hr class="hr2"/>
-          <div class="d-flex justify-content-center">
-            <button class="tolowercase butn btn-circle border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Regístrate </span></button>
-          </div>
-          
-        </div>
-      </div>
-      </slide>
-      <slide :index="1" class="border-show2">
-        <div class="card card-style4">
-          <div class="card-img"><img src="../assets/persona5.webp" alt="..." class="tamañoEventos">
+          <div class="card-img"><img :src="tarjeta.image" alt="..." class="tamañoEventos">
           </div>
           <div class="card-body">
-
-            <h4 align="center" class="h5"><router-link to="/noticias" class="">Finanzas Personales</router-link></h4>
+            <h4 align="center" class="h5">
+              <router-link to="/noticias" class="">{{tarjeta.title}}</router-link>
+            </h4>
             <div align="center" class="event-meta-list">
-              <span class="me-0 me-xl-2 text-white"><i class="ti-calendar me-2 custom-icon"></i> 05 Mayo </span>
-              <span class="text-white"><i class="ti-time custom-icon me-2"></i>17:00 PM</span>
+              <span class="me-0 me-xl-2 text-white"><i class="ti-calendar me-2 custom-icon"></i>{{tarjeta.date}}</span>
+              <span class="text-white"><i class="ti-time custom-icon me-2"></i>{{tarjeta.time}}</span>
             </div>
-            <p align="center" class="text-white">Generamos soluciones para el desarrollo del talento humano</p><br>
-            <hr class="hr2"/>
+            <p align="center" class="text-white">{{tarjeta.description}}</p><br>
+            <hr class="hr2" />
             <div class="d-flex justify-content-center">
-              <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Regístrate</span></button>
+              <a class="tolowercase butn btn-circle border-show" :href="tarjeta.urlRegister" target="_blank"><span class="h6 text-white"
+                  style="text-transform: none;">Regístrate </span></a>
             </div>
-
-          </div>
-        </div>
-      </slide>
-      <slide :index="2" class="border-show2">
-        <div class="card card-style4">
-          <div class="card-img"><img src="../assets/eve1.jpg" alt="..." class="tamañoEventos">
-          </div>
-          <div class="card-body">
-
-            <h4 align="center" class="h5"><router-link to="/noticias" class="">Sistema de Gestión Humana</router-link></h4>
-            <div align="center" class="event-meta-list">
-              <span class="me-0 me-xl-2 text-white"><i class="ti-calendar me-2 custom-icon"></i> 05 Agosto </span>
-              <span class="text-white"><i class="ti-time custom-icon me-2"></i>17:00 PM</span>
-            </div>
-            <p align="center" class="text-white">Generamos soluciones para el desarrollo del talento humano</p><br>
-            <hr class="hr2"/>
-            <div class="d-flex justify-content-center">
-              <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Regístrate</span></button>
-            </div>
-
           </div>
         </div>
       </slide>
@@ -195,15 +155,28 @@
   import VueTextTransition from 'vue-text-transition';
   import '../assets/css/_main.scss'
   import '../assets/css/home.scss'
+  import { TarjetasCarruselTableRef } from '../dbConnection'
   export default {
     name: "ThemeExample",
+    firebase: {
+      TarjetasCarruselTable: TarjetasCarruselTableRef
+    },
+    watch: {
+      TarjetasCarruselTable: function () {
+        this.renderComponent = false;
+        console.log("cambio");
+        setTimeout(() => this.renderComponent = true, 1000);
+      }
+    },
     data: function () {
-
       return {
         stateEffect: true,
         displayСonditions: false,
         controlsVisible: false,
-        perspective: 325
+        perspective: 325,
+        TarjetasCarruselTable: [],
+        renderComponent: false,
+        show: true,
       }
     },
 

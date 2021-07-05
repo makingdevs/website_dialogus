@@ -48,7 +48,7 @@
         ================================================== -->
         <section class="py-0">
             <div class="row g-0">
-                <div class="col-lg-6 bg-img cover-background min-height-300" data-overlay-dark="2" data-background="../assets/img4.jpg" id="conteo">
+                <div class="col-lg-6 bg-img cover-background" data-overlay-dark="2" data-background="../assets/img4.jpg" id="conteo">
                     <div class="d-table h-100 text-center mx-auto position-relative z-index-1">
                         <div class="d-table-cell vertical-align-middle h-100 ">
                             <div class="d-inline-block vertical-align-middle z-index-1 text-start">
@@ -396,10 +396,6 @@ element.style {
   .flechaCarus {
     width : 100px
   }
-  .butn {
-    background:rgb( 255 ,212, 31) !important;
-  }
-
  .box-custom {
     background: rgb(59,84,123);
     cursor: pointer;

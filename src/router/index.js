@@ -17,7 +17,10 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Home.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/Home.vue'),
+    meta: {
+      autentificado: false
+    },
   },
   {
     path: '/about',
@@ -25,7 +28,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
   },
   {
     path: '/servicios',
@@ -33,7 +36,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Servicios.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/Servicios.vue'),
   },
   {
     path: '/contacto',
@@ -41,7 +44,10 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Contacto.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/Contacto.vue'),
+    meta: {
+      autentificado: false
+    },
   },
   {
     path: '/textAdministration',
@@ -60,7 +66,10 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/ThemeExample.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/ThemeExample.vue'),
+    meta: {
+      autentificado: false
+    },
   },
   {
     path: '/login',
@@ -68,7 +77,10 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Login.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/Login.vue'),
+    meta: {
+      autentificado: false
+    },
   },
   {
     path: '/noticias',
@@ -76,7 +88,10 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Noticias.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/Noticias.vue'),
+    meta: {
+      autentificado: false
+    },
   },
 ]
 
@@ -94,7 +109,7 @@ router.beforeEach((to, from, next) => {
   if(autoriazacion && !usuario) {
     next('login')
   } else if (!autoriazacion && usuario) {
-    next('home')
+    next()
   } else {
     next();
   }

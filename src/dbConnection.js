@@ -10,6 +10,6 @@ else {
     app = Firebase.app()
 }
 let db = app.database()
-const HomePageTableRef = db.ref("HomePageTable")
+const TarjetasCarruselTableRef = db.ref("tarjetasCarrusel")
 
-export { HomePageTableRef }
+export { TarjetasCarruselTableRef }

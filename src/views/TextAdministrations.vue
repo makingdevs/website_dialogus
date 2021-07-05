@@ -3,39 +3,65 @@
 
         <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon1">Titulo</span>
-            <input type="text" class="form-control" placeholder="Titulo de la variable" aria-label="Titulo de la variable" aria-describedby="basic-addon1" v-model="word.name">
+            <input type="text" class="form-control" placeholder="Titulo de la variable" aria-label="Titulo de la variable" aria-describedby="basic-addon1" v-model="tarjeta.title">
         </div>
         <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon1">Value</span>
-          <input type="text" class="form-control" placeholder="Nombre del valor" aria-label="Nombre del valor" aria-describedby="basic-addon1" v-model="word.value">
+          <span class="input-group-text" id="basic-addon1">Fecha</span>
+          <input type="date" class="form-control" placeholder="Nombre del valor" aria-label="Nombre del valor" aria-describedby="basic-addon1" v-model="tarjeta.date">
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Hora</span>
+          <input type="time" class="form-control" placeholder="Nombre del valor" aria-label="Nombre del valor" aria-describedby="basic-addon1" v-model="tarjeta.time">
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Descripción</span>
+          <input maxlength = "78" type="text" class="form-control" placeholder="Nombre del valor" aria-label="Nombre del valor" aria-describedby="basic-addon1" v-model="tarjeta.description">
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Registro (url)</span>
+          <input type="text" class="form-control" placeholder="Nombre del valor" aria-label="Nombre del valor" aria-describedby="basic-addon1" v-model="tarjeta.urlRegister">
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Imágen</span>
+          <input type="text" class="form-control" placeholder="Nombre del valor" aria-label="Nombre del valor" aria-describedby="basic-addon1" v-model="tarjeta.image">
         </div>
         <button @click="createWord" type="button" class="btn btn-success">Crear Palabra</button>
         <button @click="logout" type="button" class="btn btn-success">Cerrar Sesión</button>
         <br>
         <br>
-        <table class="table table-dark table-striped">
+        <table class="table table-striped">
           <thead>
             <tr>
               <th scope="col">Titulo</th>
+              <th scope="col">Fecha</th>
               <th scope="col">Descripción</th>
+              <th scope="col">Imagen</th>
               <th scope="col"></th>
             </tr>
           </thead>
           <tbody>
-            <tr  v-for="(word, index) in HomePageTable" :key="word['.key']" style="color:white" >
+            <tr  v-for="(tarjeta, index) in TarjetasCarruselTable" :key="tarjeta['.key']" style="color:white" >
               <td>
-                <h6 :class="'index_text' + index">{{word.name}}</h6>
-                <input type="text" class="form-control" name="" :class="'index_' + index" aria-describedby="helpId" placeholder="" v-model="word.name" style="display: none"/>
+                <h6 :class="'index_text' + index">{{tarjeta.title}}</h6>
+                <input type="text" class="form-control" name="" :class="'index_' + index" aria-describedby="helpId" placeholder="" v-model="tarjeta.title" style="display: none"/>
               </td>
               <td>
-                <h6 :class="'index_text' + index">{{word.value}}</h6>
-                <input type="text" class="form-control" name="" :class="'index_' + index" aria-describedby="helpId" placeholder="" v-model="word.value" style="display: none"/>
+                <h6 :class="'index_text' + index">{{tarjeta.date}}</h6>
+                <input type="text" class="form-control" name="" :class="'index_' + index" aria-describedby="helpId" placeholder="" v-model="tarjeta.date" style="display: none"/>
+              </td>
+              <td>
+                <h6 :class="'index_text' + index">{{tarjeta.description}}</h6>
+                <input type="text" class="form-control" name="" :class="'index_' + index" aria-describedby="helpId" placeholder="" v-model="tarjeta.description" style="display: none"/>
+              </td>
+              <td>
+                <h6 :class="'index_text' + index">{{tarjeta.image}}</h6>
+                <input type="text" class="form-control" name="" :class="'index_' + index" aria-describedby="helpId" placeholder="" v-model="tarjeta.image" style="display: none"/>
               </td>
               <td>
                 <div class="btn-group" role="group" aria-label="Basic mixed styles example">
                   <button type="button" class="btn btn-success" :id="'index_edit' + index" @click="editEnable(index)">Editar</button>
-                  <button type="button" class="btn btn-success" :class="'index_' + index" style="display:none" @click="unableEdit(index); updateWord(word)">Save</button>
-                  <button type="button" class="btn btn-danger" @click="deleteWord(word)">Eliminar</button>
+                  <button type="button" class="btn btn-success" :class="'index_' + index" style="display:none" @click="unableEdit(index); updateWord(tarjeta)">Save</button>
+                  <button type="button" class="btn btn-danger" @click="deleteWord(tarjeta)">Eliminar</button>
                 </div>
               </td>
             </tr>
@@ -47,32 +73,36 @@
 
 <script>
 
-import {HomePageTableRef} from '../dbConnection'
+import { TarjetasCarruselTableRef } from '../dbConnection'
 import auth from '@/assets/js/auth/auth.js';
 export default {
   name: "TextAdministration",
   firebase: {
-    HomePageTable: HomePageTableRef
+    TarjetasCarruselTable: TarjetasCarruselTableRef
   },
   data: function (){
     return {
-      word: {
-        name: "",
-        value: ""
+      tarjeta: {
+        title: "",
+        date: "",
+        time: "",
+        description: "",
+        urlRegister: "",
+        image: ""
       },
       title: {
         value: ""
       },
-      HomePageTable: []
+      TarjetasCarruselTable: []
     }
   },
   created: function () {
     this.exampleMethod()
-    console.log(this.HomePageTable)
-    this.title = this.HomePageTable[0];
+    console.log(this.TarjetasCarruselTable)
+    this.title = this.TarjetasCarruselTable[0];
   },
   mounted(){
-   this.title = this.HomePageTable[0]; 
+   this.title = this.TarjetasCarruselTable[0]; 
   },
   components: {
   },
@@ -81,13 +111,11 @@ export default {
       console.log("Hola mundo")
     },
     createWord(){
-      HomePageTableRef.push(this.word); 
-      this.word.name = "";
-      this.word.value = "";
+      TarjetasCarruselTableRef.push(this.tarjeta); 
     },
     setTitle(){
-      console.log(this.HomePageTable[0])
-      this.title = this.HomePageTable[0]; 
+      console.log(this.TarjetasCarruselTable[0])
+      this.title = this.TarjetasCarruselTable[0]; 
     },
     editEnable(index){
       let inputs =  document.getElementsByClassName("index_" + index)
@@ -105,14 +133,14 @@ export default {
       inputs.forEach(element => element.style.display = "none")
       texts.forEach(element => element.style.display = "block")
     },
-    deleteWord(word){
-      HomePageTableRef.child(word['.key']).remove()
+    deleteWord(tarjeta){
+      TarjetasCarruselTableRef.child(tarjeta['.key']).remove()
     },
-    updateWord(word){
-      console.log(word)
-      let nuevo = HomePageTableRef.child(word['.key'])
+    updateWord(tarjeta){
+      console.log(tarjeta)
+      let nuevo = TarjetasCarruselTableRef.child(tarjeta['.key'])
       console.log(nuevo)
-      nuevo.set(word)
+      nuevo.set(tarjeta)
     },
     logout() {
       auth.deleteUserLogged();

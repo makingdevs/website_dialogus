@@ -166,10 +166,6 @@
   .flechaCarus {
     width : 100px
   }
-  .butn {
-    background:rgb( 255 ,212, 31) !important;
-  }
-
   .box {
     background: #2db34a;
     border-radius: auto;
