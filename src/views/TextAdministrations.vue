@@ -51,7 +51,7 @@
               </td>
               <td>
                 <h6 :class="'index_text' + index">{{tarjeta.description}}</h6>
-                <input type="text" class="form-control" name="" :class="'index_' + index" aria-describedby="helpId" placeholder="" v-model="tarjeta.description" style="display: none"/>
+                <input maxlength = "78" type="text" class="form-control" name="" :class="'index_' + index" aria-describedby="helpId" placeholder="" v-model="tarjeta.description" style="display: none"/>
               </td>
               <td>
                 <h6 :class="'index_text' + index">{{tarjeta.image}}</h6>

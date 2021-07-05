@@ -32,7 +32,7 @@
           <div class="d-flex justify-content-between bg-divisions d-flex-column">
             <div class="d-flex flex-column bg-card">
               <img align="right" class="img3" src="../assets/js/services/Recurso 17.svg" style="position: absolute; margin: -100px;"><br>
-              <span class="text-title">Estrategia</span>
+              <span class="text-title">Estrategia</span><br>
               <div class="hr-border"/><br>
               <span class="h5">Definimos el camino para alcanzar tus objetivos de manera exitosa.</span>
               <br><br>
@@ -43,7 +43,7 @@
             
             <div class="d-flex flex-column bg-card">
               <img class="img3" src="../assets/js/services/Recurso 1.svg" style="position: absolute; margin: -100px;"><br>
-              <span class="text-title">Capital Humano</span>
+              <span class="text-title">Capital Humano</span><br>
               <div class="hr-border"/><br>
               <span class="h5">Generamos soluciones para el desarrollo del talento humano y el desarrollo organizacional.</span>
               <br>
@@ -54,7 +54,7 @@
 
             <div class="d-flex flex-column bg-card">
               <img class="img3" src="../assets/js/services/Recurso 2.svg" style="position: absolute; margin: -100px;"><br>
-              <span class="text-title">Cumplimiento</span>
+              <span class="text-title">Cumplimiento</span><br>
               <div class="hr-border"/><br>
               <span class="h5">Blindamos a las empresas con sistemas de integridad, ética y gestión de riesgos.</span>
               <br>
@@ -65,7 +65,7 @@
 
             <div class="d-flex flex-column bg-card">
               <img class="img3" src="../assets/js/services/Recurso 25.svg" style="position: absolute; margin: -100px;"><br>
-              <span class="text-title">Diagnostico</span>
+              <span class="text-title">Diagnóstico</span><br>
               <div class="hr-border"/><br>
               <span class="h5">Identificamos fortalezas y debilidades de empresas reforzando el ecosistema mexicano.</span>
               <br>

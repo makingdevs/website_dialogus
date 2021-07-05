@@ -445,9 +445,7 @@ element.style {
     width: 80%;
   }
 
-  .color_34 {
-    background-color: rgb(182, 180, 180);
-  }
+ 
 
   .v--vtt-test,
   .v--vtt-test_odd {

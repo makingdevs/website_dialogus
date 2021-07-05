@@ -301,7 +301,8 @@ body {
   border-style : Solid;
   border-color : #3F5479;
   border-color : rgba(63, 84, 121, 1);
-  border-width : 2px;
+  background-color: #3F5479;
+  border-width : 1px;
 }
 
 .bg-card {
@@ -325,6 +326,7 @@ body {
   }
   .hr-border {
     border-color : white;
+    background-color: white;
   }
 
   .text-title {
