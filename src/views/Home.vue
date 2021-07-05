@@ -36,8 +36,8 @@
               <div class="hr-border"/><br>
               <span class="h5">Definimos el camino para alcanzar tus objetivos de manera exitosa.</span>
               <br><br>
-              <div class="d-flex justify-content-center">
-                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
+              <div class="d-flex justify-content-center" style="margin-bottom: 80px">
+                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;" >Conoce más</span></button>
               </div>
             </div>
             
