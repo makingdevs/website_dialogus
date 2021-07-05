@@ -41,8 +41,8 @@
                             <div class="contact-content">
                                 <h4 class="h3 font-weight-800 mb-2 mb-lg-3">Llámanos</h4>
                                 <h2 class="title-hover">Llámanos</h2>
-                                <router-link to="#!" class="d-block font-weight-500 mb-1">(+44) 123 456 789</router-link>
-                                <router-link to="#!" class="font-weight-500">+ (124) 1523-567-9874</router-link>
+                                <router-link to="#!" class="d-block font-weight-500 mb-1 text-dark">(+44) 123 456 789</router-link>
+                                <router-link to="#!" class="font-weight-500 text-dark">+ (124) 1523-567-9874</router-link>
                             </div>
                         </div>
                     </div>
@@ -54,8 +54,8 @@
                             <div class="contact-content">
                                 <h4 class="h3 font-weight-800 mb-2 mb-lg-3">Email Aqui</h4>
                                 <h2 class="title-hover">Email</h2>
-                                <router-link to="#!" class="d-block font-weight-500 mb-1">contactanos@dialogus.com.mx</router-link>
-                                <router-link to="#!" class="font-weight-500">info@yourdomain.com</router-link>
+                                <router-link to="#!" class="d-block font-weight-500 mb-1 text-dark">contactanos@dialogus.com.mx</router-link>
+                                <router-link to="#!" class="font-weight-500 text-dark">info@yourdomain.com</router-link>
                             </div>
                         </div>
                     </div>

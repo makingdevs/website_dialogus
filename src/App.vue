@@ -60,9 +60,9 @@
                     </li>
 
                     <li>
-                      <a href="/contacto" class="">
+                      <router-link to="/contacto" class="">
                         Contacto
-                      </a>
+                      </router-link>
                     </li>
                     <li>
                       <router-link to="/login" class="">
