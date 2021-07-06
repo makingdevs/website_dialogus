@@ -1,4 +1,19 @@
-<template>
+<template >
+  <div>
+          <!-- PAGE TITLE
+        ================================================== -->
+        <section class="parallax page-title-section top-position bg-img cover-background" data-overlay-dark="55" id="banner3">
+          <div class="container">
+
+              <div class="row">
+                  <div class="col-md-12">
+                      <h1>Administracion de Tarjetas</h1>
+                  </div>
+              </div>
+
+          </div>
+      </section>
+
     <div class="container" style="margin-top: 82px">
 
         <div class="input-group mb-3">
@@ -25,11 +40,11 @@
           <span class="input-group-text" id="basic-addon1">Imágen</span>
           <input type="text" class="form-control" placeholder="Nombre del valor" aria-label="Nombre del valor" aria-describedby="basic-addon1" v-model="tarjeta.image">
         </div>
-        <button @click="createWord" type="button" class="btn btn-success">Crear Palabra</button>
-        <button @click="logout" type="button" class="btn btn-success">Cerrar Sesión</button>
+        <button @click="createWord" type="button" class="btn btn-success"> Crear Tarjeta </button>
+        <button @click="logout" type="button" class="btn btn-success"> Cerrar Sesión </button>
         <br>
         <br>
-        <table class="table table-striped">
+        <table class="table table-striped table-bordered ">
           <thead>
             <tr>
               <th scope="col">Titulo</th>
@@ -68,8 +83,14 @@
           </tbody>
         </table>
     </div>
+  </div>
 </template>
 
+<style>
+  #banner3{
+    background-image: url('../assets/serv1.jpg')
+  }
+</style>
 
 <script>
 
