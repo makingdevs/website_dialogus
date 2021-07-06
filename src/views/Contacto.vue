@@ -24,14 +24,8 @@
         ================================================== -->
         <section class="contact-form">
             <div class="container">
-                <div class="section-heading">
-                    <h2 class="h1 text-secondary">Estamos aqui para ayudarte</h2>
-                    <div class="dotted-box">
-                      <span class="dotted"></span>
-                      <span class="dotted"></span>
-                      <span class="dotted"></span>
-                    </div>
-                  </div>
+                    <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
+                        <span class="text-secondary">Estamos aqui para ayudarte </span></h2> <br>
                 <div class="row">
                     <div class="col-lg-4 mb-1-6 mb-md-1-9 mb-lg-0 contact-border">
                         <div class="contact-wrapper">
@@ -40,7 +34,7 @@
                             </div>
                             <div class="contact-content">
                                 <h4 class="h3 font-weight-800 mb-2 mb-lg-3">Llámanos</h4>
-                                <h2 class="title-hover">Llámanos</h2>
+                                
                                 <router-link to="#!" class="d-block font-weight-500 mb-1 text-dark">(+44) 123 456 789</router-link>
                                 <router-link to="#!" class="font-weight-500 text-dark">+ (124) 1523-567-9874</router-link>
                             </div>
@@ -53,7 +47,7 @@
                             </div>
                             <div class="contact-content">
                                 <h4 class="h3 font-weight-800 mb-2 mb-lg-3">Email Aqui</h4>
-                                <h2 class="title-hover">Email</h2>
+                        
                                 <router-link to="#!" class="d-block font-weight-500 mb-1 text-dark">contactanos@dialogus.com.mx</router-link>
                                 <router-link to="#!" class="font-weight-500 text-dark">info@yourdomain.com</router-link>
                             </div>
@@ -66,7 +60,7 @@
                             </div>
                             <div class="contact-content ">
                                 <h4 class="h3 font-weight-800 mb-2 mb-lg-3">Ubicacion</h4>
-                                <h2 class="title-hover ">Ubicacion</h2>
+                                
                                 <div align="center" class="text-dark">Dialogus Periferico Sur 4121, Fuentes del Pedregal Equipamiento Periférico Picacho Ajusco Canal 13</div>
                             </div>
                         </div>
@@ -165,7 +159,7 @@
                                                     <!-- Begin Submit button -->
                                                     <div class="col-md-12">
                                                         <div class="quform-submit-inner">
-                                                            <button class="butn theme butn-md btn-circle" type="submit"><span class="colorT">ENVIAR MENSAJE</span></button>
+                                                            <button class="butn theme butn-md btn-circle" type="submit"><span class="text-white">ENVIAR MENSAJE</span></button>
                                                         </div>
                                                         <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
                                                     </div>
@@ -204,8 +198,15 @@
   border-radius: 15px;
 }
 .contact-icon i {
-    color: #35547c !important;
-    border: 2px solid #ffc107 !important;
+    color: #ffc107 !important;
+    border: 2px solid #35547c  !important;
+    width: 100px;
+    height: 88px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 51px;
+    line-height: 1.428571;
+    border-radius: 103px;
 }
 .colorT{
     color: #35547c;

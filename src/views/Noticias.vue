@@ -32,14 +32,8 @@
         ================================================== -->
         <section class="blog">
             <div class="container">
-                <div class="section-heading">
-                    <h2 class="h1 text-secondary">Nuestro Blog</h2>
-                    <div class="dotted-box">
-                        <span class="dotted"></span>
-                        <span class="dotted"></span>
-                        <span class="dotted"></span>
-                    </div>
-                </div>
+                    <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
+                        <span class="text-secondary">Nuestro Blog </span></h2> <br>
                 <div class="row">
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
                         <article class="card card-style2 card-style4  h-100">
@@ -49,7 +43,7 @@
                             <div class="card-body">
                                 <ul class="meta-tags">
                                     <li>
-                                        <router-link to="/noticiasDetalles" class="">
+                                        <router-link to="/noticiasDetalles" class="text-dark">
                                             <i class="ti-calendar me-1 text-warning"></i> Feb 19, 2021
                                         </router-link>
                                     </li>
@@ -68,7 +62,7 @@
                             <div class="card-body">
                                 <ul class="meta-tags">
                                     <li>
-                                        <router-link to="/noticiasDetalles" class="">
+                                        <router-link to="/noticiasDetalles" class="text-dark">
                                             <i class="ti-calendar me-1 text-warning"></i> Feb 09, 2021
                                         </router-link>
                                     </li>
@@ -86,9 +80,9 @@
                             <div class="card-body">
                                 <ul class="meta-tags">
                                     <li>
-                                        <a href="#!">
+                                        <router-link to="#!" class="text-dark">
                                             <i class="ti-calendar me-1 text-warning"></i> Jan 24, 2021
-                                        </a>
+                                        </router-link>
                                     </li>
 
                                 </ul>
@@ -99,14 +93,9 @@
                     </div>
                             <!-- Event GRID
         ================================================== -->
-                    <div class="section-heading">
-                        <h2 class="h1 text-secondary">Nuestros Eventos</h2>
-                        <div class="dotted-box">
-                            <span class="dotted"></span>
-                            <span class="dotted"></span>
-                            <span class="dotted"></span>
-                        </div>
-                    </div>
+                    <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
+                        <span class="text-secondary">Nuestro Eventos </span></h2>
+                        <br><br><br>
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
                         <article class="card card-style2 card-style4 h-100">
                             <div class="card-img">
@@ -115,9 +104,9 @@
                             <div class="card-body">
                                 <ul class="meta-tags">
                                     <li>
-                                        <a href="#!">
+                                        <router-link to="#!" class="text-dark">
                                             <i class="ti-calendar me-1 text-warning"></i> Jan 24, 2021
-                                        </a>
+                                        </router-link>
                                     </li>
 
                                 </ul>
@@ -134,9 +123,9 @@
                             <div class="card-body">
                                 <ul class="meta-tags">
                                     <li>
-                                        <a href="#!">
+                                        <router-link to="#!" class="text-dark">
                                             <i class="ti-calendar me-1 text-warning"></i> Jan 24, 2021
-                                        </a>
+                                        </router-link>
                                     </li>
 
                                 </ul>
@@ -153,9 +142,9 @@
                             <div class="card-body">
                                 <ul class="meta-tags">
                                     <li>
-                                        <a href="#!">
+                                        <router-link to="#!" class="text-dark">
                                             <i class="ti-calendar me-1 text-warning"></i> Jan 24, 2021
-                                        </a>
+                                        </router-link>
                                     </li>
 
                                 </ul>
@@ -174,7 +163,7 @@
                             <div class="pagination">
                                 <ul>
                                     <li><router-link to="#!" class="me-3"><i class="fas fa-long-arrow-alt-left"></i></router-link></li>
-                                    <li class="active"><a href="#!" class="me-2">1</a></li>
+                                    <li class="active"><a href="#!" class="me-2 ">1</a></li>
 
                                     <li><router-link to="#!"><i class="fas fa-long-arrow-alt-right"></i></router-link></li>
                                 </ul>
@@ -190,6 +179,28 @@
 </template>
 
 <style>
+.pagination .active a {
+    background-color: #35547c;
+    color: #002147;
+    border: 1px solid #dbdbdb;
+    cursor: default;
+}
+
+
+.pagination a {
+    float: left;
+    font-size: 16px;
+    padding: 0 18px;
+    line-height: 40px;
+    text-decoration: none;
+    font-weight: 800;
+    border: 1px solid #ffc107;
+    background: #35547c;
+}
+.pagination a:hover {
+      background-color: #ffc107;
+      border: 1px solid #35547c;
+      color: #ffffff; }
     #banner2 {
         background-image: url('../assets/fondo5.jpeg');
     }

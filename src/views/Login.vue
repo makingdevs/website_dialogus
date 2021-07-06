@@ -3,7 +3,7 @@
 	<!-- PAGE TITLE
         ================================================== -->
 		<div id="intro" class="bg-image shadow-2-strong">
-      <div class="mask d-flex align-items-center h-100" data-overlay-dark="55">
+      <div class="mask d-flex align-items-center h-100 top-position2" data-overlay-dark="55" >
         <div class="login container">
 			<div class="col-md-12">
 				<h1 class="text-white">Iniciar sesión</h1>

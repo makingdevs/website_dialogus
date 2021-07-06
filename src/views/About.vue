@@ -406,7 +406,7 @@ element.style {
     clip-path: polygon(0% 0, 50% 0%, 100% 0%, 100% 100%, 50%  100%, 0 100%);
     
   }
-  .video_btn{
+  .video_btn2{
     background: #35547c!important;
   }
   .bg-secondary{

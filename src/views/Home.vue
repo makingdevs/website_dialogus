@@ -2,23 +2,25 @@
   <div>
 
     <section
-      class="parallax bg-img cover-background  bg-img cover-background full-screen pt-16 pb-8 p-lg-0 top-position min-md-height-auto"
+      class="parallax bg-img cover-background  bg-img cover-background full-screen pt-16 pb-8 p-lg-0 top-position2 min-md-height-auto"
       data-overlay-dark="55" id="banner">
 
       <div class="container d-flex flex-column ">
         <div class="row align-items-center min-lg-vh-100">
           <div class="col-lg-8 mb-5 mb-lg-0">
-            <h1 class="text-white display-16 display-md-9 display-lg-7 display-xl-4 mb-1-6 text-shadow font-weight-800">
-              El mejor caso de éxito es cuando existe una transformación</h1>
-            <p class="mb-2-2 w-95 w-md-75 display-29 display-md-28 text-white font-weight-800">En Dialogus nos hemos preocupado y
-              enfocado en el desarrollo del activo más valioso con el que contamos: nuestra gente.</p>
-            <a href="#!" class="butn  me-2-4 mb-2-4 mb-sm-0"><span class="text-dark" >Descargar guia de Dialogüs</span></a>
+            <h1 align="left" class="text-white display-16 display-md-9 display-lg-7 display-xl-4 mb-1-6 text-shadow font-weight-800">Innovación que transforma negocios.</h1>
+            <h6 align="left" class=" text-white font-weight-800">En Dialogus nos comprometemos en transformar</h6>
+            <h6 align="left" class=" text-white font-weight-800"> los negocios para llevarlos al siguiente nivel.</h6>
+            <br>
+            <div class="d-flex bd-highlight">
+            <a href="#!" class="h4 butn btn-circle me-2-4 mb-2-4 mb-sm-0 font-weight-900" style="width: 30% !important"><span class="text-white">Descargar Guia Dialogüs</span></a>
             <div class="d-block d-sm-inline-block">
               <a class="popup-social-video video_btn small" href="https://www.youtube.com/watch?v=-ESQmzDbnL8"><i
                   class="fas fa-play"></i></a>
               <div class="d-inline-block align-middle ps-2-5 text-white text-start font-weight-600">Ver<span
                   class="text-uppercase d-block text-white">Video</span></div>
             </div>
+          </div>
           </div>
         </div>
       </div>
@@ -202,7 +204,7 @@
                                 <!-- Begin Submit button -->
                                 <div class="col-md-12">
                                     <div class="quform-submit-inner">
-                                        <button class="butn theme butn-md btn-circle" type="submit"><span class="colorT">Enviar respuesta</span></button>
+                                        <button class="butn theme butn-md btn-circle" type="submit"><span class="">Enviar respuesta</span></button>
                                     </div><br>
                                     <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
                                 </div>
