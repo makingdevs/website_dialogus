@@ -33,7 +33,7 @@
           <span class="text-secondary">NUESTRAS DIVISIONES </span></h2><br><br><br>
           <div class="d-flex justify-content-between bg-divisions d-flex-column">
             <div class="d-flex flex-column bg-card">
-              <img align="right" class="img3" src="../assets/js/services/Recurso 17.svg" style="position: absolute; margin: -100px;"><br>
+              <img align="right" class="img3" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
               <span class="text-title">Estrategia</span><br>
               <div class="hr-border"/><br>
               <span class="h5">Definimos el camino para alcanzar tus objetivos de manera exitosa.</span>
@@ -44,7 +44,7 @@
             </div>
 
             <div class="d-flex flex-column bg-card">
-              <img class="img3" src="../assets/js/services/Recurso 1.svg" style="position: absolute; margin: -100px;"><br>
+              <img class="img3" src="../assets/js/services/Recurso 1.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
               <span class="text-title">Capital Humano</span><br>
               <div class="hr-border"/><br>
               <span class="h5">Generamos soluciones para el desarrollo del talento humano y el desarrollo organizacional.</span>
@@ -55,7 +55,7 @@
             </div>
 
             <div class="d-flex flex-column bg-card">
-              <img class="img3" src="../assets/js/services/Recurso 2.svg" style="position: absolute; margin: -100px;"><br>
+              <img class="img3" src="../assets/js/services/Recurso 2.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
               <span class="text-title">Cumplimiento</span><br>
               <div class="hr-border"/><br>
               <span class="h5">Blindamos a las empresas con sistemas de integridad, ética y gestión de riesgos.</span>
@@ -66,12 +66,12 @@
             </div>
 
             <div class="d-flex flex-column bg-card">
-              <img class="img3" src="../assets/js/services/Recurso 25.svg" style="position: absolute; margin: -100px;"><br>
+              <img class="img3" src="../assets/js/services/Recurso 25.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
               <span class="text-title">Diagnóstico</span><br>
               <div class="hr-border"/><br>
               <span class="h5">Identificamos fortalezas y debilidades de empresas reforzando el ecosistema mexicano.</span>
               <br>
-              <div class="d-flex justify-content-center">
+              <div class="d-flex justify-content-center ">
                 <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
               </div>
             </div>

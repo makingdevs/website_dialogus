@@ -215,10 +215,12 @@
   #nav a {
     font-weight: bold;
     color: #ffffff;
+    transition: background-color 0.8s linear 0.2s;
   }
 
   #nav a.router-link-exact-active {
     color: #42b983;
+    transition: background-color 0.8s linear 0.2s;
   }
   .header-style1 .navbar-toggler {
     background: #ffffff;
@@ -264,12 +266,14 @@ a, a:active, a:focus {
 }
   .bg-nav {
     background-color: #35547c;
+    transition: background-color 0.8s linear 0.2s;
   }
   @media screen and (max-width: 991px){
   .navbar ul li a {
     width: 100%;
     border-bottom: 0;
     background:#35547c;
+    transition: background-color 0.8s linear 0.2s;
   }
 }
   .address-icon {
@@ -290,6 +294,7 @@ a, a:active, a:focus {
 
   header.scrollHeader .navbar-default {
   background-color: #35547c !important;
+  transition: background-color 0.8s linear 0.2s;
 }
 </style>
 <script>
