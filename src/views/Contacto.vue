@@ -103,7 +103,7 @@
                                                         <div class="quform-element">
                                                             <label for="name">Tu Nombre <span class="quform-required">*</span></label>
                                                             <div class="quform-input">
-                                                                <input class="form-control" id="name" type="text" name="name" placeholder="Tu nombre aqui" />
+                                                                <input class="form-control form-control1" id="name" type="text" name="name" placeholder="Tu nombre aqui" />
                                                             </div>
                                                         </div>
 
@@ -115,7 +115,7 @@
                                                         <div class="quform-element">
                                                             <label for="email">Tu Email <span class="quform-required">*</span></label>
                                                             <div class="quform-input">
-                                                                <input class="form-control" id="email" type="text" name="email" placeholder="Tu email aqui" />
+                                                                <input class="form-control form-control1" id="email" type="text" name="email" placeholder="Tu email aqui" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -126,7 +126,7 @@
                                                         <div class="quform-element">
                                                             <label for="subject">Tu Asunto <span class="quform-required">*</span></label>
                                                             <div class="quform-input">
-                                                                <input class="form-control" id="subject" type="text" name="subject" placeholder="Tu asunto aqui"/>
+                                                                <input class="form-control form-control1" id="subject" type="text" name="subject" placeholder="Tu asunto aqui"/>
                                                             </div>
                                                         </div>
 
@@ -138,7 +138,7 @@
                                                         <div class="quform-element">
                                                             <label for="phone">Número de contacto</label>
                                                             <div class="quform-input">
-                                                                <input class="form-control" id="phone" type="text" name="phone" placeholder="Tu numero aqui" />
+                                                                <input class="form-control form-control1" id="phone" type="text" name="phone" placeholder="Tu numero aqui" />
                                                             </div>
                                                         </div>
 
@@ -150,7 +150,7 @@
                                                         <div class="quform-element">
                                                             <label for="message">Mensaje <span class="quform-required">*</span></label>
                                                             <div class="quform-input">
-                                                                <textarea class="form-control" id="message" name="message" rows="3" placeholder="Dejanos algunas palabras"></textarea>
+                                                                <textarea class="form-control form-control1" id="message" name="message" rows="3" placeholder="Dejanos algunas palabras"></textarea>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -159,7 +159,10 @@
                                                     <!-- Begin Submit button -->
                                                     <div class="col-md-12">
                                                         <div class="quform-submit-inner">
-                                                            <button class="butn theme butn-md btn-circle" type="submit"><span class="text-white">ENVIAR MENSAJE</span></button>
+                                                            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+                                                            <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202.">
+                                                                <button href="https://api.whatsapp.com/send" class="butn theme butn-md btn-circle" type="submit"><span class="text-white">ENVIAR MENSAJE</span></button>
+                                                            </a>
                                                         </div>
                                                         <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
                                                     </div>
@@ -170,6 +173,7 @@
                                             </div>
 
                                         </form>
+                                        
 
                                     </div>
                                 </div>
@@ -179,6 +183,13 @@
                 </div>
             </div>
         </section>
+        
+
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+                <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+                    <i class="fa fa-whatsapp my-float"></i>
+                </a>
+
 
         <!-- map -->
         <div>
@@ -188,6 +199,26 @@
 </template>
 
 <style>
+/*whassap*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+/*whasspap*/
 .btn-circle {
   width: 100%;
   height: 30px;

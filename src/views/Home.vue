@@ -13,7 +13,7 @@
             <h6 align="left" class=" text-white font-weight-800"> los negocios para llevarlos al siguiente nivel.</h6>
             <br>
             <div class="d-flex bd-highlight">
-            <a href="#!" class="h4 butn btn-circle me-2-4 mb-2-4 mb-sm-0 font-weight-900" style="width: 30% !important"><span class="text-white">Descargar Guia Dialogüs</span></a>
+            <a href="#!" class="h4 butn btn-circle me-2-4 mb-2-4 mb-sm-0 font-weight-900" style="width: 55% !important; "><span class="text-white">Descargar Guia Dialogüs</span></a>
             <div class="d-block d-sm-inline-block">
               <a class="popup-social-video video_btn small" href="https://www.youtube.com/watch?v=-ESQmzDbnL8"><i
                   class="fas fa-play"></i></a>
