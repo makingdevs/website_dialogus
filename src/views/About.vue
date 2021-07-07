@@ -23,7 +23,7 @@
        
        <!-- Misión Visión
         ================================================== -->
-    <section class="bg-light">
+    <section class="bg-light" >
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 mb-6 mb-md-8 mb-lg-0">
@@ -84,280 +84,112 @@
 
     <!-- Clientes
         ================================================== -->
-        <section class="bg-light">
-            <div class="container">
-                <div class="section-heading">
-                    <h2 class="h1 text-secondary">Nuestros Clientes</h2>
-                    <div class="dotted-box">
-                        <span class="dotted"></span>
-                        <span class="dotted"></span>
-                        <span class="dotted"></span>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 col-lg-4 mb-1-9 mb-lg-0">
-                        <div class="team-wrapper">
-                            <div class="img-holder">
-                                <div class="team-wrapper-inner">
-                                    <img src="../assets/persona2.webp" alt="...">
-                                    <div class="team-social-links">
-                                        <ul class="social-icons">
-                                            <li>
-                                                <a href="#!"><i class="fab fa-facebook-f"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#!"><i class="fab fa-twitter"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#!"><i class="fab fa-linkedin-in"></i></a>
-                                            </li>
-                                        </ul>
+        <section>
+            <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
+            <span class="text-secondary">Nuestros Clientes </span></h2>
+                <carousel-3d height="510px" style="height: 525px;">
+                    <slide :index="0" class="border-show2">
+                        <div class="card card-style4">
+                            <div class="card-img"><img src="../assets/persona1.webp" alt="..." class="tamañoEventos">
+                                <div class="card-body">
+                                    <h4 align="center" class="h5">
+                                    <router-link to="/noticias" class="">Empresa 1</router-link>
+                                    </h4>
+                                    <div align="center" class="event-meta-list">
+                                    <span class="me-0 me-xl-2 text-white"><i class="fas fa-map-marker-alt"></i>&nbsp;Ubicación 1</span>
                                     </div>
-                                </div>
-                                <div class="team-content">
-                                    <h4 class="h5"><a href="#!">Cliente 1</a></h4>
-                                    <p class="text-warning font-weight-600 mb-0">Empresa X</p>
-                                    <i class="fas fa-share-alt pink"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 mb-1-9 mb-lg-0">
-                        <div class="team-wrapper">
-                            <div class="img-holder">
-                                <div class="team-wrapper-inner">
-                                    <img src="../assets/persona3.webp" alt="...">
-                                    <div class="team-social-links" >
-                                        <ul class="social-icons">
-                                            <li>
-                                                <a href="#!"><i class="fab fa-facebook-f"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#!"><i class="fab fa-twitter"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#!"><i class="fab fa-linkedin-in"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="team-content">
-                                    <h4 class="h5"><a href="#!">Cliente 2</a></h4>
-                                    <p class="text-warning font-weight-600 mb-0">Empresa Y</p>
-                                    <i class="fas fa-share-alt pink"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="team-wrapper">
-                            <div class="img-holder">
-                                <div class="team-wrapper-inner">
-                                    <img src="../assets/persona4.webp" alt="...">
-                                    <div class="team-social-links">
-                                        <ul class="social-icons">
-                                            <li>
-                                                <a href="#!"><i class="fab fa-facebook-f"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#!"><i class="fab fa-twitter"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#!"><i class="fab fa-linkedin-in"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="team-content">
-                                    <h4 class="h5"><a href="#!">Cliente 3</a></h4>
-                                    <p class="text-warning font-weight-600 mb-0">Empresa Z</p>
-                                    <i class="fas fa-share-alt pink"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    <!-- Testimonios
-        ================================================== -->
-          <section>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-10 mb-1-9 mb-lg-0">
-                        <div class="row">
-                            
-                            <div class="col-md-12 mb-1-6 mb-md-2-9">
-                                <div class="horizontaltab tab-style1">
-                                    
-                                    <div class="resp-tabs-container hor_1">
-                                        <div>
-                                            <div class="row mb-1-6 mb-md-1-9 mb-lg-2-5">
-                                                <div class="section-heading">
-                                                    <h2 class="h1 text-secondary">Testimonios</h2>
-                                                    <div class="dotted-box">
-                                                        <span class="dotted"></span>
-                                                        <span class="dotted"></span>
-                                                        <span class="dotted"></span>
-                                                    </div>
-                                                </div>
-                                                <div class="order-2 order-lg-1 col-md-12 col-lg-8">
-                                                    <div class="media mb-4 pb-4 border-bottom border-color-extra-light-gray">
-                                                        <img class="border-radius-50" src="../assets/usuario.jpg" alt="...">
-                                                        <div class="media-body ms-3">
-                                                            <div class="mb-2">
-                                                                <h4 class="h5" align="left"><a href="#!" class="text-secondary">Testimonio 1</a></h4>
-                                                                <div class="display-30 text-warning" align="left">
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                </div>
-                                                            </div>
-                                                            <p align="left" style="color:rgb(0,0,0);">Me encantan sus cursos, he aprendido mucho con ellos...</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="media mb-4 pb-4 border-bottom border-color-extra-light-gray">
-                                                        <img class="border-radius-50" src="../assets/usuario.jpg" alt="...">
-                                                        <div class="media-body ms-3">
-                                                            <div class="mb-2">
-                                                                <h4 class="h5" align="left"><a href="#!" class="text-secondary">Testimonio 2</a></h4>
-                                                                <div class="display-30 text-warning" align="left">
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                </div>
-                                                            </div>
-                                                            <p align="left" style="color:rgb(0,0,0);">Los eventos que he visto me han gustado demasiado...</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="media mb-4 pb-4 border-bottom border-color-extra-light-gray">
-                                                        <img class="border-radius-50" src="../assets/usuario.jpg" alt="...">
-                                                        <div class="media-body ms-3">
-                                                            <div class="mb-2">
-                                                                <h4 class="h5" align="left"><a href="#!" class="text-secondary">Testimonio 3</a></h4>
-                                                                <div class="display-30 text-warning" align="left">
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                </div>
-                                                            </div>
-                                                            <p align="left" style="color:rgb(0,0,0);">Su página tiene un excelente diseño...</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="media mb-4 pb-4 border-bottom border-color-extra-light-gray">
-                                                        <img class="border-radius-50" src="../assets/usuario.jpg" alt="...">
-                                                        <div class="media-body ms-3">
-                                                            <div class="mb-2">
-                                                                <h4 class="h5" align="left"><a href="#!" class="text-secondary">Testimonio 4</a></h4>
-                                                                <div class="display-30 text-warning" align="left">
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                </div>
-                                                            </div>
-                                                            <p align="left" style="color:rgb(0,0,0);">Excelente atención la que brindan...</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="order-1 order-lg-2 col-md-12 col-lg-4 mb-1-9 mb-md-2-5 mb-xl-0">
-                                                    <div class="row">
-                                                        <div class="ps-lg-3 ps-xl-1-6">
-                                                            <div class="col-md-12 mb-1-6">
-                                                                <div class="bg-very-light-gray text-center text-secondary">
-                                                                    <div class="rating-box">
-                                                                        <span class="rating-number alt-font">5</span>
-                                                                        <ul class="list-unstyled">
-                                                                            <li><i class="fa fa-star"></i></li>
-                                                                            <li><i class="fa fa-star"></i></li>
-                                                                            <li><i class="fa fa-star"></i></li>
-                                                                            <li><i class="fa fa-star"></i></li>
-                                                                            <li><i class="fa fa-star"></i></li>
-                                                                        </ul>
-                                                                        <span class="font-weight-600">8 Calificaciones</span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-12">
-                                                                <div class="row">
-                                                                    <div class="col-sm-12 mb-3">
-                                                                        <div class="progress-text text-secondary">
-                                                                            <div class="row">
-                                                                                <div class="col-7">5 Estrellas</div>
-                                                                                <div class="col-5 text-end">95%</div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="progress progress-medium">
-                                                                            <div class="animated custom-bar progress-bar slideInLeft" style="width: 95%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10" role="progressbar"></div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-sm-12 mb-3">
-                                                                        <div class="progress-text text-secondary">
-                                                                            <div class="row">
-                                                                                <div class="col-7">4 Estrellas</div>
-                                                                                <div class="col-5 text-end">70%</div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="progress progress-medium">
-                                                                            <div class="animated custom-bar progress-bar slideInLeft" style="width: 70%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10" role="progressbar"></div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-sm-12 mb-3">
-                                                                        <div class="progress-text text-secondary">
-                                                                            <div class="row">
-                                                                                <div class="col-7">3 Estrellas</div>
-                                                                                <div class="col-5 text-end">45%</div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="progress progress-medium">
-                                                                            <div class="animated custom-bar progress-bar slideInLeft" style="width: 45%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10" role="progressbar"></div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-sm-12 mb-3">
-                                                                        <div class="progress-text text-secondary">
-                                                                            <div class="row">
-                                                                                <div class="col-7">2 Estrellas</div>
-                                                                                <div class="col-5 text-end">30%</div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="progress progress-medium">
-                                                                            <div class="animated custom-bar progress-bar slideInLeft" style="width: 30%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10" role="progressbar"></div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-sm-12">
-                                                                        <div class="progress-text text-secondary">
-                                                                            <div class="row">
-                                                                                <div class="col-7">1 Estrella</div>
-                                                                                <div class="col-5 text-end">15%</div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="progress progress-medium">
-                                                                            <div class="animated custom-bar progress-bar slideInLeft" style="width: 15%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10" role="progressbar"></div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <p align="center" class="text-white">Testimonio 1</p><br>
+                                    <hr class="hr2" />
+                                    <div class="d-flex justify-content-center">
+                                    <a class="tolowercase butn btn-circle border-show" href="" target="_blank"><span class="h6 text-white"
+                                        style="text-transform: none;">Leer más </span></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                    </slide>
+                    <slide :index="1" class="border-show2">
+                        <div class="card card-style4">
+                            <div class="card-img"><img src="../assets/persona2.webp" alt="..." class="tamañoEventos">
+                                <div class="card-body">
+                                    <h4 align="center" class="h5">
+                                    <router-link to="/noticias" class="">Empresa 2</router-link>
+                                    </h4>
+                                    <div align="center" class="event-meta-list">
+                                    <span class="me-0 me-xl-2 text-white"><i class="fas fa-map-marker-alt"></i>&nbsp;Ubicación 2</span>
+                                    </div>
+                                    <p align="center" class="text-white">Testimonio 2</p><br>
+                                    <hr class="hr2" />
+                                    <div class="d-flex justify-content-center">
+                                    <a class="tolowercase butn btn-circle border-show" href="" target="_blank"><span class="h6 text-white"
+                                        style="text-transform: none;">Leer más </span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </slide>
+                    <slide :index="2" class="border-show2">
+                        <div class="card card-style4">
+                            <div class="card-img"><img src="../assets/persona3.webp" alt="..." class="tamañoEventos">
+                                <div class="card-body">
+                                    <h4 align="center" class="h5">
+                                    <router-link to="/noticias" class="">Empresa 3</router-link>
+                                    </h4>
+                                    <div align="center" class="event-meta-list">
+                                    <span class="me-0 me-xl-2 text-white"><i class="fas fa-map-marker-alt"></i>&nbsp;Ubicación 3</span>
+                                    </div>
+                                    <p align="center" class="text-white">Testimonio 3</p><br>
+                                    <hr class="hr2" />
+                                    <div class="d-flex justify-content-center">
+                                    <a class="tolowercase butn btn-circle border-show" href="" target="_blank"><span class="h6 text-white"
+                                        style="text-transform: none;">Leer más </span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </slide>
+                    <slide :index="3" class="border-show2">
+                        <div class="card card-style4">
+                            <div class="card-img"><img src="../assets/persona4.webp" alt="..." class="tamañoEventos">
+                                <div class="card-body">
+                                    <h4 align="center" class="h5">
+                                    <router-link to="/noticias" class="">Empresa 4</router-link>
+                                    </h4>
+                                    <div align="center" class="event-meta-list">
+                                    <span class="me-0 me-xl-2 text-white"><i class="fas fa-map-marker-alt"></i>&nbsp;Ubicación 4</span>
+                                    </div>
+                                    <p align="center" class="text-white">Testimonio 4</p><br>
+                                    <hr class="hr2" />
+                                    <div class="d-flex justify-content-center">
+                                    <a class="tolowercase butn btn-circle border-show" href="" target="_blank"><span class="h6 text-white"
+                                        style="text-transform: none;">Leer más </span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </slide>
+                    <slide :index="4" class="border-show2">
+                        <div class="card card-style4">
+                            <div class="card-img"><img src="../assets/persona5.webp" alt="..." class="tamañoEventos">
+                                <div class="card-body">
+                                    <h4 align="center" class="h5">
+                                    <router-link to="/noticias" class="">Empresa 5</router-link>
+                                    </h4>
+                                    <div align="center" class="event-meta-list">
+                                    <span class="me-0 me-xl-2 text-white"><i class="fas fa-map-marker-alt"></i>&nbsp;Ubicación 5</span>
+                                    </div>
+                                    <p align="center" class="text-white">Testimonio 5</p><br>
+                                    <hr class="hr2" />
+                                    <div class="d-flex justify-content-center">
+                                    <a class="tolowercase butn btn-circle border-show" href="" target="_blank"><span class="h6 text-white"
+                                        style="text-transform: none;">Leer más </span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </slide>
+                </carousel-3d>
+            </section>
         
   </div>
 </template>
@@ -472,12 +304,35 @@ element.style {
 </style>
 
 <script>
-export default{
+import { Carousel3d, Slide } from 'vue-carousel-3d';
+  import '../assets/css/_main.scss'
+  import '../assets/css/home.scss'
+  export default {
+
     created: function () {
       window.addEventListener('scroll', this.handleScroll);
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
+      //document.body.scrollTop = 0;
+      //document.documentElement.scrollTop = 0;
     },
-};
+    mounted() {
+
+    },
+    components: {
+      Carousel3d,
+      Slide,
+    },
+    methods: {
+      exampleMethod() {
+        console.log("Hola mundo")
+      },
+      handleScroll() {
+        if (window.scrollY > 1200 && this.stateEffect) {
+          console.log("Execute method")
+          this.displayСonditions = true;
+          this.stateEffect = false;
+        }
+      }
+    }
+  };
 </script>
 

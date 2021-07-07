@@ -90,35 +90,31 @@
           <div id="contacto">
           <div class="container">
               <div class="row">
-                  <div class="col-sm-6 col-lg-4 mb-2-6 mb-lg-0">
-                      <div class="mb-1-6">
-                          <img src="./assets/logo2.webp" alt="...">
-                      </div>
+                  <div class="col-sm-6 col-lg-4 mb-2-4 mb-lg-0">
+                      <img src="./assets/js/services/DiaBlan.svg" alt="..." width="300">
                       <p class="mb-1-6 text-white" align="left">
                         55 16556739998<br>
                         contactanos@dialogus.com.mx
                       </p>
                       <div class="row align-items-center">
                           <div class="col-lg-12 mb-3">
-                              <div class="media">
-                                  <div class="address-icon">
-                                    <router-link to="/contacto"><i class="fab fa-twitter"></i></router-link>
-                                  </div>
-                                  <div class="address-icon">
-                                    <router-link to="/contacto"><i class="fab fa-facebook-f "></i></router-link>
-                                  </div>
-                                  <div class="address-icon">
-                                    <router-link to="/contacto"><i class="fab fa-linkedin-in"></i></router-link>
-                                  </div>
+                              <div>
+                                <ul>
+                                    <li>
+                                      <a href="https://twitter.com/Dialogus_LAT"><img src="./assets/js/services/TW.svg" width="100"></a>
+                                      <a href="https://www.facebook.com/DialogusConsultores"><img src="./assets/js/services/FB.svg" width="100"></a>
+                                      <a href="https://www.linkedin.com/company/dialogus-consultores/"><img src="./assets/js/services/IN.svg" width="100"></a>
+                                    </li> 
+                                </ul>
                               </div>
                           </div>
                       </div>
                   </div>
-                  <div class="col-sm-6 col-lg-2 mb-2-6 mb-lg-0">
+                  <div class="col-sm-6 col-lg-2 mb-2-4 mb-lg-0">
                       <div class="ps-md-1-6 ps-xl-1-9">
                           <ul class="list-style1" align="left">
                             <li>
-                              <router-link to="/about" class="footer-title h5">
+                              <router-link to="/about" class="h5">
                                 Nosotros
                               </router-link>
                             </li>
@@ -140,11 +136,11 @@
                           </ul>
                       </div>
                   </div>
-                  <div class="col-sm-6 col-lg-2 mb-2-6 mb-lg-0">
+                  <div class="col-sm-6 col-lg-2 mb-2-4 mb-lg-0">
                       <div class="ps-md-1-6 ps-xl-1-9">
                           <ul class="list-style1" align="left">
                             <li>
-                              <router-link to="/servicios" class="footer-title h5">
+                              <router-link to="/servicios" class="h5">
                                 Servicios
                               </router-link>
                             </li>
@@ -171,22 +167,22 @@
                           </ul>
                       </div>
                   </div>
-                  <div class="col-sm-6 col-lg-2 mb-2-6 mb-lg-0">
+                  <div class="col-sm-6 col-lg-2 mb-2-4 mb-lg-0">
                       <div class="ps-md-1-6 ps-xl-1-9">
                           <ul class="list-style1" align="left">
                             <li>
-                              <router-link to="/noticias" class="footer-title h5">
+                              <router-link to="/noticias" class="h5">
                                 Noticias
                               </router-link>
                             </li>
                           </ul>
                       </div>
                   </div>
-                  <div class="col-sm-6 col-lg-2 mb-2-6 mb-lg-0">
+                  <div class="col-sm-6 col-lg-2 mb-2-4 mb-lg-0">
                       <div class="ps-md-1-6 ps-xl-1-9">
                           <ul class="list-style1" align="left">
                             <li>
-                              <router-link to="/contacto" class="footer-title h5">
+                              <router-link to="/contacto" class="h5">
                                 Contacto
                               </router-link>
                             </li>
@@ -244,7 +240,9 @@
     color: #ffffff ;
 }
 footer{
-  background-color: #777777 !important;
+  background-color: #5B5D5E !important;
+  padding: 20px 0 0;
+  font-size: 20px;
 }
 .col-lg-2 {
     flex: 0 0 auto;
@@ -275,17 +273,7 @@ a, a:active, a:focus {
   }
 }
   .address-icon {
-    background-color : #777777 !important;
-    border-color: #ffffff !important;
-    display: block;
-    color: #fff !important;
-    background: #ff7029;
-    font-size: 18px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    margin-right: 15px;
+    background-color : #5B5D5E !important;
   }
   .footer-bar {
     background: #191919 !important;
