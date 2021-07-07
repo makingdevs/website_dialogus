@@ -42,7 +42,7 @@
                 <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;" >Conoce más</span></button>
               </div>
             </div>
-            
+
             <div class="d-flex flex-column bg-card">
               <img class="img3" src="../assets/js/services/Recurso 1.svg" style="position: absolute; margin: -100px;"><br>
               <span class="text-title">Capital Humano</span><br>
@@ -131,7 +131,7 @@
       </slide>
     </carousel-3d>
   </section>
-    <!-- Team 
+    <!-- Team
         _________________________________________________________________________-->
 
 
@@ -144,67 +144,67 @@
                 <div class="contact-form-area">
                     <h1 class="mb-3 text-secondary">CONTACTO</h1>
                     <p class=" mb-1-6 text-dark">Compártenos tus datos y en breve uno de nuestros asesores te contactará.</p>
-    
-                    <form class="quform" action="quform/contact.php" method="post" enctype="multipart/form-data" onclick="">
-    
+
+                    <form class="quform"  @submit.prevent="sendNotification">
+
                         <div class="quform-elements">
-    
+
                             <div class="row">
-    
+
                                 <!-- Begin Text input element -->
                                 <div class="col-md-6">
                                     <div class="quform-element">
                                         <label for="name" class="h6">Tu Nombre <span class="quform-required">*</span></label>
                                         <div class="quform-input">
-                                            <input class="form-control form-control1" id="name" type="text" name="name" placeholder="Nombre" />
+                                            <input v-model="contact.name" class="form-control form-control1" id="name" type="text" name="name" placeholder="Nombre" />
                                         </div>
                                     </div>
-    
+
                                 </div>
                                 <!-- End Text input element -->
-    
+
                                 <!-- Begin Text input element -->
                                 <div class="col-md-6">
                                     <div class="quform-element">
                                         <label for="email" class="h6">Tu Email <span class="quform-required">*</span></label>
                                         <div class="quform-input">
-                                            <input class="form-control form-control1" id="email" type="text" name="email" placeholder="Mail" />
+                                            <input v-model="contact.email" class="form-control form-control1" id="email" type="text" name="email" placeholder="Mail" />
                                         </div>
                                     </div>
                                 </div>
                                 <!-- End Text input element -->
-    
+
                                 <!-- Begin Text input element -->
-    
+
                                 <!-- End Text input element -->
-    
+
                                 <!-- Begin Text input element -->
                                 <div class="col-md-6">
                                     <div class="quform-element">
                                         <label for="phone" class="h6">Número de contacto</label>
                                         <div class="quform-input">
-                                            <input class="form-control form-control1" id="phone" type="text" name="phone" placeholder="Telefono" />
+                                            <input v-model="contact.telf" class="form-control form-control1" id="phone" type="text" name="phone" placeholder="Telefono" />
                                         </div>
                                     </div>
-    
+
                                 </div>
                                 <!-- End Text input element -->
-    
+
                                 <!-- Begin Textarea element -->
                                 <div class="col-md-12">
                                     <div class="quform-element">
                                         <label for="message"><span class="quform-required"></span></label>
                                         <div class="quform-input">
-                                            <textarea class="form-control form-control1" id="message" name="message" rows="3" placeholder="¿Cómo podemos ayudarte?"></textarea>
+                                            <textarea v-model="contact.mensaje" class="form-control form-control1" id="message" name="message" rows="3" placeholder="¿Cómo podemos ayudarte?"></textarea>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- End Textarea element -->
-    
+
                                 <!-- Begin Submit button -->
                                 <div class="col-md-12">
                                     <div class="quform-submit-inner">
-                                        <button class="butn theme butn-md btn-circle" type="submit"><span class="">Enviar respuesta</span></button>
+                                      <button class="butn theme butn-md btn-circle" ><span class="">Enviar respuesta</span></button>
                                     </div><br>
                                     <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
                                 </div>
@@ -213,7 +213,7 @@
                             </div>
                         </div>
                     </form>
-    
+
                 </div>
             </div>
             </div>
@@ -222,7 +222,7 @@
                 <div class="d-flex flex-column cuadrado2 text-white "><br>
                   <img class="telef" src="../assets/js/services/telfono.svg">
                   <p>55 16556739998</p>
-        
+
                     <img class="telef" src="../assets/js/services/messa.svg">
                     <p>contactanos@dialogus.com.mx</p>
 
@@ -230,7 +230,7 @@
                     <p>Periferico Sur 4121, Fuentes del Pedregal, Tlalpan, 14140 Ciudad de México, CDMX</p>
                 </div>
                 </div>
-            </div>  
+            </div>
           </div>
 
 
@@ -258,7 +258,6 @@
     watch: {
       TarjetasCarruselTable: function () {
         this.renderComponent = false;
-        console.log("cambio");
         setTimeout(() => this.renderComponent = true, 1000);
       }
     },
@@ -271,6 +270,12 @@
         TarjetasCarruselTable: [],
         renderComponent: false,
         show: true,
+        contact: {
+          name: "",
+          email: "",
+          telf: "",
+          mensaje: ""
+        }
       }
     },
 
@@ -289,12 +294,17 @@
       VueTextTransition,
     },
     methods: {
-      exampleMethod() {
-        console.log("Hola mundo")
+      sendNotification(){
+        const message = `Hola! \nMe quiero comunicar con ustedes
+                        Mi nombre es: ${this.contact.name}
+                        Correo: ${this.contact.email}
+                        Teléfono: ${this.contact.telf}
+                        Mensaje: ${this.contact.mensaje}`.replace(/  +/g, '');
+
+        window.open(`https://api.whatsapp.com/send?phone=525583817789&text=${encodeURIComponent(message)}`, "_target")
       },
       handleScroll() {
         if (window.scrollY > 1200 && this.stateEffect) {
-          console.log("Execute method")
           this.displayСonditions = true;
           this.stateEffect = false;
         }
