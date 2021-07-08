@@ -89,9 +89,9 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="h1 color_34">Te presentamos</div><br>
+            <div class="h1 color_33">Te presentamos</div><br>
             <img class="img2" src="../assets/js/services/Recurso 6.svg" alt="..."><br><br>
-            <div class="h4 color_34">Somos una consultora que ofrece una amplia gama de servicios disruptivos e innovadores, siempre poniendo a la gente al centro de las soluciones.</div>
+            <div class="h4 color_33">Somos una consultora que ofrece una amplia gama de servicios disruptivos e innovadores, siempre poniendo a la gente al centro de las soluciones.</div>
           </div>
 
 
