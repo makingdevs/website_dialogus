@@ -36,6 +36,8 @@
             <p class="text-black">Acompañamos el desarrollo de nuestros clientes, mediante metodologías innovadoras contribuyendo en su rentabilidad, productividad y satisfacción.</p>
             <h2 class="h1 text-black color_34 mb-1-6 font-weight-700">Nuestra Visión</h2>
             <p class="text-black">Generar Prosperidad Incluyente*, mediante el crecimiento y la permanencia de las empresas en el mercado. *Que nos vaya bien a todos.</p>
+            <h2 class="h1 text-black color_34 mb-1-6 font-weight-700">Nuestro Propósito</h2>
+            <p class="text-black">Generar Prosperidad Incluyente*, mediante el crecimiento y la permanencia de las empresas en el mercado. *Que nos vaya bien a todos.</p>
             
             <ul class="list-style1">
             </ul>
@@ -82,12 +84,12 @@
             </div>
         </section>
 
-    <!-- Clientes
+    <!-- Clientes y testimonios
         ================================================== -->
         <section>
             <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
             <span class="color_34">Nuestros Clientes </span></h2>
-                <carousel-3d height="510px" style="height: 525px;">
+                <carousel-3d height="500px" style="height: 525px;" border="0">
                     <slide :index="0" class="border-show2">
                         <div class="card card-style4">
                             <div class="card-img"><img src="../assets/persona1.webp" alt="..." class="tamañoEventos">
@@ -99,10 +101,15 @@
                                     <span class="me-0 me-xl-2 text-white"><i class="fas fa-map-marker-alt"></i>&nbsp;Ubicación 1</span>
                                     </div>
                                     <p align="center" class="text-white">Testimonio 1</p><br>
-                                    <hr class="hr2" />
+                                    <hr class="hr2"/>
                                     <div class="d-flex justify-content-center">
-                                    <a class="tolowercase butn btn-circle border-show" href="" target="_blank"><span class="h6 text-white"
-                                        style="text-transform: none;">Leer más </span></a>
+                                      <div class="rating">
+                                          <span><i class="fas fa-star"></i></span>
+                                          <span><i class="fas fa-star"></i></span>
+                                          <span><i class="fas fa-star"></i></span>
+                                          <span><i class="fas fa-star"></i></span>
+                                          <span><i class="fas fa-star"></i></span>
+                                      </div>
                                     </div>
                                 </div>
                             </div>
@@ -121,8 +128,13 @@
                                     <p align="center" class="text-white">Testimonio 2</p><br>
                                     <hr class="hr2" />
                                     <div class="d-flex justify-content-center">
-                                    <a class="tolowercase butn btn-circle border-show" href="" target="_blank"><span class="h6 text-white"
-                                        style="text-transform: none;">Leer más </span></a>
+                                      <div class="rating">
+                                          <span><i class="fas fa-star"></i></span>
+                                          <span><i class="fas fa-star"></i></span>
+                                          <span><i class="fas fa-star"></i></span>
+                                          <span><i class="fas fa-star"></i></span>
+                                          <span><i class="fas fa-star"></i></span>
+                                      </div>
                                     </div>
                                 </div>
                             </div>
@@ -141,8 +153,13 @@
                                     <p align="center" class="text-white">Testimonio 3</p><br>
                                     <hr class="hr2" />
                                     <div class="d-flex justify-content-center">
-                                    <a class="tolowercase butn btn-circle border-show" href="" target="_blank"><span class="h6 text-white"
-                                        style="text-transform: none;">Leer más </span></a>
+                                      <div class="rating">
+                                          <span><i class="fas fa-star"></i></span>
+                                          <span><i class="fas fa-star"></i></span>
+                                          <span><i class="fas fa-star"></i></span>
+                                          <span><i class="fas fa-star"></i></span>
+                                          <span><i class="fas fa-star"></i></span>
+                                      </div>
                                     </div>
                                 </div>
                             </div>
@@ -161,8 +178,13 @@
                                     <p align="center" class="text-white">Testimonio 4</p><br>
                                     <hr class="hr2" />
                                     <div class="d-flex justify-content-center">
-                                    <a class="tolowercase butn btn-circle border-show" href="" target="_blank"><span class="h6 text-white"
-                                        style="text-transform: none;">Leer más </span></a>
+                                      <div class="rating">
+                                          <span><i class="fas fa-star"></i></span>
+                                          <span><i class="fas fa-star"></i></span>
+                                          <span><i class="fas fa-star"></i></span>
+                                          <span><i class="fas fa-star"></i></span>
+                                          <span><i class="fas fa-star"></i></span>
+                                      </div>
                                     </div>
                                 </div>
                             </div>
@@ -181,8 +203,13 @@
                                     <p align="center" class="text-white">Testimonio 5</p><br>
                                     <hr class="hr2" />
                                     <div class="d-flex justify-content-center">
-                                    <a class="tolowercase butn btn-circle border-show" href="" target="_blank"><span class="h6 text-white"
-                                        style="text-transform: none;">Leer más </span></a>
+                                      <div class="rating">
+                                          <span><i class="fas fa-star"></i></span>
+                                          <span><i class="fas fa-star"></i></span>
+                                          <span><i class="fas fa-star"></i></span>
+                                          <span><i class="fas fa-star"></i></span>
+                                          <span><i class="fas fa-star"></i></span>
+                                      </div>
                                     </div>
                                 </div>
                             </div>
@@ -277,8 +304,12 @@ element.style {
     width: 80%;
   }
 
- 
-
+ .rating span{
+   color: #ffbc51;
+ }
+ .hr2{
+   top: 150px;
+ }
   .v--vtt-test,
   .v--vtt-test_odd {
     will-change: transform, opacity;
