@@ -87,30 +87,34 @@
                   <!-- FOOTER
         ================================================== -->
         <footer>
-          <div id="contacto">
-          <div class="container">
-              <div class="row">
-                  <div class="col-sm-6 col-lg-4 mb-2-4 mb-lg-0">
-                      <img src="./assets/js/services/DiaBlan.svg" alt="..." width="300">
-                      <p class="mb-1-6 text-white" align="left">
+          <div id="contacto" class="container-fluid">
+              <div class="row col">
+                  <div class="col-sm-6 col-lg-3 mb-2-4 mb-lg-0">
+                    <div class="d-flex justify-content-start">
+                      <img src="./assets/js/services/DiaBlan.svg" alt="..." width="300" style="margin-left: 25px; margin-top: -60px;">
+                    </div>
+                    <div class="d-flex justify-content-start">
+                      <p align="left" class="mb-3-6 text-white" style="margin-left: 35px;">
                         55 16556739998<br>
                         contactanos@dialogus.com.mx
-                      </p>
+                      </p></div>
                       <div class="row align-items-center">
                           <div class="col-lg-12 mb-3">
                               <div>
                                 <ul>
+                                  <div class="d-flex justify-content-start">
                                     <li>
-                                      <a href="https://twitter.com/Dialogus_LAT"><img src="./assets/js/services/TW.svg" width="100"></a>
-                                      <a href="https://www.facebook.com/DialogusConsultores"><img src="./assets/js/services/FB.svg" width="100"></a>
-                                      <a href="https://www.linkedin.com/company/dialogus-consultores/"><img src="./assets/js/services/IN.svg" width="100"></a>
+                                      <a href="https://twitter.com/Dialogus_LAT"><img src="./assets/js/services/TW.svg" width="50"></a>
+                                      <a href="https://www.facebook.com/DialogusConsultores"><img src="./assets/js/services/FB.svg" width="50"></a>
+                                      <a href="https://www.linkedin.com/company/dialogus-consultores/"><img src="./assets/js/services/IN.svg" width="50"></a>
                                     </li> 
+                                  </div>
                                 </ul>
                               </div>
                           </div>
                       </div>
                   </div>
-                  <div class="col-sm-6 col-lg-2 mb-2-4 mb-lg-0">
+                  <div class="col-sm-4 col-lg-2 mb-2-4 mb-lg-0">
                       <div class="ps-md-1-6 ps-xl-1-9">
                           <ul class="list-style1" align="left">
                             <li>
@@ -136,7 +140,7 @@
                           </ul>
                       </div>
                   </div>
-                  <div class="col-sm-6 col-lg-2 mb-2-4 mb-lg-0">
+                  <div class="col-sm-4 col-lg-2 mb-2-4 mb-lg-0">
                       <div class="ps-md-1-6 ps-xl-1-9">
                           <ul class="list-style1" align="left">
                             <li>
@@ -167,7 +171,7 @@
                           </ul>
                       </div>
                   </div>
-                  <div class="col-sm-6 col-lg-2 mb-2-4 mb-lg-0">
+                  <div class="col-sm-4 col-lg-2 mb-2-4 mb-lg-0">
                       <div class="ps-md-1-6 ps-xl-1-9">
                           <ul class="list-style1" align="left">
                             <li>
@@ -178,7 +182,7 @@
                           </ul>
                       </div>
                   </div>
-                  <div class="col-sm-6 col-lg-2 mb-2-4 mb-lg-0">
+                  <div class="col-sm-4 col-lg-2 mb-2-4 mb-lg-0">
                       <div class="ps-md-1-6 ps-xl-1-9">
                           <ul class="list-style1" align="left">
                             <li>
@@ -191,8 +195,6 @@
                   </div>
 
               </div>
-          </div>
-
         </div>
       </footer>
 
@@ -208,7 +210,6 @@
   }
 
   #nav {
-    transition: background-color 0.8s linear 0.2s;
     padding: -30px;
   }
 
