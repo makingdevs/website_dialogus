@@ -49,28 +49,7 @@ const routes = [
       autentificado: false
     },
   },
-  {
-    path: '/textAdministration',
-    name: 'TextAdministrations',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/TextAdministrations.vue'),
-    meta: {
-      autentificado: true
-    }
-  },
-  {
-    path: '/themeexample',
-    name: 'ThemeExample',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/ThemeExample.vue'),
-    meta: {
-      autentificado: false
-    },
-  },
+  
   {
     path: '/login',
     name: 'Login',

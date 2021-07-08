@@ -85,7 +85,7 @@
         <div class="row align-items-center">
           <div class="col-lg-6 mb-6 mb-md-8 mb-lg-0">
             <div class="pe-lg-1-9 pe-xl-2-5 text-center">
-              <img class="box-custom" src="../assets/que es.jpg" alt="...">
+              <img class="box-custom" src="../assets/que es.jpeg" alt="...">
             </div>
           </div>
           <div class="col-lg-6">
@@ -250,7 +250,7 @@
   import '../assets/css/home.scss'
   import { TarjetasCarruselTableRef } from '../dbConnection'
   export default {
-    name: "ThemeExample",
+    name: "home",
     firebase: {
       TarjetasCarruselTable: TarjetasCarruselTableRef
     },

@@ -54,7 +54,7 @@
                 <div class="row justify-content-center align-items-center g-0 mb-6 mb-md-8 mb-lg-12 mb-xl-16 flex-row-reverse">
 
                     <div class="col-md-5 col-xl-4">
-                        <img src="../assets/serv2.jpg" alt="...">
+                        <img src="../assets/serv2.jpeg" alt="...">
                     </div>
                     <div class="col-md-7 col-xl-6">
                         <div class="success-content left">
@@ -84,7 +84,7 @@
                 <div class="row justify-content-center align-items-center g-0 mb-6 mb-md-8 mb-lg-12 mb-xl-16">
 
                     <div class="col-md-5 col-xl-4">
-                        <img src="../assets/serv3.jpg" alt="...">
+                        <img src="../assets/serv3.jpeg" alt="...">
                     </div>
                     <div class="col-md-7 col-xl-6">
                         <div class="success-content right">
@@ -114,7 +114,7 @@
                 <div class="row justify-content-center align-items-center g-0 flex-row-reverse">
 
                     <div class="col-md-5 col-xl-4">
-                        <img src="../assets/serv4.jpg" alt="...">
+                        <img src="../assets/serv4.jpeg" alt="...">
                     </div>
                     <div class="col-md-7 col-xl-6">
                         <div class="success-content left">
@@ -148,11 +148,11 @@
 </template>
 <style>
   #bannerservices {
-    background-image: url('../assets/img3.jpg');
+    background-image: url('../assets/img3.jpeg');
 
   }
   #conteo {
-    background-image: url('../assets/img4.jpg');
+    background-image: url('../assets/img4.jpeg');
 
   }
   #servic{

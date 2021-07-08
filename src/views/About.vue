@@ -28,7 +28,7 @@
         <div class="row align-items-center">
           <div class="col-lg-6 mb-6 mb-md-8 mb-lg-0">
             <div class="pe-lg-1-9 pe-xl-2-5 text-center">
-              <img class="box-custom" src="../assets/img2.jpg" alt="...">
+              <img class="box-custom" src="../assets/img2.jpeg" alt="...">
             </div>
           </div>
           <div class="col-lg-6">
@@ -48,7 +48,7 @@
         ================================================== -->
         <section class="py-0">
             <div class="row g-0">
-                <div class="col-lg-6 bg-img cover-background" data-overlay-dark="2" data-background="../assets/img4.jpg" id="conteo">
+                <div class="col-lg-6 bg-img cover-background" data-overlay-dark="2" data-background="../assets/img4.jpeg" id="conteo">
                     <div class="d-table h-100 text-center mx-auto position-relative z-index-1">
                         <div class="d-table-cell vertical-align-middle h-100 ">
                             <div class="d-inline-block vertical-align-middle z-index-1 text-start">
@@ -199,11 +199,11 @@
 
   }
   #conteo {
-    background-image: url('../assets/img4.jpg');
+    background-image: url('../assets/img4.jpeg');
 
   }
   #testi {
-    background-image: url('../assets/img4.jpg');
+    background-image: url('../assets/img4.jpeg');
 
   }
   .colorLineas{
@@ -213,7 +213,7 @@
     border-radius: 50%;
 }
 element.style {
-  background-image: url('../assets/img4.jpg');
+  background-image: url('../assets/img4.jpeg');
 
   }
 .media-body {
