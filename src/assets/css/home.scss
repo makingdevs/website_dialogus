@@ -2,6 +2,9 @@
 .top-position2 {
   margin-top: -81px;
 }
+.video_btn{
+  background: #0098a5!important;
+}
 /* home*/
 .cuadrado2
 {
@@ -22,7 +25,7 @@
 /*APARTADO DE QUE ES DIALOGUS */
 .img2 {
   max-width: 100%;
-  height: 70px;
+  height: 100px;
   vertical-align: top;
 }
 /*APARTADO DE QUE ES DIALOGUS */
@@ -52,7 +55,7 @@
   box-shadow: 1px 3px 4px 2px rgb(31, 31, 31);
 }
 .border-show2 {
-  box-shadow: 3px 3px 5px 2px rgb(175, 175, 175);
+  box-shadow: 3px 3px 5px 2px rgb(51, 51, 51);
 }
 
 #banner {
@@ -267,8 +270,16 @@ body {
 
 /*ESTILOS DEL BOTON*/
 .butn {
-  background: #20ad95 !important;
+  background: #0098a5 !important;
   color: #fff !important;
+  font-size: 12px;
+}
+.text-white {
+  font-weight: 900 !important;
+}
+
+button > .text-white {
+  font-weight: 900 !important;
 }
 .butn {
   position: relative;
@@ -362,4 +373,72 @@ body {
   .text-title {
     color: white;
   }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .text-title {
+    font-size: 20px;
+  }
+
+  .text-body {
+    font-size: 18px !important;
+  }
+
+
+}
+
+@media only screen and (max-width: 992px) {
+  .text-title {
+    font-size: 20px;
+  }
+
+  .text-body {
+    font-size: 18px !important;
+  }
+
+  .bg-card {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .text-title {
+    font-size: 15px;
+  }
+
+  .text-body {
+    font-size: 12px !important;
+  }
+
+  .bg-card {
+    padding: 5px;
+  }
+
+  button > .text-white {
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+@media only screen and (max-width: 550px) {
+
+  .text-title {
+    font-size: 25px;
+  }
+
+  .text-body {
+    font-size: 20px !important;
+  }
+  .flex-mobile {
+    flex-direction: column;
+  }
+  .alignImag{
+    margin-top: 0px !important;
+    margin-left: 5px !important;
+  }
+  .alignImag2{
+    margin-top: 17px !important;
+    margin-left: 5px !important;
+  }
+  
 }
