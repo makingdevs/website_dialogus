@@ -30,14 +30,14 @@
                     <div class="col-md-7 col-xl-6">
                         <div class="success-content right">
                             <div class="content-wrapper">
-                                <h3 class="text-center text-secondary h4">Estrategia</h3>
+                                <h3 class="text-center color_34 h4">Estrategia</h3>
                                 <p class="font-weight-500 alt-font">
                                   En conjunto con tu empresa, unidad de negocio o área, aplicamos metodologías efectivas e innovadoras para definir el marco de acción, los objetivos fundamentales y el camino para alcanzarlos de manera exitosa.
                                 </p>
                             </div>
                             <div class="author">
                                 <h4 class="display-27 font-weight-800 mb-1">Servicios de Estrategia</h4>
-                                <span class="display-31 display-sm-30 font-weight-600 text-secondary alt-font">
+                                <span class="display-31 display-sm-30 font-weight-600 color_34 alt-font">
                                   <p>
                                     Planeación estratégica colaborativa<br>
                                     Estructura organizacional<br>
@@ -59,14 +59,14 @@
                     <div class="col-md-7 col-xl-6">
                         <div class="success-content left">
                             <div class="content-wrapper">
-                                <h3 class="text-center text-secondary h4">Capital Humano</h3>
+                                <h3 class="text-center color_34 h4">Capital Humano</h3>
                                 <p class="font-weight-500 alt-font">
                                   Nuestra división de Capital Humano genera soluciones para la gestión de talento, el desarrollo organizacional y las estrategias de bienestar para tu organización.
                                 </p>
                             </div>
                             <div class="author">
                                 <h4 class="display-27 font-weight-800 mb-1">Servicios de Capital Humano</h4>
-                                <span class="display-31 display-sm-30 font-weight-600 text-secondary alt-font">
+                                <span class="display-31 display-sm-30 font-weight-600 color_34 alt-font">
                                   <p>
                                     Semillero de talento (becarios y trainees)<br>
                                     Estrategia de capacitación organizacional<br>
@@ -89,14 +89,14 @@
                     <div class="col-md-7 col-xl-6">
                         <div class="success-content right">
                             <div class="content-wrapper">
-                                <h3 class="text-center text-secondary h4">Cumplimiento</h3>
+                                <h3 class="text-center color_34 h4">Cumplimiento</h3>
                                 <p class="font-weight-500 alt-font">
                                   Desarrollamos sistemas que fomentan la integridad y ética para crear una cultura de honestidad y buenos valores para tu organización.
                                 </p>
                             </div>
                             <div class="author">
                                 <h4 class="display-27 font-weight-800 mb-1">Servicios de Cumplimiento</h4>
-                                <span class="display-31 display-sm-30 font-weight-600 text-secondary alt-font">
+                                <span class="display-31 display-sm-30 font-weight-600 color_34 alt-font">
                                   <p>
                                     Programas de ética y política de integridad<br>
                                     Canales de denuncia<br>
@@ -119,14 +119,14 @@
                     <div class="col-md-7 col-xl-6">
                         <div class="success-content left">
                             <div class="content-wrapper">
-                                <h3 class="text-center text-secondary h4">Diagnóstico</h3>
+                                <h3 class="text-center color_34 h4">Diagnóstico</h3>
                                 <p class="font-weight-500 alt-font">
                                   Identicamos áreas de oportunidad de las empresas por medio de diversas herramientas de monitoreo y análisis, con la finalidad de generar un camino hacia la mejora continua. Nuestro objetivo es ayudar a los negocios a desarrollarse a través de información interna y retroalimentación de especialistas.
                                 </p>
                             </div>
                             <div class="author">
                                 <h4 class="display-27 font-weight-800 mb-1">Juan Iris</h4>
-                                <span class="display-31 display-sm-30 font-weight-600 text-secondary alt-font">
+                                <span class="display-31 display-sm-30 font-weight-600 color_34 alt-font">
                                   <p>
                                     Análisis para identificar fortalezas o áreas de mejora<br>
                                     Identificación e interpretación de riesgos en la empresa<br>

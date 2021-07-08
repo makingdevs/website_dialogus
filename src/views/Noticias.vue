@@ -33,7 +33,7 @@
         <section class="blog">
             <div class="container">
                     <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
-                        <span class="text-secondary">Nuestro Blog </span></h2> <br>
+                        <span class="color_34">Nuestro Blog </span></h2> <br>
                 <div class="row">
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
                         <article class="card card-style2 card-style4  h-100">
@@ -94,7 +94,7 @@
                             <!-- Event GRID
         ================================================== -->
                     <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
-                        <span class="text-secondary">Nuestro Eventos </span></h2>
+                        <span class="color_34">Nuestro Eventos </span></h2>
                         <br><br><br>
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
                         <article class="card card-style2 card-style4 h-100">

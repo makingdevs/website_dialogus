@@ -25,7 +25,7 @@
         <section class="contact-form">
             <div class="container">
                     <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
-                        <span class="text-secondary">Estamos aqui para ayudarte </span></h2> <br>
+                        <span class="color_34">Estamos aqui para ayudarte </span></h2> <br>
                 <div class="row">
                     <div class="col-lg-4 mb-1-6 mb-md-1-9 mb-lg-0 contact-border">
                         <div class="contact-wrapper">
@@ -89,7 +89,7 @@
                                 </div>
                                 <div class="col-lg-6 ps-lg-0">
                                     <div class="contact-form-area">
-                                        <h3 class="mb-3 text-secondary">Llámanos o rellena el formulario</h3>
+                                        <h3 class="mb-3 color_34">Llámanos o rellena el formulario</h3>
                                         <p class="mb-1-6 text-dark">Si podemos ayudarlo de alguna forma, complete este formulario. Te ayudaremos y nos pondremos en contacto.</p>
 
                                         <form class="quform" action="quform/contact.php" method="post" enctype="multipart/form-data" onclick="">

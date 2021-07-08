@@ -24,7 +24,7 @@
                 </div>
 
                 <!-- Submit button -->
-                <button type="submit" class=" btn btn-success">Ingresar</button>
+                <button type="submit" class=" btn btn-success ">Ingresar</button>
               </form>
             </div>
           </div>

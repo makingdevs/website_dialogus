@@ -12,7 +12,7 @@
             <h6 align="left" class=" text-white font-weight-800">En Dialogus nos comprometemos en transformar</h6>
             <h6 align="left" class=" text-white font-weight-800"> los negocios para llevarlos al siguiente nivel.</h6>
             <br>
-            <div class="d-flex bd-highlight">
+            <div class="d-flex bd-highlight align-items-center">
             <a href="#!" class="h4 butn btn-circle me-2-4 mb-2-4 mb-sm-0 font-weight-900" style="width: 55% !important; "><span class="text-white">Descargar Guia Dialogüs</span></a>
             <div class="d-block d-sm-inline-block">
               <a class="popup-social-video video_btn small" href="https://www.youtube.com/watch?v=-ESQmzDbnL8"><i
@@ -30,48 +30,45 @@
     <section>
       <div class="container">
         <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
-          <span class="text-secondary">NUESTRAS DIVISIONES </span></h2><br><br><br>
-          <div class="d-flex justify-content-between bg-divisions d-flex-column">
+          <span class="color_34">NUESTRAS DIVISIONES </span></h2><br><br><br>
+          <div class="d-flex justify-content-between bg-divisions flex-mobile">
             <div class="d-flex flex-column bg-card">
-              <img align="right" class="img3" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+              <img align="right" class="img3 alignImag" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
               <span class="text-title">Estrategia</span><br>
               <div class="hr-border"/><br>
-              <span class="h5">Definimos el camino para alcanzar tus objetivos de manera exitosa.</span>
-              <br><br>
-              <div class="d-flex justify-content-center" style="margin-bottom: 80px">
+              <span class="h5 flex-grow-1 text-body">Definimos el camino para alcanzar tus objetivos de manera exitosa.</span>
+              <div class="d-flex justify-content-center mt-5 mb-5">
                 <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;" >Conoce más</span></button>
               </div>
             </div>
 
             <div class="d-flex flex-column bg-card">
-              <img class="img3" src="../assets/js/services/Recurso 1.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+              <img class="img3 alignImag2" src="../assets/js/services/Recurso 1.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
               <span class="text-title">Capital Humano</span><br>
               <div class="hr-border"/><br>
-              <span class="h5">Generamos soluciones para el desarrollo del talento humano y el desarrollo organizacional.</span>
-              <br>
-              <div class="d-flex justify-content-center">
+              <span class="h5 flex-grow-1 text-body">Generamos soluciones para el desarrollo del talento humano y el desarrollo organizacional.</span>
+              <div class="d-flex justify-content-center mt-5 mb-5">
                 <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
               </div>
             </div>
 
             <div class="d-flex flex-column bg-card">
-              <img class="img3" src="../assets/js/services/Recurso 2.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+              <img class="img3 alignImag2" src="../assets/js/services/Recurso 2.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
               <span class="text-title">Cumplimiento</span><br>
               <div class="hr-border"/><br>
-              <span class="h5">Blindamos a las empresas con sistemas de integridad, ética y gestión de riesgos.</span>
+              <span class="h5 flex-grow-1 text-body">Blindamos a las empresas con sistemas de integridad, ética y gestión de riesgos.</span>
               <br>
-              <div class="d-flex justify-content-center">
+              <div class="d-flex justify-content-center mt-5 mb-5">
                 <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
               </div>
             </div>
 
             <div class="d-flex flex-column bg-card">
-              <img class="img3" src="../assets/js/services/Recurso 25.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+              <img class="img3 alignImag2" src="../assets/js/services/Recurso 25.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
               <span class="text-title">Diagnóstico</span><br>
               <div class="hr-border"/><br>
-              <span class="h5">Identificamos fortalezas y debilidades de empresas reforzando el ecosistema mexicano.</span>
-              <br>
-              <div class="d-flex justify-content-center ">
+              <span class="h5 flex-grow-1 text-body">Identificamos fortalezas y debilidades de empresas reforzando el ecosistema mexicano.</span>
+              <div class="d-flex justify-content-center mt-5 mb-5">
                 <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
               </div>
             </div>
@@ -106,8 +103,8 @@
         ================================================== -->
   <section>
 <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
-  <span class="text-secondary">EVENTOS Y CURSOS </span></h2>
-    <carousel-3d v-if="renderComponent" height="510px" border="0" :controlsVisible="controlsVisible" :perspective="perspective" :inverseScaling="143" :space="385" style="height: 525px;" >
+  <span class="color_34">EVENTOS Y CURSOS </span></h2>
+    <carousel-3d v-if="renderComponent" height="510px" border="0" :controlsVisible="controlsVisible" :perspective="perspective" :inverseScaling="300" :space="385" style="height: 525px;" >
       <slide :index="index" class="border-show2" v-for="(tarjeta, index) in TarjetasCarruselTable" :key="index">
         <div class="card card-style4">
           <div class="card-img"><img :src="tarjeta.image" alt="..." class="tamañoEventos">
@@ -142,7 +139,8 @@
             <div class="col-8">
               <div class="ps-lg-2">
                 <div class="contact-form-area">
-                    <h1 class="mb-3 text-secondary">CONTACTO</h1>
+                  <h1 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
+                    <span class="color_34">CONTACTO </span></h1>
                     <p class=" mb-1-6 text-dark">Compártenos tus datos y en breve uno de nuestros asesores te contactará.</p>
 
                     <form class="quform"  @submit.prevent="sendNotification">
@@ -235,6 +233,7 @@
 
 
         </section>
+        <div id="three-container"></div>
 
 
     <!-- FOOTER
@@ -266,7 +265,7 @@
         stateEffect: true,
         displayСonditions: false,
         controlsVisible: false,
-        perspective: 325,
+        perspective: 35,
         TarjetasCarruselTable: [],
         renderComponent: false,
         show: true,
@@ -281,8 +280,8 @@
 
     created: function () {
       window.addEventListener('scroll', this.handleScroll);
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
+      //document.body.scrollTop = 0;
+      //document.documentElement.scrollTop = 0;
     },
     mounted() {
 
@@ -301,7 +300,7 @@
                         Teléfono: ${this.contact.telf}
                         Mensaje: ${this.contact.mensaje}`.replace(/  +/g, '');
 
-        window.open(`https://api.whatsapp.com/send?phone=525583817789&text=${encodeURIComponent(message)}`, "_target")
+        window.open(`https://api.whatsapp.com/send?phone=525529529124&text=${encodeURIComponent(message)}`, "_target")
       },
       handleScroll() {
         if (window.scrollY > 1200 && this.stateEffect) {

@@ -32,9 +32,9 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <h2 class="h1 text-black text-secondary mb-1-6 font-weight-700">Nuestra Misión</h2>
+            <h2 class="h1 text-black color_34 mb-1-6 font-weight-700">Nuestra Misión</h2>
             <p class="text-black">Acompañamos el desarrollo de nuestros clientes, mediante metodologías innovadoras contribuyendo en su rentabilidad, productividad y satisfacción.</p>
-            <h2 class="h1 text-black text-secondary mb-1-6 font-weight-700">Nuestra Visión</h2>
+            <h2 class="h1 text-black color_34 mb-1-6 font-weight-700">Nuestra Visión</h2>
             <p class="text-black">Generar Prosperidad Incluyente*, mediante el crecimiento y la permanencia de las empresas en el mercado. *Que nos vaya bien a todos.</p>
             
             <ul class="list-style1">
@@ -86,7 +86,7 @@
         ================================================== -->
         <section>
             <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
-            <span class="text-secondary">Nuestros Clientes </span></h2>
+            <span class="color_34">Nuestros Clientes </span></h2>
                 <carousel-3d height="510px" style="height: 525px;">
                     <slide :index="0" class="border-show2">
                         <div class="card card-style4">
