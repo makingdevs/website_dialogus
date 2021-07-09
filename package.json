@@ -21,6 +21,7 @@
     "vue-router": "^3.5.1",
     "vue-text-transition": "^1.0.19",
     "vuefire": "^2.2.5",
+    "vue-calendly": "^0.0.4",
     "vueperslides": "^2.15.0"
   },
   "devDependencies": {
