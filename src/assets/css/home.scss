@@ -2,22 +2,20 @@
 .top-position2 {
   margin-top: -81px;
 }
-.video_btn{
-  background: #0098a5!important;
+.video_btn {
+  background: #0098a5 !important;
 }
 /* home*/
-.cuadrado2
-{
-  background : #35547c;
-  background : rgba(63, 84, 121, 1);
-  border-radius : 12px;
-  -moz-border-radius : 12px;
-  -webkit-border-radius : 12px;
-  box-shadow : 7px 7px 5px rgba(0, 0, 0, 0.3);
-  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=7, OffY=7, Color='#000000') ;
+.cuadrado2 {
+  background: #35547c;
+  background: rgba(63, 84, 121, 1);
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.3);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=7, OffY=7, Color='#000000');
 }
-.telef
-{
+.telef {
   max-width: 100%;
   height: 33px;
   vertical-align: top;
@@ -35,8 +33,8 @@
   border-radius: 12px !important;
   text-align: center !important;
 }
-#fondo3{
-  background-image: url('../serv1.jpg');
+#fondo3 {
+  background-image: url("../serv1.jpg");
 }
 
 /*apartado de servicios*/
@@ -201,8 +199,8 @@ body {
   transition: all 0.5s;
   background: rgba(255, 255, 255, 0) !important;
 }
-.h5 a{
-  color: white !important; 
+.h5 a {
+  color: white !important;
 }
 /*+++++++++++++++++++++++++++carrusel++++++++++++++++++++++++++*/
 .section-heading:before {
@@ -332,21 +330,20 @@ button > .text-white {
 }
 /*ESTILOS DEL BOTON*/
 
-
 .bg-divisions {
-  background : #E8EAEA;
-  background : rgba(232, 234, 234, 1);
-  border-radius : 11px;
-  -moz-border-radius : 11px;
-  -webkit-border-radius : 11px;
+  background: #e8eaea;
+  background: rgba(232, 234, 234, 1);
+  border-radius: 11px;
+  -moz-border-radius: 11px;
+  -webkit-border-radius: 11px;
 }
 
 .hr-border {
-  border-style : Solid;
-  border-color : #3F5479;
-  border-color : rgba(63, 84, 121, 1);
-  background-color: #3F5479;
-  border-width : 1px;
+  border-style: Solid;
+  border-color: #3f5479;
+  border-color: rgba(63, 84, 121, 1);
+  background-color: #3f5479;
+  border-width: 1px;
 }
 
 .bg-card {
@@ -358,18 +355,18 @@ button > .text-white {
 }
 
 .bg-card:hover {
-  background : #3F5479;
-  background : rgba(63, 84, 121, 1);
-  border-radius : 18px;
-  -moz-border-radius : 18px;
-  -webkit-border-radius : 18px;
+  background: #3f5479;
+  background: rgba(63, 84, 121, 1);
+  border-radius: 18px;
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
   color: rgb(252, 0, 0) !important;
 
-  .h5{
+  .h5 {
     color: #ffffff !important;
   }
   .hr-border {
-    border-color : white;
+    border-color: white;
     background-color: white;
   }
 
@@ -378,6 +375,15 @@ button > .text-white {
   }
 }
 
+.calendly-custom {
+  background-color: white;
+  padding: 3px !important;
+  border-radius: 21px;
+}
+
+#page-region {
+  display: none;
+}
 
 @media only screen and (max-width: 1200px) {
   .text-title {
@@ -387,8 +393,6 @@ button > .text-white {
   .text-body {
     font-size: 18px !important;
   }
-
-
 }
 
 @media only screen and (max-width: 992px) {
@@ -424,7 +428,6 @@ button > .text-white {
   }
 }
 @media only screen and (max-width: 550px) {
-
   .text-title {
     font-size: 25px;
   }
@@ -435,13 +438,12 @@ button > .text-white {
   .flex-mobile {
     flex-direction: column;
   }
-  .alignImag{
+  .alignImag {
     margin-top: 0px !important;
     margin-left: 5px !important;
   }
-  .alignImag2{
+  .alignImag2 {
     margin-top: 17px !important;
     margin-left: 5px !important;
   }
-  
 }
