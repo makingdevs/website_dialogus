@@ -100,17 +100,6 @@
     </section>
     <!--END ABOUTUS =============================================== -->
 
-    <!-- Calendly
-        ================================================== -->
-    <section>
-      <div class="container">
-        <div class="row">
-          <vue-calendly url="https://calendly.com/makingdevs" :height="600"></vue-calendly>
-        </div>
-      </div>
-    </section>
-    <!-- End Calendly
-        ================================================== -->
 
     <!-- ONLINE COURSES
         ================================================== -->
@@ -235,7 +224,7 @@
                   <p>55 16556739998</p>
 
                     <img class="telef" src="../assets/js/services/messa.svg">
-                    <p>contactanos@dialogus.com.mx</p>
+                    <p> contactanos@ dialogus.com.mx </p>
 
                     <img class="telef" src="../assets/js/services/ubicacion.svg">
                     <p>Periferico Sur 4121, Fuentes del Pedregal, Tlalpan, 14140 Ciudad de México, CDMX</p>
@@ -246,7 +235,6 @@
 
 
         </section>
-        <div id="three-container"></div>
 
 
     <!-- FOOTER
@@ -293,6 +281,8 @@
 
     created: function () {
       window.addEventListener('scroll', this.handleScroll);
+      const element = document.getElementsByClassName("iSDZ5t7E7z").item(0);
+      console.log(element);
       //document.body.scrollTop = 0;
       //document.documentElement.scrollTop = 0;
     },

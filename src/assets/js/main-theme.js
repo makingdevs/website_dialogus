@@ -131,7 +131,6 @@ import 'coach/js/owl.carousel.js'
         --------------------------------------*/
 
         function fullScreenHeight() {
-            console.log("Runnn");
             var element = $(".full-screen");
             var $minheight = $window.height();
             console.log($minheight);

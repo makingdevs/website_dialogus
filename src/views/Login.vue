@@ -65,7 +65,7 @@ export default {
         }
   },
   created: function () {
-        console.log("Nací");
+        
 	window.addEventListener('scroll', this.handleScroll);
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
@@ -79,7 +79,6 @@ export default {
         checkLogin(){
             if(this.user.username == "test" && this.user.pass == "test"){
                 auth.setUserLogged(this.user);
-                console.log("login")
                 this.$router.push({ name: 'TextAdministrations' })
             }
         }
