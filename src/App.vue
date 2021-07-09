@@ -31,10 +31,10 @@
                     <!-- end logo -->
                   </div>
 
-                  <div class="navbar-toggler"></div>
+                  <div class="navbar-toggler" id="menu" ></div>
 
                   <!-- menu area -->
-                  <ul class="navbar-nav ms-auto" id="nav" style="display: none">
+                  <ul class="navbar-nav ms-auto" id="nav" style="display: none" @click="hiddenMenu">
                     <li>
                       <router-link to="/home" class="">
                         Home
@@ -60,14 +60,14 @@
                     </li>
 
                     <li>
-                      <router-link to="/contacto" class="">
+                      <router-link to="/contacto" class="" >
                         Contacto
                       </router-link>
                     </li>
                     <li>
-                      <router-link to="/login" class="">
-                        Login
-                      </router-link>
+                      <a class="butn btn-circle border-show" id="buttonAgenda" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="cursor: pointer">
+                        Agenda una cita
+                      </a>
                     </li>
                   </ul>
                   <!-- end menu area -->
@@ -83,6 +83,29 @@
       </div>
     </header>
     <router-view />
+
+        <!-- Calendly
+        ================================================== -->
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered ">
+    <div class="modal-content" style="background: transparent; border: 0px;">
+      <div class="modal-header justify-content-between" style="border: 0; padding: 10px 0px;">
+        <div style="margin-right: 39px;" />
+        <h5 class="modal-title text-white" id="staticBackdropLabel" align="center">Agenda una cita</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" style="margin: 0px"></button>
+      </div>
+      <div class="modal-body calendly-custom">
+        <vue-calendly url="https://calendly.com/jovany-makingdevs" class="calendly-custom"></vue-calendly>
+        
+      </div>
+
+    </div>
+  </div>
+</div>
+
+ <!-- End Calendly
+        ================================================== -->
 
                   <!-- FOOTER
         ================================================== -->
@@ -203,6 +226,16 @@
 </template>
 
 <style>
+/* home */
+#buttonAgenda {
+  margin-top: 19px;
+  margin-left: 9px;
+  font-weight: 900;
+}
+/* home */
+#menu {
+
+}
   #app {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -277,6 +310,7 @@ a, a:active, a:focus {
     transition: background-color 0.8s linear 0.2s;
   }
 }
+
   .address-icon {
     background-color : #5B5D5E !important;
   }
@@ -297,6 +331,19 @@ a, a:active, a:focus {
   background-color: #35547c !important;
   transition: background-color 0.8s linear 0.2s;
 }
+
+@media screen  and (max-width: 990px ){
+  #buttonAgenda {
+    margin-top: 0px;
+    margin-left: 0px;
+    font-weight: 900;
+    background: #35547c !important;
+    border-radius: 0px !important;
+    padding: 14px 20px !important;
+    height: unset !important;
+    font-size: 14px !important;
+  }
+}
 </style>
 <script>
   import jQuery from 'jquery';
@@ -311,7 +358,7 @@ a, a:active, a:focus {
     },
     components: {},
     created: function () {
-      console.log("Hello word app");
+
       this.changeColorNabvarWithScroll();
     },
     mounted() {
@@ -320,11 +367,27 @@ a, a:active, a:focus {
       });
     },
     methods: {
+      eventFire(element, typeEvent){
+        if (element.fireEvent) {
+          element.fireEvent('on' + typeEvent);
+        } else {
+          var evObj = document.createEvent('Events');
+          evObj.initEvent(typeEvent, true, false);
+          element.dispatchEvent(evObj);
+        }
+      }, 
+      hiddenMenu() {
+        if(window.innerWidth < 990){
+          const element = document.getElementById("menu");
+          window.scroll(0, 200)
+          this.eventFire(element, 'click')
+        }
+      },
       test() {
-        console.log("test");
+
       },
       changeColorNabvarWithScroll() {
-        console.log("changeColorNabvarWithScroll");
+
         window.addEventListener("scroll", function () {
           if (window.pageYOffset > 100) {
             this.nav.classList.add("bg-nav", "shadow");
