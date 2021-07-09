@@ -8,7 +8,15 @@
       <div class="container d-flex flex-column ">
         <div class="row align-items-center min-lg-vh-100">
           <div class="col-lg-8 mb-5 mb-lg-0">
-            <h1 align="left" class="text-white display-16 display-md-9 display-lg-7 display-xl-4 mb-1-6 text-shadow font-weight-800">Innovación que transforma negocios.</h1>
+            <h1 align="left" class="text-white display-16 display-md-9 display-lg-7 display-xl-4 mb-1-6 text-shadow font-weight-800 animate__animated animate__bounce">Innovación que transforma negocios.</h1>
+            <h2 class="animate__animated animate__bounce animate__delay-2s">
+              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <path style="fill:#901C0F;" d="M256,0v512c141.385,0,256-114.615,256-256S397.385,0,256,0z"/>
+              <path style="fill:#E0230D;" d="M470.793,256C470.793,114.615,374.626,0,256,0C114.615,0,0,114.615,0,256s114.615,256,256,256
+              C374.626,512,470.793,397.385,470.793,256z"/>
+              </svg>
+            </h2>
             <h6 align="left" class=" text-white font-weight-800">En Dialogus nos comprometemos en transformar</h6>
             <h6 align="left" class=" text-white font-weight-800"> los negocios para llevarlos al siguiente nivel.</h6>
             <br>
