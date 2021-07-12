@@ -284,15 +284,8 @@
 
     created: function () {
       window.addEventListener('scroll', this.handleScroll);
-<<<<<<< HEAD
-      const element = document.getElementsByClassName("iSDZ5t7E7z").item(0);
-      console.log(element);
-      //document.body.scrollTop = 0;
-      //document.documentElement.scrollTop = 0;
-=======
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
->>>>>>> feature/81
     },
     mounted() {
 
