@@ -23,7 +23,7 @@
             </div>
         </section>
         <section style="color: black;">
-          <card-service :title="'Planeación'" :icon="'../assets/js/services/Recurso 1.svg'">
+          <card-service :title="'Planeación'" :button-text="'Hola boton'" >
             <img src="../assets/js/services/Recurso 1.svg" alt="" class="img3">
           </card-service>
           <card-service :title="'Estructura'">

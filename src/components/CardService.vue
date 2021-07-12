@@ -7,6 +7,7 @@
       </div>
       <div class="col-5">
         Cuerpo de la tarjeta
+        <button v-if="buttonText">{{buttonText}}</button>
       </div>
       <div class="col-5">
         Imagen de la tarjeta
@@ -21,8 +22,8 @@ export default {
   props: {
     title: String,
     bodyText: String,
-    icon: String,
-    imageUrl: String
+    imageUrl: String,
+    buttonText: String
   },
   data: () => {
     return {
