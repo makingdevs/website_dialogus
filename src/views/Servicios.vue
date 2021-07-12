@@ -1,5 +1,8 @@
 <template>
   <div class="Services">
+        <!-- PAGE SERVICES CARD
+        ================================================== -->
+
         <!-- PAGE TITLE
         ================================================== -->
         <section class="parallax page-title-section top-position bg-img cover-background" data-overlay-dark="55" id="bannerservices">
@@ -19,7 +22,14 @@
 
             </div>
         </section>
-        
+        <section style="color: black;">
+          <card-service :title="'Planeación'" :icon="'../assets/js/services/Recurso 1.svg'">
+            <img src="../assets/js/services/Recurso 1.svg" alt="" class="img3">
+          </card-service>
+          <card-service :title="'Estructura'">
+            <img src="../assets/js/services/Recurso 2.svg" alt="" class="img3">
+          </card-service>
+        </section>
         <section>
             <div class="container">
                 <div class="row justify-content-center align-items-center g-0 mb-6 mb-md-8 mb-lg-12 mb-xl-16">
@@ -125,7 +135,7 @@
                                 </p>
                             </div>
                             <div class="author">
-                                <h4 class="display-27 font-weight-800 mb-1">Juan Iris</h4>
+                                <h4 class="display-27 font-weight-800 mb-1">Juan Iris </h4>
                                 <span class="display-31 display-sm-30 font-weight-600 color_34 alt-font">
                                   <p>
                                     Análisis para identificar fortalezas o áreas de mejora<br>
@@ -234,12 +244,20 @@
 </style>
 
 <script>
-export default{
-    created: function () {
-      window.addEventListener('scroll', this.handleScroll);
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
+import CardService from '../components/CardService.vue';
+export default {
+  name: "Services",
+  data: () => {
+    return {}
     },
+  created: function () {
+    window.addEventListener('scroll', this.handleScroll);
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  },
+  components: {
+    CardService
+  }
 };
 </script>
 
