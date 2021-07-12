@@ -354,11 +354,11 @@ import { Carousel3d, Slide } from 'vue-carousel-3d';
     },
     methods: {
       exampleMethod() {
-        console.log("Hola mundo")
+        
       },
       handleScroll() {
         if (window.scrollY > 1200 && this.stateEffect) {
-          console.log("Execute method")
+          
           this.displayСonditions = true;
           this.stateEffect = false;
         }

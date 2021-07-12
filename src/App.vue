@@ -311,7 +311,6 @@ a, a:active, a:focus {
     },
     components: {},
     created: function () {
-      console.log("Hello word app");
       this.changeColorNabvarWithScroll();
     },
     mounted() {
@@ -321,10 +320,8 @@ a, a:active, a:focus {
     },
     methods: {
       test() {
-        console.log("test");
       },
       changeColorNabvarWithScroll() {
-        console.log("changeColorNabvarWithScroll");
         window.addEventListener("scroll", function () {
           if (window.pageYOffset > 100) {
             this.nav.classList.add("bg-nav", "shadow");

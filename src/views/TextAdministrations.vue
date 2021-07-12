@@ -129,7 +129,7 @@ export default {
   },
   methods: {
     exampleMethod(){
-      console.log("Hola mundo")
+      
     },
     createWord(){
       TarjetasCarruselTableRef.push(this.tarjeta); 
