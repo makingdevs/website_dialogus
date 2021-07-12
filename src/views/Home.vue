@@ -9,19 +9,12 @@
         <div class="row align-items-center min-lg-vh-100">
           <div class="col-lg-8 mb-5 mb-lg-0">
             <h1 align="left" class="text-white display-16 display-md-9 display-lg-7 display-xl-4 mb-1-6 text-shadow font-weight-800 animate__animated animate__bounce">Innovación que transforma negocios.</h1>
-            <h2 class="animate__animated animate__bounce animate__delay-2s">
-              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-              viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-              <path style="fill:#901C0F;" d="M256,0v512c141.385,0,256-114.615,256-256S397.385,0,256,0z"/>
-              <path style="fill:#E0230D;" d="M470.793,256C470.793,114.615,374.626,0,256,0C114.615,0,0,114.615,0,256s114.615,256,256,256
-              C374.626,512,470.793,397.385,470.793,256z"/>
-              </svg>
-            </h2>
-            <h6 align="left" class=" text-white font-weight-800">En Dialogus nos comprometemos en transformar</h6>
-            <h6 align="left" class=" text-white font-weight-800"> los negocios para llevarlos al siguiente nivel.</h6>
+
+            <h6 align="left" class=" text-white font-weight-800 animate__animated animate__fadeInTopLeft">En Dialogus nos comprometemos en transformar</h6>
+            <h6 align="left" class=" text-white font-weight-800 animate__animated animate__fadeInBottomRight"> los negocios para llevarlos al siguiente nivel.</h6>
             <br>
             <div class="d-flex bd-highlight align-items-center">
-            <a href="#!" class="h4 butn btn-circle me-2-4 mb-2-4 mb-sm-0 font-weight-900" style="width: 55% !important; "><span class="text-white">Descargar Guia Dialogüs</span></a>
+            <a href="#!" class="h4 butn btn-circle me-2-4 mb-2-4 mb-sm-0 font-weight-900 animate__animated animate__fadeInUp" style="width: 55% !important; "><span class="text-white">Descargar Guia Dialogüs</span></a>
             <div class="d-block d-sm-inline-block">
               <a class="popup-social-video video_btn small" href="https://www.youtube.com/watch?v=-ESQmzDbnL8"><i
                   class="fas fa-play"></i></a>
@@ -38,10 +31,12 @@
     <section>
       <div class="container">
         <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
-          <span class="color_34">NUESTRAS DIVISIONES </span></h2><br><br><br>
+          <span class="color_34 ">NUESTRAS DIVISIONES </span></h2><br><br><br>
           <div class="d-flex justify-content-between bg-divisions flex-mobile">
             <div class="d-flex flex-column bg-card">
-              <img align="right" class="img3 alignImag" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+            
+              <img align="right" :showç="handleScroll" class="img3 alignImag divisionsIcons animate__animated" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+           
               <span class="text-title">Estrategia</span><br>
               <div class="hr-border"/><br>
               <span class="h5 flex-grow-1 text-body">Definimos el camino para alcanzar tus objetivos de manera exitosa.</span>
@@ -51,7 +46,7 @@
             </div>
 
             <div class="d-flex flex-column bg-card">
-              <img class="img3 alignImag2" src="../assets/js/services/Recurso 1.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+              <img class="img3 alignImag2 alignImag  divisionsIcons animate__animated" src="../assets/js/services/Recurso 1.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
               <span class="text-title">Capital Humano</span><br>
               <div class="hr-border"/><br>
               <span class="h5 flex-grow-1 text-body">Generamos soluciones para el desarrollo del talento humano y el desarrollo organizacional.</span>
@@ -61,7 +56,7 @@
             </div>
 
             <div class="d-flex flex-column bg-card">
-              <img class="img3 alignImag2" src="../assets/js/services/Recurso 2.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+              <img class="img3 alignImag2 alignImag divisionsIcons animate__animated" src="../assets/js/services/Recurso 2.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
               <span class="text-title">Cumplimiento</span><br>
               <div class="hr-border"/><br>
               <span class="h5 flex-grow-1 text-body">Blindamos a las empresas con sistemas de integridad, ética y gestión de riesgos.</span>
@@ -72,7 +67,7 @@
             </div>
 
             <div class="d-flex flex-column bg-card">
-              <img class="img3 alignImag2" src="../assets/js/services/Recurso 25.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+              <img class="img3 alignImag2 alignImag divisionsIcons animate__animated" src="../assets/js/services/Recurso 25.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
               <span class="text-title">Diagnóstico</span><br>
               <div class="hr-border"/><br>
               <span class="h5 flex-grow-1 text-body">Identificamos fortalezas y debilidades de empresas reforzando el ecosistema mexicano.</span>
@@ -98,8 +93,8 @@
           </div>
           <div class="col-lg-6">
             <div class="h1 color_33">Te presentamos</div><br>
-            <img class="img2" src="../assets/js/services/Recurso 6.svg" alt="..."><br><br>
-            <div class="h4 color_33">Somos una consultora que ofrece una amplia gama de servicios disruptivos e innovadores, siempre poniendo a la gente al centro de las soluciones.</div>
+            <img class="img2 " src="../assets/js/services/Recurso 6.svg" alt="..."><br><br>
+            <div class="h4 color_33 ">Somos una consultora que ofrece una amplia gama de servicios disruptivos e innovadores, siempre poniendo a la gente al centro de las soluciones.</div>
           </div>
 
 
@@ -270,7 +265,7 @@
     },
     data: function () {
       return {
-        stateEffect: true,
+        animate__animated: true,
         displayСonditions: false,
         controlsVisible: false,
         perspective: 35,
@@ -288,8 +283,8 @@
 
     created: function () {
       window.addEventListener('scroll', this.handleScroll);
-      //document.body.scrollTop = 0;
-      //document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
     },
     mounted() {
 
@@ -311,9 +306,26 @@
         window.open(`https://api.whatsapp.com/send?phone=525529529124&text=${encodeURIComponent(message)}`, "_target")
       },
       handleScroll() {
-        if (window.scrollY > 1200 && this.stateEffect) {
+        this.activatedDivisionsIcons();
+        this.returnStateAnimate();
+      },
+      activatedDivisionsIcons(){
+        if (window.scrollY > 300 && this.animate__animated) {
+          const divisionsIcons =  document.getElementsByClassName("divisionsIcons")
+          for (const division of divisionsIcons) {
+            division.classList.add("animate__flip")
+          }
           this.displayСonditions = true;
-          this.stateEffect = false;
+          this.animate__animated = false;
+        }
+      },
+      returnStateAnimate(){
+        if (window.scrollY < 200 && !this.animate__animated) {
+          const divisionsIcons =  document.getElementsByClassName("divisionsIcons")
+          for (const division of divisionsIcons) {
+            division.classList.remove("animate__flip")
+          }          
+          this.animate__animated = true;
         }
       }
     }
