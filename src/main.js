@@ -9,6 +9,7 @@ import 'coach/search/search.css'
 import 'coach/quform/css/base.css'
 import 'coach/css/styles.css'
 import 'coach/css/custom.css'
+import 'animate.css/animate.css'
 
 import jQuery from 'jquery'
 window.jQuery = jQuery

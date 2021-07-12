@@ -65,7 +65,10 @@ export default {
         }
   },
   created: function () {
+<<<<<<< HEAD
         
+=======
+>>>>>>> feature/81
 	window.addEventListener('scroll', this.handleScroll);
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;

@@ -358,7 +358,10 @@ a, a:active, a:focus {
     },
     components: {},
     created: function () {
+<<<<<<< HEAD
 
+=======
+>>>>>>> feature/81
       this.changeColorNabvarWithScroll();
     },
     mounted() {
@@ -384,10 +387,15 @@ a, a:active, a:focus {
         }
       },
       test() {
+<<<<<<< HEAD
 
       },
       changeColorNabvarWithScroll() {
 
+=======
+      },
+      changeColorNabvarWithScroll() {
+>>>>>>> feature/81
         window.addEventListener("scroll", function () {
           if (window.pageYOffset > 100) {
             this.nav.classList.add("bg-nav", "shadow");

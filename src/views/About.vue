@@ -358,7 +358,11 @@ import { Carousel3d, Slide } from 'vue-carousel-3d';
       },
       handleScroll() {
         if (window.scrollY > 1200 && this.stateEffect) {
+<<<<<<< HEAD
          
+=======
+          
+>>>>>>> feature/81
           this.displayСonditions = true;
           this.stateEffect = false;
         }
