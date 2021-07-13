@@ -5,7 +5,7 @@
         <slot></slot>
         <div class="vl"></div>
       </div>
-      <div class="col-md-7 col-lg-6">
+      <div class="col-md-7 col-lg-6" style="margin: inherit;">
         <div class="card card-style5">
           <div class="card-body">
             <h5 class="ttarjeta">{{title}}</h5>
@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="col-md-5 col-lg-4 bg-img cover-background min-height-300">
-        <img :src="require(`../assets/${imageSquare}`)" alt="">
+        <img class="img5" :src="require(`../assets/${imageSquare}`)" alt="">
       </div>
       </div>
   </div>
