@@ -1,162 +1,71 @@
 <template>
   <div class="Services">
+        <!-- PAGE SERVICES CARD
+        ================================================== -->
+
         <!-- PAGE TITLE
         ================================================== -->
-        <section class="parallax page-title-section top-position bg-img cover-background" data-overlay-dark="55" id="bannerservices">
-            <div class="container">
+        <section class="parallax page-title-section top-position bg-img cover-background" data-overlay-dark="55" id="bannerservicios">
 
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1>Servicios</h1>
-                    </div>
-                    <div class="col-md-12">
-                        <ul class="ps-0">
-                            <li><a href="/home">Home</a></li>
-                            <li><router-link to="/servicios" class="text-warning">Servicios</router-link></li>
-                        </ul>
-                    </div>
-                </div>
-
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
+                <h1 align="left">Estrategia</h1><br>
+                <p class="Ti1">Diseñamos metodologías efectivas e innovadoras</p>
+                <p class="Ti2">para alcanzar los objetivos de manera exitosa.</p>
+                <br>
+              </div>
+              <div class="col-lg-4">
+                <img src="../assets/js/services/Estrategia/Estrategia  TT.svg" alt=""  align="left">
+              </div>
             </div>
+          </div>
         </section>
-        
-        <section>
-            <div class="container">
-                <div class="row justify-content-center align-items-center g-0 mb-6 mb-md-8 mb-lg-12 mb-xl-16">
+         <!-- Tarjetas
+        ================================================== -->
+        <section class="servi" style="color: black;">
 
-                    <div class="col-md-5 col-xl-4">
-                        <img src="../assets/persona4.webp" alt="...">
-                    </div>
-                    <div class="col-md-7 col-xl-6">
-                        <div class="success-content right">
-                            <div class="content-wrapper">
-                                <h3 class="text-center color_34 h4">Estrategia</h3>
-                                <p class="font-weight-500 alt-font">
-                                  En conjunto con tu empresa, unidad de negocio o área, aplicamos metodologías efectivas e innovadoras para definir el marco de acción, los objetivos fundamentales y el camino para alcanzarlos de manera exitosa.
-                                </p>
-                            </div>
-                            <div class="author">
-                                <h4 class="display-27 font-weight-800 mb-1">Servicios de Estrategia</h4>
-                                <span class="display-31 display-sm-30 font-weight-600 color_34 alt-font">
-                                  <p>
-                                    Planeación estratégica colaborativa<br>
-                                    Estructura organizacional<br>
-                                    Responsabilidad social<br>
-                                    Objetivos y Resultados Clave (ORCs)<br>
-                                  </p>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+         <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
+          <span class="color_34">NUESTROS SERVICIOS </span></h2><br><br><br>
 
-                </div>
-
-                <div class="row justify-content-center align-items-center g-0 mb-6 mb-md-8 mb-lg-12 mb-xl-16 flex-row-reverse">
-
-                    <div class="col-md-5 col-xl-4">
-                        <img src="../assets/serv2.jpeg" alt="...">
-                    </div>
-                    <div class="col-md-7 col-xl-6">
-                        <div class="success-content left">
-                            <div class="content-wrapper">
-                                <h3 class="text-center color_34 h4">Capital Humano</h3>
-                                <p class="font-weight-500 alt-font">
-                                  Nuestra división de Capital Humano genera soluciones para la gestión de talento, el desarrollo organizacional y las estrategias de bienestar para tu organización.
-                                </p>
-                            </div>
-                            <div class="author">
-                                <h4 class="display-27 font-weight-800 mb-1">Servicios de Capital Humano</h4>
-                                <span class="display-31 display-sm-30 font-weight-600 color_34 alt-font">
-                                  <p>
-                                    Semillero de talento (becarios y trainees)<br>
-                                    Estrategia de capacitación organizacional<br>
-                                    Formación gamificada<br>
-                                    Integración de equipos de trabajo<br>
-                                    Gestión de personas<br>
-                                  </p>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="row justify-content-center align-items-center g-0 mb-6 mb-md-8 mb-lg-12 mb-xl-16">
-
-                    <div class="col-md-5 col-xl-4">
-                        <img src="../assets/serv3.jpeg" alt="...">
-                    </div>
-                    <div class="col-md-7 col-xl-6">
-                        <div class="success-content right">
-                            <div class="content-wrapper">
-                                <h3 class="text-center color_34 h4">Cumplimiento</h3>
-                                <p class="font-weight-500 alt-font">
-                                  Desarrollamos sistemas que fomentan la integridad y ética para crear una cultura de honestidad y buenos valores para tu organización.
-                                </p>
-                            </div>
-                            <div class="author">
-                                <h4 class="display-27 font-weight-800 mb-1">Servicios de Cumplimiento</h4>
-                                <span class="display-31 display-sm-30 font-weight-600 color_34 alt-font">
-                                  <p>
-                                    Programas de ética y política de integridad<br>
-                                    Canales de denuncia<br>
-                                    PICE - Programa Integral de Cumplimiento y Ética<br>
-                                    Normas y Sistemas de Gestión ( NOM, NMX, ISO)<br>
-                                    Análisis de procesos e identificación de riesgos y controles<br>
-                                  </p>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="row justify-content-center align-items-center g-0 flex-row-reverse">
-
-                    <div class="col-md-5 col-xl-4">
-                        <img src="../assets/serv4.jpeg" alt="...">
-                    </div>
-                    <div class="col-md-7 col-xl-6">
-                        <div class="success-content left">
-                            <div class="content-wrapper">
-                                <h3 class="text-center color_34 h4">Diagnóstico</h3>
-                                <p class="font-weight-500 alt-font">
-                                  Identicamos áreas de oportunidad de las empresas por medio de diversas herramientas de monitoreo y análisis, con la finalidad de generar un camino hacia la mejora continua. Nuestro objetivo es ayudar a los negocios a desarrollarse a través de información interna y retroalimentación de especialistas.
-                                </p>
-                            </div>
-                            <div class="author">
-                                <h4 class="display-27 font-weight-800 mb-1">Juan Iris</h4>
-                                <span class="display-31 display-sm-30 font-weight-600 color_34 alt-font">
-                                  <p>
-                                    Análisis para identificar fortalezas o áreas de mejora<br>
-                                    Identificación e interpretación de riesgos en la empresa<br>
-                                    Retroalimentación especializada para áreas de mejora detectadas<br>
-                                    Evaluación de proveedores y cadenas de valor<br>
-                                    Comunidad: talleres, conferencias y pláticas de temas estratégicos<br>
-                                  </p>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>         
+          <card-service :title="'Planeación estratégica colaborativa'" :button-text="'Quiero saber más'" :imageSquare="'persona1.webp'"
+            :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
+            <img src="../assets/js/services/Estrategia/Estrategia 1.svg" alt="" class="img4">
+          </card-service>
+          <card-service :title="'Estructura organizacional'" :button-text="'Quiero saber más'" :imageSquare="'persona2.webp'"
+            :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
+            <img src="../assets/js/services/Estrategia/Estrategia 2.svg" alt="" class="img4">
+          </card-service>
+          <card-service :title="'Responsabilidad social'" :button-text="'Quiero saber más'" :imageSquare="'persona3.webp'"
+            :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
+            <img src="../assets/js/services/Estrategia/Estrategia 3.svg" alt="" class="img4">
+          </card-service>
+          <card-service :title="'Objetivos y Resultados Clave (ORCs)'" :button-text="'Quiero saber más'" :imageSquare="'persona4.webp'"
+            :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
+            <img src="../assets/js/services/Estrategia/Estrategia 4.svg" alt="" class="img4">
+          </card-service>
+        </section>
+                
         
   </div>
 </template>
 <style>
-  #bannerservices {
-    background-image: url('../assets/img3.jpeg');
+  #bannerservicios {
+    background-color: #35547c;
 
   }
+  .pb-8, .py-8 {
+    padding-bottom: 1.5rem;
+}
   #conteo {
     background-image: url('../assets/img4.jpeg');
 
   }
   #servic{
     background-image: url('../assets/serv1.jpg');
+  }
+  .servi{
+    background-color: #cccccce1;
   }
 
   body {
@@ -165,6 +74,9 @@
   }
   .flechaCarus {
     width : 100px
+  }
+  .ns{
+    text-align: left;
   }
   .box {
     background: #2db34a;
@@ -177,6 +89,15 @@
     transition-duration: .2s, 1s;
     transition-timing-function: linear;
     width: auto;
+  }
+  .Ti1{
+    text-align: left;
+    font-size: 30px;
+  }
+  .Ti2{
+    text-align: left;
+    font-size: 30px;
+    color: #ffc107;
   }
   .content-wrapper{
     color: rgb(0, 0, 0);
@@ -234,12 +155,20 @@
 </style>
 
 <script>
-export default{
-    created: function () {
-      window.addEventListener('scroll', this.handleScroll);
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
+import CardService from '../components/CardService.vue';
+export default {
+  name: "Services",
+  data: () => {
+    return {}
     },
+  created: function () {
+    window.addEventListener('scroll', this.handleScroll);
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  },
+  components: {
+    CardService
+  }
 };
 </script>
 
