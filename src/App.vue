@@ -118,7 +118,7 @@
                     </div>
                     <div class="d-flex justify-content-start">
                       <p align="left" class="mb-3-6 text-white" style="margin-left: 35px;">
-                        55 16556739998<br>
+                        55 16556739998
                         contactanos@dialogus.com.mx
                       </p></div>
                       <div class="row align-items-center">
@@ -127,9 +127,9 @@
                                 <ul>
                                   <div class="d-flex justify-content-start">
                                     <li>
-                                      <a href="https://twitter.com/Dialogus_LAT"><img src="./assets/js/services/TW.svg" width="50"></a>
-                                      <a href="https://www.facebook.com/DialogusConsultores"><img src="./assets/js/services/FB.svg" width="50"></a>
-                                      <a href="https://www.linkedin.com/company/dialogus-consultores/"><img src="./assets/js/services/IN.svg" width="50"></a>
+                                      <a href="https://twitter.com/Dialogus_LAT"><img src="./assets/js/services/TW.svg" width="50" style="margin: 8px;"></a>
+                                      <a href="https://www.facebook.com/DialogusConsultores"><img src="./assets/js/services/FB.svg" width="50" style="margin: 8px;"></a>
+                                      <a href="https://www.linkedin.com/company/dialogus-consultores/"><img src="./assets/js/services/IN.svg" width="50" style="margin: 8px;"></a>
                                     </li> 
                                   </div>
                                 </ul>
