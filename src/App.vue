@@ -47,17 +47,14 @@
                       </router-link>
                     </li>
 
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Servicios
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="/estrategia">Estrategia</a>
-                        <a class="dropdown-item" href="/cumplimiento">Cumplimiento</a>
-                        <a class="dropdown-item" href="/capital">Capital Humano</a>
-                        <a class="dropdown-item" href="/diagnostico">Diagnóstico</a>
-                      </div>
-                    </li>
+                    <li><router-link to="#!">servicios</router-link>
+                      <ul>
+                        <li><router-link class="color_34" to="/estrategia">Estrategia</router-link></li>
+                        <li><router-link class="color_34" to="/cumplimiento">Cumplimiento</router-link></li>
+                       <li><router-link class="color_34" to="/capital">Capital Humano</router-link></li>
+                        <li><router-link class="color_34" to="/diagnostico">Diagnóstico</router-link></li>
+                      </ul>
+                  </li>
 
                     <li>
                       <router-link to="/noticias" class="">
@@ -337,6 +334,30 @@ a, a:active, a:focus {
   background-color: #35547c !important;
   transition: background-color 0.8s linear 0.2s;
 }
+@media screen and (max-width: 991px){
+.navbar-nav .submenu-button:before {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: block;
+    width: 2px;
+    height: 10px;
+    background: #ffffff !important;
+    content: "";
+  }
+}
+@media screen and (max-width: 991px){
+.navbar-nav .submenu-button:after {
+    position: absolute;
+    top: 24px;
+    right: 16px;
+    width: 10px;
+    height: 2px;
+    display: block;
+    background: #ffffff !important;
+    content: "";
+  }
+}
 
 @media screen  and (max-width: 990px ){
   #buttonAgenda {
@@ -348,6 +369,12 @@ a, a:active, a:focus {
     padding: 14px 20px !important;
     height: unset !important;
     font-size: 14px !important;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .menu_area-light.scrollHeader .navbar > ul > li.has-sub > a:after {
+    border-color: transparent #fbfbfb #ffffff transparent !important;
   }
 }
 </style>
