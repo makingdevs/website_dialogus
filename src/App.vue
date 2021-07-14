@@ -47,10 +47,16 @@
                       </router-link>
                     </li>
 
-                    <li>
-                      <router-link to="/servicios" class="">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Servicios
-                      </router-link>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/estrategia">Estrategia</a>
+                        <a class="dropdown-item" href="/cumplimiento">Cumplimiento</a>
+                        <a class="dropdown-item" href="/capital">Capital Humano</a>
+                        <a class="dropdown-item" href="/diagnostico">Diagnóstico</a>
+                      </div>
                     </li>
 
                     <li>
@@ -167,27 +173,27 @@
                       <div class="ps-md-1-6 ps-xl-1-9">
                           <ul class="list-style1" align="left">
                             <li>
-                              <router-link to="/servicios" class="h5">
+                              <p class="h5" style="color:white">
                                 Servicios
-                              </router-link>
+                              </p>
                             </li>
                             <li>
-                              <router-link to="/servicios" class="">
+                              <router-link to="/estrategia" class="">
                                 Estrategia
                               </router-link>
                             </li>
                             <li>
-                              <router-link to="/servicios" class="">
+                              <router-link to="/cumplimiento" class="">
                                 Cumplimiento
                               </router-link>
                             </li>
                             <li>
-                              <router-link to="/servicios" class="">
+                              <router-link to="/capital" class="">
                                 Capital Humano
                               </router-link>
                             </li>
                             <li>
-                              <router-link to="/servicios" class="">
+                              <router-link to="/diagnostico" class="">
                                 Diagnóstico
                               </router-link>
                             </li>

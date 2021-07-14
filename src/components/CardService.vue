@@ -85,10 +85,10 @@ hr:not([size]) {
 }
 hr {
     margin: 1rem 0px;
-    color: yellow;
+    color: #ffc107;
     background-color: currentColor;
     border: 20;
-    opacity: 1.25;
+    opacity: 10;
     width: 10%;
 }
 </style>

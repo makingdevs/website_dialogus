@@ -10,13 +10,13 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-8">
-                <h1 align="left">Estrategia</h1><br>
-                <p class="Ti1">Diseñamos metodologías efectivas e innovadoras</p>
-                <p class="Ti2">para alcanzar los objetivos de manera exitosa.</p>
+                <h1 align="left">Capital Humano</h1><br>
+                <p class="Ti1">Generamos soluciones para la gestión de talento,</p>
+                <p class="Ti2">y buscamos estrategias de bienestar para tu organización.</p>
                 <br>
               </div>
               <div class="col-lg-4">
-                <img src="../assets/js/services/Estrategia/Estrategia  TT.svg" alt=""  align="left">
+                <img src="../assets/js/services/Capital/Capital TT.svg" alt=""  align="left">
               </div>
             </div>
           </div>
@@ -28,21 +28,25 @@
          <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
           <span class="color_34">NUESTROS SERVICIOS </span></h2><br><br><br>
 
-          <card-service :title="'Planeación estratégica colaborativa'" :button-text="'Quiero saber más'" :imageSquare="'persona1.webp'"
+          <card-service :title="'Semillero de talento'" :button-text="'Quiero saber más'" :imageSquare="'persona1.webp'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Estrategia/Estrategia 1.svg" alt="" class="img4">
+            <img src="../assets/js/services/Capital/Capital 1.svg" alt="" class="img4">
           </card-service>
-          <card-service :title="'Estructura organizacional'" :button-text="'Quiero saber más'" :imageSquare="'persona2.webp'"
+          <card-service :title="'Estrategia de capacitación organizacional'" :button-text="'Quiero saber más'" :imageSquare="'persona2.webp'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Estrategia/Estrategia 2.svg" alt="" class="img4">
+            <img src="../assets/js/services/Capital/Capital 2.svg" alt="" class="img4">
           </card-service>
-          <card-service :title="'Responsabilidad social'" :button-text="'Quiero saber más'" :imageSquare="'persona3.webp'"
+          <card-service :title="'Formación gamificada'" :button-text="'Quiero saber más'" :imageSquare="'persona3.webp'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Estrategia/Estrategia 3.svg" alt="" class="img4">
+            <img src="../assets/js/services/Capital/Capital 3.svg" alt="" class="img4">
           </card-service>
-          <card-service :title="'Objetivos y Resultados Clave (ORCs)'" :button-text="'Quiero saber más'" :imageSquare="'persona4.webp'"
+          <card-service :title="'Integración de equipos de trabajo'" :button-text="'Quiero saber más'" :imageSquare="'persona4.webp'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Estrategia/Estrategia 4.svg" alt="" class="img4">
+            <img src="../assets/js/services/Capital/Capital 4.svg" alt="" class="img4">
+          </card-service>
+          <card-service :title="'Gestión de personas'" :button-text="'Quiero saber más'" :imageSquare="'persona5.webp'"
+            :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
+            <img src="../assets/js/services/Capital/Capital 5.svg" alt="" class="img4">
           </card-service>
         </section>
                 
@@ -92,11 +96,11 @@
   }
   .Ti1{
     text-align: left;
-    font-size: 30px;
+    font-size: 28px;
   }
   .Ti2{
     text-align: left;
-    font-size: 30px;
+    font-size: 28px;
     color: #ffc107;
   }
   .content-wrapper{
