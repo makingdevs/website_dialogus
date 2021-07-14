@@ -30,23 +30,23 @@
 
           <card-service :title="'Programas de Ética y Políticas de Integridad'" :button-text="'Quiero saber más'" :imageSquare="'persona1.webp'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Cumplimiento/Cumplimiento 1.svg" alt="" class="img4">
+            <img src="../assets/js/services/Cumplimiento/Cumplimiento 1.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Canales de denuncia'" :button-text="'Quiero saber más'" :imageSquare="'persona2.webp'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Cumplimiento/Cumplimiento 2.svg" alt="" class="img4">
+            <img src="../assets/js/services/Cumplimiento/Cumplimiento 2.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Programa integral de Cumplimiento y Ética'" :button-text="'Quiero saber más'" :imageSquare="'persona3.webp'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Cumplimiento/Cumplimiento 3.svg" alt="" class="img4">
+            <img src="../assets/js/services/Cumplimiento/Cumplimiento 3.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Normas y Sistemas de Gestión'" :button-text="'Quiero saber más'" :imageSquare="'persona4.webp'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Cumplimiento/Cumplimiento 4.svg" alt="" class="img4">
+            <img src="../assets/js/services/Cumplimiento/Cumplimiento 4.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Análisis de procesos'" :button-text="'Quiero saber más'" :imageSquare="'persona5.webp'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Cumplimiento/Cumplimiento 5.svg" alt="" class="img4">
+            <img src="../assets/js/services/Cumplimiento/Cumplimiento 5.svg" alt="" class="icon-service">
           </card-service>
         </section>
                 
@@ -69,7 +69,7 @@
     background-image: url('../assets/serv1.jpg');
   }
   .servi{
-    background-color: #cccccce1;
+    background-color: #dad6d6e1;
   }
 
   body {

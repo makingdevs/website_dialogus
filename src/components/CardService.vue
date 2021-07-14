@@ -1,13 +1,13 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-md-2 mobile-hide">
         <slot></slot>
-        <div class="vl"></div>
+        <div class="verticale-line"></div>
       </div>
       <div class="col-md-7 col-lg-6" style="margin: inherit;">
-        <div class="card card-style5">
-          <div class="card-body">
+        <div class="card card-style5 mobile-space">
+          <div class="card-body mobile-space">
             <h5 class="ttarjeta">{{title}}</h5>
             <hr>
               <p class="ctarjeta">{{bodyText}}</p>
@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="col-md-5 col-lg-4 bg-img cover-background min-height-300">
-        <img class="img5" :src="require(`../assets/${imageSquare}`)" alt="">
+        <img class="image-service" :src="require(`../assets/${imageSquare}`)" alt="">
       </div>
       </div>
   </div>
@@ -44,14 +44,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.img3 {
+.image-service {
   max-width: 100%;
-  height: 127px;
+  height: 371px;
   vertical-align: top;
-  width: 472px;
-  position: absolute;
-  margin-left: -193px;
+  width: 450px;
+  margin-left: -23px;
 }
+
 .ttarjeta{
   color: #35547c!important;
   text-align: left;
@@ -63,13 +63,13 @@ export default {
   text-align: justify;
 }
 
-.vl {
+.verticale-line {
   border-left: 10px solid rgb(255, 255, 255);
   height: 400px;
   margin-left: 90px;
 }
 .card-style5 {
-    padding: 0;
+    padding: 0px;
     border: 1px solid #ededed;
     height: 70%;
 }
@@ -90,5 +90,33 @@ hr {
     border: 20;
     opacity: 10;
     width: 10%;
+}
+@media (max-width: 1246px) {
+  .verticale-line{
+    margin-left: 79px;
+  }
+}
+
+@media (max-width:1198px){
+  .verticale-line{
+    margin-left: 64px;
+  }
+}
+
+@media (max-width: 990px) {
+
+  .mobile-hide {
+    display: none;
+  }
+  .mobile-space{
+    padding: 3px !important;
+  }
+  
+  .image-service{
+    height: 240px;
+  }
+  .card-style5 {
+    height: unset;
+  }
 }
 </style>

@@ -35,7 +35,7 @@
           <div class="d-flex justify-content-between bg-divisions flex-mobile">
             <div class="d-flex flex-column bg-card">
             
-              <img align="right" :showç="handleScroll" class="img3 alignImag divisionsIcons animate__animated" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+              <img align="right" :showç="handleScroll" class="icon-divisiones alignImag divisionsIcons animate__animated" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
            
               <span class="text-title">Estrategia</span><br>
               <div class="hr-border"/><br>
@@ -46,7 +46,7 @@
             </div>
 
             <div class="d-flex flex-column bg-card">
-              <img class="img3 alignImag2 alignImag  divisionsIcons animate__animated" src="../assets/js/services/Recurso 1.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+              <img class="icon-divisiones alignImag2 alignImag  divisionsIcons animate__animated" src="../assets/js/services/Recurso 1.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
               <span class="text-title">Capital Humano</span><br>
               <div class="hr-border"/><br>
               <span class="h5 flex-grow-1 text-body">Generamos soluciones para el desarrollo del talento humano y el desarrollo organizacional.</span>
@@ -56,7 +56,7 @@
             </div>
 
             <div class="d-flex flex-column bg-card">
-              <img class="img3 alignImag2 alignImag divisionsIcons animate__animated" src="../assets/js/services/Recurso 2.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+              <img class="icon-divisiones alignImag2 alignImag divisionsIcons animate__animated" src="../assets/js/services/Recurso 2.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
               <span class="text-title">Cumplimiento</span><br>
               <div class="hr-border"/><br>
               <span class="h5 flex-grow-1 text-body">Blindamos a las empresas con sistemas de integridad, ética y gestión de riesgos.</span>
@@ -67,7 +67,7 @@
             </div>
 
             <div class="d-flex flex-column bg-card">
-              <img class="img3 alignImag2 alignImag divisionsIcons animate__animated" src="../assets/js/services/Recurso 25.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+              <img class="icon-divisiones alignImag2 alignImag divisionsIcons animate__animated" src="../assets/js/services/Recurso 25.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
               <span class="text-title">Diagnóstico</span><br>
               <div class="hr-border"/><br>
               <span class="h5 flex-grow-1 text-body">Identificamos fortalezas y debilidades de empresas reforzando el ecosistema mexicano.</span>
