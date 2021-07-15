@@ -14,7 +14,7 @@
             <h6 align="left" class=" text-white font-weight-800 animate__animated animate__fadeInBottomRight"> los negocios para llevarlos al siguiente nivel.</h6>
             <br>
             <div class="d-flex bd-highlight align-items-center">
-            <a href="#!" class="h4 butn btn-circle me-2-4 mb-2-4 mb-sm-0 font-weight-900 animate__animated animate__fadeInUp" style="width: 55% !important; "><span class="text-white">Descargar Guia Dialogüs</span></a>
+            <a href="#!" class="h4 butn btn-circle me-2-4 mb-2-4 mb-sm-0 font-weight-900 animate__animated animate__fadeInUp" style="width: 35% !important; "><span class="text-white">Descargar Guia</span></a>
             <div class="d-block d-sm-inline-block">
               <a class="popup-social-video video_btn small" href="https://www.youtube.com/watch?v=-ESQmzDbnL8"><i
                   class="fas fa-play"></i></a>
@@ -28,7 +28,7 @@
     </section>
     <!-- SERVICE================================================== -->
 
-    <section>
+    <section id="seccion-services">
       <div class="container">
         <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
           <span class="color_34 ">NUESTRAS DIVISIONES </span></h1><br><br><br>
@@ -41,7 +41,9 @@
               <div class="hr-border"/><br>
               <span align="center" class="h5 flex-grow-1 text-body animate__animated" id="text-estrategia">Definimos el camino para alcanzar tus objetivos de manera exitosa.</span>
               <div class="d-flex justify-content-center mt-5 mb-5">
-                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;" >Conoce más</span></button>
+
+                <router-link to="/estrategia" class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;" >Conoce más</span></router-link>
+              
               </div>
             </div>
 
@@ -51,7 +53,7 @@
               <div class="hr-border"/><br>
               <span align="center" class="h5 flex-grow-1 text-body">Generamos soluciones para el desarrollo del talento humano y el desarrollo organizacional.</span>
               <div class="d-flex justify-content-center mt-5 mb-5">
-                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
+                <router-link to="/capital" class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></router-link>
               </div>
             </div>
 
@@ -62,7 +64,7 @@
               <span align="center" class="h5 flex-grow-1 text-body">Blindamos a las empresas con sistemas de integridad, ética y gestión de riesgos.</span>
               <br>
               <div class="d-flex justify-content-center mt-5 mb-5">
-                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
+                <router-link to="/cumplimiento" class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></router-link>
               </div>
             </div>
 
@@ -72,7 +74,7 @@
               <div class="hr-border"/><br>
               <span align="center" class="h5 flex-grow-1 text-body">Identificamos fortalezas y debilidades de empresas reforzando el ecosistema mexicano.</span>
               <div class="d-flex justify-content-center mt-5 mb-5">
-                <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
+                <router-link to="/diagnostico" class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></router-link>
               </div>
             </div>
           </div>
@@ -116,7 +118,7 @@
           </div>
           <div class="card-body">
             <h5 align="center">
-              <router-link to="/noticias" class="">{{tarjeta.title}}</router-link>
+              <router-link to="/noticias" class="text-white">{{tarjeta.title}}</router-link>
             </h5>
             <div align="center" class="event-meta-list">
               <span class="me-0 me-xl-2 text-white"><i class="ti-calendar me-2 custom-icon"></i>{{tarjeta.date}}</span>
