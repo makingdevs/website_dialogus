@@ -37,50 +37,50 @@
                   <!-- menu area -->
                   <ul class="navbar-nav ms-auto" id="nav" style="display: none" @click="hiddenMenu">
                     <li>
-                      <router-link to="/home" class="">
+                      <router-link align="center" to="/home" style="font-size: 16px">
                         Home
                       </router-link>
                     </li>
 
                     <li>
-                      <router-link to="/about" class="">
+                      <router-link align="center" to="/about" style="font-size: 16px">
                         Nosotros
                       </router-link>
                     </li>
 
                     <li>
-                      <router-link to="#!">servicios</router-link>
+                      <router-link align="center" to="#!" style="font-size: 16px" >servicios</router-link>
                       <ul>
                         <li>
-                          <router-link class="color_34" to="/estrategia">Estrategia</router-link>
+                          <router-link align="center" class="color_34" to="/estrategia">Estrategia</router-link>
                         </li>
                         <li>
-                          <router-link class="color_34" to="/cumplimiento">Cumplimiento</router-link>
+                          <router-link align="center" class="color_34" to="/cumplimiento">Cumplimiento</router-link>
                         </li>
                         <li>
-                          <router-link class="color_34" to="/capital">Capital Humano</router-link>
+                          <router-link align="center" class="color_34" to="/capital">Capital Humano</router-link>
                         </li>
                         <li>
-                          <router-link class="color_34" to="/diagnostico">Diagnóstico</router-link>
+                          <router-link align="center" class="color_34" to="/diagnostico">Diagnóstico</router-link>
                         </li>
                       </ul>
                     </li>
 
                     <li>
-                      <router-link to="/noticias" class="">
-                        Noticias
+                      <router-link align="center" to="/noticias" style="font-size: 16px">
+                        Eventos
                       </router-link>
                     </li>
 
                     <li>
-                      <router-link to="/contacto" class="">
+                      <router-link align="center" to="/contacto" style="font-size: 16px">
                         Contacto
                       </router-link>
                     </li>
                     <li>
-                      <a class="butn btn-circle border-show" id="buttonAgenda" data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop" style="cursor: pointer">
-                        Agenda una cita
+                      <a class="butn theme butn-md btn-circle schedule-button" id="buttonAgenda" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop" style="cursor: pointer"><i class="ti-calendar me-1 text-white"></i>
+                        <span style="font-size: 16px"> Agenda una cita </span>
                       </a>
                     </li>
                   </ul>
@@ -162,22 +162,22 @@
             <div class="ps-md-1-6 ps-xl-1-9">
               <ul class="list-style1" align="left">
                 <li>
-                  <router-link to="/about" class="h5">
+                  <router-link to="/about" class="text-footercolor" style="font-size: 23px">
                     Nosotros
                   </router-link>
                 </li>
                 <li>
-                  <router-link to="/about" class="">
+                  <router-link to="/about" class="text-footercolor">
                     Propósito
                   </router-link>
                 </li>
                 <li>
-                  <router-link to="/about" class="">
+                  <router-link to="/about" class="text-footercolor">
                     Misión
                   </router-link>
                 </li>
                 <li>
-                  <router-link to="/about" class="">
+                  <router-link to="/about" class="text-footercolor">
                     Visión
                   </router-link>
                 </li>
@@ -188,27 +188,27 @@
             <div class="ps-md-1-6 ps-xl-1-9">
               <ul class="list-style1" align="left">
                 <li>
-                  <p class="h5" style="color:white">
+                  <a href="#seccion-services" class="text-footercolor" style="font-size: 23px">
                     Servicios
-                  </p>
+                  </a>
                 </li>
                 <li>
-                  <router-link to="/estrategia" class="">
+                  <router-link to="/estrategia" class="text-footercolor">
                     Estrategia
                   </router-link>
                 </li>
                 <li>
-                  <router-link to="/cumplimiento" class="">
+                  <router-link to="/cumplimiento" class="text-footercolor">
                     Cumplimiento
                   </router-link>
                 </li>
                 <li>
-                  <router-link to="/capital" class="">
+                  <router-link to="/capital" class="text-footercolor">
                     Capital Humano
                   </router-link>
                 </li>
                 <li>
-                  <router-link to="/diagnostico" class="">
+                  <router-link to="/diagnostico" class="text-footercolor">
                     Diagnóstico
                   </router-link>
                 </li>
@@ -219,8 +219,8 @@
             <div class="ps-md-1-6 ps-xl-1-9">
               <ul class="list-style1" align="left">
                 <li>
-                  <router-link to="/noticias" class="h5">
-                    Noticias
+                  <router-link to="/noticias" class="text-footercolor" style="font-size: 23px">
+                    Eventos
                   </router-link>
                 </li>
               </ul>
@@ -230,7 +230,7 @@
             <div class="ps-md-1-6 ps-xl-1-9">
               <ul class="list-style1" align="left">
                 <li>
-                  <router-link to="/contacto" class="h5">
+                  <router-link to="/contacto" class="text-footercolor" style="font-size: 23px">
                     Contacto
                   </router-link>
                 </li>
@@ -261,11 +261,13 @@
     text-align: center;
   }
   
-  #menu {}
+  #menu {
+  }
 
   #nav {
     padding: -30px;
   }
+  
 
   #nav a {
     font-weight: bold;
@@ -274,7 +276,7 @@
   }
 
   #nav a.router-link-exact-active {
-    color: #42b983;
+    color: #0098a5;
     transition: background-color 0.8s linear 0.2s;
   }
 
@@ -316,7 +318,7 @@
   a,
   a:active,
   a:focus {
-    color: #ffffff !important;
+    color: #ffffff;
     text-decoration: none;
     transition-timing-function: ease-in-out;
     -ms-transition-timing-function: ease-in-out;
@@ -334,11 +336,14 @@
     color: #35547c !important; 
   }
 
-  .bg-nav {
-    background-color: #35547c;
-    transition: background-color 0.8s linear 0.2s;
-  }
 
+  .schedule-button:hover {
+    color: #0098a5 !important;
+  }
+  
+  .text-footercolor, .text-footercolor:active, .text-footercolor:focus{
+    color: #ffffff;
+  } 
   @media screen and (max-width: 991px) {
     .navbar ul li a {
       width: 100%;
@@ -460,9 +465,7 @@
       changeColorNabvarWithScroll() {
         window.addEventListener("scroll", function () {
           if (window.pageYOffset > 100) {
-            this.nav.classList.add("bg-nav", "shadow");
-          } else {
-            this.nav.classList.remove("bg-nav", "shadow");
+          // eslint-disable-next-line no-empty
           }
         });
       },
