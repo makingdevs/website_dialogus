@@ -6,7 +6,7 @@
       <div class="mask d-flex align-items-center h-100 top-position2" data-overlay-dark="55" >
         <div class="login container">
 			<div class="col-md-12">
-				<h1 class="text-white">Iniciar sesión</h1>
+				<h1 align="center" class="text-white">Iniciar sesión</h1>
 			</div>
           <div class="row justify-content-center">
             <div class="col-xl-5 col-md-8">
