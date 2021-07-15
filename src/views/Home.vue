@@ -30,16 +30,16 @@
 
     <section>
       <div class="container">
-        <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
-          <span class="color_34 ">NUESTRAS DIVISIONES </span></h2><br><br><br>
+        <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
+          <span class="color_34 ">NUESTRAS DIVISIONES </span></h1><br><br><br>
           <div class="d-flex justify-content-between bg-divisions flex-mobile">
             <div class="d-flex flex-column bg-card">
             
               <img align="right" :showç="handleScroll" class="icon-divisiones alignImag divisionsIcons animate__animated" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
            
-              <span class="text-title">Estrategia</span><br>
+              <span align="center" class="text-title">Estrategia</span><br>
               <div class="hr-border"/><br>
-              <span class="h5 flex-grow-1 text-body">Definimos el camino para alcanzar tus objetivos de manera exitosa.</span>
+              <span align="center" class="h5 flex-grow-1 text-body animate__animated" id="text-estrategia">Definimos el camino para alcanzar tus objetivos de manera exitosa.</span>
               <div class="d-flex justify-content-center mt-5 mb-5">
                 <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;" >Conoce más</span></button>
               </div>
@@ -47,9 +47,9 @@
 
             <div class="d-flex flex-column bg-card">
               <img class="icon-divisiones alignImag2 alignImag  divisionsIcons animate__animated" src="../assets/js/services/Recurso 1.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-              <span class="text-title">Capital Humano</span><br>
+              <span align="center" class="text-title">Capital Humano</span><br>
               <div class="hr-border"/><br>
-              <span class="h5 flex-grow-1 text-body">Generamos soluciones para el desarrollo del talento humano y el desarrollo organizacional.</span>
+              <span align="center" class="h5 flex-grow-1 text-body">Generamos soluciones para el desarrollo del talento humano y el desarrollo organizacional.</span>
               <div class="d-flex justify-content-center mt-5 mb-5">
                 <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
               </div>
@@ -57,9 +57,9 @@
 
             <div class="d-flex flex-column bg-card">
               <img class="icon-divisiones alignImag2 alignImag divisionsIcons animate__animated" src="../assets/js/services/Recurso 2.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-              <span class="text-title">Cumplimiento</span><br>
+              <span align="center" class="text-title">Cumplimiento</span><br>
               <div class="hr-border"/><br>
-              <span class="h5 flex-grow-1 text-body">Blindamos a las empresas con sistemas de integridad, ética y gestión de riesgos.</span>
+              <span align="center" class="h5 flex-grow-1 text-body">Blindamos a las empresas con sistemas de integridad, ética y gestión de riesgos.</span>
               <br>
               <div class="d-flex justify-content-center mt-5 mb-5">
                 <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
@@ -68,9 +68,9 @@
 
             <div class="d-flex flex-column bg-card">
               <img class="icon-divisiones alignImag2 alignImag divisionsIcons animate__animated" src="../assets/js/services/Recurso 25.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-              <span class="text-title">Diagnóstico</span><br>
+              <span align="center" class="text-title">Diagnóstico</span><br>
               <div class="hr-border"/><br>
-              <span class="h5 flex-grow-1 text-body">Identificamos fortalezas y debilidades de empresas reforzando el ecosistema mexicano.</span>
+              <span align="center" class="h5 flex-grow-1 text-body">Identificamos fortalezas y debilidades de empresas reforzando el ecosistema mexicano.</span>
               <div class="d-flex justify-content-center mt-5 mb-5">
                 <button class="butn btn-circle  border-show" type="submit"><span class="h6 text-white" style="text-transform: none;">Conoce más</span></button>
               </div>
@@ -92,9 +92,9 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="h1 color_33">Te presentamos</div><br>
-            <img class="img2 " src="../assets/js/services/Recurso 6.svg" alt="..."><br><br>
-            <div class="h4 color_33 ">Somos una consultora que ofrece una amplia gama de servicios disruptivos e innovadores, siempre poniendo a la gente al centro de las soluciones.</div>
+            <div align="center" class="h1 color_33">Te presentamos</div><br>
+            <img align="center" class="img2 " src="../assets/js/services/Recurso 6.svg" alt="..."><br><br>
+            <div align="center" class="h4 color_33 ">Somos una consultora que ofrece una amplia gama de servicios disruptivos e innovadores, siempre poniendo a la gente al centro de las soluciones.</div>
           </div>
 
 
@@ -107,17 +107,17 @@
     <!-- ONLINE COURSES
         ================================================== -->
   <section>
-<h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
-  <span class="color_34">EVENTOS Y CURSOS </span></h2>
+<h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
+  <span class="color_34">EVENTOS Y CURSOS </span></h1>
     <carousel-3d v-if="renderComponent" height="510px" border="0" :controlsVisible="controlsVisible" :perspective="perspective" :inverseScaling="300" :space="385" style="height: 525px;" >
       <slide :index="index" class="border-show2" v-for="(tarjeta, index) in TarjetasCarruselTable" :key="index">
         <div class="card card-style4">
           <div class="card-img"><img :src="tarjeta.image" alt="..." class="tamañoEventos">
           </div>
           <div class="card-body">
-            <h4 align="center" class="h5">
+            <h5 align="center">
               <router-link to="/noticias" class="">{{tarjeta.title}}</router-link>
-            </h4>
+            </h5>
             <div align="center" class="event-meta-list">
               <span class="me-0 me-xl-2 text-white"><i class="ti-calendar me-2 custom-icon"></i>{{tarjeta.date}}</span>
               <span class="text-white"><i class="ti-time custom-icon me-2"></i>{{tarjeta.time}}</span>
@@ -144,9 +144,9 @@
             <div class="col-8">
               <div class="ps-lg-2">
                 <div class="contact-form-area">
-                  <h1 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
+                  <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
                     <span class="color_34">CONTACTO </span></h1>
-                    <p class=" mb-1-6 text-dark">Compártenos tus datos y en breve uno de nuestros asesores te contactará.</p>
+                    <p align="center" class=" mb-1-6 text-dark">Compártenos tus datos y en breve uno de nuestros asesores te contactará.</p>
 
                     <form class="quform"  @submit.prevent="sendNotification">
 
@@ -224,13 +224,13 @@
               <div class=""><br><br><br><br><br>
                 <div class="d-flex flex-column cuadrado2 text-white "><br>
                   <img class="telef" src="../assets/js/services/telfono.svg">
-                  <p>55 16556739998</p>
+                  <p align="center">55 16556739998</p>
 
                     <img class="telef" src="../assets/js/services/messa.svg">
-                    <p> contactanos@ dialogus.com.mx </p>
+                    <p align="center"> contactanos@ dialogus.com.mx </p>
 
                     <img class="telef" src="../assets/js/services/ubicacion.svg">
-                    <p>Periferico Sur 4121, Fuentes del Pedregal, Tlalpan, 14140 Ciudad de México, CDMX</p>
+                    <p align="center">Periferico Sur 4121, Fuentes del Pedregal, Tlalpan, 14140 Ciudad de México, CDMX</p>
                 </div>
                 </div>
             </div>
