@@ -24,8 +24,8 @@
         ================================================== -->
         <section class="contact-form">
             <div class="container">
-                    <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
-                        <span class="color_34">Estamos aqui para ayudarte </span></h2> <br>
+                    <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
+                        <span class="color_34">Estamos aqui para ayudarte </span></h1> <br>
                 <div class="row">
                     <div class="col-lg-4 mb-1-6 mb-md-1-9 mb-lg-0 contact-border">
                         <div class="contact-wrapper">

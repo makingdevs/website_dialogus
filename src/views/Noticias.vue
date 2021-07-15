@@ -1,6 +1,5 @@
 <template>
-    <div class="noticias">
-        
+    <div class="noticias"> 
         <!-- PAGE TITLE
         ================================================== -->
         <section class="parallax page-title-section top-position bg-img cover-background" data-overlay-dark="55" id="banner2">
@@ -32,8 +31,8 @@
         ================================================== -->
         <section class="blog">
             <div class="container">
-                    <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
-                        <span class="color_34">Nuestro Blog </span></h2> <br>
+                    <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
+                        <span class="color_34">Nuestro Blog </span></h1> <br>
                 <div class="row">
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
                         <article class="card card-style2 card-style4  h-100">
@@ -93,8 +92,8 @@
                     </div>
                             <!-- Event GRID
         ================================================== -->
-                    <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
-                        <span class="color_34">Nuestro Eventos </span></h2>
+                    <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
+                        <span class="color_34">Nuestro Eventos </span></h1>
                         <br><br><br>
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
                         <article class="card card-style2 card-style4 h-100">
