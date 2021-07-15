@@ -392,6 +392,15 @@ button > .text-white {
 #page-region {
   display: none;
 }
+@media only screen and (max-width: 1399px) {
+  .text-title {
+    font-size: 25px;
+  }
+
+  .text-body {
+    font-size: 18px !important;
+  }
+}
 
 @media only screen and (max-width: 1200px) {
   .text-title {
@@ -403,9 +412,9 @@ button > .text-white {
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
   .text-title {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .text-body {
@@ -419,7 +428,7 @@ button > .text-white {
 
 @media only screen and (max-width: 767px) {
   .text-title {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .text-body {
