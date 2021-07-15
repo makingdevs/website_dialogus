@@ -161,7 +161,7 @@
                                                         <div class="quform-submit-inner">
                                                             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
                                                             <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202.">
-                                                                <button href="https://api.whatsapp.com/send" class="butn theme butn-md btn-circle" type="submit"><span class="text-white">ENVIAR MENSAJE</span></button>
+                                                                <button href="https://api.whatsapp.com/send" class="butn theme butn-md btn-circle" type="submit"><span >ENVIAR MENSAJE</span></button>
                                                             </a>
                                                         </div>
                                                         <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
@@ -222,8 +222,9 @@
   border-radius: 15px;
 }
 .contact-icon i {
-    color: #ffc107 !important;
-    border: 2px solid #35547c  !important;
+    background-color: #0098a5 !important;
+    color: #fcfcfc !important;
+    border: 2px solid #ffffff  !important;
     width: 100px;
     height: 88px;
     text-align: center;
@@ -242,9 +243,9 @@
     background-color: #ffc107 !important;
 }
 .contact-wrapper:hover .contact-icon i {
-  background: #ffc107 !important; 
-  color: #ffffff !important;
-  border: 2px solid #35547c !important; 
+  background: #ffffff !important; 
+  color: #0098a5 !important;
+  border: 2px solid #0098a5 !important; 
   }
   .section-heading:before {
     position: absolute;
