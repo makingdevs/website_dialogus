@@ -17,7 +17,7 @@
                                   </router-link></li>
                             <li>
                                 <router-link to="/noticias" class="text-warning">
-                                    Noticias
+                                    Eventos
                                 </router-link>
                             </li>
                         </ul>
@@ -162,7 +162,7 @@
                             <div class="pagination">
                                 <ul>
                                     <li><router-link to="#!" class="me-3"><i class="fas fa-long-arrow-alt-left"></i></router-link></li>
-                                    <li class="active"><a href="#!" class="me-2 ">1</a></li>
+                                    <li class="active"><a href="#!" class="me-2">1</a></li>
 
                                     <li><router-link to="#!"><i class="fas fa-long-arrow-alt-right"></i></router-link></li>
                                 </ul>
@@ -179,8 +179,8 @@
 
 <style>
 .pagination .active a {
-    background-color: #35547c;
-    color: #002147;
+    background-color: #0098a5;
+    color: #fcfcfc;
     border: 1px solid #dbdbdb;
     cursor: default;
 }
@@ -193,13 +193,18 @@
     line-height: 40px;
     text-decoration: none;
     font-weight: 800;
-    border: 1px solid #ffc107;
-    background: #35547c;
+    border: 1px solid #ffffff;
+    background: #0098a5;
+    border-radius: 35px;
+    color: #ffffff;
 }
 .pagination a:hover {
-      background-color: #ffc107;
-      border: 1px solid #35547c;
-      color: #ffffff; }
+      background-color: #ffffff;
+      border: 1px solid #0098a5;
+      color: #0098a5; 
+      border-radius: 35px;
+      }
+      
     #banner2 {
         background-image: url('../assets/fondo5.jpeg');
     }

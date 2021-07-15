@@ -40,9 +40,10 @@
           <span class="input-group-text" id="basic-addon1">Imágen</span>
           <input type="text" class="form-control" placeholder="Nombre del valor" aria-label="Nombre del valor" aria-describedby="basic-addon1" v-model="tarjeta.image">
         </div>
+        <div class="d-flex justify-content-center">
         <button @click="createWord" type="button" class="btn btn-success"> Crear Tarjeta </button>
         <button @click="logout" type="button" class="btn btn-success"> Cerrar Sesión </button>
-        <br>
+        </div>
         <br>
         <table class="table table-striped table-bordered ">
           <thead>

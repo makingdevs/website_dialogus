@@ -25,8 +25,8 @@
         ================================================== -->
         <section class="servi" style="color: black;">
 
-         <h2 class="h1"><i class="fas fa-angle-double-right text-warning"></i>
-          <span class="color_34">NUESTROS SERVICIOS </span></h2><br><br><br>
+         <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
+          <span class="color_34">NUESTROS SERVICIOS </span></h1><br><br><br>
 
           <card-service :title="'Planeación estratégica colaborativa'" :button-text="'Quiero saber más'" :imageSquare="'persona1.webp'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
@@ -42,7 +42,7 @@
           </card-service>
           <card-service :title="'Objetivos y Resultados Clave (ORCs)'" :button-text="'Quiero saber más'" :imageSquare="'persona4.webp'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Estrategia/Estrategia 4.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Estrategia/Estrategia 4.svg" alt="" class="img4">
           </card-service>
         </section>
                 
