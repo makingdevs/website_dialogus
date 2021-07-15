@@ -1,122 +1,158 @@
 <template>
-  <div class="container">
+  <div class="container" style="margin-top: 10px">
     <div class="row">
-      <div class="col-md-2 mobile-hide">
+      <div class="col-2 mobile-hide">
         <slot></slot>
         <div class="verticale-line"></div>
       </div>
-      <div class="col-md-7 col-lg-6" style="margin: inherit;">
-        <div class="card card-style5 mobile-space">
-          <div class="card-body mobile-space">
-            <h5 class="ttarjeta">{{title}}</h5>
-            <hr>
-              <p class="ctarjeta">{{bodyText}}</p>
-              <p align="left">
-                <a class="butn small" href="" ><span>{{buttonText}}</span></a>
-              </p>
+      <div class="col-md-6 col-sm-12 col-body-text-custom">
+        <div class="d-flex flex-column body-card">
+          <div class="title">
+            {{title}}
+          </div>
+          <hr class="small-line">
+          <div class="body-text">
+            {{bodyText}}
+          </div>
+          <div class="button-card">
+            <button class="butn small">{{buttonText}}</button>
           </div>
         </div>
       </div>
-      <div class="col-md-5 col-lg-4 bg-img cover-background min-height-300">
-        <img class="image-service" :src="require(`../assets/${imageSquare}`)" alt="">
+      <div class="col-md-4 col-sm-12 col-image-custom">
+        <img class="image-container" :src="require(`../assets/${imageSquare}`)">
       </div>
-      </div>
+    </div>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'CardService',
-  props: {
-    title: String,
-    bodyText: String,
-    imageUrl: String,
-    buttonText: String,
-    imageSquare: String
-  },
-  data: () => {
-    return {
-      src: 'Recurso 1.svg'
+  export default {
+    name: 'CardService',
+    props: {
+      title: String,
+      bodyText: String,
+      imageUrl: String,
+      buttonText: String,
+      imageSquare: String
+    },
+    data: () => {
+      return {
+        src: 'Recurso 1.svg'
+      }
     }
   }
-}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.image-service {
-  max-width: 100%;
-  height: 371px;
-  vertical-align: top;
-  width: 450px;
-  margin-left: -23px;
-}
+  
+  .col-body-text-custom {
+    padding-right: 0px;
+  }
 
-.ttarjeta{
-  color: #35547c!important;
-  text-align: left;
-}
+  .col-image-custom {
+    height: 375px; 
+    padding-left: 0px;
+  }
 
-.ctarjeta{
-  text-align: left;
-  font-size: 20px;
-  text-align: justify;
-}
+  .image-container {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0px 14px 14px 0px;
+  }
 
-.verticale-line {
-  border-left: 10px solid rgb(255, 255, 255);
-  height: 400px;
-  margin-left: 90px;
-}
-.card-style5 {
-    padding: 0px;
-    border: 1px solid #ededed;
-    height: 70%;
-}
+  .body-card {
+    background-color: white;
+    height: 375px;
+    padding: 30px;
+    border-radius: 14px 0px 0px 14px;
+  }
 
-.butn.small {
+  .button-card {
+    margin-top: 15px;
+  }
+
+  .title {
+    color: #35547c !important;
+    font-size: 20px;
+  }
+
+  .verticale-line {
+    border-left: 10px solid rgb(255, 255, 255);
+    height: 400px;
+    margin-left: 90px;
+  }
+
+  .butn.small {
     padding: 8px 12px;
     font-size: 12px;
     border-radius: 15px !important;
-}
-
-hr:not([size]) {
-    height: 3px;
-}
-hr {
+  }
+  .small-line {
     margin: 1rem 0px;
     color: #ffc107;
     background-color: currentColor;
     border: 20;
     opacity: 10;
     width: 10%;
-}
-@media (max-width: 1246px) {
-  .verticale-line{
-    margin-left: 79px;
+    height: 2px;
   }
-}
 
-@media (max-width:1198px){
-  .verticale-line{
-    margin-left: 64px;
+  @media (max-width: 1246px) {
+    .verticale-line {
+      margin-left: 79px;
+    }
   }
-}
 
-@media (max-width: 990px) {
+  @media (max-width:1198px) {
+    .verticale-line {
+      margin-left: 64px;
+    }
+  }
 
-  .mobile-hide {
-    display: none;
+  @media (max-width: 990px) {
+
+    .body-text {
+      font-size: 11px;
+    }
+
+    .mobile-hide {
+      display: none;
+    }
+
+    .mobile-space {
+      padding: 3px !important;
+    }
+
+    .image-service {
+      height: 240px;
+    }
+
+    .card-style5 {
+      height: unset;
+    }
   }
-  .mobile-space{
-    padding: 3px !important;
+
+
+  @media (max-width: 768px) {
+    .image-container {
+      border-radius: 0px 0px 14px 14px;
+    }
+
+    .body-card {
+      border-radius: 14px 14px 0px 0px;
+    }
+
+    .col-image-custom {
+      padding-left: 12px; 
+    }
+
+    .col-body-text-custom {
+      padding-right: 12px;
+    }
   }
-  
-  .image-service{
-    height: 240px;
-  }
-  .card-style5 {
-    height: unset;
-  }
-}
+
+
 </style>
