@@ -280,7 +280,7 @@ body {
 /*ESTILOS DEL BOTON*/
 .butn {
   background: #0098a5 !important;
-  color: #fff !important;
+  color: rgb(255, 255, 255) ;
   font-size: 12px;
 }
 .text-white {
@@ -289,28 +289,9 @@ body {
 
 button > .text-white {
   font-weight: 900 !important;
+  color: #0098a5;
 }
-.butn {
-  position: relative;
-  display: inline-block;
-  background: #ff7029;
-  color: #fff;
-  text-align: center;
-  vertical-align: middle;
-  user-select: none;
-  border: none;
-  font-size: 12px;
-  cursor: pointer;
-  outline: none;
-  padding: 6px 0;
-  border-radius: 15px;
-  line-height: normal;
-  letter-spacing: 1.428571429;
-  text-transform: uppercase;
-  z-index: 1;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
-    box-shadow 0.15s ease-in-out;
-}
+
 .btn-circle {
   width: 100% !important;
   height: 30px !important;
@@ -320,10 +301,15 @@ button > .text-white {
   line-height: 1.428571429 !important;
   border-radius: 15px !important;
 }
+  .butn:hover span, .butn:hover i {
+  color: #0098a5 !important; }
+
+
 .butn:hover:after,
 .butn:active:after,
 .butn:focus:after {
-  background: #ffc107 !important;
+  background: #ffff !important;
+  border: 2px solid #0098a5;
   opacity: 1;
   transform: scaleY(1);
   transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
