@@ -20,69 +20,69 @@
         </section>
 
        
-       <!-- Misión Visión
+       <!-- Misión Visión Propósito
         ================================================== -->
-    <section class="bg-light" >
+      <section id="seccion-services">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 mb-6 mb-md-8 mb-lg-0">
-            <div class="pe-lg-1-9 pe-xl-2-5 text-center">
-              <img class="box-custom" src="../assets/img2.jpeg" alt="...">
+          <div class="d-flex justify-content-between bg-divisions flex-mobile">
+
+            <div class="d-flex flex-column bg-card">
+              <img align="right" :showç="handleScroll" class="icon-about alignImag divisionsIcons animate__animated" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+              <span align="center" class="text-title">Misión</span><br>
+              <div class="hr-border"/><br>
+              <span align="center" class="h5 flex-grow-1 text-body animate__animated" id="text-estrategia">Acompañamos el desarrollo de nuestros clientes, mediante metodologías innovadoras contribuyendo en su rentabilidad, productividad y satisfacción.</span>
+            </div>
+
+            <div class="d-flex flex-column bg-card">
+              <img class="icon-about alignImag2 alignImag  divisionsIcons animate__animated" src="../assets/js/services/Recurso 1.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+              <span align="center" class="text-title">Visión</span><br>
+              <div class="hr-border"/><br>
+              <span align="center" class="h5 flex-grow-1 text-body">Generar Prosperidad Incluyente mediante el crecimiento y la permanencia de las empresas en el mercado.</span>
+            </div>
+
+            <div class="d-flex flex-column bg-card">
+              <img class="icon-about alignImag2 alignImag divisionsIcons animate__animated" src="../assets/js/services/Recurso 25.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+              <span align="center" class="text-title">Propósito</span><br>
+              <div class="hr-border"/><br>
+              <span align="center" class="h5 flex-grow-1 text-body">Apasionados por colaborar en la transformación de nuestros clientes y fomentar relaciones de confianza a largo plazo.</span>
             </div>
           </div>
-          <div class="col-lg-6">
-            <h1 align="center" class="text-black color_34 mb-1-6 font-weight-700">Nuestra Misión</h1>
-            <p class="text-black">Acompañamos el desarrollo de nuestros clientes, mediante metodologías innovadoras contribuyendo en su rentabilidad, productividad y satisfacción.</p>
-            <h1 align="center" class="text-black color_34 mb-1-6 font-weight-700">Nuestra Visión</h1>
-            <p class="text-black">Generar Prosperidad Incluyente*, mediante el crecimiento y la permanencia de las empresas en el mercado. *Que nos vaya bien a todos.</p>
-            <h1 align="center" class="text-black color_34 mb-1-6 font-weight-700">Nuestro Propósito</h1>
-            <p class="text-black">Generar Prosperidad Incluyente*, mediante el crecimiento y la permanencia de las empresas en el mercado. *Que nos vaya bien a todos.</p>
-            
-            <ul class="list-style1">
-            </ul>
-          </div>
-        </div>
+
       </div>
-    </section>
+      </section>
 
-    <!-- COUNTER
+    <!-- Contador
         ================================================== -->
-        <section class="py-0">
-            <div class="row g-0">
-                <div class="col-lg-6 bg-img cover-background" data-overlay-dark="2" data-background="../assets/img4.jpeg" id="conteo">
-                    <div class="d-table h-100 text-center mx-auto position-relative z-index-1">
-                        <div class="d-table-cell vertical-align-middle h-100 ">
-                            <div class="d-inline-block vertical-align-middle z-index-1 text-start">
-                                <a class="popup-social-video video_btn" href="https://www.youtube.com/watch?v=-ESQmzDbnL8"><i class="fas fa-play"></i></a>
-                            </div>
-                        </div>
-                    </div>
+        <section id="seccion-counter">
+          <div class="row">
+              <div class="d-flex justify-content-between bg-counter flex-mobile">
+                <div class="d-flex flex-column bg-card-counter">
+                  <img align="right" :showç="handleScroll" class="icon-divisiones alignImag divisionsIcons" src="../assets/js/services/Recurso 17.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
+                  <span align="center" class="text-title-counter">107</span><br>
+                  <span align="center" class="h5 text-counter">Reuniones con CEO's y Directores para definir la división de sus negocios</span>
                 </div>
-                <div class="col-lg-6 bg-secondary">
-                    <div class="p-2-5 p-sm-2-7 p-md-6 p-lg-9 p-xl-14">
-                        <div class="row g-0 justify-content-center">
-                            <div class="col-sm-6 text-center border-sm-end border-bottom border-white-opacity2 py-1-6">
-                                <span class="countup text-white h1 font-weight-700">45</span>
-                                <p class="display-28 display-xl-27 text-white font-weight-500 m-0">Cursos</p>
-                            </div>
-                            <div class="col-sm-6 text-center border-bottom border-white-opacity2 py-1-6">
-                                <span class="countup text-white h1 font-weight-700">1800</span>
-                                <p class="display-28 display-xl-27 text-white font-weight-500 m-0">Clientes felices</p>
-                            </div>
-                            <div class="col-sm-6 text-center borders-bottom border-sm-bottom-0 border-sm-end border-white-opacity2 py-1-6">
-                                <span class="countup text-white h1 font-weight-700">1500</span>
-                                <p class="display-28 display-xl-27 text-white font-weight-500 m-0">Satisfacción</p>
-                            </div>
-                            <div class="col-sm-6 text-center py-1-6">
-                                <span class="countup text-white h1 font-weight-700">21</span>
-                                <p class="display-28 display-xl-27 text-white font-weight-500 m-0">Premios ganados</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="vl"></div>
+                <div class="d-flex flex-column bg-card-counter">
+                  <img class="icon-divisiones alignImag2 alignImag  divisionsIcons" src="../assets/js/services/Recurso 1.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
+                  <span align="center" class="text-title-counter">338</span><br>
+                  <span align="center" class="h5 text-counter">Becarios distribuidos en 23 Áreas y Unidades de Negocio</span>
                 </div>
-            </div>
-        </section>
+                <div class="vl"></div>
+                <div class="d-flex flex-column bg-card-counter">
+                  <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/Recurso 2.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
+                  <span align="center" class="text-title-counter">1500</span><br>
+                  <span align="center" class="h5 text-counter">Investigadores certificados para atender denuncias</span>
+                </div>
+                <div class="vl"></div>
+                <div class="d-flex flex-column bg-card-counter">
+                  <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/Recurso 2.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
+                  <span align="center" class="text-title-counter">400</span><br>
+                  <span align="center" class="h5 text-counter">Proveedores Certificados en los distintos niveles</span>
+                </div>
+              </div>
 
+          </div>
+        </section>
     <!-- Clientes y testimonios
         ================================================== -->
         <section>
@@ -268,6 +268,10 @@ element.style {
     clip-path: polygon(0% 0, 50% 0%, 100% 0%, 100% 100%, 50%  100%, 0 100%);
     
   }
+  .text-counter {
+    font-size: 20px !important;
+    color: #ffffff !important;
+  }
   .video_btn2{
     background: #35547c!important;
   }
@@ -293,12 +297,18 @@ element.style {
   .Ti1{
     text-align: left;
     font-size: 28px;
+    color: #ffffff;
   }
   .Ti2{
     text-align: left;
     font-size: 28px;
-    color: #ffc107;
+    color: #ffcc00;
   }
+  .vl {
+    margin-top: 80px;
+    border-left: 2px solid #ffcc00;
+    height: 350px;
+}
 
   .image-tamaño {
     height: 302px;

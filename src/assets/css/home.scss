@@ -46,6 +46,15 @@
   vertical-align: top;
   width: 472px;
 }
+
+/*apartado de nosotros*/
+.icon-about {
+  max-width: 100%;
+  height: 220px;
+  vertical-align: top;
+  width: 472px;
+}
+
 /*apartado de servicios*/
 .icon-service {
   max-width: 100%;
@@ -338,6 +347,7 @@ button > .text-white {
   -webkit-border-radius: 11px;
 }
 
+<<<<<<< HEAD
 /*CONTACTO (HOME)*/
 .bg-contact {
   background: #e8eaea;
@@ -386,6 +396,13 @@ button > .text-white {
 
 .text-button{
   font-size: 17px;
+=======
+.bg-counter {
+  background: #35547c;
+  border-radius: 11px;
+  -moz-border-radius: 11px;
+  -webkit-border-radius: 11px;
+>>>>>>> #89 Nuevo diseño en Nosotros
 }
 
 .hr-border {
@@ -400,6 +417,14 @@ button > .text-white {
   padding: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.bg-card-counter {
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   flex-grow: 1;
   flex-basis: 0;
 }
