@@ -13,10 +13,11 @@
   border-radius: 12px;
   -moz-border-radius: 12px;
   -webkit-border-radius: 12px;
-  
+  box-shadow : 7px 7px 5px rgba(0, 0, 0, 0.3);
+
   filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=7, OffY=7, Color='#000000');
   height: 393px;
-  margin-top: -10px;
+  margin-top: -30px;
   width: 322px;
   margin-left: 42px;
 }
@@ -543,6 +544,7 @@ button > .text-white {
     .cuadrado2{
       margin-left: 17px;
       width: 218px;
+      height: 306px;
     }
     .title-contact{
       width: 720px;
@@ -572,6 +574,7 @@ button > .text-white {
     .cuadrado2{
       width: 173px;
       margin-left: 6px;
+      margin-top: -13px;
     }
     .title-contact{
       width: 538px;
@@ -598,6 +601,7 @@ button > .text-white {
     .cuadrado2{
       width: 180px;
       margin-left: 6px;
+      box-shadow: unset;
     }
     .title-contact{
       width: 575px;

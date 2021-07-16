@@ -267,13 +267,13 @@
           <div class="col-4">
             <div class=""><br><br><br><br><br>
               <div class="d-flex flex-column cuadrado2 text-white "><br>
-                <img class="telef" src="../assets/js/services/telfono.svg"><br>
+                <img class="telef" src="../assets/js/services/telfono.svg">
                 <p align="center" class="text-cuadrado2">55 16556739998</p>
 
-                <img class="telef" src="../assets/js/services/messa.svg"><br>
+                <img class="telef" src="../assets/js/services/messa.svg">
                 <p align="center" class="text-cuadrado2"> contactanos@dialogus.com.mx </p>
 
-                <img class="telef" src="../assets/js/services/ubicacion.svg"><br>
+                <img class="telef" src="../assets/js/services/ubicacion.svg">
                 <p align="center" class="text-cuadrado2">Periferico Sur 4121, Fuentes del Pedregal, Tlalpan, 14140 Ciudad de México, CDMX</p>
               </div>
             </div>
