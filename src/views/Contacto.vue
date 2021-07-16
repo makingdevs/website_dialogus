@@ -129,7 +129,6 @@
                                                                 <input class="form-control form-control1" id="subject" type="text" name="subject" placeholder="Tu asunto aqui"/>
                                                             </div>
                                                         </div>
-
                                                     </div>
                                                     <!-- End Text input element -->
 
