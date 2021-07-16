@@ -103,7 +103,7 @@
                                                         <div class="quform-element">
                                                             <label for="name">Tu Nombre <span class="quform-required">*</span></label>
                                                             <div class="quform-input">
-                                                                <input class="form-control form-control1" id="name" type="text" name="name" placeholder="Tu nombre aqui" />
+                                                                <input v-model="contact.name" class="form-control form-control1" id="name" type="text" name="name" placeholder="Tu nombre aqui" />
                                                             </div>
                                                         </div>
 
@@ -115,7 +115,7 @@
                                                         <div class="quform-element">
                                                             <label for="email">Tu Email <span class="quform-required">*</span></label>
                                                             <div class="quform-input">
-                                                                <input class="form-control form-control1" id="email" type="text" name="email" placeholder="Tu email aqui" />
+                                                                <input v-model="contact.email" class="form-control form-control1" id="email" type="text" name="email" placeholder="Tu email aqui" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -126,7 +126,7 @@
                                                         <div class="quform-element">
                                                             <label for="subject">Tu Asunto <span class="quform-required">*</span></label>
                                                             <div class="quform-input">
-                                                                <input class="form-control form-control1" id="subject" type="text" name="subject" placeholder="Tu asunto aqui"/>
+                                                                <input v-model="contact.asunto" class="form-control form-control1" id="subject" type="text" name="subject" placeholder="Tu asunto aqui"/>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -137,7 +137,7 @@
                                                         <div class="quform-element">
                                                             <label for="phone">Número de contacto</label>
                                                             <div class="quform-input">
-                                                                <input class="form-control form-control1" id="phone" type="text" name="phone" placeholder="Tu numero aqui" />
+                                                                <input v-model="contact.telf" class="form-control form-control1" id="phone" type="text" name="phone" placeholder="Tu numero aqui" />
                                                             </div>
                                                         </div>
 
@@ -149,7 +149,7 @@
                                                         <div class="quform-element">
                                                             <label for="message">Mensaje <span class="quform-required">*</span></label>
                                                             <div class="quform-input">
-                                                                <textarea class="form-control form-control1" id="message" name="message" rows="3" placeholder="Dejanos algunas palabras"></textarea>
+                                                                <textarea v-model="contact.mensaje" class="form-control form-control1" id="message" name="message" rows="3" placeholder="Dejanos algunas palabras"></textarea>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -158,13 +158,13 @@
                                                     <!-- Begin Submit button -->
                                                     <div class="col-md-12">
                                                         <div class="quform-submit-inner">
-                                                            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-                                                            <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202.">
-                                                                <button href="https://api.whatsapp.com/send" class="butn theme butn-md btn-circle" type="submit"><span >ENVIAR MENSAJE</span></button>
-                                                            </a>
-                                                        </div>
+                                                          <div class="d-flex justify-content-center">
+                                                            <button class="butn theme butn-md btn-circle" style="width: 35% !important;"><span
+                                                                class="text-button">Enviar respuesta</span></button>
+                                                          </div>
+                                                        </div><br>
                                                         <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
-                                                    </div>
+                                                      </div>
                                                     <!-- End Submit button -->
 
                                                 </div>
@@ -274,10 +274,42 @@
 </style>
 <script>
     export default{
+    watch: {
+      TarjetasCarruselTable: function () {
+        this.renderComponent = false;
+        setTimeout(() => this.renderComponent = true, 1000);
+      }
+    },
+    data: function () {
+      return {
+        contact: {
+          name: "",
+          email: "",
+          telf: "",
+          mensaje: ""
+        }
+      }
+    },
         created: function () {
           window.addEventListener('scroll', this.handleScroll);
           document.body.scrollTop = 0;
           document.documentElement.scrollTop = 0;
         },
-    };
-    </script>
+        mounted() {
+
+        },
+
+        methods: {
+      sendNotification() {
+        const message = `Hola! \nMe quiero comunicar con ustedes
+                        Mi nombre es: ${this.contact.name}
+                        Correo: ${this.contact.email}
+                        Teléfono: ${this.contact.telf}
+                        Asunto: ${this.contact.asunto}
+                        Mensaje: ${this.contact.mensaje}`.replace(/  +/g, '');
+
+        window.open(`https://api.whatsapp.com/send?phone=525583817789&text=${encodeURIComponent(message)}`, "_target")
+      },
+    },
+};
+</script>
