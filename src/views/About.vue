@@ -24,24 +24,23 @@
         ================================================== -->
       <section id="seccion-services">
       <div class="container">
-          <div class="d-flex justify-content-between bg-divisions flex-mobile">
+          <div class="d-flex justify-content-between bg-about flex-mobile">
 
-            <div class="d-flex flex-column bg-card">
-              <img align="right" :showç="handleScroll" class="icon-about alignImag divisionsIcons animate__animated" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+            <div class="d-flex flex-column bg-card-about">
+              <img align="right" :showç="handleScroll" class="icon-about alignImag divisionsIcons animate__animated" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;">
               <span align="center" class="text-title">Misión</span><br>
               <div class="hr-border"/><br>
               <span align="center" class="h5 flex-grow-1 text-body animate__animated" id="text-estrategia">Acompañamos el desarrollo de nuestros clientes, mediante metodologías innovadoras contribuyendo en su rentabilidad, productividad y satisfacción.</span>
             </div>
-
-            <div class="d-flex flex-column bg-card">
-              <img class="icon-about alignImag2 alignImag  divisionsIcons animate__animated" src="../assets/js/services/Recurso 1.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+            <div class="d-flex flex-column bg-card-about">
+              <img class="icon-about alignImag2 alignImag  divisionsIcons animate__animated" src="../assets/js/services/Recurso 1.svg" style=" margin-top: -98px; margin-left: 2px;">
               <span align="center" class="text-title">Visión</span><br>
               <div class="hr-border"/><br>
               <span align="center" class="h5 flex-grow-1 text-body">Generar Prosperidad Incluyente mediante el crecimiento y la permanencia de las empresas en el mercado.</span>
             </div>
 
-            <div class="d-flex flex-column bg-card">
-              <img class="icon-about alignImag2 alignImag divisionsIcons animate__animated" src="../assets/js/services/Recurso 25.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+            <div class="d-flex flex-column bg-card-about">
+              <img class="icon-about alignImag2 alignImag divisionsIcons animate__animated" src="../assets/js/services/Recurso 25.svg" style=" margin-top: -98px; margin-left: 2px;">
               <span align="center" class="text-title">Propósito</span><br>
               <div class="hr-border"/><br>
               <span align="center" class="h5 flex-grow-1 text-body">Apasionados por colaborar en la transformación de nuestros clientes y fomentar relaciones de confianza a largo plazo.</span>
@@ -61,19 +60,19 @@
                   <span align="center" class="text-title-counter">107</span><br>
                   <span align="center" class="h5 text-counter">Reuniones con CEO's y Directores para definir la división de sus negocios</span>
                 </div>
-                <div class="vl"></div>
+                <div class="vl-about"></div>
                 <div class="d-flex flex-column bg-card-counter">
                   <img class="icon-divisiones alignImag2 alignImag  divisionsIcons" src="../assets/js/services/Recurso 1.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
                   <span align="center" class="text-title-counter">338</span><br>
                   <span align="center" class="h5 text-counter">Becarios distribuidos en 23 Áreas y Unidades de Negocio</span>
                 </div>
-                <div class="vl"></div>
+                <div class="vl-about"></div>
                 <div class="d-flex flex-column bg-card-counter">
                   <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/Recurso 2.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
                   <span align="center" class="text-title-counter">1500</span><br>
                   <span align="center" class="h5 text-counter">Investigadores certificados para atender denuncias</span>
                 </div>
-                <div class="vl"></div>
+                <div class="vl-about"></div>
                 <div class="d-flex flex-column bg-card-counter">
                   <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/Recurso 2.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
                   <span align="center" class="text-title-counter">400</span><br>
@@ -83,138 +82,87 @@
 
           </div>
         </section>
-    <!-- Clientes y testimonios
+    <!-- Testimonios
         ================================================== -->
         <section>
             <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
-            <span class="color_34">Nuestros Clientes </span></h1>
-                <carousel-3d height="500px" style="height: 525px;" border="0">
-                    <slide :index="0" class="border-show2">
-                        <div class="card card-style4">
-                            <div class="card-img"><img src="../assets/persona1.webp" alt="..." class="tamañoEventos">
-                                <div class="card-body">
-                                    <h4 align="center" class="h5">
-                                    <router-link to="/noticias" class="">Empresa 1</router-link>
-                                    </h4>
-                                    <div align="center" class="event-meta-list">
-                                    <span class="me-0 me-xl-2 text-white"><i class="fas fa-map-marker-alt"></i>&nbsp;Ubicación 1</span>
-                                    </div>
-                                    <p align="center" class="text-white">Testimonio 1</p><br>
-                                    <hr class="hr2"/>
-                                    <div class="d-flex justify-content-center">
-                                      <div class="rating">
-                                          <span><i class="fas fa-star"></i></span>
-                                          <span><i class="fas fa-star"></i></span>
-                                          <span><i class="fas fa-star"></i></span>
-                                          <span><i class="fas fa-star"></i></span>
-                                          <span><i class="fas fa-star"></i></span>
-                                      </div>
-                                    </div>
-                                </div>
-                            </div>
+            <span class="color_34">Testimonios </span></h1>
+                <VueSlickCarousel :arrows="true" :dots="true">
+                  <div>
+                    <div class="d-flex justify-content-between bg-about flex-mobile">
+                      <div class="d-flex flex-column bg-card-testimonios">
+                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons animate__animated" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+                        <span align="left" class="h5 flex-grow-1 text-body animate__animated" id="text-estrategia">Testimonio 1</span>
+                         <div class="rating" align="center">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
                         </div>
-                    </slide>
-                    <slide :index="1" class="border-show2">
-                        <div class="card card-style4">
-                            <div class="card-img"><img src="../assets/persona2.webp" alt="..." class="tamañoEventos">
-                                <div class="card-body">
-                                    <h4 align="center" class="h5">
-                                    <router-link to="/noticias" class="">Empresa 2</router-link>
-                                    </h4>
-                                    <div align="center" class="event-meta-list">
-                                    <span class="me-0 me-xl-2 text-white"><i class="fas fa-map-marker-alt"></i>&nbsp;Ubicación 2</span>
-                                    </div>
-                                    <p align="center" class="text-white">Testimonio 2</p><br>
-                                    <hr class="hr2" />
-                                    <div class="d-flex justify-content-center">
-                                      <div class="rating">
-                                          <span><i class="fas fa-star"></i></span>
-                                          <span><i class="fas fa-star"></i></span>
-                                          <span><i class="fas fa-star"></i></span>
-                                          <span><i class="fas fa-star"></i></span>
-                                          <span><i class="fas fa-star"></i></span>
-                                      </div>
-                                    </div>
-                                </div>
-                            </div>
+                      </div>
+                      <div class="d-flex flex-column bg-card-testimonios">
+                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons animate__animated" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+                        <span align="left" class="h5 flex-grow-1 text-body animate__animated" id="text-estrategia">Testimonio 1</span>
+                         <div class="rating" align="center">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
                         </div>
-                    </slide>
-                    <slide :index="2" class="border-show2">
-                        <div class="card card-style4">
-                            <div class="card-img"><img src="../assets/persona3.webp" alt="..." class="tamañoEventos">
-                                <div class="card-body">
-                                    <h4 align="center" class="h5">
-                                    <router-link to="/noticias" class="">Empresa 3</router-link>
-                                    </h4>
-                                    <div align="center" class="event-meta-list">
-                                    <span class="me-0 me-xl-2 text-white"><i class="fas fa-map-marker-alt"></i>&nbsp;Ubicación 3</span>
-                                    </div>
-                                    <p align="center" class="text-white">Testimonio 3</p><br>
-                                    <hr class="hr2" />
-                                    <div class="d-flex justify-content-center">
-                                      <div class="rating">
-                                          <span><i class="fas fa-star"></i></span>
-                                          <span><i class="fas fa-star"></i></span>
-                                          <span><i class="fas fa-star"></i></span>
-                                          <span><i class="fas fa-star"></i></span>
-                                          <span><i class="fas fa-star"></i></span>
-                                      </div>
-                                    </div>
-                                </div>
-                            </div>
+                      </div>
+                      <div class="d-flex flex-column bg-card-testimonios">
+                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons animate__animated" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+                        <span align="left" class="h5 flex-grow-1 text-body animate__animated" id="text-estrategia">Testimonio 1</span>
+                         <div class="rating" align="center">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
                         </div>
-                    </slide>
-                    <slide :index="3" class="border-show2">
-                        <div class="card card-style4">
-                            <div class="card-img"><img src="../assets/persona4.webp" alt="..." class="tamañoEventos">
-                                <div class="card-body">
-                                    <h4 align="center" class="h5">
-                                    <router-link to="/noticias" class="">Empresa 4</router-link>
-                                    </h4>
-                                    <div align="center" class="event-meta-list">
-                                    <span class="me-0 me-xl-2 text-white"><i class="fas fa-map-marker-alt"></i>&nbsp;Ubicación 4</span>
-                                    </div>
-                                    <p align="center" class="text-white">Testimonio 4</p><br>
-                                    <hr class="hr2" />
-                                    <div class="d-flex justify-content-center">
-                                      <div class="rating">
-                                          <span><i class="fas fa-star"></i></span>
-                                          <span><i class="fas fa-star"></i></span>
-                                          <span><i class="fas fa-star"></i></span>
-                                          <span><i class="fas fa-star"></i></span>
-                                          <span><i class="fas fa-star"></i></span>
-                                      </div>
-                                    </div>
-                                </div>
-                            </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="d-flex justify-content-between bg-about flex-mobile">
+                      <div class="d-flex flex-column bg-card-testimonios">
+                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons animate__animated" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+                        <span align="left" class="h5 flex-grow-1 text-body animate__animated" id="text-estrategia">Testimonio 1</span>
+                         <div class="rating" align="center">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
                         </div>
-                    </slide>
-                    <slide :index="4" class="border-show2">
-                        <div class="card card-style4">
-                            <div class="card-img"><img src="../assets/persona5.webp" alt="..." class="tamañoEventos">
-                                <div class="card-body">
-                                    <h4 align="center" class="h5">
-                                    <router-link to="/noticias" class="">Empresa 5</router-link>
-                                    </h4>
-                                    <div align="center" class="event-meta-list">
-                                    <span class="me-0 me-xl-2 text-white"><i class="fas fa-map-marker-alt"></i>&nbsp;Ubicación 5</span>
-                                    </div>
-                                    <p align="center" class="text-white">Testimonio 5</p><br>
-                                    <hr class="hr2" />
-                                    <div class="d-flex justify-content-center">
-                                      <div class="rating">
-                                          <span><i class="fas fa-star"></i></span>
-                                          <span><i class="fas fa-star"></i></span>
-                                          <span><i class="fas fa-star"></i></span>
-                                          <span><i class="fas fa-star"></i></span>
-                                          <span><i class="fas fa-star"></i></span>
-                                      </div>
-                                    </div>
-                                </div>
-                            </div>
+                      </div>
+                      <div class="d-flex flex-column bg-card-testimonios">
+                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons animate__animated" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+                        <span align="left" class="h5 flex-grow-1 text-body animate__animated" id="text-estrategia">Testimonio 1</span>
+                         <div class="rating" align="center">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
                         </div>
-                    </slide>
-                </carousel-3d>
+                      </div>
+                      <div class="d-flex flex-column bg-card-testimonios">
+                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons animate__animated" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+                        <span align="left" class="h5 flex-grow-1 text-body animate__animated" id="text-estrategia">Testimonio 1</span>
+                         <div class="rating" align="center">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </VueSlickCarousel>
             </section>
         
   </div>
@@ -304,7 +252,7 @@ element.style {
     font-size: 28px;
     color: #ffcc00;
   }
-  .vl {
+  .vl-about {
     margin-top: 80px;
     border-left: 2px solid #ffcc00;
     height: 350px;
@@ -354,10 +302,19 @@ element.style {
     transform: translateY(-20px);
   }
 
+  @media(max-width: 1199px ){
+  .vl-about {
+      display: none;
+  }
+  }
+
 </style>
 
 <script>
-import { Carousel3d, Slide } from 'vue-carousel-3d';
+import VueSlickCarousel from 'vue-slick-carousel'
+  import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+  // optional style for arrows & dots
+  import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
   import '../assets/css/_main.scss'
   import '../assets/css/home.scss'
   export default {
@@ -371,8 +328,7 @@ import { Carousel3d, Slide } from 'vue-carousel-3d';
 
     },
     components: {
-      Carousel3d,
-      Slide,
+      VueSlickCarousel,
     },
     methods: {
       exampleMethod() {
