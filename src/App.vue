@@ -166,21 +166,6 @@
                     Nosotros
                   </router-link>
                 </li>
-                <li>
-                  <router-link to="/about" class="text-footercolor">
-                    Propósito
-                  </router-link>
-                </li>
-                <li>
-                  <router-link to="/about" class="text-footercolor">
-                    Misión
-                  </router-link>
-                </li>
-                <li>
-                  <router-link to="/about" class="text-footercolor">
-                    Visión
-                  </router-link>
-                </li>
               </ul>
             </div>
           </div>
@@ -191,26 +176,6 @@
                   <a href="#seccion-services" class="text-footercolor" style="font-size: 23px">
                     Servicios
                   </a>
-                </li>
-                <li>
-                  <router-link to="/estrategia" class="text-footercolor">
-                    Estrategia
-                  </router-link>
-                </li>
-                <li>
-                  <router-link to="/cumplimiento" class="text-footercolor">
-                    Cumplimiento
-                  </router-link>
-                </li>
-                <li>
-                  <router-link to="/capital" class="text-footercolor">
-                    Capital Humano
-                  </router-link>
-                </li>
-                <li>
-                  <router-link to="/diagnostico" class="text-footercolor">
-                    Diagnóstico
-                  </router-link>
                 </li>
               </ul>
             </div>

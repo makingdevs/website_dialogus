@@ -5,7 +5,7 @@
 
         <!-- PAGE TITLE
         ================================================== -->
-        <section class="parallax page-title-section top-position bg-img cover-background" data-overlay-dark="55" id="bannerservicios">
+        <section class="parallax page-title-section top-position bg-img cover-background" id="bannerservicios">
 
           <div class="container">
             <div class="row">

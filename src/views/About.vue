@@ -2,22 +2,21 @@
   <div class="about">
         <!-- PAGE TITLE
         ================================================== -->
-        <section class="parallax page-title-section top-position bg-img cover-background" data-overlay-dark="55" id="bannerabout">
-            <div class="container">
+        <section class="parallax page-title-section top-position bg-img cover-background"  id="bannerservicios">
 
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1>Nosotros</h1>
-                    </div>
-                    <div class="col-md-12">
-                        <ul class="ps-0">
-                            <li><a href="/home">Home</a></li>
-                            <li><router-link to="/about" class="text-warning">Nosotros</router-link></li>
-                        </ul>
-                    </div>
-                </div>
-
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
+                <h1 align="left">Nosotros</h1><br>
+                <p class="Ti1">Conoce más acerca de nosotros</p>
+                <p class="Ti2">y nuestra visión para nuestros clientes.</p>
+                <br>
+              </div>
+              <div class="col-lg-4">
+                <img src="../assets/js/services/Estrategia/Estrategia  TT.svg" alt=""  align="left">
+              </div>
             </div>
+          </div>
         </section>
 
        
@@ -225,6 +224,10 @@
     background-image: url('../assets/img1.jpg');
 
   }
+  #bannerservicios {
+    background-color: #35547c!important;
+
+  }
   #conteo {
     background-image: url('../assets/img4.jpeg');
 
@@ -286,6 +289,15 @@ element.style {
   .box:hover {
     background: #ffc107;
     border-radius: 50%;
+  }
+  .Ti1{
+    text-align: left;
+    font-size: 28px;
+  }
+  .Ti2{
+    text-align: left;
+    font-size: 28px;
+    color: #ffc107;
   }
 
   .image-tamaño {
