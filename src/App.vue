@@ -67,7 +67,7 @@
                     </li>
 
                     <li>
-                      <router-link align="center" to="/noticias" style="font-size: 16px">
+                      <router-link align="center" to="/eventos" style="font-size: 16px">
                         Eventos
                       </router-link>
                     </li>
@@ -219,7 +219,7 @@
             <div class="ps-md-1-6 ps-xl-1-9">
               <ul class="list-style1" align="left">
                 <li>
-                  <router-link to="/noticias" class="text-footercolor" style="font-size: 23px">
+                  <router-link to="/eventos" class="text-footercolor" style="font-size: 23px">
                     Eventos
                   </router-link>
                 </li>

@@ -95,7 +95,7 @@
                             <div class="card-img"><img src="../assets/persona1.webp" alt="..." class="tamañoEventos">
                                 <div class="card-body">
                                     <h4 align="center" class="h5">
-                                    <router-link to="/noticias" class="">Empresa 1</router-link>
+                                    <router-link to="/eventos" class="">Empresa 1</router-link>
                                     </h4>
                                     <div align="center" class="event-meta-list">
                                     <span class="me-0 me-xl-2 text-white"><i class="fas fa-map-marker-alt"></i>&nbsp;Ubicación 1</span>
@@ -120,7 +120,7 @@
                             <div class="card-img"><img src="../assets/persona2.webp" alt="..." class="tamañoEventos">
                                 <div class="card-body">
                                     <h4 align="center" class="h5">
-                                    <router-link to="/noticias" class="">Empresa 2</router-link>
+                                    <router-link to="/eventos" class="">Empresa 2</router-link>
                                     </h4>
                                     <div align="center" class="event-meta-list">
                                     <span class="me-0 me-xl-2 text-white"><i class="fas fa-map-marker-alt"></i>&nbsp;Ubicación 2</span>
@@ -145,7 +145,7 @@
                             <div class="card-img"><img src="../assets/persona3.webp" alt="..." class="tamañoEventos">
                                 <div class="card-body">
                                     <h4 align="center" class="h5">
-                                    <router-link to="/noticias" class="">Empresa 3</router-link>
+                                    <router-link to="/eventos" class="">Empresa 3</router-link>
                                     </h4>
                                     <div align="center" class="event-meta-list">
                                     <span class="me-0 me-xl-2 text-white"><i class="fas fa-map-marker-alt"></i>&nbsp;Ubicación 3</span>
@@ -170,7 +170,7 @@
                             <div class="card-img"><img src="../assets/persona4.webp" alt="..." class="tamañoEventos">
                                 <div class="card-body">
                                     <h4 align="center" class="h5">
-                                    <router-link to="/noticias" class="">Empresa 4</router-link>
+                                    <router-link to="/eventos" class="">Empresa 4</router-link>
                                     </h4>
                                     <div align="center" class="event-meta-list">
                                     <span class="me-0 me-xl-2 text-white"><i class="fas fa-map-marker-alt"></i>&nbsp;Ubicación 4</span>
@@ -195,7 +195,7 @@
                             <div class="card-img"><img src="../assets/persona5.webp" alt="..." class="tamañoEventos">
                                 <div class="card-body">
                                     <h4 align="center" class="h5">
-                                    <router-link to="/noticias" class="">Empresa 5</router-link>
+                                    <router-link to="/eventos" class="">Empresa 5</router-link>
                                     </h4>
                                     <div align="center" class="event-meta-list">
                                     <span class="me-0 me-xl-2 text-white"><i class="fas fa-map-marker-alt"></i>&nbsp;Ubicación 5</span>
