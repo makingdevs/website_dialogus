@@ -132,7 +132,8 @@
       <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
         <span class="color_34">EVENTOS Y CURSOS </span>
       </h1>
-      <carousel-3d v-if="renderComponent" height="510px" border="0" :controlsVisible="controlsVisible"
+      <carousel-3d v-if="renderComponent" height="510px" border="0" :controlsVisible="controlsVisible" :controls-prev-html="'&#10092; '" :controls-next-html="'&#10093;'" 
+      :controlsWidth="50"
         :perspective="perspective" :inverseScaling="300" :space="385" style="height: 525px;">
         <slide :index="index" class="border-show2" v-for="(tarjeta, index) in TarjetasCarruselTable" :key="index">
           <div class="card card-style4">
@@ -313,7 +314,7 @@
       return {
         animate__animated: true,
         displayСonditions: false,
-        controlsVisible: false,
+        controlsVisible: true,
         perspective: 35,
         TarjetasCarruselTable: [],
         renderComponent: false,
