@@ -60,9 +60,9 @@
           <div class="d-flex flex-column bg-card">
             <img class="icon-divisiones alignImag2 alignImag  divisionsIcons animate__animated"
               src="../assets/js/services/Recurso 1.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-            <span align="center" class="text-title">Capital Humano</span><br>
+            <span align="center" class="text-title divisionsText animate__animated">Capital Humano</span><br>
             <div class="hr-border" /><br>
-            <span align="center" class="h5 flex-grow-1 text-body">Generamos soluciones para el desarrollo del talento
+            <span align="center" class="h5 flex-grow-1 text-body divisionsText animate__animated">Generamos soluciones para el desarrollo del talento
               humano y el desarrollo organizacional.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
               <router-link to="/capital" class="butn btn-circle" type="submit"><span class="h6 text-white"
@@ -73,9 +73,9 @@
           <div class="d-flex flex-column bg-card">
             <img class="icon-divisiones alignImag2 alignImag divisionsIcons animate__animated"
               src="../assets/js/services/Recurso 2.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-            <span align="center" class="text-title">Cumplimiento</span><br>
+            <span align="center" class="text-title divisionsText animate__animated">Cumplimiento</span><br>
             <div class="hr-border" /><br>
-            <span align="center" class="h5 flex-grow-1 text-body">Blindamos a las empresas con sistemas de integridad,
+            <span align="center" class="h5 flex-grow-1 text-body divisionsText animate__animated">Blindamos a las empresas con sistemas de integridad,
               ética y gestión de riesgos.</span>
             <br>
             <div class="d-flex justify-content-center mt-5 mb-5">
@@ -87,9 +87,9 @@
           <div class="d-flex flex-column bg-card">
             <img class="icon-divisiones alignImag2 alignImag divisionsIcons animate__animated"
               src="../assets/js/services/Recurso 25.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-            <span align="center" class="text-title">Diagnóstico</span><br>
+            <span align="center" class="text-title divisionsText animate__animated">Diagnóstico</span><br>
             <div class="hr-border" /><br>
-            <span align="center" class="h5 flex-grow-1 text-body">Identificamos fortalezas y debilidades de empresas
+            <span align="center" class="h5 flex-grow-1 text-body divisionsText animate__animated">Identificamos fortalezas y debilidades de empresas
               reforzando el ecosistema mexicano.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
               <router-link to="/diagnostico" class="butn btn-circle" type="submit"><span
@@ -109,13 +109,13 @@
         <div class="row align-items-center">
           <div class="col-lg-6 mb-6 mb-md-8 mb-lg-0">
             <div class="pe-lg-1-9 pe-xl-2-5 text-center">
-              <img class="box-custom" src="../assets/que es.jpeg" alt="...">
+              <img class="box-custom presentamosAnimation animate__animated" src="../assets/que es.jpeg" alt="...">
             </div>
           </div>
           <div class="col-lg-6">
-            <div align="center" class="h1 color_33">Te presentamos</div><br>
-            <img align="center" class="img2 " src="../assets/js/services/Recurso 6.svg" alt="..."><br><br>
-            <div align="center" class="h4 color_33 ">Somos una consultora que ofrece una amplia gama de servicios
+            <div align="center" class="h1 color_33 presentamosAnimation animate__animated">Te presentamos</div><br>
+            <img align="center" class="img2 presentamosText animate__animated" src="../assets/js/services/Recurso 6.svg" alt="..."><br><br>
+            <div align="center" class="h4 color_33 presentamosText animate__animated">Somos una consultora que ofrece una amplia gama de servicios
               disruptivos e innovadores, siempre poniendo a la gente al centro de las soluciones.</div>
           </div>
 
@@ -313,6 +313,9 @@
     data: function () {
       return {
         animate__animated: true,
+        animate__animated_text: true,
+        animate_presentamos: true,
+        animate_presentamos_text: true,
         displayСonditions: false,
         controlsVisible: true,
         perspective: 35,
@@ -357,6 +360,11 @@
         this.activatedDivisionsIcons();
         this.returnStateAnimate();
         this.animationDivisionsText();
+        this.returnAnimateText();
+        this.animationPresentamos();
+        this.returnPresentamos();
+        this.presentamosText();
+        this.returnPresentamosText();
       },
       activatedDivisionsIcons() {
         if (window.scrollY > 300 && this.animate__animated) {
@@ -369,14 +377,6 @@
         }
 
       },
-      animationDivisionsText(){
-        if (window.scrollY > 350 && this.animate__animated) {
-          const divisionsText = document.getElementsByClassName("divisionsText")
-          for (const textDivision of divisionsText) {
-            divisionsText.classList.add("animate__fadeInBottomRight")
-          }
-        } 
-      },
       returnStateAnimate() {
         if (window.scrollY < 200 && !this.animate__animated) {
           const divisionsIcons = document.getElementsByClassName("divisionsIcons")
@@ -385,7 +385,63 @@
           }
           this.animate__animated = true;
         }
-      }
+      },
+      animationDivisionsText(){
+        if (window.scrollY > 400 && this.animate__animated_text) {
+          const divisionsText = document.getElementsByClassName("divisionsText")
+          for (const textDivision of divisionsText) {
+            textDivision.classList.add("animate__fadeInBottomRight")
+          }
+          this.animate__animated_text = false;
+        } 
+      },
+      returnAnimateText() {
+        if (window.scrollY < 200 && !this.animate__animated_text) {
+          const divisionsText = document.getElementsByClassName("divisionsText")
+          for (const textDivision of divisionsText) {
+            textDivision.classList.remove("animate__fadeInBottomRight")
+          }
+          this.animate__animated_text = true;
+        }
+      },
+      
+      animationPresentamos(){
+        if (window.scrollY > 1200 && this.animate_presentamos) {
+          const presentamos = document.getElementsByClassName("presentamosAnimation")
+          for (const presentamosAnimation of presentamos) {
+            presentamosAnimation.classList.add("animate__fadeInDown")
+          }
+          this.animate_presentamos = false;
+        } 
+      },
+      returnPresentamos() {
+        if (window.scrollY < 200 && !this.animate_presentamos) {
+          const presentamos = document.getElementsByClassName("presentamosAnimation")
+          for (const presentamosAnimation of presentamos) {
+            presentamosAnimation.classList.remove("animate__fadeInDown")
+          }
+          this.animate_presentamos = true;
+        }
+      },
+      
+      presentamosText(){
+        if (window.scrollY > 1200 && this.animate_presentamos_text) {
+          const textPresentamos = document.getElementsByClassName("presentamosText")
+          for (const presentamosTextAnimation of textPresentamos) {
+            presentamosTextAnimation.classList.add("animate__fadeInUp")
+          }
+          this.animate_presentamos_text = false;
+        } 
+      },
+      returnPresentamosText() {
+        if (window.scrollY < 250 && !this.animate_presentamos_text) {
+          const textPresentamos = document.getElementsByClassName("presentamosText")
+          for (const presentamosTextAnimation of textPresentamos) {
+            presentamosTextAnimation.classList.remove("animate__fadeInUp")
+          }
+          this.animate_presentamos_text = true;
+        }
+      },
     }
   };
 </script>
