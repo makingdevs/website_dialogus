@@ -18,8 +18,8 @@
   filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=7, OffY=7, Color='#000000');
   height: 393px;
   margin-top: -30px;
-  width: 322px;
-  margin-left: 42px;
+  width: 80%;
+  margin-left: 10%;
 }
 .telef {
   max-width: 100%;
@@ -159,6 +159,9 @@ body {
 }
 
 /* STYLOS DEL CARRUSEL*/
+a > .prev{
+  left:324px !important;
+}
 
 .custom-icon {
   font-size: 20px;
@@ -513,6 +516,10 @@ button > .text-white {
   border-radius: 21px;
 }
 
+.btn-width-contact {
+  width: 37% !important;
+}
+
 #page-region {
   display: none;
 }
@@ -608,8 +615,6 @@ button > .text-white {
       width: 958px;
     }
     .cuadrado2{
-      margin-left: 17px;
-      width: 287px;
     }
     .title-contact{
       width: 958px;
@@ -628,9 +633,6 @@ button > .text-white {
       width: 719px;
     }
     .cuadrado2{
-      margin-left: 17px;
-      width: 218px;
-      height: 306px;
     }
     .title-contact{
       width: 720px;
@@ -658,9 +660,6 @@ button > .text-white {
       width: 719px;
     }
     .cuadrado2{
-      width: 173px;
-      margin-left: 6px;
-      margin-top: -13px;
     }
     .title-contact{
       width: 538px;
@@ -684,11 +683,6 @@ button > .text-white {
       height: 575px;
       width: 719px;
     }
-    .cuadrado2{
-      width: 180px;
-      margin-left: 6px;
-      box-shadow: unset;
-    }
     .title-contact{
       width: 575px;
       margin-left: -12px;
@@ -701,6 +695,12 @@ button > .text-white {
     }
     .text-cuadrado2{
       font-size: 10.5px;
+    }
+    .email-text {
+      word-wrap: break-word;
+    }
+    .btn-width-contact {
+      width: 50% !important;
     }
   }
   @media (max-width: 570px){
