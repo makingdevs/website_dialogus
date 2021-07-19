@@ -42,16 +42,16 @@
         <div class="d-flex justify-content-between bg-divisions flex-mobile">
           <div class="d-flex flex-column bg-card">
 
-            <img align="right" :showç="handleScroll" class="icon-divisiones alignImag divisionsIcons animate__animated"
+            <img align="right" :show="handleScroll" class="icon-divisiones alignImag divisionsIcons animate__animated"
               src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
 
-            <span align="center" class="text-title">Estrategia</span><br>
+            <span align="center" :show="handleScroll" class="text-title divisionsText animate__animated">Estrategia</span><br>
             <div class="hr-border" /><br>
-            <span align="center" class="h5 flex-grow-1 text-body animate__animated" id="text-estrategia">Definimos el
+            <span align="center" :show="handleScroll" class="h5 flex-grow-1 text-body divisionsText animate__animated" id="text-estrategia">Definimos el
               camino para alcanzar tus objetivos de manera exitosa.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
 
-              <router-link to="/estrategia" class="butn btn-circle  border-show" type="submit"><span
+              <router-link to="/estrategia" class="butn btn-circle" type="submit"><span
                   class="h6 text-white" style="text-transform: none;">Conoce más</span></router-link>
 
             </div>
@@ -60,12 +60,12 @@
           <div class="d-flex flex-column bg-card">
             <img class="icon-divisiones alignImag2 alignImag  divisionsIcons animate__animated"
               src="../assets/js/services/Recurso 1.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-            <span align="center" class="text-title">Capital Humano</span><br>
+            <span align="center" class="text-title divisionsText animate__animated">Capital Humano</span><br>
             <div class="hr-border" /><br>
-            <span align="center" class="h5 flex-grow-1 text-body">Generamos soluciones para el desarrollo del talento
+            <span align="center" class="h5 flex-grow-1 text-body divisionsText animate__animated">Generamos soluciones para el desarrollo del talento
               humano y el desarrollo organizacional.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/capital" class="butn btn-circle  border-show" type="submit"><span class="h6 text-white"
+              <router-link to="/capital" class="butn btn-circle" type="submit"><span class="h6 text-white"
                   style="text-transform: none;">Conoce más</span></router-link>
             </div>
           </div>
@@ -73,13 +73,13 @@
           <div class="d-flex flex-column bg-card">
             <img class="icon-divisiones alignImag2 alignImag divisionsIcons animate__animated"
               src="../assets/js/services/Recurso 2.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-            <span align="center" class="text-title">Cumplimiento</span><br>
+            <span align="center" class="text-title divisionsText animate__animated">Cumplimiento</span><br>
             <div class="hr-border" /><br>
-            <span align="center" class="h5 flex-grow-1 text-body">Blindamos a las empresas con sistemas de integridad,
+            <span align="center" class="h5 flex-grow-1 text-body divisionsText animate__animated">Blindamos a las empresas con sistemas de integridad,
               ética y gestión de riesgos.</span>
             <br>
             <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/cumplimiento" class="butn btn-circle  border-show" type="submit"><span
+              <router-link to="/cumplimiento" class="butn btn-circle" type="submit"><span
                   class="h6 text-white" style="text-transform: none;">Conoce más</span></router-link>
             </div>
           </div>
@@ -87,12 +87,12 @@
           <div class="d-flex flex-column bg-card">
             <img class="icon-divisiones alignImag2 alignImag divisionsIcons animate__animated"
               src="../assets/js/services/Recurso 25.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-            <span align="center" class="text-title">Diagnóstico</span><br>
+            <span align="center" class="text-title divisionsText animate__animated">Diagnóstico</span><br>
             <div class="hr-border" /><br>
-            <span align="center" class="h5 flex-grow-1 text-body">Identificamos fortalezas y debilidades de empresas
+            <span align="center" class="h5 flex-grow-1 text-body divisionsText animate__animated">Identificamos fortalezas y debilidades de empresas
               reforzando el ecosistema mexicano.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/diagnostico" class="butn btn-circle  border-show" type="submit"><span
+              <router-link to="/diagnostico" class="butn btn-circle" type="submit"><span
                   class="h6 text-white" style="text-transform: none;">Conoce más</span></router-link>
             </div>
           </div>
@@ -109,13 +109,13 @@
         <div class="row align-items-center">
           <div class="col-lg-6 mb-6 mb-md-8 mb-lg-0">
             <div class="pe-lg-1-9 pe-xl-2-5 text-center">
-              <img class="box-custom" src="../assets/que es.jpeg" alt="...">
+              <img class="box-custom presentamosAnimation animate__animated" src="../assets/que es.jpeg" alt="...">
             </div>
           </div>
           <div class="col-lg-6">
-            <div align="center" class="h1 color_33">Te presentamos</div><br>
-            <img align="center" class="img2 " src="../assets/js/services/Recurso 6.svg" alt="..."><br><br>
-            <div align="center" class="h4 color_33 ">Somos una consultora que ofrece una amplia gama de servicios
+            <div align="center" class="h1 color_33 presentamosAnimation animate__animated">Te presentamos</div><br>
+            <img align="center" class="img2 presentamosText animate__animated" src="../assets/js/services/Recurso 6.svg" alt="..."><br><br>
+            <div align="center" class="h4 color_33 presentamosText animate__animated">Somos una consultora que ofrece una amplia gama de servicios
               disruptivos e innovadores, siempre poniendo a la gente al centro de las soluciones.</div>
           </div>
 
@@ -132,10 +132,9 @@
       <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
         <span class="color_34">EVENTOS Y CURSOS </span>
       </h1>
-      <carousel-3d v-if="renderComponent" height="510px" border="0" :controlsVisible="controlsVisible" :controls-prev-html="'&#10092; '" :controls-next-html="'&#10093;'" 
-      :controlsWidth="50"
+      <carousel-3d v-if="renderComponent" height="510px" border="0" :controlsVisible="controlsVisible" :controls-prev-html="'&#10092; '" :controls-next-html="'&#10093;'"
         :perspective="perspective" :inverseScaling="300" :space="385" style="height: 525px;">
-        <slide :index="index" class="border-show2" v-for="(tarjeta, index) in TarjetasCarruselTable" :key="index">
+        <slide :index="index" class="" v-for="(tarjeta, index) in TarjetasCarruselTable" :key="index">
           <div class="card card-style4">
             <div class="card-img"><img :src="tarjeta.image" alt="..." class="tamañoEventos">
             </div>
@@ -151,7 +150,7 @@
               <p align="center" class="text-white">{{tarjeta.description}}</p><br>
               <hr class="hr2" />
               <div class="d-flex justify-content-center">
-                <a class="tolowercase butn btn-circle border-show" :href="tarjeta.urlRegister" target="_blank"><span
+                <a class="tolowercase butn btn-circle" :href="tarjeta.urlRegister" target="_blank"><span
                     class="h6 text-white" style="text-transform: none;">Regístrate </span></a>
               </div>
             </div>
@@ -166,19 +165,19 @@
     <!-- EXTRA
         ================================================== -->
     <section class="container">
-      <div class="row">
-
-        <div class="d-flex justify-content-between bg-contact flex-mobile">
+      <div class="row" style="background: #e8eaea; border-radius: 12px">
+        <div class="col-12" style="background-color: #3f5479; border-radius: 12px 12px 0px 0px">
+          <h1 class="d-flex justify-content-center text-white text-contact">CONTACTO</h1>
+        </div>
+        <div class="col-12">
+                <p align="center" class=" mb-1-6 text-dark text-contact">
+                  Compártenos tus datos y en breve uno
+                  de nuestros asesores te contactará.</p>
+        </div>
+        <div class="d-flex justify-content-between">
           <div class="col-8">
             <div class="ps-lg-2">
               <div class="contact-form-area">
-                <div class="d-flex justify-content-center title-contact">
-                  <h1 class="text-white text-contact">CONTACTO</h1>
-                </div>
-                <div class="d-flex justify-content-center text-contac-cuadro">
-                <p align="center" class=" mb-1-6 text-dark text-contact">Compártenos tus datos y en breve uno
-                  de nuestros asesores te contactará.</p></div>
-
                 <form class="quform" @submit.prevent="sendNotification">
 
                   <div class="quform-elements">
@@ -249,7 +248,7 @@
                       <div class="col-md-12">
                         <div class="quform-submit-inner">
                           <div class="d-flex justify-content-center">
-                            <button class="butn theme butn-md btn-circle" style="width: 35% !important;"><span
+                            <button class="butn theme butn-md btn-circle btn-width-contact"><span
                                 class="text-button">Enviar respuesta</span></button>
                           </div>
                         </div><br>
@@ -266,13 +265,13 @@
           </div>
 
           <div class="col-4">
-            <div class=""><br><br><br><br><br>
+            <div class=""><br>
               <div class="d-flex flex-column cuadrado2 text-white "><br>
                 <img class="telef" src="../assets/js/services/telfono.svg">
                 <p align="center" class="text-cuadrado2">55 16556739998</p>
 
                 <img class="telef" src="../assets/js/services/messa.svg">
-                <p align="center" class="text-cuadrado2"> contactanos@dialogus.com.mx </p>
+                <p align="center" class="text-cuadrado2 email-text"> contactanos@dialogus.com.mx </p>
 
                 <img class="telef" src="../assets/js/services/ubicacion.svg">
                 <p align="center" class="text-cuadrado2">Periferico Sur 4121, Fuentes del Pedregal, Tlalpan, 14140 Ciudad de México, CDMX</p>
@@ -288,7 +287,8 @@
 
     <!-- FOOTER
         ================================================== -->
-
+<div class="d-none d-sm-block d-md-none">Hola mundo 1</div>
+<div class="d-none d-md-block d-lg-none">Hola mensaje 2</div>
 
 
   </div>
@@ -313,6 +313,9 @@
     data: function () {
       return {
         animate__animated: true,
+        animate__animated_text: true,
+        animate_presentamos: true,
+        animate_presentamos_text: true,
         displayСonditions: false,
         controlsVisible: true,
         perspective: 35,
@@ -330,8 +333,8 @@
 
     created: function () {
       window.addEventListener('scroll', this.handleScroll);
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
+      //document.body.scrollTop = 0;
+      //document.documentElement.scrollTop = 0;
     },
     mounted() {
 
@@ -356,26 +359,89 @@
       handleScroll() {
         this.activatedDivisionsIcons();
         this.returnStateAnimate();
+        this.animationDivisionsText();
+        this.returnAnimateText();
+        this.animationPresentamos();
+        this.returnPresentamos();
+        this.presentamosText();
+        this.returnPresentamosText();
       },
       activatedDivisionsIcons() {
         if (window.scrollY > 300 && this.animate__animated) {
           const divisionsIcons = document.getElementsByClassName("divisionsIcons")
           for (const division of divisionsIcons) {
-            division.classList.add("animate__flip")
+            division.classList.add("animate__fadeInTopLeft")
           }
           this.displayСonditions = true;
           this.animate__animated = false;
         }
+
       },
       returnStateAnimate() {
         if (window.scrollY < 200 && !this.animate__animated) {
           const divisionsIcons = document.getElementsByClassName("divisionsIcons")
           for (const division of divisionsIcons) {
-            division.classList.remove("animate__flip")
+            division.classList.remove("animate__fadeInTopLeft")
           }
           this.animate__animated = true;
         }
-      }
+      },
+      animationDivisionsText(){
+        if (window.scrollY > 400 && this.animate__animated_text) {
+          const divisionsText = document.getElementsByClassName("divisionsText")
+          for (const textDivision of divisionsText) {
+            textDivision.classList.add("animate__fadeInBottomRight")
+          }
+          this.animate__animated_text = false;
+        } 
+      },
+      returnAnimateText() {
+        if (window.scrollY < 200 && !this.animate__animated_text) {
+          const divisionsText = document.getElementsByClassName("divisionsText")
+          for (const textDivision of divisionsText) {
+            textDivision.classList.remove("animate__fadeInBottomRight")
+          }
+          this.animate__animated_text = true;
+        }
+      },
+      
+      animationPresentamos(){
+        if (window.scrollY > 1200 && this.animate_presentamos) {
+          const presentamos = document.getElementsByClassName("presentamosAnimation")
+          for (const presentamosAnimation of presentamos) {
+            presentamosAnimation.classList.add("animate__fadeInDown")
+          }
+          this.animate_presentamos = false;
+        } 
+      },
+      returnPresentamos() {
+        if (window.scrollY < 200 && !this.animate_presentamos) {
+          const presentamos = document.getElementsByClassName("presentamosAnimation")
+          for (const presentamosAnimation of presentamos) {
+            presentamosAnimation.classList.remove("animate__fadeInDown")
+          }
+          this.animate_presentamos = true;
+        }
+      },
+      
+      presentamosText(){
+        if (window.scrollY > 1200 && this.animate_presentamos_text) {
+          const textPresentamos = document.getElementsByClassName("presentamosText")
+          for (const presentamosTextAnimation of textPresentamos) {
+            presentamosTextAnimation.classList.add("animate__fadeInUp")
+          }
+          this.animate_presentamos_text = false;
+        } 
+      },
+      returnPresentamosText() {
+        if (window.scrollY < 250 && !this.animate_presentamos_text) {
+          const textPresentamos = document.getElementsByClassName("presentamosText")
+          for (const presentamosTextAnimation of textPresentamos) {
+            presentamosTextAnimation.classList.remove("animate__fadeInUp")
+          }
+          this.animate_presentamos_text = true;
+        }
+      },
     }
   };
 </script>

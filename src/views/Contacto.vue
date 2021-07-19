@@ -92,7 +92,7 @@
                                         <h3 class="mb-3 color_34">Llámanos o rellena el formulario</h3>
                                         <p class="mb-1-6 text-dark">Si podemos ayudarlo de alguna forma, complete este formulario. Te ayudaremos y nos pondremos en contacto.</p>
 
-                                        <form class="quform" action="quform/contact.php" method="post" enctype="multipart/form-data" onclick="">
+                                        <form class="quform" @submit.prevent="sendNotification">
 
                                             <div class="quform-elements">
 
