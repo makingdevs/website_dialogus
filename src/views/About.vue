@@ -8,12 +8,12 @@
             <div class="row">
               <div class="col-lg-8">
                 <h1 align="left">Nosotros</h1><br>
-                <p class="Ti1">Conoce más acerca de nosotros</p>
-                <p class="Ti2">y nuestra visión para nuestros clientes.</p>
+                <h3 align="left" class="text-white">Conoce más acerca de nosotros</h3>
+                <h3 align="left" class=" text-warning">y nuestra visión para nuestros clientes.</h3>
                 <br>
               </div>
               <div class="col-lg-4">
-                <img src="../assets/js/services/Estrategia/Estrategia  TT.svg" alt=""  align="left">
+                <img src="../assets/js/services/Nosotros/Nosotros TT.svg" alt=""  align="left">
               </div>
             </div>
           </div>
@@ -27,20 +27,20 @@
           <div class="d-flex justify-content-between bg-about flex-mobile">
 
             <div class="d-flex flex-column bg-card-about">
-              <img align="right" :showç="handleScroll" class="icon-about alignImag divisionsIcons animate__animated" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;">
+              <img align="right" :showç="handleScroll" class="icon-about alignImag divisionsIcons animate__animated" src="../assets/js/services/Nosotros/Nosotros 1.svg" style=" margin-top: -98px; margin-left: 2px;">
               <span align="center" class="text-title">Misión</span><br>
               <div class="hr-border"/><br>
               <span align="center" class="h5 flex-grow-1 text-body animate__animated" id="text-estrategia">Acompañamos el desarrollo de nuestros clientes, mediante metodologías innovadoras contribuyendo en su rentabilidad, productividad y satisfacción.</span>
             </div>
             <div class="d-flex flex-column bg-card-about">
-              <img class="icon-about alignImag2 alignImag  divisionsIcons animate__animated" src="../assets/js/services/Recurso 1.svg" style=" margin-top: -98px; margin-left: 2px;">
+              <img class="icon-about alignImag2 alignImag  divisionsIcons animate__animated" src="../assets/js/services/Nosotros/Nosotros 2.svg" style=" margin-top: -98px; margin-left: 2px;">
               <span align="center" class="text-title">Visión</span><br>
               <div class="hr-border"/><br>
               <span align="center" class="h5 flex-grow-1 text-body">Generar Prosperidad Incluyente mediante el crecimiento y la permanencia de las empresas en el mercado.</span>
             </div>
 
             <div class="d-flex flex-column bg-card-about">
-              <img class="icon-about alignImag2 alignImag divisionsIcons animate__animated" src="../assets/js/services/Recurso 25.svg" style=" margin-top: -98px; margin-left: 2px;">
+              <img class="icon-about alignImag2 alignImag divisionsIcons animate__animated" src="../assets/js/services/Nosotros/Nosotros 3.svg" style=" margin-top: -98px; margin-left: 2px;">
               <span align="center" class="text-title">Propósito</span><br>
               <div class="hr-border"/><br>
               <span align="center" class="h5 flex-grow-1 text-body">Apasionados por colaborar en la transformación de nuestros clientes y fomentar relaciones de confianza a largo plazo.</span>
@@ -52,7 +52,7 @@
 
     <!-- Contador
         ================================================== -->
-        <section id="seccion-counter">
+        <section class="seccion-counter">
           <div class="row">
               <div class="d-flex justify-content-between bg-counter flex-mobile">
                 <div class="d-flex flex-column bg-card-counter">
@@ -84,15 +84,15 @@
         </section>
     <!-- Testimonios
         ================================================== -->
-        <section>
+        <section class="testimonios">
             <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
             <span class="color_34">Testimonios </span></h1>
                 <VueSlickCarousel :arrows="true" :dots="true">
                   <div>
-                    <div class="d-flex justify-content-between bg-about flex-mobile">
+                    <div class="d-flex justify-content-between bg-testimonios flex-mobile">
                       <div class="d-flex flex-column bg-card-testimonios">
-                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons animate__animated" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-                        <span align="left" class="h5 flex-grow-1 text-body animate__animated" id="text-estrategia">Testimonio 1</span>
+                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Recurso 17.svg" style=" margin-top: 0px; margin-left: 0px;"><br>
+                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 1</span>
                          <div class="rating" align="center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -102,8 +102,8 @@
                         </div>
                       </div>
                       <div class="d-flex flex-column bg-card-testimonios">
-                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons animate__animated" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-                        <span align="left" class="h5 flex-grow-1 text-body animate__animated" id="text-estrategia">Testimonio 1</span>
+                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 1</span>
                          <div class="rating" align="center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -113,8 +113,8 @@
                         </div>
                       </div>
                       <div class="d-flex flex-column bg-card-testimonios">
-                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons animate__animated" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-                        <span align="left" class="h5 flex-grow-1 text-body animate__animated" id="text-estrategia">Testimonio 1</span>
+                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 1</span>
                          <div class="rating" align="center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -126,10 +126,10 @@
                     </div>
                   </div>
                   <div>
-                    <div class="d-flex justify-content-between bg-about flex-mobile">
+                    <div class="d-flex justify-content-between bg-testimonios flex-mobile">
                       <div class="d-flex flex-column bg-card-testimonios">
-                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons animate__animated" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-                        <span align="left" class="h5 flex-grow-1 text-body animate__animated" id="text-estrategia">Testimonio 1</span>
+                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 1</span>
                          <div class="rating" align="center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -139,8 +139,8 @@
                         </div>
                       </div>
                       <div class="d-flex flex-column bg-card-testimonios">
-                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons animate__animated" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-                        <span align="left" class="h5 flex-grow-1 text-body animate__animated" id="text-estrategia">Testimonio 1</span>
+                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 1</span>
                          <div class="rating" align="center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -150,8 +150,8 @@
                         </div>
                       </div>
                       <div class="d-flex flex-column bg-card-testimonios">
-                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons animate__animated" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-                        <span align="left" class="h5 flex-grow-1 text-body animate__animated" id="text-estrategia">Testimonio 1</span>
+                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 1</span>
                          <div class="rating" align="center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -170,11 +170,16 @@
 <style>
   #bannerabout {
     background-image: url('../assets/img1.jpg');
-
   }
   #bannerservicios {
     background-color: #35547c!important;
-
+  }
+  .seccion-counter{
+    margin-top: -120px;
+  }
+  .testimonios{
+    background-color: #e8eaea!important;
+    margin-top: -120px;
   }
   #conteo {
     background-image: url('../assets/img4.jpeg');

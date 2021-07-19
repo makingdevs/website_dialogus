@@ -11,8 +11,8 @@
             <div class="row">
               <div class="col-lg-8">
                 <h1 align="left">Diagnóstico</h1><br>
-                <p class="Ti1">Identificamos áreas de oportunidad de las empresas</p>
-                <p class="Ti2">por medio de herramientas de monitoreo y análisis.</p>
+                <h3 align="left" class="text-white">Identificamos áreas de oportunidad de las empresas</h3>
+                <h3 align="left" class=" text-warning">por medio de herramientas de monitoreo y análisis.</h3>
                 <br>
               </div>
               <div class="col-lg-4">
