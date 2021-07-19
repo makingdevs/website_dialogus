@@ -11,8 +11,8 @@
             <div class="row">
               <div class="col-lg-8">
                 <h1 align="left">Cumplimiento</h1><br>
-                <p class="Ti1">Buscamos impulsar una cultura de honestidad</p>
-                <p class="Ti2">y buenos valores para tu organización.</p>
+                <h3 align="left" class="text-white">Buscamos impulsar una cultura de honestidad</h3>
+                <h3 align="left" class=" text-warning">y buenos valores para tu organización.</h3>
                 <br>
               </div>
               <div class="col-lg-4">

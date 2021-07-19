@@ -11,8 +11,8 @@
             <div class="row">
               <div class="col-lg-8">
                 <h1 align="left">Capital Humano</h1><br>
-                <p class="Ti1">Generamos soluciones para la gestión de talento,</p>
-                <p class="Ti2">y buscamos estrategias de bienestar para tu organización.</p>
+                <h3 align="left" class="text-white">Generamos soluciones para la gestión de talento,</h3>
+                <h3 align="left" class=" text-warning">y buscamos estrategias de bienestar para tu organización.</h3>
                 <br>
               </div>
               <div class="col-lg-4">

@@ -11,8 +11,8 @@
             <div class="row">
               <div class="col-lg-8">
                 <h1 align="left">Estrategia</h1><br>
-                <p class="Ti1">Diseñamos metodologías efectivas e innovadoras</p>
-                <p class="Ti2">para alcanzar los objetivos de manera exitosa.</p>
+                <h3 align="left" class="text-white">Diseñamos metodologías efectivas e innovadoras</h3>
+                <h3 align="left" class=" text-warning">para alcanzar los objetivos de manera exitosa.</h3>
                 <br>
               </div>
               <div class="col-lg-4">
