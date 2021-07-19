@@ -51,7 +51,7 @@
               camino para alcanzar tus objetivos de manera exitosa.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
 
-              <router-link to="/estrategia" class="butn btn-circle  border-show" type="submit"><span
+              <router-link to="/estrategia" class="butn btn-circle" type="submit"><span
                   class="h6 text-white" style="text-transform: none;">Conoce más</span></router-link>
 
             </div>
@@ -65,7 +65,7 @@
             <span align="center" class="h5 flex-grow-1 text-body">Generamos soluciones para el desarrollo del talento
               humano y el desarrollo organizacional.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/capital" class="butn btn-circle  border-show" type="submit"><span class="h6 text-white"
+              <router-link to="/capital" class="butn btn-circle" type="submit"><span class="h6 text-white"
                   style="text-transform: none;">Conoce más</span></router-link>
             </div>
           </div>
@@ -79,7 +79,7 @@
               ética y gestión de riesgos.</span>
             <br>
             <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/cumplimiento" class="butn btn-circle  border-show" type="submit"><span
+              <router-link to="/cumplimiento" class="butn btn-circle" type="submit"><span
                   class="h6 text-white" style="text-transform: none;">Conoce más</span></router-link>
             </div>
           </div>
@@ -92,7 +92,7 @@
             <span align="center" class="h5 flex-grow-1 text-body">Identificamos fortalezas y debilidades de empresas
               reforzando el ecosistema mexicano.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/diagnostico" class="butn btn-circle  border-show" type="submit"><span
+              <router-link to="/diagnostico" class="butn btn-circle" type="submit"><span
                   class="h6 text-white" style="text-transform: none;">Conoce más</span></router-link>
             </div>
           </div>
@@ -134,7 +134,7 @@
       </h1>
       <carousel-3d v-if="renderComponent" height="510px" border="0" :controlsVisible="controlsVisible" :controls-prev-html="'&#10092; '" :controls-next-html="'&#10093;'"
         :perspective="perspective" :inverseScaling="300" :space="385" style="height: 525px;">
-        <slide :index="index" class="border-show2" v-for="(tarjeta, index) in TarjetasCarruselTable" :key="index">
+        <slide :index="index" class="" v-for="(tarjeta, index) in TarjetasCarruselTable" :key="index">
           <div class="card card-style4">
             <div class="card-img"><img :src="tarjeta.image" alt="..." class="tamañoEventos">
             </div>
@@ -150,7 +150,7 @@
               <p align="center" class="text-white">{{tarjeta.description}}</p><br>
               <hr class="hr2" />
               <div class="d-flex justify-content-center">
-                <a class="tolowercase butn btn-circle border-show" :href="tarjeta.urlRegister" target="_blank"><span
+                <a class="tolowercase butn btn-circle" :href="tarjeta.urlRegister" target="_blank"><span
                     class="h6 text-white" style="text-transform: none;">Regístrate </span></a>
               </div>
             </div>
