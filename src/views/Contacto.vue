@@ -1,67 +1,64 @@
 <template>
     <div>
-<!-- PAGE TITLE
+        <!-- PAGE TITLE
         ================================================== -->
-        <section class="page-title-section top-position bg-img cover-background parallax bg-img " data-overlay-dark="55" id="img-fondo">
-            <div class="container">
+        <section class="parallax page-title-section top-position bg-img cover-background" id="bannerContacto">
 
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <h1>Contacto</h1>
+                    <div class="col-lg-8">
+                        <h1 align="left">Contacto</h1><br>
+                        <h3 align="left" class="text-white">Si quieres recibir más información</h3>
+                        <h3 align="left" class=" text-warning">Puedes ponerte en contacto con nosotros</h3>
+                        <br>
                     </div>
-                    <div class="col-md-12">
-                        <ul class="ps-0">
-                            <li><router-link to="/home">Home</router-link></li>
-                            <li><router-link to="/contacto" class="text-warning">Contact</router-link></li>
-                        </ul>
+                    <div class="col-lg-4">
+                        <img src="../assets/js/services/Contacto TT.svg" alt="" align="left">
                     </div>
                 </div>
-
             </div>
         </section>
 
-         <!-- CONTACT INFO
+        <!-- CONTACT INFO
         ================================================== -->
         <section class="contact-form">
             <div class="container">
-                    <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
-                        <span class="color_34">Estamos aqui para ayudarte </span></h1> <br>
+
                 <div class="row">
                     <div class="col-lg-4 mb-1-6 mb-md-1-9 mb-lg-0 contact-border">
                         <div class="contact-wrapper">
-                            <div class="contact-icon">
-                                <i class="ti-mobile"></i>
-                            </div>
+                            <img v-if="!contactHoverTel" class="icon-contacto" src="../assets/js/services/contacto/contacTel.svg" @mouseover="contactHoverTel = true">
+                            <img v-else class="icon-contacto" src="../assets/js/services/contacto/contacTelHover.svg" @mouseleave="contactHoverTel = false">
+                            
                             <div class="contact-content">
-                                <h4 class="h3 font-weight-800 mb-2 mb-lg-3">Llámanos</h4>
-                                
-                                <router-link to="#!" class="d-block font-weight-500 mb-1 text-dark">(+44) 123 456 789</router-link>
-                                <router-link to="#!" class="font-weight-500 text-dark">+ (124) 1523-567-9874</router-link>
+                                <h3 class="font-weight-800 mb-2 mb-lg-3">Llámanos</h3>
+
+                                <router-link to="#!" class="d-block font-weight-500 mb-1 text-dark">(+44) 123 456 789
+                                </router-link>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 mb-1-6 mb-md-1-9 mb-lg-0 contact-border">
                         <div class="contact-wrapper">
-                            <div class="contact-icon">
-                                <i class="ti-email"></i>
-                            </div>
+                            <img v-if="!contactHover" class="icon-contacto" src="../assets/js/services/contacto/contacMsg.svg" @mouseover="contactHover = true">
+                            <img v-else class="icon-contacto" src="../assets/js/services/contacto/contacMsgHover.svg" @mouseleave="contactHover = false">
                             <div class="contact-content">
                                 <h4 class="h3 font-weight-800 mb-2 mb-lg-3">Email Aqui</h4>
-                        
-                                <router-link to="#!" class="d-block font-weight-500 mb-1 text-dark">contactanos@dialogus.com.mx</router-link>
-                                <router-link to="#!" class="font-weight-500 text-dark">info@yourdomain.com</router-link>
+
+                                <router-link to="#!" class="d-block font-weight-500 mb-1 text-dark">
+                                    contactanos@dialogus.com.mx</router-link>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="contact-wrapper">
-                            <div class="contact-icon">
-                                <i class="ti-map-alt"></i>
-                            </div>
+                            <img v-if="contactHoverUbi" class="icon-contacto" src="../assets/js/services/contacto/contacUbi.svg" @mouseover="contactHoverUbi = false">
+                            <img v-else class="icon-contacto" src="../assets/js/services/contacto/contacUbiHover.svg" @mouseleave="contactHoverUbi = true">
                             <div class="contact-content ">
                                 <h4 class="h3 font-weight-800 mb-2 mb-lg-3">Ubicacion</h4>
-                                
-                                <div align="center" class="text-dark">Dialogus Periferico Sur 4121, Fuentes del Pedregal Equipamiento Periférico Picacho Ajusco Canal 13</div>
+
+                                <div align="center" class="text-dark">Dialogus Periferico Sur 4121, Fuentes del Pedregal
+                                    Equipamiento Periférico Picacho Ajusco Canal 13</div>
                             </div>
                         </div>
                     </div>
@@ -69,30 +66,32 @@
             </div>
         </section>
 
-                <!-- CONTACT FORM
+        <!-- map -->
+        <div align="center">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.4608114460298!2d-99.21152168459653!3d19.30580028695644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdffe9c197b923%3A0xcd6f6f253728094e!2sDialogus!5e0!3m2!1ses-419!2smx!4v1624422512308!5m2!1ses-419!2smx"
+                width="60%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <!-- CONTACT FORM
         ================================================== -->
         <section class="position-relative z-index-9">
-            <div class="bg-img parallax section-bg" data-overlay-dark="6" id="img-fondo2"></div>
             <div class="container position-relative z-index-9">
-                <div class="row justify-content-center mb-6">
-                    <div class="col-lg-9 text-center">
-                        <h2 class="font-weight-600 h1 text-white mb-3 w-md-90 w-xl-80 mx-auto">El mejor caso de éxito es cuando se refleja en el crecimiento de la empresa con Dialogüs</h2>
-                        <p class="font-weight-500 mb-0 text-white w-95 w-md-85 w-xl-70 mx-auto">En Dialogus entendemos y atendemos las necesidades de nuestros clientes, sin importar el tamaño o el sector, eso nos entrega una gran escalabilidad y flexibilidad para poder desarrollar diferentes proyecto en cualquier organización.</p>
-                    </div>
-                </div>
+
                 <div class="row justify-content-center">
                     <div class="col-lg-11">
                         <div class="contact-wrapper-box">
                             <div class="row">
-                                <div class="col-lg-6 pe-lg-0">
-                                    <img class="h-100 w-100" src="../assets/contac1.jpeg" alt="...">
+                                <div class="col-lg-2 pe-lg-0">
                                 </div>
-                                <div class="col-lg-6 ps-lg-0">
+                                <div class="col-lg-9 ps-lg-0">
                                     <div class="contact-form-area">
-                                        <h3 class="mb-3 color_34">Llámanos o rellena el formulario</h3>
-                                        <p class="mb-1-6 text-dark">Si podemos ayudarlo de alguna forma, complete este formulario. Te ayudaremos y nos pondremos en contacto.</p>
+                                        <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
+                                            <span class="mb-3 color_34">Contáctanos</span>
+                                        </h1> <br>
 
-                                        <form class="quform" @submit.prevent="sendNotification">
+                                        <form class="quform" action="quform/contact.php" method="post"
+                                            enctype="multipart/form-data" onclick="">
 
                                             <div class="quform-elements">
 
@@ -101,11 +100,14 @@
                                                     <!-- Begin Text input element -->
                                                     <div class="col-md-6">
                                                         <div class="quform-element">
-                                                            <label for="name">Tu Nombre <span class="quform-required">*</span></label>
+
                                                             <div class="quform-input">
-                                                                <input v-model="contact.name" class="form-control form-control1" id="name" type="text" name="name" placeholder="Tu nombre aqui" />
+                                                                <input v-model="contact.name"
+                                                                    class="form-control form-control1" id="name"
+                                                                    type="text" name="name"
+                                                                    placeholder="Tu nombre aqui" />
                                                             </div>
-                                                        </div>
+                                                        </div><br>
 
                                                     </div>
                                                     <!-- End Text input element -->
@@ -113,20 +115,12 @@
                                                     <!-- Begin Text input element -->
                                                     <div class="col-md-6">
                                                         <div class="quform-element">
-                                                            <label for="email">Tu Email <span class="quform-required">*</span></label>
-                                                            <div class="quform-input">
-                                                                <input v-model="contact.email" class="form-control form-control1" id="email" type="text" name="email" placeholder="Tu email aqui" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Text input element -->
 
-                                                    <!-- Begin Text input element -->
-                                                    <div class="col-md-6">
-                                                        <div class="quform-element">
-                                                            <label for="subject">Tu Asunto <span class="quform-required">*</span></label>
                                                             <div class="quform-input">
-                                                                <input v-model="contact.asunto" class="form-control form-control1" id="subject" type="text" name="subject" placeholder="Tu asunto aqui"/>
+                                                                <input v-model="contact.email"
+                                                                    class="form-control form-control1" id="email"
+                                                                    type="text" name="email"
+                                                                    placeholder="Tu email aqui" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -135,9 +129,26 @@
                                                     <!-- Begin Text input element -->
                                                     <div class="col-md-6">
                                                         <div class="quform-element">
-                                                            <label for="phone">Número de contacto</label>
+
                                                             <div class="quform-input">
-                                                                <input v-model="contact.telf" class="form-control form-control1" id="phone" type="text" name="phone" placeholder="Tu numero aqui" />
+                                                                <input v-model="contact.asunto"
+                                                                    class="form-control form-control1" id="subject"
+                                                                    type="text" name="subject"
+                                                                    placeholder="Tu asunto aqui" />
+                                                            </div>
+                                                        </div><br>
+                                                    </div>
+                                                    <!-- End Text input element -->
+
+                                                    <!-- Begin Text input element -->
+                                                    <div class="col-md-6">
+                                                        <div class="quform-element">
+
+                                                            <div class="quform-input">
+                                                                <input v-model="contact.telf"
+                                                                    class="form-control form-control1" id="phone"
+                                                                    type="text" name="phone"
+                                                                    placeholder="Tu numero aqui" />
                                                             </div>
                                                         </div>
 
@@ -147,9 +158,12 @@
                                                     <!-- Begin Textarea element -->
                                                     <div class="col-md-12">
                                                         <div class="quform-element">
-                                                            <label for="message">Mensaje <span class="quform-required">*</span></label>
+
                                                             <div class="quform-input">
-                                                                <textarea v-model="contact.mensaje" class="form-control form-control1" id="message" name="message" rows="3" placeholder="Dejanos algunas palabras"></textarea>
+                                                                <textarea v-model="contact.mensaje"
+                                                                    class="form-control form-control1" id="message"
+                                                                    name="message" rows="3"
+                                                                    placeholder="Dejanos algunas palabras"></textarea>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -158,13 +172,16 @@
                                                     <!-- Begin Submit button -->
                                                     <div class="col-md-12">
                                                         <div class="quform-submit-inner">
-                                                          <div class="d-flex justify-content-center">
-                                                            <button class="butn theme butn-md btn-circle" style="width: 35% !important;"><span
-                                                                class="text-button">Enviar respuesta</span></button>
-                                                          </div>
+                                                            <div class="d-flex justify-content-center">
+                                                                <button class="butn theme butn-md btn-circle"
+                                                                    style="width: 35% !important;"><span
+                                                                        class="text-button">Enviar
+                                                                        respuesta</span></button>
+                                                            </div>
                                                         </div><br>
-                                                        <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
-                                                      </div>
+                                                        <div class="quform-loading-wrap text-start"><span
+                                                                class="quform-loading"></span></div>
+                                                    </div>
                                                     <!-- End Submit button -->
 
                                                 </div>
@@ -172,7 +189,7 @@
                                             </div>
 
                                         </form>
-                                        
+
 
                                     </div>
                                 </div>
@@ -182,134 +199,150 @@
                 </div>
             </div>
         </section>
-
-        <!-- map -->
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.4608114460298!2d-99.21152168459653!3d19.30580028695644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdffe9c197b923%3A0xcd6f6f253728094e!2sDialogus!5e0!3m2!1ses-419!2smx!4v1624422512308!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
     </div>
 </template>
 
 <style>
-/*whassap*/
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-}
+    #bannerContacto {
+        background-color: #35547c;
+    }
 
-.my-float{
-	margin-top:16px;
-}
-/*whasspap*/
-.btn-circle {
-  width: 100%;
-  height: 30px;
-  text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.428571429;
-  border-radius: 15px;
-}
-.contact-icon i {
-    background-color: #0098a5 !important;
-    color: #fcfcfc !important;
-    border: 2px solid #ffffff  !important;
-    width: 100px;
-    height: 88px;
-    text-align: center;
-    padding: 6px 0;
-    font-size: 51px;
-    line-height: 1.428571;
-    border-radius: 103px;
-}
-.colorT{
-    color: #35547c;
-}
-.colorLineas{
-    background-color: #ffc107 !important;
-}
-.dotted{
-    background-color: #ffc107 !important;
-}
-.contact-wrapper:hover .contact-icon i {
-  background: #ffffff !important; 
-  color: #0098a5 !important;
-  border: 2px solid #0098a5 !important; 
-  }
-  .section-heading:before {
-    position: absolute;
-    content: '';
-    width: 40px;
-    height: 3px;
-    left: 50%;
-    bottom: 0px;
-    transform: translateX(-50%);
-    background: #ffc107 !important;
-    z-index: 1; }
-  .section-heading .dotted-box .dotted {
-    position: absolute;
-    left: 50%;
-    margin-left: 25px;
-    width: 3px;
-    height: 3px;
-    bottom: 0px;
-    background: #ffc107 !important;
-    z-index: 1; }
-#img-fondo{
-    background-image: url('../assets/contac.jpeg');
-}
-#img-fondo2{
-    background-image: url('../assets/contac2.jpeg');
-}
+    /*icons contac*/
+    .icon-contacto {
+        max-width: 100%;
+        height: 127px;
+        vertical-align: top;
+        width: 472px;
+    }
+
+    /*icons contac*/
+    .btn-circle {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        padding: 6px 0;
+        font-size: 12px;
+        line-height: 1.428571429;
+        border-radius: 15px;
+    }
+
+    .contact-icon2 {
+        cursor: pointer;
+        background: #ffc107;
+        height: auto;
+        line-height: auto;
+        text-align: center;
+        transition: clip-path 1s;
+        clip-path: polygon(0% 0, 50% 0%, 100% 0%, 100% 100%, 50% 100%, 0 100%)
+    }
+
+    .contact-icon i {
+        background: #ffffff !important;
+        color: #0098a5 !important;
+        border: 2px solid #0098a5 !important;
+        width: 100px;
+        height: 88px;
+        text-align: center;
+        padding: 6px 0;
+        font-size: 51px;
+        line-height: 1.428571;
+        border-radius: 103px;
+    }
+
+    .colorT {
+        color: #35547c;
+    }
+
+    .colorLineas {
+        background-color: #ffc107 !important;
+    }
+
+    .dotted {
+        background-color: #ffc107 !important;
+    }
+
+    .contact-wrapper:hover .contact-icon i {
+        background-color: #0098a5 !important;
+        color: #fcfcfc !important;
+        border: 2px solid #ffffff !important
+    }
+
+    .section-heading:before {
+        position: absolute;
+        content: '';
+        width: 40px;
+        height: 3px;
+        left: 50%;
+        bottom: 0px;
+        transform: translateX(-50%);
+        background: #ffc107 !important;
+        z-index: 1;
+    }
+
+    .section-heading .dotted-box .dotted {
+        position: absolute;
+        left: 50%;
+        margin-left: 25px;
+        width: 3px;
+        height: 3px;
+        bottom: 0px;
+        background: #ffc107 !important;
+        z-index: 1;
+    }
+
+    #img-fondo {
+        background-image: url('../assets/contac.jpeg');
+    }
+
+    #img-fondo2 {
+        background-image: url('../assets/contac2.jpeg');
+    }
 </style>
 <script>
-    export default{
-    watch: {
-      TarjetasCarruselTable: function () {
-        this.renderComponent = false;
-        setTimeout(() => this.renderComponent = true, 1000);
-      }
-    },
-    data: function () {
-      return {
-        contact: {
-          name: "",
-          email: "",
-          telf: "",
-          mensaje: ""
-        }
-      }
-    },
+    export default {
+        name: "Contacto",
+        watch: {
+            TarjetasCarruselTable: function () {
+                this.renderComponent = false;
+                setTimeout(() => this.renderComponent = true, 1000);
+            }
+        },
+        data: function () {
+            return {
+                contact: {
+                    name: "",
+                    email: "",
+                    telf: "",
+                    mensaje: ""
+                },
+                contactHover: false,
+                contactHoverTel: false,
+                contactHoverUbi: true,
+            }
+        },
         created: function () {
-          window.addEventListener('scroll', this.handleScroll);
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
+            window.addEventListener('scroll', this.handleScroll);
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         },
         mounted() {
 
         },
 
         methods: {
-      sendNotification() {
-        const message = `Hola! \nMe quiero comunicar con ustedes
+            testMethod(){
+                console.log(" Hoal");
+            },
+            sendNotification() {
+                const message = `Hola! \nMe quiero comunicar con ustedes
                         Mi nombre es: ${this.contact.name}
                         Correo: ${this.contact.email}
                         Teléfono: ${this.contact.telf}
                         Asunto: ${this.contact.asunto}
                         Mensaje: ${this.contact.mensaje}`.replace(/  +/g, '');
 
-        window.open(`https://api.whatsapp.com/send?phone=525583817789&text=${encodeURIComponent(message)}`, "_target")
-      },
-    },
-};
+                window.open(`https://api.whatsapp.com/send?phone=525583817789&text=${encodeURIComponent(message)}`, "_target")
+            },
+        },
+    };
 </script>
