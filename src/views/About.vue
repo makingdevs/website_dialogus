@@ -91,7 +91,7 @@
                   <div>
                     <div class="d-flex justify-content-between bg-testimonios flex-mobile">
                       <div class="d-flex flex-column bg-card-testimonios">
-                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Recurso 17.svg" style=" margin-top: 0px; margin-left: 0px;"><br>
+                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 0px;">
                         <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 1</span>
                          <div class="rating" align="center">
                           <span><i class="fas fa-star"></i></span>
@@ -102,8 +102,8 @@
                         </div>
                       </div>
                       <div class="d-flex flex-column bg-card-testimonios">
-                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 1</span>
+                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 2</span>
                          <div class="rating" align="center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -113,8 +113,8 @@
                         </div>
                       </div>
                       <div class="d-flex flex-column bg-card-testimonios">
-                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 1</span>
+                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 3</span>
                          <div class="rating" align="center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -128,8 +128,8 @@
                   <div>
                     <div class="d-flex justify-content-between bg-testimonios flex-mobile">
                       <div class="d-flex flex-column bg-card-testimonios">
-                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 1</span>
+                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 4</span>
                          <div class="rating" align="center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -139,8 +139,8 @@
                         </div>
                       </div>
                       <div class="d-flex flex-column bg-card-testimonios">
-                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 1</span>
+                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 5</span>
                          <div class="rating" align="center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -150,8 +150,8 @@
                         </div>
                       </div>
                       <div class="d-flex flex-column bg-card-testimonios">
-                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 1</span>
+                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 6</span>
                          <div class="rating" align="center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -335,6 +335,7 @@ import VueSlickCarousel from 'vue-slick-carousel'
     components: {
       VueSlickCarousel,
     },
+    
     methods: {
       exampleMethod() {
         

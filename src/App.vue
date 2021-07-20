@@ -127,39 +127,12 @@
         ================================================== -->
     <footer>
       <div id="contacto" class="container-fluid">
-        <div class="row col">
-          <div class="col-sm-6 col-lg-3 mb-2-4 mb-lg-0">
+          <div class="d-flex justify-content-between flex-mobile">
             <div class="d-flex justify-content-start">
-              <img src="./assets/js/services/DiaBlan.svg" alt="..." width="300"
-                style="margin-left: 25px; margin-top: -60px;">
+                <img src="./assets/js/services/DiaBlan.svg" alt="..." width="300"
+                  style="margin-left: 25px; margin-top: -60px;">
             </div>
-            <div class="d-flex justify-content-start">
-              <p align="left" class="mb-3-6 text-white" style="margin-left: 35px;">
-                55 16556739998
-                contactanos@dialogus.com.mx
-              </p>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-lg-12 mb-3">
-                <div>
-                  <ul>
-                    <div class="d-flex justify-content-start">
-                      <li>
-                        <a href="https://twitter.com/Dialogus_LAT"><img src="./assets/js/services/TW.svg" width="50"
-                            style="margin: 8px;"></a>
-                        <a href="https://www.facebook.com/DialogusConsultores"><img src="./assets/js/services/FB.svg"
-                            width="50" style="margin: 8px;"></a>
-                        <a href="https://www.linkedin.com/company/dialogus-consultores/"><img
-                            src="./assets/js/services/IN.svg" width="50" style="margin: 8px;"></a>
-                      </li>
-                    </div>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 col-lg-2 mb-2-4 mb-lg-0">
-            <div class="ps-md-1-6 ps-xl-1-9">
+            <div class="d-flex justify-content-start flex-column">
               <ul class="list-style1" align="left">
                 <li>
                   <router-link to="/about" class="text-footercolor" style="font-size: 23px">
@@ -168,9 +141,8 @@
                 </li>
               </ul>
             </div>
-          </div>
-          <div class="col-sm-4 col-lg-2 mb-2-4 mb-lg-0">
-            <div class="ps-md-1-6 ps-xl-1-9">
+            <div class="vl-footer"></div>
+            <div class="d-flex justify-content-start flex-column">
               <ul class="list-style1" align="left">
                 <li>
                   <a href="#seccion-services" class="text-footercolor" style="font-size: 23px">
@@ -179,9 +151,8 @@
                 </li>
               </ul>
             </div>
-          </div>
-          <div class="col-sm-4 col-lg-2 mb-2-4 mb-lg-0">
-            <div class="ps-md-1-6 ps-xl-1-9">
+            <div class="vl-footer"></div>
+            <div class="d-flex justify-content-start flex-column">
               <ul class="list-style1" align="left">
                 <li>
                   <router-link to="/eventos" class="text-footercolor" style="font-size: 23px">
@@ -190,9 +161,8 @@
                 </li>
               </ul>
             </div>
-          </div>
-          <div class="col-sm-4 col-lg-2 mb-2-4 mb-lg-0">
-            <div class="ps-md-1-6 ps-xl-1-9">
+            <div class="vl-footer"></div>
+            <div class="d-flex justify-content-start flex-column">
               <ul class="list-style1" align="left">
                 <li>
                   <router-link to="/contacto" class="text-footercolor" style="font-size: 23px">
@@ -201,9 +171,30 @@
                 </li>
               </ul>
             </div>
+            <div class="d-flex justify-content-start flex-column"></div>
           </div>
-
-        </div>
+          <div class="d-flex justify-content-between flex-mobile">
+            <div class="d-flex justify-content-start">
+              <p align="left" class="mb-3-6 text-white" style="margin-left: 35px;">
+                contactanos@dialogus.com.mx
+              </p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between flex-mobile">
+            <div class="d-flex justify-content-start">
+               <li>
+                <a href="https://twitter.com/Dialogus_LAT"><img src="./assets/js/services/TW.svg" width="50" style="margin: 8px;"></a>
+                <a href="https://www.facebook.com/DialogusConsultores"><img src="./assets/js/services/FB.svg" width="50" style="margin: 8px;"></a>
+                <a href="https://www.linkedin.com/company/dialogus-consultores/"><img src="./assets/js/services/IN.svg" width="50" style="margin: 8px;"></a>
+              </li>
+            </div>
+            <div class="d-flex justify-content-start">
+              <hr class="footerline">
+              <p align="center" class="mb-3-6 text-white" style="margin-left: 35px;">
+                contactanos@dialogus.com.mx
+              </p>
+            </div>
+          </div>
       </div>
     </footer>
 
@@ -278,6 +269,16 @@
     flex: 0 0 auto;
     width: 15%;
   }
+  .vl-footer {
+    margin-top: 0px;
+    border-left: 2px solid #0098a5;
+    height: 40px;
+}
+.footerline {
+    margin-top: 0px;
+    border-left: 2px solid #0098a5;
+    height: 40px;
+}
 
 
   a,
@@ -316,6 +317,11 @@
       background: #35547c;
       transition: background-color 0.8s linear 0.2s;
     }
+  }
+  @media(max-width: 1199px ){
+  .vl-footer {
+      display: none;
+  }
   }
 
   .address-icon {
