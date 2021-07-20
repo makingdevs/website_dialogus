@@ -74,7 +74,32 @@
 .carousel-3d-slide {
   border-radius: 20px !important;
 }
-
+/*HEXAGONO PAGINA*/
+.img-hexPagina{
+    max-width: 204px;
+    height: auto;
+    vertical-align: top;
+    position: absolute;
+    margin-top: -157px ;
+    margin-left: -66px;
+}
+.img-hexPagina-carrusel {
+  max-width: 220px;
+  height: auto;
+  vertical-align: top;
+  position: absolute;
+  margin-top: -121px;
+  margin-left: -102px;
+}
+.img-hexPagina-contac {
+  max-width: 246px;
+  height: auto;
+  vertical-align: top;
+  position: absolute;
+  margin-top: -207px;
+  margin-left: 1465px;;
+}
+/*HEXAGONO END*/
 .section-carousel {
   .next[data-v-05517ad0] {
     right: 10% !important;
@@ -567,6 +592,33 @@ button > .text-white {
 #page-region {
   display: none;
 }
+
+/*HEXAGONO POSITION*/
+@media (max-width: 1199px) {
+  .img-hexPagina-carrusel{
+    margin-top: -97px;
+  }
+}
+@media (max-width: 994px) {
+  .img-hexPagina-carrusel{
+    display: none;
+  }
+  .img-hexPagina {
+    max-width: 156px;
+    margin-top: -96px;
+    margin-left: -72px;
+}
+}
+@media (max-width: 550px) {
+  .img-hexPagina-carrusel{
+    display: none;
+  }
+  .img-hexPagina {
+   display: none;
+  }
+}
+/*HEXAGONO POSITION END*/
+
 /*carusel*/
 @media (max-width: 1060px) {
  .section-carousel {

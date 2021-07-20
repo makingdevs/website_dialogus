@@ -52,16 +52,16 @@
                       <router-link align="center" to="#!" style="font-size: 16px" >servicios</router-link>
                       <ul>
                         <li>
-                          <router-link align="center" class="color_34" to="/estrategia">Estrategia</router-link>
+                          <router-link align="center" to="/estrategia">Estrategia</router-link>
                         </li>
                         <li>
-                          <router-link align="center" class="color_34" to="/cumplimiento">Cumplimiento</router-link>
+                          <router-link align="center" to="/cumplimiento">Cumplimiento</router-link>
                         </li>
                         <li>
-                          <router-link align="center" class="color_34" to="/capital">Capital Humano</router-link>
+                          <router-link align="center" to="/capital">Capital Humano</router-link>
                         </li>
                         <li>
-                          <router-link align="center" class="color_34" to="/diagnostico">Diagnóstico</router-link>
+                          <router-link align="center" to="/diagnostico">Diagnóstico</router-link>
                         </li>
                       </ul>
                     </li>
@@ -205,215 +205,12 @@
   </div>
 </template>
 
-<style>
-  /* home */
-  #buttonAgenda {
-    margin-top: 19px;
-    margin-left: 9px;
-    font-weight: 900;
-  }
 
-  /* home */
-  #text-center-home {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-  }
-  
-  #menu {
-  }
-
-  #nav {
-    padding: -30px;
-  }
-  
-
-  #nav a {
-    font-weight: bold;
-    color: #ffffff;
-    transition: background-color 0.8s linear 0.2s;
-  }
-
-  #nav a.router-link-exact-active {
-    color: #0098a5;
-    transition: background-color 0.8s linear 0.2s;
-  }
-
-  .header-style1 .navbar-toggler {
-    background: #ffffff;
-  }
-
-  .footer-title:before {
-    background: rgb(255 212 31) !important;
-  }
-
-  .fa-mobile-alt:before {
-    content: "\f3c5";
-    color: #000000;
-  }
-
-  .fa-map-marker-alt:before {
-    content: "\f3c5";
-    color: #ffffff;
-  }
-
-  .fa-envelope:before {
-    content: "\f3c5";
-    color: #ffffff;
-  }
-
-  footer {
-    background-color: #5B5D5E !important;
-    padding: 20px 0 0;
-    font-size: 20px;
-  }
-
-  .col-lg-2 {
-    flex: 0 0 auto;
-    width: 15%;
-  }
-  .vl-footer {
-    margin-top: 0px;
-    border-left: 2px solid #0098a5;
-    height: 40px;
-}
-.footerline {
-    margin-top: 0px;
-    border-left: 2px solid #0098a5;
-    height: 40px;
-}
-.em{
-    margin-left: 35px;
-  }
-
-
-  a,
-  a:active,
-  a:focus {
-    color: #ffffff;
-    text-decoration: none;
-    transition-timing-function: ease-in-out;
-    -ms-transition-timing-function: ease-in-out;
-    -moz-transition-timing-function: ease-in-out;
-    -webkit-transition-timing-function: ease-in-out;
-    -o-transition-timing-function: ease-in-out;
-    transition-duration: .2s;
-    -ms-transition-duration: .2s;
-    -moz-transition-duration: .2s;
-    -webkit-transition-duration: .2s;
-    -o-transition-duration: .2s;
-  }
-
-  .sub-menu a:active, .sub-menu a:focus {
-    color: #35547c !important; 
-  }
-
-
-  .schedule-button:hover {
-    color: #0098a5 !important;
-  }
-  
-  .text-footercolor, .text-footercolor:active, .text-footercolor:focus{
-    color: #ffffff;
-  } 
-  @media screen and (max-width: 991px) {
-    .navbar ul li a {
-      width: 100%;
-      border-bottom: 0;
-      background: #35547c;
-      transition: background-color 0.8s linear 0.2s;
-    }
-    .em{
-    margin-left: 0px;
-  }
-  .socialmedia{
-    margin-left: 0px;
-  }
-  
-  }
-  @media(max-width: 1199px ){
-  .vl-footer {
-      display: none;
-  }
-  .mb-3-6{
-    margin-left: 0px;
-  }
-  }
-
-  .address-icon {
-    background-color: #5B5D5E !important;
-  }
-
-  .footer-bar {
-    background: #191919 !important;
-  }
-
-  .share-post li a {
-    background-color: #191919 !important;
-  }
-
-  .footer-title:before {
-    background: rgb(255 212 31) !important;
-  }
-
-  .fondoCuadros {
-    background-color: #ffc107 !important;
-  }
-
-  header.scrollHeader .navbar-default {
-    background-color: #35547c !important;
-    transition: background-color 0.8s linear 0.2s;
-  }
-
-  @media screen and (max-width: 991px) {
-    .navbar-nav .submenu-button:before {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      display: block;
-      width: 2px;
-      height: 10px;
-      background: #ffffff !important;
-      content: "";
-    }
-  }
-
-  @media screen and (max-width: 991px) {
-    .navbar-nav .submenu-button:after {
-      position: absolute;
-      top: 24px;
-      right: 16px;
-      width: 10px;
-      height: 2px;
-      display: block;
-      background: #ffffff !important;
-      content: "";
-    }
-  }
-
-  @media screen and (max-width: 990px) {
-    #buttonAgenda {
-      margin-top: 0px;
-      margin-left: 0px;
-      font-weight: 900;
-      background: #35547c !important;
-      border-radius: 0px !important;
-      padding: 14px 20px !important;
-      height: unset !important;
-      font-size: 14px !important;
-    }
-  }
-
-  @media screen and (min-width: 992px) {
-    .menu_area-light.scrollHeader .navbar>ul>li.has-sub>a:after {
-      border-color: transparent #fbfbfb #ffffff transparent !important;
-    }
-  }
-</style>
 <script>
   import jQuery from 'jquery';
   // eslint-disable-next-line no-unused-vars
   let $ = jQuery;
+  import './assets/css/app.scss'
   export default {
     name: "app",
     data: function () {

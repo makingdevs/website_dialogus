@@ -75,7 +75,7 @@
 
         <!-- CONTACT FORM
         ================================================== -->
-        <section class="position-relative z-index-9">
+        <section class="">
             <div class="container position-relative z-index-9">
 
                 <div class="row justify-content-center">
@@ -198,11 +198,20 @@
                     </div>
                 </div>
             </div>
+            <img class="img-hexContacto" src="../assets/js/services/hexagonos-Pagina/hex-Contacto.svg">
         </section>
     </div>
 </template>
 
 <style>
+    .img-hexContacto{
+    max-width: 204px;
+    height: auto;
+    vertical-align: top;
+    position: absolute;
+    margin-top: -138px;
+    margin-left: 1716px;
+    }
     #bannerContacto {
         background-color: #35547c;
     }
