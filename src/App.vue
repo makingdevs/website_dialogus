@@ -112,7 +112,7 @@
               style="margin: 0px"></button>
           </div>
           <div class="modal-body calendly-custom">
-            <vue-calendly url="https://calendly.com/jovany-makingdevs" class="calendly-custom"></vue-calendly>
+            <vue-calendly url="https://calendly.com/dialogus" class="calendly-custom"></vue-calendly>
 
           </div>
 
