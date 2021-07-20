@@ -354,11 +354,17 @@ button > .text-white {
 /*ESTILOS DEL BOTON*/
 
 .bg-divisions {
+  border-radius: 11px;
+  -moz-border-radius: 11px;
+  -webkit-border-radius: 11px;
+}
+.bg-line {
   background: #e8eaea;
   background: rgba(232, 234, 234, 1);
   border-radius: 11px;
   -moz-border-radius: 11px;
   -webkit-border-radius: 11px;
+  width: 1000px;
 }
 
 /*CONTACTO (HOME)*/
@@ -438,6 +444,12 @@ button > .text-white {
   background-color: #3f5479;
   border-width: 1px;
 }
+.hr-footer {
+  border-style: Solid;
+  border-color: #0098a5;
+  background-color: #0098a5;
+  border-width: 1px;
+}
 
 .bg-card {
   padding: 30px;
@@ -455,6 +467,28 @@ button > .text-white {
   margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.bg-card-footer {
+  background: #5B5D5E ;
+  border-radius: 100px;
+  padding: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.bg-card-footer1 {
+  background: #5B5D5E ;
+  border-radius: 100px;
+  padding: 30px;
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   flex-grow: 1;
   flex-basis: 0;
 }

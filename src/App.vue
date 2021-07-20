@@ -175,23 +175,26 @@
           </div>
           <div class="d-flex justify-content-between flex-mobile">
             <div class="d-flex justify-content-start">
-              <p align="left" class="mb-3-6 text-white" style="margin-left: 35px;">
+              <p align="left" class="em text-white">
                 contactanos@dialogus.com.mx
               </p>
+            </div>
+            <div class="d-flex flex-column bg-card-footer">
+              <div class="hr-footer"/>
+              
             </div>
           </div>
           <div class="d-flex justify-content-between flex-mobile">
             <div class="d-flex justify-content-start">
-               <li>
-                <a href="https://twitter.com/Dialogus_LAT"><img src="./assets/js/services/TW.svg" width="50" style="margin: 8px;"></a>
+               <li class="socialmedia">
+                <a class="socialmedia" href="https://twitter.com/Dialogus_LAT"><img src="./assets/js/services/TW.svg" width="50" style="margin: 8px;"></a>
                 <a href="https://www.facebook.com/DialogusConsultores"><img src="./assets/js/services/FB.svg" width="50" style="margin: 8px;"></a>
                 <a href="https://www.linkedin.com/company/dialogus-consultores/"><img src="./assets/js/services/IN.svg" width="50" style="margin: 8px;"></a>
               </li>
             </div>
-            <div class="d-flex justify-content-start">
-              <hr class="footerline">
-              <p align="center" class="mb-3-6 text-white" style="margin-left: 35px;">
-                contactanos@dialogus.com.mx
+            <div class="d-flex flex-column bg-card-footer1">
+              <p align="center" class="text-footercolor" style="margin-left: 0px; font-size: 15px;">
+                All Rights Reserved 2021 | Dialogus Consultores
               </p>
             </div>
           </div>
@@ -279,6 +282,9 @@
     border-left: 2px solid #0098a5;
     height: 40px;
 }
+.em{
+    margin-left: 35px;
+  }
 
 
   a,
@@ -317,10 +323,20 @@
       background: #35547c;
       transition: background-color 0.8s linear 0.2s;
     }
+    .em{
+    margin-left: 0px;
+  }
+  .socialmedia{
+    margin-left: 0px;
+  }
+  
   }
   @media(max-width: 1199px ){
   .vl-footer {
       display: none;
+  }
+  .mb-3-6{
+    margin-left: 0px;
   }
   }
 
