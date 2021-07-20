@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <section
       class="parallax bg-img cover-background  bg-img cover-background full-screen pt-16 pb-8 p-lg-0 top-position2 min-md-height-auto"
       data-overlay-dark="55" id="banner">
@@ -35,6 +34,7 @@
     <!-- SERVICE================================================== -->
 
     <section id="seccion-services">
+      <img class="img-hexPagina" src="../assets/js/services/hexagonos-Pagina/hexPagin.svg">
       <div class="container">
         <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
           <span class="color_34 ">NUESTRAS DIVISIONES </span>
@@ -129,6 +129,7 @@
     <!-- ONLINE COURSES
         ================================================== -->
     <section class="section-carousel">
+      <img class="img-hexPagina-carrusel" src="../assets/js/services/hexagonos-Pagina/hexPagin.svg">
       <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
         <span class="color_34">EVENTOS Y CURSOS </span>
       </h1>
@@ -280,6 +281,7 @@
           </div>
         </div>
       </div>
+      <img class="img-hexPagina-contac" src="../assets/js/services/hexagonos-Pagina/hexPagin.svg">
     </section>
     <!-- FOOTER
         ================================================== -->
@@ -290,6 +292,7 @@
   import VueTextTransition from 'vue-text-transition';
   import '../assets/css/_main.scss'
   import '../assets/css/home.scss'
+  
   import { TarjetasCarruselTableRef } from '../dbConnection'
   export default {
     name: "home",
