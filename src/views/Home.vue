@@ -128,7 +128,7 @@
 
     <!-- ONLINE COURSES
         ================================================== -->
-    <section>
+    <section class="section-carousel">
       <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
         <span class="color_34">EVENTOS Y CURSOS </span>
       </h1>
@@ -280,17 +280,9 @@
           </div>
         </div>
       </div>
-
-
     </section>
-
-
     <!-- FOOTER
         ================================================== -->
-<div class="d-none d-sm-block d-md-none">Hola mundo 1</div>
-<div class="d-none d-md-block d-lg-none">Hola mensaje 2</div>
-
-
   </div>
 </template>
 <script>
