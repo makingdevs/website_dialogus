@@ -12,7 +12,7 @@
                   <br>
                 </div>
                 <div class="col-lg-4">
-                  <img src="../assets/js/services/Estrategia/Estrategia  TT.svg" alt=""  align="left">
+                  <img src="../assets/js/services/Eventos TT.svg" alt=""  align="left">
                 </div>
               </div>
             </div>
