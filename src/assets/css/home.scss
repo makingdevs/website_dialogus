@@ -75,6 +75,16 @@
   border-radius: 20px !important;
 }
 
+.section-carousel {
+  .next[data-v-05517ad0] {
+    right: 10% !important;
+  }
+
+  .prev[data-v-05517ad0] {
+    left: 10%;
+  }
+}
+
 #banner {
   background-image: url("../../assets/eve1.jpg");
 }
@@ -523,6 +533,19 @@ button > .text-white {
 #page-region {
   display: none;
 }
+/*carusel*/
+@media (max-width: 1060px) {
+ .section-carousel {
+  .next[data-v-05517ad0] {
+    display: none;
+  }
+
+  .prev[data-v-05517ad0] {
+    display: none;
+  }
+} 
+}
+/*carusel*/
 @media only screen and (max-width: 1399px) {
   .text-title {
     font-size: 25px;
