@@ -277,7 +277,7 @@
                 <p align="center" class="text-cuadrado2 email-text text-white"> contactanos@dialogus.com.mx </p></a>
                   
                 <img class="telef" src="../assets/js/services/ubicacion.svg">
-                <a href="https://goo.gl/maps/NLyroJ8KhabcxJy4A" target="_blank"></a>
+                <a href="https://goo.gl/maps/NLyroJ8KhabcxJy4A" target="_blank">
                 <p align="center" class="text-cuadrado2 text-white">Periferico Sur 4121, Fuentes del Pedregal, Tlalpan, 14140 Ciudad de México, CDMX</p>
                 </a>
               </div>
