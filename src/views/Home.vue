@@ -39,7 +39,7 @@
         <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
           <span class="color_34 ">NUESTRAS DIVISIONES </span>
         </h1><br><br><br>
-        <div class="d-flex justify-content-between bg-divisions flex-mobile">
+        <div class="d-flex justify-content-between bg-divisions flex-mobile" >
           <div class="d-flex flex-column bg-card">
 
             <img align="right" :show="handleScroll" class="icon-divisiones alignImag divisionsIcons animate__animated"
@@ -268,14 +268,18 @@
           <div class="col-4">
             <div class=""><br>
               <div class="d-flex flex-column cuadrado2 text-white "><br>
-                <img class="telef" src="../assets/js/services/telfono.svg">
-                <p align="center" class="text-cuadrado2">55 16556739998</p>
-
+                <img align="center" class="telef" src="../assets/js/services/telfono.svg">
+                <a href="tel:55 16556739998">
+                <p align="center" class="text-cuadrado2 text-white">55 16556739998</p>
+                </a>
                 <img class="telef" src="../assets/js/services/messa.svg">
-                <p align="center" class="text-cuadrado2 email-text"> contactanos@dialogus.com.mx </p>
-
+                <a class="button" href="mailto:contactanos@dialogus.com.mx">
+                <p align="center" class="text-cuadrado2 email-text text-white"> contactanos@dialogus.com.mx </p></a>
+                  
                 <img class="telef" src="../assets/js/services/ubicacion.svg">
-                <p align="center" class="text-cuadrado2">Periferico Sur 4121, Fuentes del Pedregal, Tlalpan, 14140 Ciudad de México, CDMX</p>
+                <a href="https://goo.gl/maps/NLyroJ8KhabcxJy4A" target="_blank">
+                <p align="center" class="text-cuadrado2 text-white">Periferico Sur 4121, Fuentes del Pedregal, Tlalpan, 14140 Ciudad de México, CDMX</p>
+                </a>
               </div>
             </div>
           </div>
