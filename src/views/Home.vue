@@ -18,8 +18,8 @@
             <br>
             <div class="d-flex bd-highlight align-items-center">
               <a href="#!"
-                class="h4 butn btn-circle me-2-4 mb-2-4 mb-sm-0 font-weight-900 animate__animated animate__fadeInUp"
-                style="width: 35% !important; "><span class="text-white">Descargar Guia</span></a>
+                class="h4 btn-circle btn-color-button me-2-4 mb-2-4 mb-sm-0 font-weight-900 animate__animated animate__fadeInUp"
+                style="width: 35% !important; "><span class="text-button">Descargar Guia</span></a>
               <div class="d-block d-sm-inline-block">
                 <a class="popup-social-video video_btn small" href="https://www.youtube.com/watch?v=-ESQmzDbnL8"><i
                     class="fas fa-play"></i></a>
@@ -39,7 +39,7 @@
         <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
           <span class="color_34 ">NUESTRAS DIVISIONES </span>
         </h1><br><br><br>
-        <div class="d-flex justify-content-between bg-divisions flex-mobile" >
+        <div class="d-flex justify-content-between bg-divisions flex-mobile">
           <div class="d-flex flex-column bg-card">
 
             <img align="right" :show="handleScroll" class="icon-divisiones alignImag divisionsIcons animate__animated"
@@ -51,8 +51,8 @@
               camino para alcanzar tus objetivos de manera exitosa.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
 
-              <router-link to="/estrategia" class="butn btn-circle" type="submit"><span
-                  class="h6 text-white" style="text-transform: none;">Conoce más</span></router-link>
+              <router-link to="/estrategia" class="btn-circle btn-color-button" type="submit"><span
+                  class=" text-button" style="text-transform: none;">Conoce más</span></router-link>
 
             </div>
           </div>
@@ -65,7 +65,7 @@
             <span align="center" class="h5 flex-grow-1 text-body divisionsText animate__animated">Generamos soluciones para el desarrollo del talento
               humano y el desarrollo organizacional.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/capital" class="butn btn-circle" type="submit"><span class="h6 text-white"
+              <router-link to="/capital" class="btn-circle btn-color-button" type="submit"><span class="text-button"
                   style="text-transform: none;">Conoce más</span></router-link>
             </div>
           </div>
@@ -79,8 +79,8 @@
               ética y gestión de riesgos.</span>
             <br>
             <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/cumplimiento" class="butn btn-circle" type="submit"><span
-                  class="h6 text-white" style="text-transform: none;">Conoce más</span></router-link>
+              <router-link to="/cumplimiento" class="btn-circle btn-color-button" type="submit"><span
+                  class="text-button" style="text-transform: none;">Conoce más</span></router-link>
             </div>
           </div>
 
@@ -92,8 +92,8 @@
             <span align="center" class="h5 flex-grow-1 text-body divisionsText animate__animated">Identificamos fortalezas y debilidades de empresas
               reforzando el ecosistema mexicano.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/diagnostico" class="butn btn-circle" type="submit"><span
-                  class="h6 text-white" style="text-transform: none;">Conoce más</span></router-link>
+              <router-link to="/diagnostico" class="btn-circle btn-color-button" type="submit"><span
+                  class="text-button" style="text-transform: none;">Conoce más</span></router-link>
             </div>
           </div>
         </div>
@@ -151,8 +151,8 @@
               <p align="center" class="text-white">{{tarjeta.description}}</p><br>
               <hr class="hr2" />
               <div class="d-flex justify-content-center">
-                <a class="tolowercase butn btn-circle" :href="tarjeta.urlRegister" target="_blank"><span
-                    class="h6 text-white" style="text-transform: none;">Regístrate </span></a>
+                <a class="tolowercase btn-circle btn-color-button" :href="tarjeta.urlRegister" target="_blank"><span
+                    class="text-button" style="text-transform: none;">Regístrate </span></a>
               </div>
             </div>
           </div>
@@ -249,7 +249,7 @@
                       <div class="col-md-12">
                         <div class="quform-submit-inner">
                           <div class="d-flex justify-content-center">
-                            <button class="butn theme butn-md btn-circle btn-width-contact"><span
+                            <button class="theme butn-md btn-circle btn-width-contact"><span
                                 class="text-button">Enviar respuesta</span></button>
                           </div>
                         </div><br>
@@ -277,7 +277,7 @@
                 <p align="center" class="text-cuadrado2 email-text text-white"> contactanos@dialogus.com.mx </p></a>
                   
                 <img class="telef" src="../assets/js/services/ubicacion.svg">
-                <a href="https://goo.gl/maps/NLyroJ8KhabcxJy4A" target="_blank">
+                <a href="https://goo.gl/maps/NLyroJ8KhabcxJy4A" target="_blank"></a>
                 <p align="center" class="text-cuadrado2 text-white">Periferico Sur 4121, Fuentes del Pedregal, Tlalpan, 14140 Ciudad de México, CDMX</p>
                 </a>
               </div>

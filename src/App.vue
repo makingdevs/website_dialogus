@@ -78,9 +78,9 @@
                       </router-link>
                     </li>
                     <li>
-                      <a class="butn theme butn-md btn-circle schedule-button" id="buttonAgenda" data-bs-toggle="modal"
+                      <a class="theme butn-md btn-circle schedule-button btn-color-button" id="buttonAgenda" data-bs-toggle="modal"
                         data-bs-target="#staticBackdrop" style="cursor: pointer"><i class="ti-calendar me-1 text-white"></i>
-                        <span style="font-size: 16px"> Agenda una cita </span>
+                        <span class="text-button" style="font-size: 16px"> Agenda una cita </span>
                       </a>
                     </li>
                   </ul>

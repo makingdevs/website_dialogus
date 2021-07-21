@@ -160,7 +160,7 @@
                             <div class="col-md-12">
                               <div class="quform-submit-inner">
                                 <div class="d-flex justify-content-center">
-                                  <button class=" btn-circle btn-width-contact"><span
+                                  <button class="theme butn-md btn-circle schedule-button btn-width-contact"><span
                                       class="text-button">Enviar respuesta</span></button>
                                 </div>
                               </div><br>
@@ -180,112 +180,8 @@
           </section>
     </div>
 </template>
-
-<style>
-    .img-hexContacto{
-    max-width: 204px;
-    height: auto;
-    vertical-align: top;
-    position: absolute;
-    margin-top: -138px;
-    margin-left: 1716px;
-    }
-    #bannerContacto {
-        background-color: #35547c;
-    }
-
-    /*icons contac*/
-    .icon-contacto {
-        max-width: 100%;
-        height: 127px;
-        vertical-align: top;
-        width: 472px;
-    }
-
-    /*icons contac*/
-    .btn-circle {
-        width: 100%;
-        height: 30px;
-        text-align: center;
-        padding: 6px 0;
-        font-size: 12px;
-        line-height: 1.428571429;
-        border-radius: 15px;
-    }
-
-    .contact-icon2 {
-        cursor: pointer;
-        background: #ffc107;
-        height: auto;
-        line-height: auto;
-        text-align: center;
-        transition: clip-path 1s;
-        clip-path: polygon(0% 0, 50% 0%, 100% 0%, 100% 100%, 50% 100%, 0 100%)
-    }
-
-    .contact-icon i {
-        background: #ffffff !important;
-        color: #0098a5 !important;
-        border: 2px solid #0098a5 !important;
-        width: 100px;
-        height: 88px;
-        text-align: center;
-        padding: 6px 0;
-        font-size: 51px;
-        line-height: 1.428571;
-        border-radius: 103px;
-    }
-
-    .colorT {
-        color: #35547c;
-    }
-
-    .colorLineas {
-        background-color: #ffc107 !important;
-    }
-
-    .dotted {
-        background-color: #ffc107 !important;
-    }
-
-    .contact-wrapper:hover .contact-icon i {
-        background-color: #0098a5 !important;
-        color: #fcfcfc !important;
-        border: 2px solid #ffffff !important
-    }
-
-    .section-heading:before {
-        position: absolute;
-        content: '';
-        width: 40px;
-        height: 3px;
-        left: 50%;
-        bottom: 0px;
-        transform: translateX(-50%);
-        background: #ffc107 !important;
-        z-index: 1;
-    }
-
-    .section-heading .dotted-box .dotted {
-        position: absolute;
-        left: 50%;
-        margin-left: 25px;
-        width: 3px;
-        height: 3px;
-        bottom: 0px;
-        background: #ffc107 !important;
-        z-index: 1;
-    }
-
-    #img-fondo {
-        background-image: url('../assets/contac.jpeg');
-    }
-
-    #img-fondo2 {
-        background-image: url('../assets/contac2.jpeg');
-    }
-</style>
 <script>
+    import '../assets/css/contact.scss'
     export default {
         name: "Contacto",
         watch: {

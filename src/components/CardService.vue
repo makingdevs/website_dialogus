@@ -15,7 +15,7 @@
             {{bodyText}}
           </div>
           <div class="button-card">
-            <button class="butn small">{{buttonText}}</button>
+            <button class="btn-circle schedule-button btn-width-contact text-button small">{{buttonText}}</button>
           </div>
         </div>
       </div>
