@@ -354,11 +354,19 @@ button > .text-white {
   font-size: 12px !important;
   line-height: 1.428571429 !important;
   border-radius: 15px !important;
+  background: #0098a5 !important;
+  border: 2px solid #0098a5
+  
+
 }
   .butn:hover span, .butn:hover i {
   color: #0098a5 !important; }
 
+.btn-circle:hover{
+  background: #ffff !important;
+  border: 2px solid #0098a5; 
 
+}
 .butn:hover:after,
 .butn:active:after,
 .butn:focus:after {
@@ -382,6 +390,7 @@ button > .text-white {
   border-radius: 11px;
   -moz-border-radius: 11px;
   -webkit-border-radius: 11px;
+  background-color: #e8eaea;
 }
 .bg-line {
   background: #e8eaea;
@@ -440,6 +449,8 @@ button > .text-white {
 
 .text-button{
   font-size: 17px;
+  color: #fff;
+  font-weight: 900;
 }
 .bg-about {
   background: #ffffff;
