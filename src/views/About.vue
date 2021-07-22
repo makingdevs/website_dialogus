@@ -258,9 +258,9 @@ element.style {
     color: #ffcc00;
   }
   .vl-about {
-    margin-top: 80px;
+    margin-top: 60px;
     border-left: 2px solid #ffcc00;
-    height: 350px;
+    height: 310px;
 }
 
   .image-tamaño {
