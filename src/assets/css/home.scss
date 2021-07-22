@@ -368,11 +368,13 @@ button > .text-white {
   .btn-color-button:hover{
     .text-button {
       color: #0098a5 ;
+      word-wrap: break-word;
     }
   }
   .btn-width-contact:hover{
     .text-button {
       color: #0098a5 ;
+      word-wrap: break-word;
     }
   }
 
@@ -456,13 +458,13 @@ button > .text-white {
   font-size: 25px;
 }
 .text-cuadrado2{
-  font-size: 18px;
+  word-wrap: break-word;
 }
 
 /*END*/
 
 .text-button{
-  font-size: 17px;
+  word-wrap: break-word;
   color: #fff;
   font-weight: 900;
 }
@@ -817,7 +819,7 @@ button > .text-white {
     }
 
     .text-button{
-      font-size: 18px;
+      word-wrap: break-word;
     }
   }
   @media (max-width: 991px){
@@ -838,15 +840,15 @@ button > .text-white {
       font-size: 21px;
     }
     .text-cuadrado2{
-      font-size: 13px;
+      word-wrap: break-word;
     }
   }
     .text-button{
-      font-size: 15px;
+      word-wrap: break-word;
     }
   @media (max-width: 767px){
     .text-button{
-      font-size: 10px;
+      word-wrap: break-word;
     }
     .bg-contact{
       height: 538px;
@@ -865,12 +867,12 @@ button > .text-white {
       font-size: 17px;
     }
     .text-cuadrado2{
-      font-size: 10.5px;
+      word-wrap: break-word;
     }
   }
   @media (max-width: 575px){
     .text-button{
-      font-size: 10px;
+      word-wrap: break-word;
     }
     .bg-contact{
       height: 575px;
@@ -887,7 +889,7 @@ button > .text-white {
       font-size: 17px;
     }
     .text-cuadrado2{
-      font-size: 10.5px;
+      word-wrap: break-word;
     }
     .email-text {
       word-wrap: break-word;
@@ -898,7 +900,7 @@ button > .text-white {
   }
   @media (max-width: 570px){
     .text-button{
-      font-size: 10px;
+      word-wrap: break-word;
     }
     .bg-contact{
       height: 575px;
@@ -915,7 +917,7 @@ button > .text-white {
       font-size: 17px;
     }
     .text-cuadrado2{
-      font-size: 10.5px;
+      word-wrap: break-word;
     }
   }
   @media (max-width: 560px){
@@ -963,7 +965,7 @@ button > .text-white {
       font-size: 13px;
     }
     .text-button{
-      font-size: 9px;
+      word-wrap: break-word;
     }
   }
   @media (max-width: 491px){
@@ -982,7 +984,7 @@ button > .text-white {
       font-size: 12px;
     }
     .text-button{
-      font-size: 9px;
+      word-wrap: break-word;
     }
   }
   @media (max-width: 460px){
@@ -1001,7 +1003,7 @@ button > .text-white {
       font-size: 12px;
     }
     .text-button{
-      font-size: 9px;
+      word-wrap: break-word;
     }
   }
   @media (max-width: 451px){
@@ -1020,7 +1022,7 @@ button > .text-white {
       font-size: 11px;
     }
     .text-button{
-      font-size: 8px;
+      word-wrap: break-word;
     }
   }
   /*   END   */

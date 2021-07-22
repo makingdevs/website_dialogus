@@ -45,9 +45,9 @@
             <img align="right" :show="handleScroll" class="icon-divisiones alignImag divisionsIcons animate__animated"
               src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
 
-            <span align="center" :show="handleScroll" class="text-title divisionsText animate__animated">Estrategia</span><br>
+            <span :show="handleScroll" class="text-title divisionsText animate__animated" style="text-align: center;">Estrategia</span><br>
             <div class="hr-border" /><br>
-            <span align="center" :show="handleScroll" class="h5 flex-grow-1 text-body divisionsText animate__animated" id="text-estrategia">Definimos el
+            <span style="text-align: center;" :show="handleScroll" class="h5 flex-grow-1 text-body divisionsText animate__animated" id="text-estrategia">Definimos el
               camino para alcanzar tus objetivos de manera exitosa.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
 
@@ -60,9 +60,9 @@
           <div class="d-flex flex-column bg-card">
             <img class="icon-divisiones alignImag2 alignImag  divisionsIcons animate__animated"
               src="../assets/js/services/Recurso 1.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-            <span align="center" class="text-title divisionsText animate__animated">Capital Humano</span><br>
+            <span style="text-align: center;" class="text-title divisionsText animate__animated">Capital Humano</span><br>
             <div class="hr-border" /><br>
-            <span align="center" class="h5 flex-grow-1 text-body divisionsText animate__animated">Generamos soluciones para el desarrollo del talento
+            <span style="text-align: center;" class="h5 flex-grow-1 text-body divisionsText animate__animated">Generamos soluciones para el desarrollo del talento
               humano y el desarrollo organizacional.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
               <router-link to="/capital" class="btn-circle btn-color-button" type="submit" style="border: none;"><span class="text-button"
@@ -73,9 +73,9 @@
           <div class="d-flex flex-column bg-card">
             <img class="icon-divisiones alignImag2 alignImag divisionsIcons animate__animated"
               src="../assets/js/services/Recurso 2.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-            <span align="center" class="text-title divisionsText animate__animated">Cumplimiento</span><br>
+            <span style="text-align: center;" class="text-title divisionsText animate__animated">Cumplimiento</span><br>
             <div class="hr-border" /><br>
-            <span align="center" class="h5 flex-grow-1 text-body divisionsText animate__animated">Blindamos a las empresas con sistemas de integridad,
+            <span style="text-align: center;" class="h5 flex-grow-1 text-body divisionsText animate__animated">Blindamos a las empresas con sistemas de integridad,
               ética y gestión de riesgos.</span>
             <br>
             <div class="d-flex justify-content-center mt-5 mb-5">
@@ -87,9 +87,9 @@
           <div class="d-flex flex-column bg-card">
             <img class="icon-divisiones alignImag2 alignImag divisionsIcons animate__animated"
               src="../assets/js/services/Recurso 25.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-            <span align="center" class="text-title divisionsText animate__animated">Diagnóstico</span><br>
+            <span style="text-align: center;" class="text-title divisionsText animate__animated">Diagnóstico</span><br>
             <div class="hr-border" /><br>
-            <span align="center" class="h5 flex-grow-1 text-body divisionsText animate__animated">Identificamos fortalezas y debilidades de empresas
+            <span style="text-align: center;" class="h5 flex-grow-1 text-body divisionsText animate__animated">Identificamos fortalezas y debilidades de empresas
               reforzando el ecosistema mexicano.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
               <router-link to="/diagnostico" class="btn-circle btn-color-button" type="submit" style="border: none;"><span
@@ -274,7 +274,7 @@
                 </a>
                 <img class="telef" src="../assets/js/services/messa.svg"><br>
                 <a class="button" href="mailto:contactanos@dialogus.com.mx">
-                <p align="center" class="text-cuadrado2 email-text text-white"> contactanos@dialogus.com.mx </p></a>
+                <p align="center" class="text-cuadrado2 email-text text-white">contactanos@dialogus.com.mx</p></a>
                   
                 <img class="telef" src="../assets/js/services/ubicacion.svg"><br>
                 <a href="https://goo.gl/maps/NLyroJ8KhabcxJy4A" target="_blank">
