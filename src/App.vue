@@ -35,51 +35,59 @@
                   <div class="navbar-toggler" id="menu"></div>
 
                   <!-- menu area -->
-                  <ul class="navbar-nav ms-auto" id="nav" style="display: none" @click="hiddenMenu">
+                  <ul class="navbar-nav ms-auto nav-custom" id="nav" style="display: none" @click="hiddenMenu($event)">
                     <li>
-                      <router-link align="center" to="/home" style="font-size: 16px">
+                      <router-link to="/home" style="font-size: 16px">
                         Home
                       </router-link>
                     </li>
 
                     <li>
-                      <router-link align="center" to="/about" style="font-size: 16px">
+                      <router-link  to="/about" style="font-size: 16px">
                         Nosotros
                       </router-link>
                     </li>
 
                     <li>
-                      <router-link align="center" to="#!" style="font-size: 16px" >servicios</router-link>
-                      <ul>
-                        <li>
-                          <router-link align="center" to="/estrategia">Estrategia</router-link>
-                        </li>
-                        <li>
-                          <router-link align="center" to="/cumplimiento">Cumplimiento</router-link>
-                        </li>
-                        <li>
-                          <router-link align="center" to="/capital">Capital Humano</router-link>
-                        </li>
-                        <li>
-                          <router-link align="center" to="/diagnostico">Diagnóstico</router-link>
-                        </li>
+                      <router-link  to="#!" style="font-size: 16px" id="eventService" class="d-flex">
+                        <div>
+                          servicios
+                        </div>
+                        <i class="fas fa-sort-down show-arrow" style="margin-left: 10px;"></i>
+                      </router-link>
+                      <ul style="padding: 0px 17px;">
+                        <div class="sub-menu-services">
+                          <li>
+                            <router-link to="/estrategia">Estrategia</router-link>
+                          </li>
+                          <li>
+                            <router-link to="/cumplimiento">Cumplimiento</router-link>
+                          </li>
+                          <li>
+                            <router-link to="/capital">Capital Humano</router-link>
+                          </li>
+                          <li>
+                            <router-link to="/diagnostico">Diagnóstico</router-link>
+                          </li>
+                        </div>
                       </ul>
                     </li>
 
                     <li>
-                      <router-link align="center" to="/eventos" style="font-size: 16px">
+                      <router-link  to="/eventos" style="font-size: 16px" id="eventosTarget">
                         Eventos
                       </router-link>
                     </li>
 
                     <li>
-                      <router-link align="center" to="/contacto" style="font-size: 16px">
+                      <router-link to="/contacto" style="font-size: 16px">
                         Contacto
                       </router-link>
                     </li>
                     <li>
-                      <a class="theme butn-md btn-circle schedule-button btn-color-button" id="buttonAgenda" data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop" style="cursor: pointer"><i class="ti-calendar me-1 text-white"></i>
+                      <a class="theme butn-md btn-circle schedule-button btn-color-button" id="buttonAgenda"
+                        data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="cursor: pointer; padding-bottom: 26px !important;"><i
+                          class="ti-calendar me-1 text-white"></i>
                         <span class="text-button" style="font-size: 16px"> Agenda una cita </span>
                       </a>
                     </li>
@@ -127,77 +135,80 @@
         ================================================== -->
     <footer>
       <div id="contacto" class="container-fluid">
-          <div class="d-flex justify-content-between flex-mobile">
-            <div class="d-flex justify-content-start">
-                <img src="./assets/js/services/DiaBlan.svg" alt="..." width="300"
-                  style="margin-left: 25px; margin-top: -60px;">
-            </div>
-            <div class="d-flex justify-content-start flex-column">
-              <ul class="list-style1" align="left">
-                <li>
-                  <router-link to="/about" class="text-footercolor" style="font-size: 23px">
-                    Nosotros
-                  </router-link>
-                </li>
-              </ul>
-            </div>
-            <div class="vl-footer"></div>
-            <div class="d-flex justify-content-start flex-column">
-              <ul class="list-style1" align="left">
-                <li>
-                  <a href="#seccion-services" class="text-footercolor" style="font-size: 23px">
-                    Servicios
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="vl-footer"></div>
-            <div class="d-flex justify-content-start flex-column">
-              <ul class="list-style1" align="left">
-                <li>
-                  <router-link to="/eventos" class="text-footercolor" style="font-size: 23px">
-                    Eventos
-                  </router-link>
-                </li>
-              </ul>
-            </div>
-            <div class="vl-footer"></div>
-            <div class="d-flex justify-content-start flex-column">
-              <ul class="list-style1" align="left">
-                <li>
-                  <router-link to="/contacto" class="text-footercolor" style="font-size: 23px">
-                    Contacto
-                  </router-link>
-                </li>
-              </ul>
-            </div>
-            <div class="d-flex justify-content-start flex-column"></div>
+        <div class="d-flex justify-content-between flex-mobile">
+          <div class="d-flex justify-content-start">
+            <img src="./assets/js/services/DiaBlan.svg" alt="..." width="300"
+              style="margin-left: 25px; margin-top: -60px;">
           </div>
-          <div class="d-flex justify-content-between flex-mobile">
-            <div class="d-flex justify-content-start">
-              <p align="left" class="em text-white">
-                contactanos@dialogus.com.mx
-              </p>
-            </div>
-            <div class="d-flex flex-column bg-card-footer">
-              <div class="hr-footer"/>
-              
-            </div>
-          </div>
-          <div class="d-flex justify-content-between flex-mobile">
-            <div class="d-flex justify-content-start">
-               <li class="socialmedia">
-                <a class="socialmedia" href="https://twitter.com/Dialogus_LAT"><img src="./assets/js/services/TW.svg" width="50" style="margin: 8px;"></a>
-                <a href="https://www.facebook.com/DialogusConsultores"><img src="./assets/js/services/FB.svg" width="50" style="margin: 8px;"></a>
-                <a href="https://www.linkedin.com/company/dialogus-consultores/"><img src="./assets/js/services/IN.svg" width="50" style="margin: 8px;"></a>
+          <div class="d-flex justify-content-start flex-column">
+            <ul class="list-style1" align="left">
+              <li>
+                <router-link to="/about" class="text-footercolor" style="font-size: 23px">
+                  Nosotros
+                </router-link>
               </li>
-            </div>
-            <div class="d-flex flex-column bg-card-footer1">
-              <p align="center" class="text-footercolor" style="margin-left: 0px; font-size: 15px;">
-                All Rights Reserved 2021 | Dialogus Consultores
-              </p>
-            </div>
+            </ul>
           </div>
+          <div class="vl-footer"></div>
+          <div class="d-flex justify-content-start flex-column">
+            <ul class="list-style1" align="left">
+              <li>
+                <a href="#seccion-services" class="text-footercolor" style="font-size: 23px">
+                  Servicios
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="vl-footer"></div>
+          <div class="d-flex justify-content-start flex-column">
+            <ul class="list-style1" align="left">
+              <li>
+                <router-link to="/eventos" class="text-footercolor" style="font-size: 23px">
+                  Eventos
+                </router-link>
+              </li>
+            </ul>
+          </div>
+          <div class="vl-footer"></div>
+          <div class="d-flex justify-content-start flex-column">
+            <ul class="list-style1" align="left">
+              <li>
+                <router-link to="/contacto" class="text-footercolor" style="font-size: 23px">
+                  Contacto
+                </router-link>
+              </li>
+            </ul>
+          </div>
+          <div class="d-flex justify-content-start flex-column"></div>
+        </div>
+        <div class="d-flex justify-content-between flex-mobile">
+          <div class="d-flex justify-content-start">
+            <p align="left" class="em text-white">
+              contactanos@dialogus.com.mx
+            </p>
+          </div>
+          <div class="d-flex flex-column bg-card-footer">
+            <div class="hr-footer" />
+
+          </div>
+        </div>
+        <div class="d-flex justify-content-between flex-mobile">
+          <div class="d-flex justify-content-start">
+            <li class="socialmedia">
+              <a class="socialmedia" href="https://twitter.com/Dialogus_LAT"><img src="./assets/js/services/TW.svg"
+                  width="50" style="margin: 8px;"></a>
+              <a href="https://www.facebook.com/DialogusConsultores"><img src="./assets/js/services/FB.svg" width="50"
+                  style="margin: 8px;"></a>
+              <a href="https://www.linkedin.com/company/dialogus-consultores/"><img src="./assets/js/services/IN.svg"
+                  width="50" style="margin: 8px;"></a>
+            </li>
+          </div>
+          <div class="d-flex flex-column bg-card-footer1">
+            <p align="center" class="text-footercolor" style="margin-left: 0px; font-size: 15px;">
+              All Rights Reserved 2021 | Dialogus Consultores
+            </p>
+          </div>
+        </div>
       </div>
     </footer>
 
@@ -237,11 +248,15 @@
           element.dispatchEvent(evObj);
         }
       },
-      hiddenMenu() {
+      hiddenMenu(event) {
+        console.log(event);
+        console.log(event.target.id);
         if (window.innerWidth < 990) {
-          const element = document.getElementById("menu");
-          window.scroll(0, 200)
-          this.eventFire(element, 'click')
+          if (event.target.id !== 'submenuNav') {
+            const element = document.getElementById("menu");
+            window.scroll(0, 200)
+            this.eventFire(element, 'click')
+          }
         }
       },
       test() {
@@ -249,7 +264,7 @@
       changeColorNabvarWithScroll() {
         window.addEventListener("scroll", function () {
           if (window.pageYOffset > 100) {
-          // eslint-disable-next-line no-empty
+            // eslint-disable-next-line no-empty
           }
         });
       },
