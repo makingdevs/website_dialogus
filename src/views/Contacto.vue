@@ -118,7 +118,7 @@
                                     name="email" placeholder="Email" />
                                 </div>
                               </div>
-                            </div><br><br><br>
+                            </div>
                             <!-- End Text input element -->
       
                             <!-- Begin Text input element -->
