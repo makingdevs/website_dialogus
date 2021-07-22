@@ -55,7 +55,7 @@
                         </div>
                         <i class="fas fa-sort-down show-arrow" style="margin-left: 10px;"></i>
                       </router-link>
-                      <ul style="padding: 0px 0px">
+                      <ul style="padding: 0px 0px 0px 0px;">
                         <div class="sub-menu-services">
                           <li>
                             <router-link to="/estrategia">Estrategia</router-link>
