@@ -46,6 +46,7 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
   
   .col-body-text-custom {
     padding-right: 0px;
@@ -58,37 +59,46 @@
 
   .image-container {
     height: 100%;
-    width: 100%;
+    width: 110%;
     object-fit: cover;
-    border-radius: 0px 14px 14px 0px;
+    border-radius: 0px 50px 50px 0px;
   }
 
   .body-card {
     background-color: white;
     height: 375px;
+    width: 100%;
     padding: 30px;
-    border-radius: 14px 0px 0px 14px;
+    border-radius: 50px 0px 0px 50px;
   }
 
   .button-card {
     margin-top: 15px;
   }
 
+  .body-text {
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+  }
+
   .title {
     color: #35547c !important;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
+    margin-top: 25px;
   }
 
   .verticale-line {
-    border-left: 10px solid rgb(255, 255, 255);
+    border-left: 10px solid #ffc107;
     height: 400px;
-    margin-left: 90px;
+    margin-left: 80px;
   }
 
   .butn.small {
     padding: 8px 12px;
     font-size: 12px;
     border-radius: 15px !important;
+    font-family: 'Poppins', sans-serif;
   }
   .small-line {
     margin: 1rem 0px;
