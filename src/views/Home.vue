@@ -19,7 +19,7 @@
             <div class="d-flex bd-highlight align-items-center">
               <a href="#!"
                 class="h4 btn-circle btn-color-button me-2-4 mb-2-4 mb-sm-0 font-weight-900 animate__animated animate__fadeInUp"
-                style="width: 35% !important; "><span class="text-button">Descargar Guia</span></a>
+                style="width: 35% !important; border: none;"><span class="text-button">Descargar Guia</span></a>
               <div class="d-block d-sm-inline-block">
                 <a class="popup-social-video video_btn small" href="https://www.youtube.com/watch?v=-ESQmzDbnL8"><i
                     class="fas fa-play"></i></a>
@@ -51,7 +51,7 @@
               camino para alcanzar tus objetivos de manera exitosa.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
 
-              <router-link to="/estrategia" class="btn-circle btn-color-button" type="submit"><span
+              <router-link to="/estrategia" class="btn-circle btn-color-button" type="submit" style="border: none;"><span
                   class=" text-button" style="text-transform: none;">Conoce más</span></router-link>
 
             </div>
@@ -65,7 +65,7 @@
             <span align="center" class="h5 flex-grow-1 text-body divisionsText animate__animated">Generamos soluciones para el desarrollo del talento
               humano y el desarrollo organizacional.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/capital" class="btn-circle btn-color-button" type="submit"><span class="text-button"
+              <router-link to="/capital" class="btn-circle btn-color-button" type="submit" style="border: none;"><span class="text-button"
                   style="text-transform: none;">Conoce más</span></router-link>
             </div>
           </div>
@@ -79,7 +79,7 @@
               ética y gestión de riesgos.</span>
             <br>
             <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/cumplimiento" class="btn-circle btn-color-button" type="submit"><span
+              <router-link to="/cumplimiento" class="btn-circle btn-color-button" type="submit" style="border: none;"><span
                   class="text-button" style="text-transform: none;">Conoce más</span></router-link>
             </div>
           </div>
@@ -92,7 +92,7 @@
             <span align="center" class="h5 flex-grow-1 text-body divisionsText animate__animated">Identificamos fortalezas y debilidades de empresas
               reforzando el ecosistema mexicano.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/diagnostico" class="btn-circle btn-color-button" type="submit"><span
+              <router-link to="/diagnostico" class="btn-circle btn-color-button" type="submit" style="border: none;"><span
                   class="text-button" style="text-transform: none;">Conoce más</span></router-link>
             </div>
           </div>
@@ -151,7 +151,7 @@
               <p align="center" class="text-white">{{tarjeta.description}}</p><br>
               <hr class="hr2" />
               <div class="d-flex justify-content-center">
-                <a class="tolowercase btn-circle btn-color-button" :href="tarjeta.urlRegister" target="_blank"><span
+                <a class="tolowercase btn-circle btn-color-button" :href="tarjeta.urlRegister" target="_blank" style="border: none;"><span
                     class="text-button" style="text-transform: none;">Regístrate </span></a>
               </div>
             </div>
@@ -166,7 +166,7 @@
     <!-- EXTRA
         ================================================== -->
     <section class="container">
-      <div class="row" style="background: #e8eaea; border-radius: 12px">
+      <div class="row" style="background: #e8eaea; border-radius: 12px; padding-bottom: 29px;">
         <div class="col-12" style="background-color: #3f5479; border-radius: 12px 12px 0px 0px">
           <h1 class="d-flex justify-content-center text-white text-contact">CONTACTO</h1>
         </div>
@@ -207,7 +207,7 @@
                               name="email" placeholder="Email" />
                           </div>
                         </div>
-                      </div><br><br><br>
+                      </div>
                       <!-- End Text input element -->
 
                       <!-- Begin Text input element -->
@@ -249,7 +249,7 @@
                       <div class="col-md-12">
                         <div class="quform-submit-inner">
                           <div class="d-flex justify-content-center">
-                            <button class="theme butn-md btn-circle btn-width-contact"><span
+                            <button class="theme butn-md btn-circle btn-width-contact" style="border: none;"><span
                                 class="text-button">Enviar respuesta</span></button>
                           </div>
                         </div><br>
@@ -268,15 +268,15 @@
           <div class="col-4">
             <div class=""><br>
               <div class="d-flex flex-column cuadrado2 text-white "><br>
-                <img align="center" class="telef" src="../assets/js/services/telfono.svg">
+                <img align="center" class="telef" src="../assets/js/services/telfono.svg"><br>
                 <a href="tel:55 16556739998">
                 <p align="center" class="text-cuadrado2 text-white">55 16556739998</p>
                 </a>
-                <img class="telef" src="../assets/js/services/messa.svg">
+                <img class="telef" src="../assets/js/services/messa.svg"><br>
                 <a class="button" href="mailto:contactanos@dialogus.com.mx">
                 <p align="center" class="text-cuadrado2 email-text text-white"> contactanos@dialogus.com.mx </p></a>
                   
-                <img class="telef" src="../assets/js/services/ubicacion.svg">
+                <img class="telef" src="../assets/js/services/ubicacion.svg"><br>
                 <a href="https://goo.gl/maps/NLyroJ8KhabcxJy4A" target="_blank">
                 <p align="center" class="text-cuadrado2 text-white">Periferico Sur 4121, Fuentes del Pedregal, Tlalpan, 14140 Ciudad de México, CDMX</p>
                 </a>
@@ -285,7 +285,9 @@
           </div>
         </div>
       </div>
-      <img class="img-hexPagina-contac" src="../assets/js/services/hexagonos-Pagina/hexPagin.svg">
+      <!--
+        <img class="img-hexPagina-contac" src="../assets/js/services/hexagonos-Pagina/hexPagin.svg">
+       -->
     </section>
     <!-- FOOTER
         ================================================== -->
