@@ -39,7 +39,7 @@ import jQuery from 'jquery';
             var multiTg = function () {
 
                 // For First Level
-                nav.find(".has-sub").prepend('<span class="submenu-button"></span>');
+                nav.find(".has-sub").prepend('<span class="submenu-button" id="submenuNav"></span>');
                 nav.find('.navbar-nav > li.has-sub > .submenu-button').on('click', function () {
                     $(this).next('.sub-menu').slideToggle();
                     $(this).siblings('ul').addClass('open').slideToggle();
