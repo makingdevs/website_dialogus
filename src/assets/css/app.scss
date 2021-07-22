@@ -9,7 +9,7 @@
 }
 
 .menu_area-light .navbar-nav li > ul {
-  background: transparent !important;
+  background: none !important;
 }
 /* home */
   #buttonAgenda {
@@ -236,6 +236,7 @@
     }
     .menu_area-light .navbar-nav li > ul {
       background: #35547c !important;
+      padding: 0px 17px !important;
     }
   }
 
