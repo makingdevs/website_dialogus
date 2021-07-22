@@ -3,9 +3,13 @@
     color: #0098a5 ;
   }
 }
-.menu_area-light .navbar-nav li > ul {
+.sub-menu-services {
     background: #0098a5 !important;
     border-radius: 12px !important;
+}
+
+.menu_area-light .navbar-nav li > ul {
+  background: transparent !important;
 }
 /* home */
   #buttonAgenda {
@@ -34,6 +38,12 @@
     color: #ffffff;
     transition: background-color 0.8s linear 0.2s;
   }
+  #nav a:hover {
+    font-weight: bold;
+    color: #0098a5;
+    transition: background-color 0.8s linear 0.2s;
+    border-color: #0098a5;
+  }
 
   #nav a.router-link-exact-active {
     color: #0098a5;
@@ -41,7 +51,7 @@
   }
 
   .header-style1 .navbar-toggler {
-    background: #ffffff;
+    background: none !important;
   }
 
   .footer-title:before {
@@ -50,7 +60,7 @@
 
   .fa-mobile-alt:before {
     content: "\f3c5";
-    color: #000000;
+    color: white;
   }
 
   .fa-map-marker-alt:before {
@@ -61,6 +71,17 @@
   .fa-envelope:before {
     content: "\f3c5";
     color: #ffffff;
+  }
+
+  .header-style1 .navbar-toggler:before {
+    background: white !important;
+  }
+  .header-style1 .navbar-toggler:after {
+    border-top: 2px solid white !important;
+    border-bottom: 2px solid white !important;
+  }
+  .header-style1 .navbar-toggler.menu-opened:after {
+    border-bottom: none !important; 
   }
 
   footer {
@@ -105,6 +126,9 @@
   .sub-menu a:active, .sub-menu a:focus {
     color: #35547c !important; 
   }
+  .sub-menu a:hover{
+    color: #35547c !important;
+  }
 
 
   .schedule-button:hover {
@@ -114,15 +138,8 @@
   .text-footercolor, .text-footercolor:active, .text-footercolor:focus{
     color: #ffffff;
   } 
+
   
-  @media screen and (max-width: 991px) {
-    .navbar ul li a {
-      width: 100%;
-      border-bottom: 0;
-      background: #35547c;
-      transition: background-color 0.8s linear 0.2s;
-    }
-  }
   @media(max-width: 1199px ){
   .vl-footer {
       display: none;
@@ -152,9 +169,17 @@
   header.scrollHeader .navbar-default {
     background-color: #35547c !important;
     transition: background-color 0.8s linear 0.2s;
+    box-shadow: 0px 5px 5px #686767 !important;
+  }
+
+  .show-arrow {
+    display: none !important;
   }
 
   @media screen and (max-width: 991px) {
+    .show-arrow {
+      display: inline-flex !important;
+    }
     .navbar-nav .submenu-button:before {
       position: absolute;
       top: 20px;
@@ -162,12 +187,9 @@
       display: block;
       width: 2px;
       height: 10px;
-      background: #ffffff !important;
+      background: #35547c !important;
       content: "";
     }
-  }
-
-  @media screen and (max-width: 991px) {
     .navbar-nav .submenu-button:after {
       position: absolute;
       top: 24px;
@@ -175,9 +197,30 @@
       width: 10px;
       height: 2px;
       display: block;
-      background: #ffffff !important;
+      background: #35547c !important;
       content: "";
     }
+    .navbar-nav {
+      background: #35547c !important;
+    }
+    .navbar ul li a {
+      width: 100%;
+      border-bottom: 0;
+      background: #35547c;
+      transition: background-color 0.8s linear 0.2s;
+    }
+  
+    .nav-custom {
+      li {
+        border-top: unset !important; 
+      }
+
+      .btn-circle {
+        text-align: left !important;
+        border: unset !important;
+      }
+    }
+    
   }
 
   @media screen and (max-width: 990px) {
@@ -190,6 +233,9 @@
       padding: 14px 20px !important;
       height: unset !important;
       font-size: 14px !important;
+    }
+    .menu_area-light .navbar-nav li > ul {
+      background: #35547c !important;
     }
   }
 
