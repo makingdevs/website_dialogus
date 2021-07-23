@@ -1,35 +1,10 @@
 <template>
   <div>
-    <section
-      class="parallax bg-img cover-background  bg-img cover-background full-screen pt-16 pb-8 p-lg-0 top-position2 min-md-height-auto"
-      data-overlay-dark="55" id="banner">
-
-      <div class="container d-flex flex-column ">
-        <div class="row align-items-center min-lg-vh-100">
-          <div class="col-lg-8 mb-5 mb-lg-0">
-            <h1 align="left"
-              class="text-white display-16 display-md-9 display-lg-7 display-xl-4 mb-1-6 text-shadow font-weight-800 animate__animated animate__bounce font-poppins">
-              Innovación que transforma negocios.</h1>
-
-            <h6 align="left" class=" text-white font-weight-800 animate__animated animate__fadeInTopLeft">En Dialogus
-              nos comprometemos en transformar</h6>
-            <h6 align="left" class=" text-white font-weight-800 animate__animated animate__fadeInBottomRight"> los
-              negocios para llevarlos al siguiente nivel.</h6>
-            <div class="m-top-28" />
-            <div class="d-flex bd-highlight align-items-center">
-              <a href="#!"
-                class="h4 btn-circle btn-color-button me-2-4 mb-2-4 mb-sm-0 font-weight-900 animate__animated animate__fadeInUp"
-                style="width: 35% !important; border: none;"><span class="text-button">Descargar Guia</span></a>
-              <div class="d-block d-sm-inline-block">
-                <a class="popup-social-video video_btn small" href="https://www.youtube.com/watch?v=-ESQmzDbnL8"><i
-                    class="fas fa-play"></i></a>
-                <div class="d-inline-block align-middle ps-2-5 text-white text-start font-weight-600">Ver<span
-                    class="text-uppercase d-block text-white">Video</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <section align="center" class="section-header viewport-header">
+      <video autoplay muted id="video-home">
+        <source src="../assets/animacion-cor.mp4" type="video/mp4">
+      </video>
+      <button class="boton-prueba">Dercargar Guia Dialogus</button>
     </section>
     <!-- SERVICE================================================== -->
 
@@ -50,16 +25,16 @@
             <div class="m-top-28" />
 
             <span :show="handleScroll" class="text-title divisionsText animate__animated"
-              style="text-align: center;">Estrategia</span>
+              style="text-align: center; font-weight: 500;">Estrategia</span>
             <div class="m-top-28" />
             <div class="hr-border" />
             <div class="m-top-28" />
-            <span style="text-align: center;" :show="handleScroll"
+            <span style="text-align: center; font-weight: 300;" :show="handleScroll"
               class="h5 flex-grow-1 text-body divisionsText animate__animated" id="text-estrategia">Definimos el
               camino para alcanzar tus objetivos de manera exitosa.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
 
-              <router-link to="/estrategia" class="btn-circle btn-color-button" style="border: none;" type="none"><span
+              <router-link to="/estrategia" class="button-divisiones" style="border: none;" type="none"><span
                   class=" text-button" style="text-transform: none;">Conoce más</span></router-link>
 
             </div>
@@ -69,15 +44,15 @@
             <img class="icon-divisiones alignImag2 alignImag  divisionsIcons animate__animated"
               src="../assets/js/services/Recurso 1.svg" style=" margin-top: -98px; margin-left: 2px;">
             <div class="m-top-28" />
-            <span style="text-align: center;" class="text-title divisionsText animate__animated">Capital Humano</span>
+            <span style="text-align: center; font-weight: 500;" class="text-title divisionsText animate__animated">Capital Humano</span>
             <div class="m-top-28" />
             <div class="hr-border" />
             <div class="m-top-28" />
-            <span style="text-align: center;" class="h5 flex-grow-1 text-body divisionsText animate__animated">Generamos
+            <span style="text-align: center; font-weight: 300;" class="h5 flex-grow-1 text-body divisionsText animate__animated">Generamos
               soluciones para el desarrollo del talento
               humano y el desarrollo organizacional.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/capital" class="btn-circle btn-color-button" style="border: none;"><span
+              <router-link to="/capital" class="button-divisiones" style="border: none;"><span
                   class="text-button" style="text-transform: none;">Conoce más</span></router-link>
             </div>
           </div>
@@ -86,16 +61,16 @@
             <img class="icon-divisiones alignImag2 alignImag divisionsIcons animate__animated"
               src="../assets/js/services/Recurso 2.svg" style=" margin-top: -98px; margin-left: 2px;">
             <div class="m-top-28" />
-            <span style="text-align: center;" class="text-title divisionsText animate__animated">Cumplimiento</span>
+            <span style="text-align: center; font-weight: 500;" class="text-title divisionsText animate__animated">Cumplimiento</span>
             <div class="m-top-28" />
             <div class="hr-border" />
             <div class="m-top-28" />
-            <span style="text-align: center;" class="h5 flex-grow-1 text-body divisionsText animate__animated">Blindamos
+            <span style="text-align: center; font-weight: 300;" class="h5 flex-grow-1 text-body divisionsText animate__animated">Blindamos
               a las empresas con sistemas de integridad,
               ética y gestión de riesgos.</span>
             <div class="m-top-28" />
             <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/cumplimiento" class="btn-circle btn-color-button" style="border: none;"><span
+              <router-link to="/cumplimiento" class="button-divisiones" style="border: none;"><span
                   class="text-button" style="text-transform: none;">Conoce más</span></router-link>
             </div>
           </div>
@@ -104,16 +79,16 @@
             <img class="icon-divisiones alignImag2 alignImag divisionsIcons animate__animated"
               src="../assets/js/services/Recurso 25.svg" style=" margin-top: -98px; margin-left: 2px;">
             <div class="m-top-28" />
-            <span style="text-align: center;" class="text-title divisionsText animate__animated">Diagnóstico</span>
+            <span style="text-align: center; font-weight: 500;" class="text-title divisionsText animate__animated">Diagnóstico</span>
             <div class="m-top-28" />
             <div class="hr-border" />
             <div class="m-top-28" />
-            <span style="text-align: center;"
+            <span style="text-align: center; font-weight: 300;"
               class="h5 flex-grow-1 text-body divisionsText animate__animated">Identificamos fortalezas y debilidades de
               empresas
               reforzando el ecosistema mexicano.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/diagnostico" class="btn-circle btn-color-button" style="border: none;"><span
+              <router-link to="/diagnostico" class="button-divisiones" style="border: none;"><span
                   class="text-button" style="text-transform: none;">Conoce más</span></router-link>
             </div>
           </div>
@@ -140,7 +115,7 @@
               alt="...">
             <div class="m-top-28" />
             <div class="m-top-28" />
-            <div align="center" class="h4 color_33 presentamosText animate__animated">Somos una consultora que ofrece
+            <div align="center" class="h4 color_33 presentamosText animate__animated" style="font-weight: 300;">Somos una consultora que ofrece
               una amplia gama de servicios
               disruptivos e innovadores, siempre poniendo a la gente al centro de las soluciones.</div>
           </div>

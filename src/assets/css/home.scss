@@ -1,4 +1,43 @@
 /* home */
+#video-home {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.boton-prueba{
+  position: absolute;
+  margin-top: 442px;
+  margin-left: -50%;
+  background:#0098a5;
+  color: #fff;
+  border-radius: 12px;
+  width: 20%;
+  border: 2px solid #f9f9f9;
+  font-weight: 900;
+}
+.boton-prueba:hover{
+  background: #fff;
+  color: #0098a5;
+  border-radius: 12px; 
+  border: 2px solid #0098a5;
+}
+
+.viewport-header {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-header {
+  padding: 0px;
+}
+
 .top-position2 {
   margin-top: -81px;
 }
@@ -114,7 +153,7 @@
 }
 
 #banner {
-  background-image: url("../../assets/eve1.jpg");
+  background-image: url("../animacion-cor.mp4");
 }
 
 .fade-in-image {
@@ -373,6 +412,9 @@ button > .text-white {
     }
   }
   .btn-width-contact:hover{
+    border-radius: 15px !important;
+    background: #ffffff !important;
+    border: 2px solid #0098a5 !important; 
     .text-button {
       color: #0098a5 ;
       word-wrap: break-word;
@@ -632,6 +674,28 @@ button > .text-white {
   }
 }
 
+.button-divisiones {
+  border-radius: 15px;
+  background: #0098a5;
+  cursor: pointer;
+  padding: 0px 13px;
+  width: 100%;
+  text-align: center;
+
+  .text-button {
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+
+.button-divisiones:hover {
+  background: white; 
+  color:#0098a5 !important;
+  border: 2px solid #0098a5 !important;
+  .text-button {
+    color:#0098a5 !important;
+  }
+}
 .button-register {
   border-radius: 15px;
   background: #0098a5;
@@ -776,7 +840,7 @@ button > .text-white {
 
 @media only screen and (max-width: 991px) {
   .text-title {
-    font-size: 19px;
+    font-size: 17.6px;
   }
 
   .text-body {
@@ -790,7 +854,7 @@ button > .text-white {
 
 @media only screen and (max-width: 767px) {
   .text-title {
-    font-size: 14px;
+    font-size: 13.4px;
   }
 
   .text-body {
@@ -885,6 +949,7 @@ button > .text-white {
   @media (max-width: 767px){
     .text-button{
       word-wrap: break-word;
+      font-size: 13.5px !important;
     }
     .bg-contact{
       height: 538px;
