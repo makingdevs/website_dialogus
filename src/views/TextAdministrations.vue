@@ -17,27 +17,27 @@
     <div class="container" style="margin-top: 82px">
 
         <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Titulo</span>
+            <span class="input-group-text" >Titulo</span>
             <input type="text" class="form-control" placeholder="Titulo de la variable" aria-label="Titulo de la variable" aria-describedby="basic-addon1" v-model="tarjeta.title">
         </div>
         <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon1">Fecha</span>
+          <span class="input-group-text" >Fecha</span>
           <input type="date" class="form-control" placeholder="Nombre del valor" aria-label="Nombre del valor" aria-describedby="basic-addon1" v-model="tarjeta.date">
         </div>
         <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon1">Hora</span>
+          <span class="input-group-text" >Hora</span>
           <input type="time" class="form-control" placeholder="Nombre del valor" aria-label="Nombre del valor" aria-describedby="basic-addon1" v-model="tarjeta.time">
         </div>
         <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon1">Descripción</span>
+          <span class="input-group-text" >Descripción</span>
           <input maxlength = "78" type="text" class="form-control" placeholder="Nombre del valor" aria-label="Nombre del valor" aria-describedby="basic-addon1" v-model="tarjeta.description">
         </div>
         <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon1">Registro (url)</span>
+          <span class="input-group-text" >Registro (url)</span>
           <input type="text" class="form-control" placeholder="Nombre del valor" aria-label="Nombre del valor" aria-describedby="basic-addon1" v-model="tarjeta.urlRegister">
         </div>
         <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon1">Imágen</span>
+          <span class="input-group-text" >Imágen</span>
           <input type="text" class="form-control" placeholder="Nombre del valor" aria-label="Nombre del valor" aria-describedby="basic-addon1" v-model="tarjeta.image">
         </div>
         <div class="d-flex justify-content-center">

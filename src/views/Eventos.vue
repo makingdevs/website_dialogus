@@ -6,10 +6,10 @@
             <div class="container">
               <div class="row">
                 <div class="col-lg-8">
-                  <h1 align="left">Eventos</h1><br>
+                  <h1 align="left">Eventos</h1><div class="m-top-28" />
                   <h3 align="left" class="text-white">Contantamos con una red de expertos</h3>
                   <h3 align="left" class=" text-warning">inscribete a nuestros eventos y lee nuestros blog</h3>
-                  <br>
+                  <div class="m-top-28" />
                 </div>
                 <div class="col-lg-4">
                   <img src="../assets/js/services/Eventos TT.svg" alt=""  align="left">
@@ -23,7 +23,7 @@
         <section class="blog">
             <div class="container">
                     <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
-                        <span class="color_34">Proximos Eventos </span></h1> <br>
+                        <span class="color_34">Proximos Eventos </span></h1> <div class="m-top-28" />
                 <div class="row">
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
                         <article class="card card-style2 card-style4  h-100">
@@ -86,7 +86,7 @@
                 
                     <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
                         <span class="color_34">Conoce Nuestro Blog</span></h1>
-                        <br><br><br>
+                        <div class="m-top-28" /><div class="m-top-28" /><div class="m-top-28" />
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
                         <article class="card card-style2 card-style4 h-100">
                             <div class="card-img">

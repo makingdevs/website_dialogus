@@ -8,14 +8,14 @@
         <div class="row align-items-center min-lg-vh-100">
           <div class="col-lg-8 mb-5 mb-lg-0">
             <h1 align="left"
-              class="text-white display-16 display-md-9 display-lg-7 display-xl-4 mb-1-6 text-shadow font-weight-800 animate__animated animate__bounce">
+              class="text-white display-16 display-md-9 display-lg-7 display-xl-4 mb-1-6 text-shadow font-weight-800 animate__animated animate__bounce font-poppins">
               Innovación que transforma negocios.</h1>
 
             <h6 align="left" class=" text-white font-weight-800 animate__animated animate__fadeInTopLeft">En Dialogus
               nos comprometemos en transformar</h6>
             <h6 align="left" class=" text-white font-weight-800 animate__animated animate__fadeInBottomRight"> los
               negocios para llevarlos al siguiente nivel.</h6>
-            <br>
+            <div class="m-top-28" />
             <div class="d-flex bd-highlight align-items-center">
               <a href="#!"
                 class="h4 btn-circle btn-color-button me-2-4 mb-2-4 mb-sm-0 font-weight-900 animate__animated animate__fadeInUp"
@@ -37,21 +37,29 @@
       <img class="img-hexPagina" src="../assets/js/services/hexagonos-Pagina/hexPagin.svg">
       <div class="container">
         <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
-          <span class="color_34 ">NUESTRAS DIVISIONES </span>
-        </h1><br><br><br>
-        <div class="d-flex justify-content-between bg-divisions flex-mobile">
+          <span class="color_34">NUESTRAS DIVISIONES </span>
+        </h1>
+        <div class="m-top-28" />
+        <div class="m-top-28" />
+        <div class="m-top-28" />
+        <div class="d-flex justify-content-between bg-divisions flex-mobile mt-10">
           <div class="d-flex flex-column bg-card">
 
             <img align="right" :show="handleScroll" class="icon-divisiones alignImag divisionsIcons animate__animated"
-              src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
+              src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;">
+            <div class="m-top-28" />
 
-            <span :show="handleScroll" class="text-title divisionsText animate__animated" style="text-align: center;">Estrategia</span><br>
-            <div class="hr-border" /><br>
-            <span style="text-align: center;" :show="handleScroll" class="h5 flex-grow-1 text-body divisionsText animate__animated" id="text-estrategia">Definimos el
+            <span :show="handleScroll" class="text-title divisionsText animate__animated"
+              style="text-align: center;">Estrategia</span>
+            <div class="m-top-28" />
+            <div class="hr-border" />
+            <div class="m-top-28" />
+            <span style="text-align: center;" :show="handleScroll"
+              class="h5 flex-grow-1 text-body divisionsText animate__animated" id="text-estrategia">Definimos el
               camino para alcanzar tus objetivos de manera exitosa.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
 
-              <router-link to="/estrategia" class="btn-circle btn-color-button" type="submit" style="border: none;"><span
+              <router-link to="/estrategia" class="btn-circle btn-color-button" style="border: none;" type="none"><span
                   class=" text-button" style="text-transform: none;">Conoce más</span></router-link>
 
             </div>
@@ -59,40 +67,53 @@
 
           <div class="d-flex flex-column bg-card">
             <img class="icon-divisiones alignImag2 alignImag  divisionsIcons animate__animated"
-              src="../assets/js/services/Recurso 1.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-            <span style="text-align: center;" class="text-title divisionsText animate__animated">Capital Humano</span><br>
-            <div class="hr-border" /><br>
-            <span style="text-align: center;" class="h5 flex-grow-1 text-body divisionsText animate__animated">Generamos soluciones para el desarrollo del talento
+              src="../assets/js/services/Recurso 1.svg" style=" margin-top: -98px; margin-left: 2px;">
+            <div class="m-top-28" />
+            <span style="text-align: center;" class="text-title divisionsText animate__animated">Capital Humano</span>
+            <div class="m-top-28" />
+            <div class="hr-border" />
+            <div class="m-top-28" />
+            <span style="text-align: center;" class="h5 flex-grow-1 text-body divisionsText animate__animated">Generamos
+              soluciones para el desarrollo del talento
               humano y el desarrollo organizacional.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/capital" class="btn-circle btn-color-button" type="submit" style="border: none;"><span class="text-button"
-                  style="text-transform: none;">Conoce más</span></router-link>
-            </div>
-          </div>
-
-          <div class="d-flex flex-column bg-card">
-            <img class="icon-divisiones alignImag2 alignImag divisionsIcons animate__animated"
-              src="../assets/js/services/Recurso 2.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-            <span style="text-align: center;" class="text-title divisionsText animate__animated">Cumplimiento</span><br>
-            <div class="hr-border" /><br>
-            <span style="text-align: center;" class="h5 flex-grow-1 text-body divisionsText animate__animated">Blindamos a las empresas con sistemas de integridad,
-              ética y gestión de riesgos.</span>
-            <br>
-            <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/cumplimiento" class="btn-circle btn-color-button" type="submit" style="border: none;"><span
+              <router-link to="/capital" class="btn-circle btn-color-button" style="border: none;"><span
                   class="text-button" style="text-transform: none;">Conoce más</span></router-link>
             </div>
           </div>
 
           <div class="d-flex flex-column bg-card">
             <img class="icon-divisiones alignImag2 alignImag divisionsIcons animate__animated"
-              src="../assets/js/services/Recurso 25.svg" style=" margin-top: -98px; margin-left: 2px;"><br>
-            <span style="text-align: center;" class="text-title divisionsText animate__animated">Diagnóstico</span><br>
-            <div class="hr-border" /><br>
-            <span style="text-align: center;" class="h5 flex-grow-1 text-body divisionsText animate__animated">Identificamos fortalezas y debilidades de empresas
+              src="../assets/js/services/Recurso 2.svg" style=" margin-top: -98px; margin-left: 2px;">
+            <div class="m-top-28" />
+            <span style="text-align: center;" class="text-title divisionsText animate__animated">Cumplimiento</span>
+            <div class="m-top-28" />
+            <div class="hr-border" />
+            <div class="m-top-28" />
+            <span style="text-align: center;" class="h5 flex-grow-1 text-body divisionsText animate__animated">Blindamos
+              a las empresas con sistemas de integridad,
+              ética y gestión de riesgos.</span>
+            <div class="m-top-28" />
+            <div class="d-flex justify-content-center mt-5 mb-5">
+              <router-link to="/cumplimiento" class="btn-circle btn-color-button" style="border: none;"><span
+                  class="text-button" style="text-transform: none;">Conoce más</span></router-link>
+            </div>
+          </div>
+
+          <div class="d-flex flex-column bg-card">
+            <img class="icon-divisiones alignImag2 alignImag divisionsIcons animate__animated"
+              src="../assets/js/services/Recurso 25.svg" style=" margin-top: -98px; margin-left: 2px;">
+            <div class="m-top-28" />
+            <span style="text-align: center;" class="text-title divisionsText animate__animated">Diagnóstico</span>
+            <div class="m-top-28" />
+            <div class="hr-border" />
+            <div class="m-top-28" />
+            <span style="text-align: center;"
+              class="h5 flex-grow-1 text-body divisionsText animate__animated">Identificamos fortalezas y debilidades de
+              empresas
               reforzando el ecosistema mexicano.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/diagnostico" class="btn-circle btn-color-button" type="submit" style="border: none;"><span
+              <router-link to="/diagnostico" class="btn-circle btn-color-button" style="border: none;"><span
                   class="text-button" style="text-transform: none;">Conoce más</span></router-link>
             </div>
           </div>
@@ -113,9 +134,14 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <div align="center" class="h1 color_33 presentamosAnimation animate__animated">Te presentamos</div><br>
-            <img align="center" class="img2 presentamosText animate__animated" src="../assets/js/services/Recurso 6.svg" alt="..."><br><br>
-            <div align="center" class="h4 color_33 presentamosText animate__animated">Somos una consultora que ofrece una amplia gama de servicios
+            <div align="center" class="h1 color_33 presentamosAnimation animate__animated">Te presentamos</div>
+            <div class="m-top-28" />
+            <img align="center" class="img2 presentamosText animate__animated" src="../assets/js/services/Recurso 6.svg"
+              alt="...">
+            <div class="m-top-28" />
+            <div class="m-top-28" />
+            <div align="center" class="h4 color_33 presentamosText animate__animated">Somos una consultora que ofrece
+              una amplia gama de servicios
               disruptivos e innovadores, siempre poniendo a la gente al centro de las soluciones.</div>
           </div>
 
@@ -133,8 +159,9 @@
       <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
         <span class="color_34">EVENTOS Y CURSOS </span>
       </h1>
-      <carousel-3d v-if="renderComponent" height="510px" border="0" :controlsVisible="controlsVisible" :controls-prev-html="'&#10092; '" :controls-next-html="'&#10093;'"
-        :perspective="perspective" :inverseScaling="300" :space="385" style="height: 525px;">
+      <carousel-3d v-if="renderComponent" height="510px" border="0" :controlsVisible="controlsVisible"
+        :controls-prev-html="'&#10092; '" :controls-next-html="'&#10093;'" :perspective="perspective"
+        :inverseScaling="300" :space="385" style="height: 525px;">
         <slide :index="index" class="" v-for="(tarjeta, index) in TarjetasCarruselTable" :key="index">
           <div class="card card-style4">
             <div class="card-img"><img :src="tarjeta.image" alt="..." class="tamañoEventos">
@@ -148,11 +175,12 @@
                     class="ti-calendar me-2 custom-icon"></i>{{tarjeta.date}}</span>
                 <span class="text-white"><i class="ti-time custom-icon me-2"></i>{{tarjeta.time}}</span>
               </div>
-              <p align="center" class="text-white">{{tarjeta.description}}</p><br>
+              <p align="center" class="card-description-carousel">{{tarjeta.description}}</p>
+              <div class="mt-7" />
               <hr class="hr2" />
               <div class="d-flex justify-content-center">
-                <a class="tolowercase btn-circle btn-color-button" :href="tarjeta.urlRegister" target="_blank" style="border: none;"><span
-                    class="text-button" style="text-transform: none;">Regístrate </span></a>
+                <a class="tolowercase button-register" :href="tarjeta.urlRegister" target="_blank"
+                ><span class="text-button">Regístrate </span></a>
               </div>
             </div>
           </div>
@@ -166,121 +194,126 @@
     <!-- EXTRA
         ================================================== -->
     <section class="container">
-      <div class="row" style="background: #e8eaea; border-radius: 12px; padding-bottom: 29px;">
+      <div class="row m-2 justify-content-md-center" style="background: #e8eaea; border-radius: 12px; padding-bottom: 29px;">
         <div class="col-12" style="background-color: #3f5479; border-radius: 12px 12px 0px 0px">
-          <h1 class="d-flex justify-content-center text-white text-contact">CONTACTO</h1>
+          <h1 class="d-flex justify-content-center text-white text-contact pt-2">CONTACTO</h1>
         </div>
         <div class="col-12">
-                <p align="center" class=" mb-1-6 text-dark text-contact">
-                  Compártenos tus datos y en breve uno
-                  de nuestros asesores te contactará.</p>
+          <p align="center" class=" mb-1-6 text-dark text-contact mt-3">
+            Compártenos tus datos y en breve uno
+            de nuestros asesores te contactará.</p>
         </div>
-        <div class="d-flex justify-content-between">
-          <div class="col-8">
-            <div class="ps-lg-2">
-              <div class="contact-form-area">
-                <form class="quform" @submit.prevent="sendNotification">
+        <div class="col-12 col-lg-8">
+          <div class="ps-lg-2">
+            <div class="contact-form-area">
+              <form class="quform" @submit.prevent="sendNotification">
 
-                  <div class="quform-elements">
+                <div class="quform-elements">
 
-                    <div class="row">
+                  <div class="row">
 
-                      <!-- Begin Text input element -->
-                      <div class="col-md-6">
-                        <div class="quform-element">
+                    <!-- Begin Text input element -->
+                    <div class="col-md-6">
+                      <div class="quform-element">
 
-                          <div class="quform-input">
-                            <input v-model="contact.name" class="form-control form-control1" id="name" type="text"
-                              name="name" placeholder="Nombre" />
-                          </div>
-                        </div>
-
-                      </div>
-                      <!-- End Text input element -->
-
-                      <!-- Begin Text input element -->
-                      <div class="col-md-6">
-                        <div class="quform-element">
-
-                          <div class="quform-input">
-                            <input v-model="contact.email" class="form-control form-control1" id="email" type="text"
-                              name="email" placeholder="Email" />
-                          </div>
+                        <div class="quform-input">
+                          <input v-model="contact.name" class="form-control form-control1" id="name" type="text"
+                            name="name" placeholder="Nombre" />
                         </div>
                       </div>
-                      <!-- End Text input element -->
-
-                      <!-- Begin Text input element -->
-
-                      <!-- End Text input element -->
-
-                      <!-- Begin Text input element -->
-                      <div class="col-md-6">
-                        <div class="quform-element">
-                          <div class="quform-input">
-                            <input v-model="contact.telf" class="form-control form-control1" id="phone" type="text"
-                              name="phone" placeholder="Telefono" />
-                          </div>
-                        </div>
-                      </div>
-                      <!-- Begin Text input element -->
-                      <div class="col-md-6">
-                        <div class="quform-element">
-                          
-                          <div class="quform-input">
-                            <input v-model="contact.asunto" class="form-control form-control1" id="subject" type="text" name="subject"
-                              placeholder="Tu asunto aqui" />
-                          </div>
-                        </div>
-                      </div>
-                      <!-- End Text input element -->
-                      <div class="col-md-12">
-                        <div class="quform-element">
-                          <label for="message"><span class="quform-required"></span></label>
-                          <div class="quform-input">
-                            <textarea v-model="contact.mensaje" class="form-control form-control1" id="message"
-                              name="message" rows="3" placeholder="¿Cómo podemos ayudarte?"></textarea>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- End Textarea element -->
-
-                      <!-- Begin Submit button -->
-                      <div class="col-md-12">
-                        <div class="quform-submit-inner">
-                          <div class="d-flex justify-content-center">
-                            <button class="theme butn-md btn-circle btn-width-contact" style="border: none;"><span
-                                class="text-button">Enviar respuesta</span></button>
-                          </div>
-                        </div><br>
-                        <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
-                      </div>
-                      <!-- End Submit button -->
 
                     </div>
-                  </div>
-                </form>
+                    <!-- End Text input element -->
 
-              </div>
+                    <!-- Begin Text input element -->
+                    <div class="col-md-6">
+                      <div class="quform-element">
+
+                        <div class="quform-input">
+                          <input v-model="contact.telf" class="form-control form-control1" id="phone" type="text"
+                            name="phone" placeholder="Telefono" />
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Text input element -->
+
+                    <!-- Begin Text input element -->
+
+                    <!-- End Text input element -->
+
+                    <!-- Begin Text input element -->
+                    <div class="col-md-6">
+                      <div class="quform-element">
+                        <div class="quform-input">
+                          <input v-model="contact.email" class="form-control form-control1" id="email" type="text"
+                            name="email" placeholder="Email" />
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Begin Text input element -->
+                    <div class="col-md-6">
+                      <div class="quform-element">
+
+                        <div class="quform-input">
+                          <input v-model="contact.asunto" class="form-control form-control1" id="subject" type="text"
+                            name="subject" placeholder="Tu asunto aqui" />
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Text input element -->
+                    <div class="col-md-12">
+                      <div class="quform-element">
+                        <div class="quform-input">
+                          <textarea v-model="contact.mensaje" class="form-control form-control1" id="message"
+                            name="message" rows="9" placeholder="¿Cómo podemos ayudarte?"></textarea>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Textarea element -->
+
+                    <!-- Begin Submit button -->
+                    <div class="col-md-12">
+                      <div class="quform-submit-inner">
+                        <div class="d-flex justify-content-center">
+                          <button class="theme butn-md btn-width-contact" style="border: none;"><span
+                              class="text-button">Enviar respuesta</span></button>
+                        </div>
+                      </div>
+                      <div class="m-top-28" />
+                      <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
+                    </div>
+                    <!-- End Submit button -->
+
+                  </div>
+                </div>
+              </form>
+
             </div>
           </div>
+        </div>
 
-          <div class="col-4">
-            <div class=""><br>
-              <div class="d-flex flex-column cuadrado2 text-white "><br>
-                <img align="center" class="telef" src="../assets/js/services/telfono.svg"><br>
-                <a href="tel:55 16556739998">
-                <p align="center" class="text-cuadrado2 text-white">55 16556739998</p>
-                </a>
-                <img class="telef" src="../assets/js/services/messa.svg"><br>
-                <a class="button" href="mailto:contactanos@dialogus.com.mx">
-                <p align="center" class="text-cuadrado2 email-text text-white">contactanos@dialogus.com.mx</p></a>
-                  
-                <img class="telef" src="../assets/js/services/ubicacion.svg"><br>
-                <a href="https://goo.gl/maps/NLyroJ8KhabcxJy4A" target="_blank">
-                <p align="center" class="text-cuadrado2 text-white">Periferico Sur 4121, Fuentes del Pedregal, Tlalpan, 14140 Ciudad de México, CDMX</p>
-                </a>
-              </div>
+        <div class="col-12 col-lg-4">
+          <div class="">
+            <div class="m-top-28" />
+            <div class="d-flex flex-column cuadrado2 p-2">
+              <div class="m-top-28" />
+              <img align="center" class="telef" src="../assets/js/services/telfono.svg">
+              <div class="m-top-28" />
+              <a href="tel:55 16556739998">
+                <p align="center" class="text-cuadrado2">55 16556739998</p>
+              </a>
+              <img class="telef" src="../assets/js/services/messa.svg">
+              <div class="m-top-28" />
+              <a class="button" href="mailto:contactanos@dialogus.com.mx">
+                <p align="center" class="text-cuadrado2 email-text">contactanos@dialogus.com.mx</p>
+              </a>
+
+              <img class="telef" src="../assets/js/services/ubicacion.svg">
+              <div class="m-top-28" />
+              <a href="https://goo.gl/maps/NLyroJ8KhabcxJy4A" target="_blank">
+                <p align="center" class="text-cuadrado2">Periferico Sur 4121, Fuentes del Pedregal, Tlalpan, 14140
+                  Ciudad de México, CDMX</p>
+              </a>
             </div>
           </div>
         </div>
@@ -298,7 +331,7 @@
   import VueTextTransition from 'vue-text-transition';
   import '../assets/css/_main.scss'
   import '../assets/css/home.scss'
-  
+
   import { TarjetasCarruselTableRef } from '../dbConnection'
   export default {
     name: "home",
@@ -387,14 +420,14 @@
           this.animate__animated = true;
         }
       },
-      animationDivisionsText(){
+      animationDivisionsText() {
         if (window.scrollY > 400 && this.animate__animated_text) {
           const divisionsText = document.getElementsByClassName("divisionsText")
           for (const textDivision of divisionsText) {
             textDivision.classList.add("animate__fadeInBottomRight")
           }
           this.animate__animated_text = false;
-        } 
+        }
       },
       returnAnimateText() {
         if (window.scrollY < 200 && !this.animate__animated_text) {
@@ -405,15 +438,15 @@
           this.animate__animated_text = true;
         }
       },
-      
-      animationPresentamos(){
+
+      animationPresentamos() {
         if (window.scrollY > 1200 && this.animate_presentamos) {
           const presentamos = document.getElementsByClassName("presentamosAnimation")
           for (const presentamosAnimation of presentamos) {
             presentamosAnimation.classList.add("animate__fadeInDown")
           }
           this.animate_presentamos = false;
-        } 
+        }
       },
       returnPresentamos() {
         if (window.scrollY < 200 && !this.animate_presentamos) {
@@ -424,15 +457,15 @@
           this.animate_presentamos = true;
         }
       },
-      
-      presentamosText(){
+
+      presentamosText() {
         if (window.scrollY > 1200 && this.animate_presentamos_text) {
           const textPresentamos = document.getElementsByClassName("presentamosText")
           for (const presentamosTextAnimation of textPresentamos) {
             presentamosTextAnimation.classList.add("animate__fadeInUp")
           }
           this.animate_presentamos_text = false;
-        } 
+        }
       },
       returnPresentamosText() {
         if (window.scrollY < 250 && !this.animate_presentamos_text) {

@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="app">
     <!-- navbar -->
     <header class="header-style1 menu_area-light">
       <div class="navbar-default nav">
@@ -55,8 +55,8 @@
                         </div>
                         <i class="fas fa-sort-down show-arrow" style="margin-left: 10px;"></i>
                       </router-link>
-                      <ul style="padding: 0px 0px 0px 0px;">
-                        <div class="sub-menu-services">
+                      <ul class="p-0">
+                        <div class="sub-menu-services p-3">
                           <li>
                             <router-link to="/estrategia">Estrategia</router-link>
                           </li>
