@@ -142,41 +142,33 @@
           </div>
           <div class="d-flex justify-content-start flex-column">
             <ul class="list-style1" align="left">
-              <li>
                 <router-link to="/about" class="text-footercolor" style="font-size: 23px">
                   Nosotros
                 </router-link>
-              </li>
             </ul>
           </div>
           <div class="vl-footer"></div>
           <div class="d-flex justify-content-start flex-column">
             <ul class="list-style1" align="left">
-              <li>
                 <a href="#seccion-services" class="text-footercolor" style="font-size: 23px">
                   Servicios
                 </a>
-              </li>
             </ul>
           </div>
           <div class="vl-footer"></div>
           <div class="d-flex justify-content-start flex-column">
             <ul class="list-style1" align="left">
-              <li>
                 <router-link to="/eventos" class="text-footercolor" style="font-size: 23px">
                   Eventos
                 </router-link>
-              </li>
             </ul>
           </div>
           <div class="vl-footer"></div>
           <div class="d-flex justify-content-start flex-column">
             <ul class="list-style1" align="left">
-              <li>
                 <router-link to="/contacto" class="text-footercolor" style="font-size: 23px">
                   Contacto
                 </router-link>
-              </li>
             </ul>
           </div>
           <div class="d-flex justify-content-start flex-column"></div>
@@ -194,14 +186,14 @@
         </div>
         <div class="d-flex justify-content-between flex-mobile">
           <div class="d-flex justify-content-start">
-            <li class="socialmedia">
+            <ul class="socialmedia">
               <a class="socialmedia" href="https://twitter.com/Dialogus_LAT"><img src="./assets/js/services/TW.svg"
                   width="50" style="margin: 8px;"></a>
               <a href="https://www.facebook.com/DialogusConsultores"><img src="./assets/js/services/FB.svg" width="50"
                   style="margin: 8px;"></a>
               <a href="https://www.linkedin.com/company/dialogus-consultores/"><img src="./assets/js/services/IN.svg"
                   width="50" style="margin: 8px;"></a>
-            </li>
+            </ul>
           </div>
           <div class="d-flex flex-column bg-card-footer1">
             <p align="center" class="text-footercolor" style="margin-left: 0px; font-size: 15px;">
