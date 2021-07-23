@@ -76,108 +76,109 @@
 
         <!-- CONTACT FORM
         ================================================== -->
-        <section class="container">
-            <div class="row" style="background: #e8eaea; border-radius: 12px">
-              <div class="col-12" style="background-color: #3f5479; border-radius: 12px 12px 0px 0px">
-                <h1 class="d-flex justify-content-center text-white text-contact">CONTACTO</h1>
-              </div>
-              <div class="col-12">
-                      <p align="center" class=" mb-1-6 text-dark text-contact">
-                        Compártenos tus datos y en breve uno
-                        de nuestros asesores te contactará.</p>
-              </div>
-              <div class="d-flex justify-content-between">
-                <div class="col-12">
-                  <div class="ps-lg-2">
-                    <div class="contact-form-area">
-                      <form class="quform" @submit.prevent="sendNotification">
-      
-                        <div class="quform-elements">
-      
-                          <div class="row">
-      
-                            <!-- Begin Text input element -->
-                            <div class="col-md-6">
-                              <div class="quform-element">
-      
-                                <div class="quform-input">
-                                  <input v-model="contact.name" class="form-control form-control1" id="name" type="text"
-                                    name="name" placeholder="Nombre" />
-                                </div>
-                              </div>
-      
-                            </div>
-                            <!-- End Text input element -->
-      
-                            <!-- Begin Text input element -->
-                            <div class="col-md-6">
-                              <div class="quform-element">
-      
-                                <div class="quform-input">
-                                  <input v-model="contact.email" class="form-control form-control1" id="email" type="text"
-                                    name="email" placeholder="Email" />
-                                </div>
-                              </div>
-                            </div>
-                            <!-- End Text input element -->
-      
-                            <!-- Begin Text input element -->
-      
-                            <!-- End Text input element -->
-      
-                            <!-- Begin Text input element -->
-                            <div class="col-md-6">
-                              <div class="quform-element">
-                                <div class="quform-input">
-                                  <input v-model="contact.telf" class="form-control form-control1" id="phone" type="text"
-                                    name="phone" placeholder="Telefono" />
-                                </div>
-                              </div>
-                            </div>
-                            <!-- Begin Text input element -->
-                            <div class="col-md-6">
-                              <div class="quform-element">
-                                
-                                <div class="quform-input">
-                                  <input v-model="contact.asunto" class="form-control form-control1" id="subject" type="text" name="subject"
-                                    placeholder="Tu asunto aqui" />
-                                </div>
-                              </div>
-                            </div>
-                            <!-- End Text input element -->
-                            <div class="col-md-12">
-                              <div class="quform-element">
-                                <label for="message"><span class="quform-required"></span></label>
-                                <div class="quform-input">
-                                  <textarea v-model="contact.mensaje" class="form-control form-control1" id="message"
-                                    name="message" rows="3" placeholder="¿Cómo podemos ayudarte?"></textarea>
-                                </div>
-                              </div>
-                            </div>
-                            <!-- End Textarea element -->
-      
-                            <!-- Begin Submit button -->
-                            <div class="col-md-12">
-                              <div class="quform-submit-inner">
-                                <div class="d-flex justify-content-center">
-                                  <button class="theme butn-md btn-circle schedule-button btn-width-contact"><span
-                                      class="text-button">Enviar respuesta</span></button>
-                                </div>
-                              </div><br>
-                              <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
-                            </div>
-                            <!-- End Submit button -->
-      
-                          </div>
+<section class="container">
+      <div class="row m-2 justify-content-md-center" style="background: #e8eaea; border-radius: 12px; padding-bottom: 29px;">
+        <div class="col-12" style="background-color: #3f5479; border-radius: 12px 12px 0px 0px">
+          <h1 class="d-flex justify-content-center text-white text-contact pt-2">CONTACTO</h1>
+        </div>
+        <div class="col-12">
+          <p align="center" class=" mb-1-6 text-dark text-contact mt-3">
+            Compártenos tus datos y en breve uno
+            de nuestros asesores te contactará.</p>
+        </div>
+        <div class="col-12 col-lg-8">
+          <div class="ps-lg-2">
+            <div class="contact-form-area">
+              <form class="quform" @submit.prevent="sendNotification">
+
+                <div class="quform-elements">
+
+                  <div class="row">
+
+                    <!-- Begin Text input element -->
+                    <div class="col-md-6">
+                      <div class="quform-element">
+
+                        <div class="quform-input">
+                          <input v-model="contact.name" class="form-control form-control1" id="name" type="text"
+                            name="name" placeholder="Nombre" />
                         </div>
-                      </form>
+                      </div>
+
                     </div>
+                    <!-- End Text input element -->
+
+                    <!-- Begin Text input element -->
+                    <div class="col-md-6">
+                      <div class="quform-element">
+
+                        <div class="quform-input">
+                          <input v-model="contact.telf" class="form-control form-control1" id="phone" type="text"
+                            name="phone" placeholder="Telefono" />
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Text input element -->
+
+                    <!-- Begin Text input element -->
+
+                    <!-- End Text input element -->
+
+                    <!-- Begin Text input element -->
+                    <div class="col-md-6">
+                      <div class="quform-element">
+                        <div class="quform-input">
+                          <input v-model="contact.email" class="form-control form-control1" id="email" type="text"
+                            name="email" placeholder="Email" />
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Begin Text input element -->
+                    <div class="col-md-6">
+                      <div class="quform-element">
+
+                        <div class="quform-input">
+                          <input v-model="contact.asunto" class="form-control form-control1" id="subject" type="text"
+                            name="subject" placeholder="Tu asunto aqui" />
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Text input element -->
+                    <div class="col-md-12">
+                      <div class="quform-element">
+                        <div class="quform-input">
+                          <textarea v-model="contact.mensaje" class="form-control form-control1" id="message"
+                            name="message" rows="9" placeholder="¿Cómo podemos ayudarte?"></textarea>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Textarea element -->
+
+                    <!-- Begin Submit button -->
+                    <div class="col-md-12">
+                      <div class="quform-submit-inner">
+                        <div class="d-flex justify-content-center">
+                          <button class="theme butn-md btn-width-contact" style="border: none;"><span
+                              class="text-button">Enviar respuesta</span></button>
+                        </div>
+                      </div>
+                      <div class="m-top-28" />
+                      <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
+                    </div>
+                    <!-- End Submit button -->
+
                   </div>
                 </div>
-              </div>
+              </form>
+
             </div>
-            <img class="img-hexPagina-contac" src="../assets/js/services/hexagonos-Pagina/hexPagin.svg">
-          </section>
+          </div>
+        </div>
+      </div>
+      <!--
+        <img class="img-hexPagina-contac" src="../assets/js/services/hexagonos-Pagina/hexPagin.svg">
+       -->
+    </section>
     </div>
 </template>
 <script>
