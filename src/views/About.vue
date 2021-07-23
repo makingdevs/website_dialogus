@@ -87,82 +87,99 @@
         <section class="testimonios">
             <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
             <span class="color_34 font-weight-500 font-poppins">Testimonios </span></h1>
-                <VueSlickCarousel :dots="true" :arrows="true">
-                  <div>
-                    <div class="d-flex justify-content-between bg-testimonios flex-mobile">
-                      <div class="d-flex flex-column bg-card-testimonios">
-                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 0px;">
-                        <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Testimonio 1</span>
-                         <div class="rating" align="center">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
+                
+                <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="d-flex justify-content-between bg-testimonios flex-mobile">
+                        <div class="d-flex flex-column bg-card-testimonios">
+                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                          <div class="m-top-28" />
+                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
+                          <div class="rating" align="center">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </div>
+                        </div>
+                        <div class="d-flex flex-column bg-card-testimonios">
+                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                          <div class="m-top-28" />
+                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
+                          <div class="rating" align="center">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </div>
+                        </div>
+                        <div class="d-flex flex-column bg-card-testimonios">
+                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                          <div class="m-top-28" />
+                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
+                          <div class="rating" align="center">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </div>
                         </div>
                       </div>
-                      <div class="d-flex flex-column bg-card-testimonios">
-                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
-                        <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Testimonio 2</span>
-                         <div class="rating" align="center">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="d-flex justify-content-between bg-testimonios flex-mobile">
+                        <div class="d-flex flex-column bg-card-testimonios">
+                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                          <div class="m-top-28" />
+                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
+                          <div class="rating" align="center">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </div>
                         </div>
-                      </div>
-                      <div class="d-flex flex-column bg-card-testimonios">
-                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
-                        <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Testimonio 3</span>
-                         <div class="rating" align="center">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
+                        <div class="d-flex flex-column bg-card-testimonios">
+                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                          <div class="m-top-28" />
+                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
+                          <div class="rating" align="center">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </div>
+                        </div>
+                        <div class="d-flex flex-column bg-card-testimonios">
+                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                          <div class="m-top-28" />
+                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
+                          <div class="rating" align="center">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div>
-                    <div class="d-flex justify-content-between bg-testimonios flex-mobile">
-                      <div class="d-flex flex-column bg-card-testimonios">
-                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
-                        <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Testimonio 4</span>
-                         <div class="rating" align="center">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                        </div>
-                      </div>
-                      <div class="d-flex flex-column bg-card-testimonios">
-                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
-                        <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Testimonio 5</span>
-                         <div class="rating" align="center">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                        </div>
-                      </div>
-                      <div class="d-flex flex-column bg-card-testimonios">
-                        <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
-                        <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Testimonio 6</span>
-                         <div class="rating" align="center">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </VueSlickCarousel>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
             </section>
         
   </div>
@@ -316,10 +333,6 @@ element.style {
 </style>
 
 <script>
-import VueSlickCarousel from 'vue-slick-carousel'
-  import 'vue-slick-carousel/dist/vue-slick-carousel.css'
-  // optional style for arrows & dots
-  import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
   import '../assets/css/_main.scss'
   import '../assets/css/home.scss'
   export default {
@@ -333,7 +346,7 @@ import VueSlickCarousel from 'vue-slick-carousel'
 
     },
     components: {
-      VueSlickCarousel,
+      //VueSlickCarousel,
     },
     
     methods: {
