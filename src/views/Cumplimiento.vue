@@ -10,10 +10,10 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-8">
-                <h1 align="left">Cumplimiento</h1><br>
-                <h3 align="left" class="text-white">Buscamos impulsar una cultura de honestidad</h3>
-                <h3 align="left" class=" text-warning">y buenos valores para tu organización.</h3>
-                <br>
+                <h1 align="left" class="font-weight-700 font-poppins">Cumplimiento</h1><div class="m-top-28" />
+                <h3 align="left" class="font-weight-300 font-poppins" style="color:#ffffff">Buscamos impulsar una cultura de honestidad</h3>
+                <h3 align="left" class="font-weight-300 font-poppins" style="color:#ffc107">y buenos valores para tu organización.</h3>
+                <div class="m-top-28" />
               </div>
               <div class="col-lg-4">
                 <img src="../assets/js/services/Cumplimiento/Cumplimiento TT.svg" alt=""  align="left">
@@ -26,7 +26,7 @@
         <section class="servi" style="color: black;">
 
          <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
-          <span class="color_34">NUESTROS SERVICIOS </span></h1><br><br><br>
+          <span class="color_34 font-weight-500 font-poppins">NUESTROS SERVICIOS </span></h1><div class="m-top-28" />
 
           <card-service :title="'Programas de Ética y Políticas de Integridad'" :button-text="'Quiero saber más'" :imageSquare="'persona1.webp'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">

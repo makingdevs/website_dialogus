@@ -7,10 +7,10 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-8">
-                <h1 align="left">Nosotros</h1><br>
-                <h3 align="left" class="text-white">Conoce más acerca de nosotros</h3>
-                <h3 align="left" class=" text-warning">y nuestra visión para nuestros clientes.</h3>
-                <br>
+                <h1 align="left" class="font-weight-700 font-poppins">Nosotros</h1><div class="m-top-28" />
+                <h3 align="left" class="font-weight-300 font-poppins" style="color:#FFFFFF">Conoce más acerca de nosotros</h3>
+                <h3 align="left" class="font-weight-300 font-poppins" style="color:#ffc107">y nuestra visión para nuestros clientes.</h3>
+                <div class="m-top-28" />
               </div>
               <div class="col-lg-4">
                 <img src="../assets/js/services/Nosotros/Nosotros TT.svg" alt=""  align="left">
@@ -28,22 +28,22 @@
 
             <div class="d-flex flex-column bg-card-about">
               <img align="right" :showç="handleScroll" class="icon-about alignImag divisionsIcons animate__animated" src="../assets/js/services/Nosotros/Nosotros 1.svg" style=" margin-top: -98px; margin-left: 2px;">
-              <span align="center" class="text-title">Misión</span><br>
-              <div class="hr-border"/><br>
-              <span align="center" class="h5 flex-grow-1 text-body animate__animated" id="text-estrategia">Acompañamos el desarrollo de nuestros clientes, mediante metodologías innovadoras contribuyendo en su rentabilidad, productividad y satisfacción.</span>
+              <span align="center" class="text-title font-weight-500 font-poppins">Misión</span><div class="m-top-28" />
+              <div class="hr-border"/><div class="m-top-28" />
+              <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins">Acompañamos el desarrollo de nuestros clientes, mediante metodologías innovadoras contribuyendo en su rentabilidad, productividad y satisfacción.</span>
             </div>
             <div class="d-flex flex-column bg-card-about">
               <img class="icon-about alignImag2 alignImag  divisionsIcons animate__animated" src="../assets/js/services/Nosotros/Nosotros 2.svg" style=" margin-top: -98px; margin-left: 2px;">
-              <span align="center" class="text-title">Visión</span><br>
-              <div class="hr-border"/><br>
-              <span align="center" class="h5 flex-grow-1 text-body">Generar Prosperidad Incluyente mediante el crecimiento y la permanencia de las empresas en el mercado.</span>
+              <span align="center" class="text-title font-weight-500 font-poppins">Visión</span><div class="m-top-28" />
+              <div class="hr-border"/><div class="m-top-28" />
+              <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins">Generar Prosperidad Incluyente mediante el crecimiento y la permanencia de las empresas en el mercado.</span>
             </div>
 
             <div class="d-flex flex-column bg-card-about">
               <img class="icon-about alignImag2 alignImag divisionsIcons animate__animated" src="../assets/js/services/Nosotros/Nosotros 3.svg" style=" margin-top: -98px; margin-left: 2px;">
-              <span align="center" class="text-title">Propósito</span><br>
-              <div class="hr-border"/><br>
-              <span align="center" class="h5 flex-grow-1 text-body">Apasionados por colaborar en la transformación de nuestros clientes y fomentar relaciones de confianza a largo plazo.</span>
+              <span align="center" class="text-title font-weight-500 font-poppins">Propósito</span><div class="m-top-28" />
+              <div class="hr-border"/><div class="m-top-28" />
+              <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins">Apasionados por colaborar en la transformación de nuestros clientes y fomentar relaciones de confianza a largo plazo.</span>
             </div>
           </div>
 
@@ -57,26 +57,26 @@
               <div class="d-flex justify-content-between bg-counter flex-mobile">
                 <div class="d-flex flex-column bg-card-counter">
                   <img align="right" :showç="handleScroll" class="icon-divisiones alignImag divisionsIcons" src="../assets/js/services/Recurso 17.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
-                  <span align="center" class="text-title-counter">107</span><br>
-                  <span align="center" class="h5 text-counter">Reuniones con CEO's y Directores para definir la división de sus negocios</span>
+                  <span align="center" class="text-title-counter font-weight-800 font-poppins">107</span><br>
+                  <span align="center" class="h5 text-counter font-weight-300 font-poppins">Reuniones con CEO's y Directores para definir la división de sus negocios</span>
                 </div>
                 <div class="vl-about"></div>
                 <div class="d-flex flex-column bg-card-counter">
                   <img class="icon-divisiones alignImag2 alignImag  divisionsIcons" src="../assets/js/services/Recurso 1.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
-                  <span align="center" class="text-title-counter">338</span><br>
-                  <span align="center" class="h5 text-counter">Becarios distribuidos en 23 Áreas y Unidades de Negocio</span>
+                  <span align="center" class="text-title-counter font-weight-800 font-poppins">338</span><br>
+                  <span align="center" class="h5 text-counter font-weight-300 font-poppins">Becarios distribuidos en 23 Áreas y Unidades de Negocio</span>
                 </div>
                 <div class="vl-about"></div>
                 <div class="d-flex flex-column bg-card-counter">
                   <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/Recurso 2.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
-                  <span align="center" class="text-title-counter">1500</span><br>
-                  <span align="center" class="h5 text-counter">Investigadores certificados para atender denuncias</span>
+                  <span align="center" class="text-title-counter font-weight-800 font-poppins">1500</span><br>
+                  <span align="center" class="h5 text-counter font-weight-300 font-poppins">Investigadores certificados para atender denuncias</span>
                 </div>
                 <div class="vl-about"></div>
                 <div class="d-flex flex-column bg-card-counter">
-                  <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/Recurso 2.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
-                  <span align="center" class="text-title-counter">400</span><br>
-                  <span align="center" class="h5 text-counter">Proveedores Certificados en los distintos niveles</span>
+                  <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/Recurso 25.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
+                  <span align="center" class="text-title-counter font-weight-800 font-poppins">400</span><br>
+                  <span align="center" class="h5 text-counter font-weight-300 font-poppins">Proveedores Certificados en los distintos niveles</span>
                 </div>
               </div>
 
@@ -86,13 +86,13 @@
         ================================================== -->
         <section class="testimonios">
             <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
-            <span class="color_34">Testimonios </span></h1>
-                <VueSlickCarousel :arrows="true" :dots="true">
+            <span class="color_34 font-weight-500 font-poppins">Testimonios </span></h1>
+                <VueSlickCarousel :dots="true" :arrows="true">
                   <div>
                     <div class="d-flex justify-content-between bg-testimonios flex-mobile">
                       <div class="d-flex flex-column bg-card-testimonios">
                         <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 0px;">
-                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 1</span>
+                        <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Testimonio 1</span>
                          <div class="rating" align="center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -103,7 +103,7 @@
                       </div>
                       <div class="d-flex flex-column bg-card-testimonios">
                         <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
-                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 2</span>
+                        <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Testimonio 2</span>
                          <div class="rating" align="center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -114,7 +114,7 @@
                       </div>
                       <div class="d-flex flex-column bg-card-testimonios">
                         <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
-                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 3</span>
+                        <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Testimonio 3</span>
                          <div class="rating" align="center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -129,7 +129,7 @@
                     <div class="d-flex justify-content-between bg-testimonios flex-mobile">
                       <div class="d-flex flex-column bg-card-testimonios">
                         <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
-                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 4</span>
+                        <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Testimonio 4</span>
                          <div class="rating" align="center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -140,7 +140,7 @@
                       </div>
                       <div class="d-flex flex-column bg-card-testimonios">
                         <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
-                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 5</span>
+                        <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Testimonio 5</span>
                          <div class="rating" align="center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -151,7 +151,7 @@
                       </div>
                       <div class="d-flex flex-column bg-card-testimonios">
                         <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
-                        <span align="center" class="h5 flex-grow-1 text-body" id="text-estrategia">Testimonio 6</span>
+                        <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Testimonio 6</span>
                          <div class="rating" align="center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -260,7 +260,7 @@ element.style {
   .vl-about {
     margin-top: 60px;
     border-left: 2px solid #ffcc00;
-    height: 310px;
+    height: 370px;
 }
 
   .image-tamaño {

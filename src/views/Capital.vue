@@ -10,10 +10,10 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-8">
-                <h1 align="left">Capital Humano</h1><br>
-                <h3 align="left" class="text-white">Generamos soluciones para la gestión de talento,</h3>
-                <h3 align="left" class=" text-warning">y buscamos estrategias de bienestar para tu organización.</h3>
-                <br>
+                <h1 align="left" class="font-weight-700 font-poppins">Capital Humano</h1><div class="m-top-28" />
+                <h3 align="left" class="font-weight-300 font-poppins" style="color:#ffffff">Generamos soluciones para la gestión de talento,</h3>
+                <h3 align="left" class="font-weight-300 font-poppins" style="color:#ffc107">y buscamos estrategias de bienestar para tu organización.</h3>
+                <div class="m-top-28" />
               </div>
               <div class="col-lg-4">
                 <img src="../assets/js/services/Capital/Capital TT.svg" alt=""  align="left">
@@ -26,7 +26,7 @@
         <section class="servi" style="color: black;">
 
          <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
-          <span class="color_34">NUESTROS SERVICIOS </span></h1><br><br><br>
+          <span class="color_34 font-weight-500 font-poppins">NUESTROS SERVICIOS </span></h1><div class="m-top-28" />
 
           <card-service :title="'Semillero de talento'" :button-text="'Quiero saber más'" :imageSquare="'persona1.webp'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat.'">
@@ -69,7 +69,7 @@
     background-image: url('../assets/serv1.jpg');
   }
   .servi{
-    background-color: #dad6d6e1;
+    background-color: #ffffff!important;
   }
 
   body {

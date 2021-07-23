@@ -7,11 +7,11 @@
       </div>
       <div class="col-md-6 col-sm-12 col-body-text-custom">
         <div class="d-flex flex-column body-card">
-          <div class="title">
+          <div class="title font-weight-500 font-poppins">
             {{title}}
           </div>
           <hr class="small-line">
-          <div class="body-text">
+          <div class="body-text font-weight-300 font-poppins">
             {{bodyText}}
           </div>
           <div class="button-card">
@@ -65,7 +65,7 @@
   }
 
   .body-card {
-    background-color: white;
+    background-color: #e8eaea;
     height: 375px;
     width: 100%;
     padding: 30px;
@@ -84,14 +84,14 @@
   .title {
     color: #35547c !important;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
     margin-top: 25px;
+    font-size: 25px;
   }
 
   .verticale-line {
     border-left: 10px solid #ffc107;
     height: 400px;
-    margin-left: 80px;
+    margin-left: 90px;
   }
 
   .butn.small {
