@@ -133,7 +133,7 @@
 
     <!-- FOOTER
         ================================================== -->
-    <footer>
+    <footer style="padding: 87px;">
       <div id="contacto" class="container-fluid">
         <div class="d-flex justify-content-between flex-mobile">
           <div class="d-flex justify-content-start">
