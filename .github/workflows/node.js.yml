@@ -18,21 +18,21 @@ on:
             matrix:
               node-version: [16.x]
 
-              steps:
-                - uses: actions/checkout@v2
-                - uses: actions/setup-node@v2
-                  name: Use Node.js ${{ matrix.node-version }}
-                  with:
-                    node-version: ${{ matrix.node-version }}
-                    cache: 'npm'
-                - run: npm install --no-audit
-                - run: npm run build
-                - run: ls dist
+          steps:
+            - uses: actions/checkout@v2
+            - uses: actions/setup-node@v2
+              name: Use Node.js ${{ matrix.node-version }}
+              with:
+                node-version: ${{ matrix.node-version }}
+                cache: 'npm'
+            - run: npm install --no-audit
+            - run: npm run build
+            - run: ls dist
 
-                - uses: shallwefootball/s3-upload-action@master
-                - name: Upload S3
-                  with:
-                    aws_key_id: ${{ secrets.AWS_KEY_ID }}
-                    aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
-                    aws_bucket: ${{ secrets.AWS_BUCKET }}
-                    source_dir: 'dist/index.html'
+            - uses: shallwefootball/s3-upload-action@master
+            - name: Upload S3
+              with:
+                aws_key_id: ${{ secrets.AWS_KEY_ID }}
+                aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
+                aws_bucket: ${{ secrets.AWS_BUCKET }}
+                source_dir: 'dist/index.html'
