@@ -4,7 +4,7 @@
       <video autoplay muted id="video-home">
         <source src="../assets/animacion-cor.mp4" type="video/mp4">
       </video>
-      <button class="boton-prueba">Dercargar Guia Dialogus</button>
+      <button class="boton-prueba">Dercargar Guia</button>
     </section>
     <!-- SERVICE================================================== -->
 
