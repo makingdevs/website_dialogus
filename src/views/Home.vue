@@ -14,7 +14,7 @@
         <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
           <span class="color_34">NUESTRAS DIVISIONES </span>
         </h1>
-        <div class="d-flex justify-content-between bg-divisions flex-mobile mt-9">
+        <div class="d-flex justify-content-between bg-divisions flex-mobile m-top-6rm">
           <div class="d-flex flex-column bg-card">
 
             <img align="right" :show="handleScroll" class="icon-divisiones alignImag divisionsIcons animate__animated"
