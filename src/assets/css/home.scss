@@ -14,9 +14,10 @@
   background:#0098a5;
   color: #fff;
   border-radius: 12px;
+  font-size: 20px;
   width: 15%;
   border: 2px solid #f9f9f9;
-  font-weight: 900;
+  font-weight: 500;
 }
 .boton-prueba:hover{
   background: #fff;
@@ -385,7 +386,7 @@ body {
   font-size: 12px;
 }
 .text-white {
-  font-weight: 900 !important;
+  font-weight: 500 !important;
 }
 
 .card-description-carousel {
@@ -393,7 +394,7 @@ body {
 }
 
 button > .text-white {
-  font-weight: 900 !important;
+  font-weight: 500 !important;
   color: #0098a5;
 }
 
@@ -510,7 +511,7 @@ button > .text-white {
 .text-cuadrado2{
   word-wrap: break-word;
   color: white;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /*END*/
@@ -518,7 +519,7 @@ button > .text-white {
 .text-button{
   word-wrap: break-word;
   color: #fff;
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .bg-about {
@@ -697,7 +698,7 @@ button > .text-white {
 
   .text-button {
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 500;
   }
 }
 
@@ -711,7 +712,7 @@ button > .text-white {
 
   .text-button {
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
   }
 }
 
@@ -731,7 +732,7 @@ button > .text-white {
 
   .text-button {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
   }
 }
 
@@ -790,6 +791,11 @@ button > .text-white {
       margin-top: -29px;
     }
   }
+  @media (max-width: 1058px){
+    .boton-prueba{
+      width: 30%;
+    }
+  }
   @media (max-width: 1100px){
     .img-hexPagina-contac{
       margin-top: -105px;
@@ -823,6 +829,9 @@ button > .text-white {
 }
 }
 @media (max-width: 550px) {
+  .boton-prueba{
+    width: 45%;
+  }
   .img-hexPagina-carrusel{
     display: none;
   }

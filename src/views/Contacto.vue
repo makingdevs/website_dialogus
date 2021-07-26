@@ -34,7 +34,7 @@
                                 <h3 class="font-weight-800 mb-2 mb-lg-3">Llámanos</h3>
 
                                 <a href="tel:55 16556739998">
-                                    <div>(+44) 123 456 789</div>
+                                    <div class="text-dark">(+44) 123 456 789</div>
                                 </a>
                             </div>
                         </div>
@@ -47,7 +47,7 @@
                                 <h4 class="h3 font-weight-800 mb-2 mb-lg-3">Escríbenos</h4>
 
                                 <a class="button" href="mailto:contactanos@dialogus.com.mx">
-                                    <div class="">contactanos@dialogus.com.mx</div></a>
+                                    <div class="text-dark">contactanos@dialogus.com.mx</div></a>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@
                             <div class="contact-content ">
                                 <h4 class="h3 font-weight-800 mb-2 mb-lg-3">Visítanos</h4>
                                 <a href="https://goo.gl/maps/NLyroJ8KhabcxJy4A" target="_blank">
-                                <div align="center">Dialogus Periferico Sur 4121, Fuentes del Pedregal
+                                <div class="text-dark">Dialogus Periferico Sur 4121, Fuentes del Pedregal
                                     Equipamiento Periférico Picacho Ajusco Canal 13</div></a>
                             </div>
                         </div>
