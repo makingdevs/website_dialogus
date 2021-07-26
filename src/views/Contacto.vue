@@ -2,18 +2,15 @@
     <div>
         <!-- PAGE TITLE
         ================================================== -->
-        <section class="parallax page-title-section top-position bg-img cover-background" id="bannerContacto">
-
+        <section id="bannercontacto">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
-                        <h1 align="left">Contacto</h1><br>
-                        <h3 align="left" class="text-white">Si quieres recibir más información</h3>
-                        <h3 align="left" class=" text-warning">Puedes ponerte en contacto con nosotros</h3>
-                        <br>
-                    </div>
-                    <div class="col-lg-4">
-                        <img src="../assets/js/services/Contacto TT.svg" alt="" align="left">
+                      <h1 align="left" class="font-weight-700 font-poppins" style="color:#35547c">Contacto</h1>
+                      <div class="hr-header" />
+                      <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c">Si quieres recibir más información</h3>
+                      <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c">Puedes ponerte en contacto con nosotros</h3>
+                      <div class="m-top-28" />
                     </div>
                 </div>
             </div>
@@ -181,6 +178,12 @@
     </section>
     </div>
 </template>
+<style>
+  #bannercontacto {
+    background-image: url('../assets/js/services/Contactohead.svg');
+    background-size:100%;
+  }
+</style>
 <script>
     import '../assets/css/contact.scss'
     export default {

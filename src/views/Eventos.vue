@@ -2,17 +2,15 @@
     <div class="eventos"> 
         <!-- PAGE TITLE
         ================================================== -->
-        <section class="parallax page-title-section top-position bg-img cover-background" id="bannerEventos">
+        <section id="bannereventos">
             <div class="container">
               <div class="row">
                 <div class="col-lg-8">
-                  <h1 align="left">Eventos</h1><div class="m-top-28" />
-                  <h3 align="left" class="text-white">Contantamos con una red de expertos</h3>
-                  <h3 align="left" class=" text-warning">inscribete a nuestros eventos y lee nuestros blog</h3>
+                  <h1 align="left" class="font-weight-700 font-poppins" style="color:#35547c">Eventos</h1>
+                  <div class="hr-header" />
+                  <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c">Contamos con una red de expertos inscríbete</h3>
+                  <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c">a nuestros eventos y lee nuestros blog</h3>
                   <div class="m-top-28" />
-                </div>
-                <div class="col-lg-4">
-                  <img src="../assets/js/services/Eventos TT.svg" alt=""  align="left">
                 </div>
               </div>
             </div>
@@ -156,8 +154,9 @@
 
 <style>
 /*PART OF EVENTS TITLES*/
-#bannerEventos {
-    background-color: #35547c;
+#bannereventos {
+    background-image: url('../assets/js/services/Eventoshead.svg');
+    background-size:100%;
   }
 /*END*/
 .pagination .active a {

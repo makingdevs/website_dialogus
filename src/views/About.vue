@@ -2,18 +2,15 @@
   <div class="about">
         <!-- PAGE TITLE
         ================================================== -->
-        <section class="parallax page-title-section top-position bg-img cover-background"  id="bannerservicios">
-
+        <section id="bannerabout">
           <div class="container">
             <div class="row">
               <div class="col-lg-8">
-                <h1 align="left" class="font-weight-700 font-poppins">Nosotros</h1><div class="m-top-28" />
-                <h3 align="left" class="font-weight-300 font-poppins" style="color:#FFFFFF">Conoce más acerca de nosotros</h3>
-                <h3 align="left" class="font-weight-300 font-poppins" style="color:#ffc107">y nuestra visión para nuestros clientes.</h3>
+                <h1 align="left" class="font-weight-700 font-poppins" style="color:#35547c">Nosotros</h1>
+                <div class="hr-header" />
+                <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c">Conoce más acerca de nosotros</h3>
+                <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c">y nuestra visión para nuestros clientes.</h3>
                 <div class="m-top-28" />
-              </div>
-              <div class="col-lg-4">
-                <img src="../assets/js/services/Nosotros/Nosotros TT.svg" alt=""  align="left">
               </div>
             </div>
           </div>
@@ -181,12 +178,127 @@
                   </button>
                 </div>
             </section>
+
+            <section class="testimoniosmobile">
+            <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
+            <span class="color_34 font-weight-500 font-poppins">Testimonios </span></h1>
+                
+                <div id="carouselmobile" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="d-flex justify-content-between bg-testimonios flex-mobile">
+                        <div class="d-flex flex-column bg-card-testimonios">
+                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                          <div class="m-top-28" />
+                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
+                          <div class="rating" align="center">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="d-flex justify-content-between bg-testimonios flex-mobile">
+                        <div class="d-flex flex-column bg-card-testimonios">
+                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                          <div class="m-top-28" />
+                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
+                          <div class="rating" align="center">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="d-flex justify-content-between bg-testimonios flex-mobile">
+                        <div class="d-flex flex-column bg-card-testimonios">
+                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                          <div class="m-top-28" />
+                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
+                          <div class="rating" align="center">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="d-flex justify-content-between bg-testimonios flex-mobile">
+                        <div class="d-flex flex-column bg-card-testimonios">
+                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                          <div class="m-top-28" />
+                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
+                          <div class="rating" align="center">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="d-flex justify-content-between bg-testimonios flex-mobile">
+                        <div class="d-flex flex-column bg-card-testimonios">
+                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                          <div class="m-top-28" />
+                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
+                          <div class="rating" align="center">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="d-flex justify-content-between bg-testimonios flex-mobile">
+                        <div class="d-flex flex-column bg-card-testimonios">
+                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                          <div class="m-top-28" />
+                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
+                          <div class="rating" align="center">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselmobile" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselmobile" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            </section>
         
   </div>
 </template>
 <style>
   #bannerabout {
-    background-image: url('../assets/img1.jpg');
+    background-image: url('../assets/js/services/Nosotroshead.svg');
+    background-size:100%;
   }
   #bannerservicios {
     background-color: #35547c!important;
@@ -197,6 +309,11 @@
   .testimonios{
     background-color: #e8eaea!important;
     margin-top: -120px;
+  }
+  .testimoniosmobile{
+    background-color: #e8eaea!important;
+    margin-top: -120px;
+    display: none;
   }
   #conteo {
     background-image: url('../assets/img4.jpeg');
@@ -327,25 +444,15 @@ element.style {
   .vl-about {
       display: none;
   }
-  .icon-testimonios {
-    max-width: 100%;
-    height: 80px;
-    vertical-align: top;
-    width: 80px;
-    position: absolute;
-    margin-top: -20px;
+  .testimonios{
+    background-color: #e8eaea!important;
+    margin-top: -120px;
+    display: none;
   }
-  .bg-card-testimonios {
-    background: #ffffff;
-    border-radius: 40px;
-    margin-left:10px;
-    margin-top: 10px;
-    margin-right: 10px;
-    padding: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    flex-grow: 1;
-    flex-basis: 0;
+  .testimoniosmobile{
+    background-color: #e8eaea!important;
+    margin-top: -120px;
+    display: block;
   }
   }
 
