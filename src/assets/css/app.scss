@@ -137,13 +137,26 @@
   .schedule-button:hover {
     color: #0098a5 !important;
   }
+  .text-footercolor:hover {
+    color: #0098a5 !important;
+  }
   
   .text-footercolor, .text-footercolor:active, .text-footercolor:focus{
     color: #ffffff;
   } 
 
+  #mobilefooter{
+    display: none;
+  }
+
   
   @media(max-width: 1199px ){
+  #mobilefooter{
+    display: block;
+  }
+  #webfooter{
+    display: none;
+  }
   .vl-footer {
       display: none;
   }

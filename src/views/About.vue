@@ -323,10 +323,29 @@ element.style {
     opacity: 0;
     transform: translateY(-20px);
   }
-
   @media(max-width: 1199px ){
   .vl-about {
       display: none;
+  }
+  .icon-testimonios {
+    max-width: 100%;
+    height: 80px;
+    vertical-align: top;
+    width: 80px;
+    position: absolute;
+    margin-top: -20px;
+  }
+  .bg-card-testimonios {
+    background: #ffffff;
+    border-radius: 40px;
+    margin-left:10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-grow: 1;
+    flex-basis: 0;
   }
   }
 
