@@ -196,8 +196,8 @@
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <div class="d-flex justify-content-between bg-testimonios flex-mobile">
-                        <div class="d-flex flex-column bg-card-testimonios">
-                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                        <div class="d-flex flex-column bg-card-testimonios-mobile">
+                          <img align="left" :showç="handleScroll" class="icon-testimonios-mobile alignImag4 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
                           <div class="m-top-28" />
                           <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
                           <div class="rating" align="center">
@@ -212,8 +212,8 @@
                     </div>
                     <div class="carousel-item">
                       <div class="d-flex justify-content-between bg-testimonios flex-mobile">
-                        <div class="d-flex flex-column bg-card-testimonios">
-                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                        <div class="d-flex flex-column bg-card-testimonios-mobile">
+                          <img align="left" :showç="handleScroll" class="icon-testimonios-mobile alignImag4 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
                           <div class="m-top-28" />
                           <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
                           <div class="rating" align="center">
@@ -228,8 +228,8 @@
                     </div>
                     <div class="carousel-item">
                       <div class="d-flex justify-content-between bg-testimonios flex-mobile">
-                        <div class="d-flex flex-column bg-card-testimonios">
-                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                        <div class="d-flex flex-column bg-card-testimonios-mobile">
+                          <img align="left" :showç="handleScroll" class="icon-testimonios-mobile alignImag4 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
                           <div class="m-top-28" />
                           <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
                           <div class="rating" align="center">
@@ -244,8 +244,8 @@
                     </div>
                     <div class="carousel-item">
                       <div class="d-flex justify-content-between bg-testimonios flex-mobile">
-                        <div class="d-flex flex-column bg-card-testimonios">
-                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                        <div class="d-flex flex-column bg-card-testimonios-mobile">
+                          <img align="left" :showç="handleScroll" class="icon-testimonios-mobile alignImag4 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
                           <div class="m-top-28" />
                           <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
                           <div class="rating" align="center">
@@ -260,8 +260,8 @@
                     </div>
                     <div class="carousel-item">
                       <div class="d-flex justify-content-between bg-testimonios flex-mobile">
-                        <div class="d-flex flex-column bg-card-testimonios">
-                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                        <div class="d-flex flex-column bg-card-testimonios-mobile">
+                          <img align="left" :showç="handleScroll" class="icon-testimonios-mobile alignImag4 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
                           <div class="m-top-28" />
                           <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
                           <div class="rating" align="center">
@@ -276,8 +276,8 @@
                     </div>
                     <div class="carousel-item">
                       <div class="d-flex justify-content-between bg-testimonios flex-mobile">
-                        <div class="d-flex flex-column bg-card-testimonios">
-                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
+                        <div class="d-flex flex-column bg-card-testimonios-mobile">
+                          <img align="left" :showç="handleScroll" class="icon-testimonios-mobile alignImag4 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
                           <div class="m-top-28" />
                           <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
                           <div class="rating" align="center">

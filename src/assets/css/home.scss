@@ -103,9 +103,9 @@
 }
 .icon-testimonios-mobile {
   max-width: 100%;
-  height: 120px;
+  height: 110px;
+  width: 110px;
   vertical-align: top;
-  width: 100px;
   position: absolute;
 }
 
@@ -636,6 +636,17 @@ button > .text-white {
   flex-basis: 0;
 }
 
+.bg-card-testimonios-mobile {
+  background: #ffffff;
+  border-radius: 40px;
+  margin-left:10px;
+  margin-right: 10px;
+  padding: 30px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
 .bg-card:hover {
   background: #3f5479;
   background: rgba(63, 84, 121, 1);
@@ -921,6 +932,10 @@ button > .text-white {
   }
   .alignImag3 {
     margin-top: 0px !important;
+    margin-left: 0px !important;
+  }
+  .alignImag4 {
+    margin-top: -90px !important;
     margin-left: 0px !important;
   }
 }
