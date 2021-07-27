@@ -8,9 +8,18 @@
               <div class="col-lg-8">
                 <h1 align="left" class="font-weight-700 font-poppins" style="color:#35547c">Nosotros</h1>
                 <div class="hr-header" />
-                <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c">Conoce más acerca de nosotros</h3>
-                <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c">y nuestra visión para nuestros clientes.</h3>
-                <div class="m-top-28" />
+                <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c">Conoce más acerca de nosotros y nuestra visión para nuestros clientes.</h3>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="banneraboutresponsive">
+          <div class="containerresponsive">
+            <div class="row">
+              <div class="col-lg-8">
+                <h1 align="left" class="font-weight-700 font-poppins" style="color:#35547c; text-align:center;">Nosotros</h1>
+                <div class="hr-headerresponsive" />
+                <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c; text-align:center;">Conoce más acerca de nosotros y nuestra visión para nuestros clientes.</h3>
               </div>
             </div>
           </div>
@@ -299,6 +308,10 @@
   #bannerabout {
     background-image: url('../assets/js/services/Nosotroshead.svg');
     background-size:100%;
+    background-repeat: no-repeat;
+  }
+  #banneraboutresponsive {
+    display: none;
   }
   #bannerservicios {
     background-color: #35547c!important;
@@ -392,9 +405,9 @@ element.style {
     color: #ffcc00;
   }
   .vl-about {
-    margin-top: 60px;
+    margin-top: 60px !important;
     border-left: 2px solid #ffcc00;
-    height: 370px;
+    height: 310px !important;
 }
 
   .image-tamaño {
@@ -453,6 +466,21 @@ element.style {
     background-color: #e8eaea!important;
     margin-top: -120px;
     display: block;
+  }
+  #bannerabout{
+    display: none;
+  }
+  #banneraboutresponsive {
+    background-image: url('../assets/js/services/Nosotrosresponsive.svg');
+    background-size:100%;
+    background-repeat: no-repeat;
+    display: block;
+  }
+  .containerresponsive{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 180px;
+    margin-bottom: -50px;
   }
   }
 

@@ -5,18 +5,24 @@
 
         <!-- PAGE TITLE
         ================================================== -->
-        <section class="parallax page-title-section top-position bg-img cover-background" id="bannerservicios">
-
+        <section id="bannerdiagnostico">
           <div class="container">
             <div class="row">
               <div class="col-lg-8">
-                <h1 align="left" class="font-weight-700 font-poppins">Diagnóstico</h1><div class="m-top-28" />
-                <h3 align="left" class="font-weight-300 font-poppins" style="color:#ffffff">Identificamos áreas de oportunidad de las empresas</h3>
-                <h3 align="left" class="font-weight-300 font-poppins" style="color:#ffc107">por medio de herramientas de monitoreo y análisis.</h3>
-                <div class="m-top-28" />
+                <h1 align="left" class="font-weight-700 font-poppins" style="color:#35547c">Diagnóstico</h1>
+                <div class="hr-header" />
+                <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c">Identificamos áreas de oportunidad de las empresas por medio de herramientas de monitoreo y análisis.</h3>
               </div>
-              <div class="col-lg-4">
-                <img src="../assets/js/services/Diagnostico/Diagnostico TT.svg" alt=""  align="left">
+            </div>
+          </div>
+        </section>
+        <section id="bannerdiagnosticoresponsive">
+          <div class="containerresponsive">
+            <div class="row">
+              <div class="col-lg-8">
+                <h1 align="left" class="font-weight-700 font-poppins" style="color:#35547c; text-align:center;">Diagnóstico</h1>
+                <div class="hr-headerresponsive" />
+                <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c; text-align:center;">Identificamos áreas de oportunidad de las empresas por medio de herramientas de monitoreo y análisis.</h3>
               </div>
             </div>
           </div>
@@ -54,8 +60,14 @@
   </div>
 </template>
 <style>
-  #bannerservicios {
-    background-color: #35547c;
+  #bannerdiagnostico {
+    background-image: url('../assets/js/services/Diagnostico/Diagnosticohead.svg');
+    background-size:100%;
+    background-repeat: no-repeat;
+
+  }
+  #bannerdiagnosticoresponsive {
+    display: none;
 
   }
   .pb-8, .py-8 {
@@ -156,6 +168,23 @@
     transform: translateY(-20px);
   }
 
+  @media(max-width: 1199px ){
+  #bannerdiagnostico{
+    display: none;
+  }
+  #bannerdiagnosticoresponsive {
+    background-image: url('../assets/js/services/Diagnostico/Diagnosticoresponsive.svg');
+    background-size:100%;
+    background-repeat: no-repeat;
+    display: block;
+  }
+  .containerresponsive{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 180px;
+    margin-bottom: -50px;
+  }
+  }
 </style>
 
 <script>

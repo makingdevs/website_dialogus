@@ -5,18 +5,24 @@
 
         <!-- PAGE TITLE
         ================================================== -->
-        <section class="parallax page-title-section top-position bg-img cover-background" id="bannerservicios">
-
+        <section id="bannercapital">
           <div class="container">
             <div class="row">
               <div class="col-lg-8">
-                <h1 align="left" class="font-weight-700 font-poppins">Capital Humano</h1><div class="m-top-28" />
-                <h3 align="left" class="font-weight-300 font-poppins" style="color:#ffffff">Generamos soluciones para la gestión de talento,</h3>
-                <h3 align="left" class="font-weight-300 font-poppins" style="color:#ffc107">y buscamos estrategias de bienestar para tu organización.</h3>
-                <div class="m-top-28" />
+                <h1 align="left" class="font-weight-700 font-poppins" style="color:#35547c">Capital Humano</h1>
+                <div class="hr-header" />
+                <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c">Generamos soluciones para la gestión de talento, y buscamos estrategias de bienestar para tu organización.</h3>
               </div>
-              <div class="col-lg-4">
-                <img src="../assets/js/services/Capital/Capital TT.svg" alt=""  align="left">
+            </div>
+          </div>
+        </section>
+        <section id="bannercapitalresponsive">
+          <div class="containerresponsive">
+            <div class="row">
+              <div class="col-lg-8">
+                <h1 align="left" class="font-weight-700 font-poppins" style="color:#35547c; text-align:center;">Capital Humano</h1>
+                <div class="hr-headerresponsive" />
+                <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c; text-align:center;">Generamos soluciones para la gestión de talento, y buscamos estrategias de bienestar para tu organización.</h3>
               </div>
             </div>
           </div>
@@ -54,9 +60,13 @@
   </div>
 </template>
 <style>
-  #bannerservicios {
-    background-color: #35547c;
-
+  #bannercapital {
+    background-image: url('../assets/js/services/Capital/Capitalhead.svg');
+    background-size:100%;
+    background-repeat: no-repeat;
+  }
+  #bannercapitalresponsive {
+    display: none;
   }
   .pb-8, .py-8 {
     padding-bottom: 1.5rem;
@@ -154,6 +164,23 @@
   .v--vtt-test_odd_hidden {
     opacity: 0;
     transform: translateY(-20px);
+  }
+  @media(max-width: 1199px ){
+  #bannercapital{
+    display: none;
+  }
+  #bannercapitalresponsive {
+    background-image: url('../assets/js/services/Capital/Capitalresponsive.svg');
+    background-size:100%;
+    background-repeat: no-repeat;
+    display: block;
+  }
+  .containerresponsive{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 180px;
+    margin-bottom: -50px;
+  }
   }
 </style>
 

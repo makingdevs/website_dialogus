@@ -8,9 +8,18 @@
                     <div class="col-lg-8">
                       <h1 align="left" class="font-weight-700 font-poppins" style="color:#35547c">Contacto</h1>
                       <div class="hr-header" />
-                      <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c">Si quieres recibir más información</h3>
-                      <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c">Puedes ponerte en contacto con nosotros</h3>
-                      <div class="m-top-28" />
+                      <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c">Si quieres recibir más información puedes ponerte en contacto con nosotros.</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="bannercontactoresponsive">
+            <div class="containerresponsive">
+                <div class="row">
+                    <div class="col-lg-8">
+                      <h1 align="left" class="font-weight-700 font-poppins" style="color:#35547c; text-align:center;">Contacto</h1>
+                      <div class="hr-headerresponsive" />
+                      <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c; text-align:center;">Si quieres recibir más información puedes ponerte en contacto con nosotros.</h3>
                     </div>
                 </div>
             </div>
@@ -182,6 +191,27 @@
   #bannercontacto {
     background-image: url('../assets/js/services/Contactohead.svg');
     background-size:100%;
+    background-repeat: no-repeat;
+  }
+  #bannercontactoresponsive {
+    display: none;
+  }
+  @media(max-width: 1199px ){
+  #bannercontacto{
+    display: none;
+  }
+  #bannercontactoresponsive {
+    background-image: url('../assets/js/services/Contactoresponsive.svg');
+    background-size:100%;
+    background-repeat: no-repeat;
+    display: block;
+  }
+  .containerresponsive{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 180px;
+    margin-bottom: -50px;
+  }
   }
 </style>
 <script>
