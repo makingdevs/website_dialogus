@@ -174,7 +174,7 @@
         </div>
         <div class="d-flex justify-content-between flex-mobile-footer">
           <div class="d-flex justify-content-start">
-            <p align="left" class="font-weight-300 font-poppins" style="margin-left: 9px; color:#ffffff">
+            <p align="left" class="font-weight-300 font-poppins correo-footer" >
               contactanos@dialogus.com.mx
             </p>
           </div>
@@ -203,7 +203,7 @@
     </footer>
 <!-- FOOTER MOBILE
         ================================================== -->
-        <footer id="mobilefooter" style="padding: 5px">
+        <footer id="mobilefooter" style="padding: 13px">
       <div id="contacto" class="container-fluid" style="margin-top: 100px">
         <div class="d-flex justify-content-between flex-mobile-footer">
           <div class="d-flex justify-content-start">
@@ -212,7 +212,7 @@
           </div>
           <div class="d-flex justify-content-between flex-mobile-footer">
             <div class="d-flex justify-content-start">
-              <p align="left" class="font-weight-300 font-poppins" style="margin-left: 9px; color:#ffffff">
+              <p align="left" class="font-weight-300 font-poppins correo-footer">
                 contactanos@dialogus.com.mx
               </p>
             </div>
