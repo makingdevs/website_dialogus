@@ -87,8 +87,8 @@
                     <li>
                       <a class="theme butn-md btn-circle schedule-button btn-color-button" id="buttonAgenda"
                         data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="cursor: pointer; padding-bottom: 26px !important;"><i
-                          class="ti-calendar me-1 text-white"></i>
-                        <span class="text-button" style="font-size: 16px"> Agenda una cita </span>
+                          class="ti-calendar me-1 text-white" style="font-weight: 700 !important;"></i>
+                        <span class="text-button" style="font-size: 16px; font-weight: 700;"> Agenda una cita </span>
                       </a>
                     </li>
                   </ul>
@@ -133,22 +133,14 @@
 
     <!-- FOOTER WEB
         ================================================== -->
-    <footer id="webfooter" style="padding: 26px">
+    <footer id="webfooter" style="padding: 30px">
       <div id="contacto" class="container-fluid" style="margin-top: 70px">
-        <div class="d-flex justify-content-between flex-mobile">
+        <div class="d-flex justify-content-between flex-mobile-footer">
           <div class="d-flex justify-content-start">
             <img src="./assets/js/services/DiaBlan.svg" alt="..." width="300"
               style="margin-left: 0px; margin-top: -60px;">
           </div>
-          <div class="d-flex justify-content-start flex-column">
-          </div>
-          <div class="d-flex justify-content-start flex-column">
-          </div>
-          <div class="d-flex justify-content-start flex-column">
-          </div>
-          <div class="d-flex justify-content-start flex-column">
-          </div>
-          <div class="d-flex justify-content-start flex-column">
+          <div class="d-flex justify-content-start flex-column" style="margin-left: 15%;">
             <ul class="list-style1" align="left">
                 <router-link to="/about" class="text-footercolor font-weight-500 font-poppins" style="font-size: 23px">
                   Nosotros
@@ -172,16 +164,15 @@
             </ul>
           </div>
           <div class="vl-footer"></div>
-          <div class="d-flex justify-content-start flex-column">
+          <div class="d-flex justify-content-start flex-column" style="margin-right: 5%">
             <ul class="list-style1" align="left">
-                <router-link to="/contacto" class="text-footercolor font-weight-500 font-poppins" style="font-size: 23px">
+                <router-link to="/contacto" class="text-footercolor font-weight-500 font-poppins" style="font-size: 23px; ">
                   Contacto
                 </router-link>
             </ul>
           </div>
-          <div class="d-flex justify-content-start flex-column"></div>
         </div>
-        <div class="d-flex justify-content-between flex-mobile">
+        <div class="d-flex justify-content-between flex-mobile-footer">
           <div class="d-flex justify-content-start">
             <p align="left" class="font-weight-300 font-poppins" style="margin-left: 9px; color:#ffffff">
               contactanos@dialogus.com.mx
@@ -191,7 +182,7 @@
             <div class="hr-footer" />
           </div>
         </div>
-        <div class="d-flex justify-content-between flex-mobile" style="margin-left: -40px">
+        <div class="d-flex justify-content-between flex-mobile-footer" style="margin-left: -40px">
           <div class="d-flex justify-content-start" style="margin-left: 0px">
             <ul class="socialmedia" style="margin-left: 0px">
               <a class="socialmedia" href="https://twitter.com/Dialogus_LAT"><img src="./assets/js/services/TW.svg"
@@ -203,7 +194,7 @@
             </ul>
           </div>
           <div class="d-flex flex-column bg-card-footer1">
-            <p align="center" class="font-weight-300 font-poppins" style="margin-left: 335px; font-size: 15px; color:#ffffff;">
+            <p align="center" class="font-weight-300 font-poppins footer-text">
               All Rights Reserved &copy; 2021 | Dialogus Consultores
             </p>
           </div>
@@ -212,8 +203,86 @@
     </footer>
 <!-- FOOTER MOBILE
         ================================================== -->
-    
-
+        <footer id="mobilefooter" style="padding: 5px">
+      <div id="contacto" class="container-fluid" style="margin-top: 100px">
+        <div class="d-flex justify-content-between flex-mobile-footer">
+          <div class="d-flex justify-content-start">
+            <img src="./assets/js/services/DiaBlan.svg" alt="..." width="300"
+              style="margin-left: 0px; margin-top: -60px;">
+          </div>
+          <div class="d-flex justify-content-between flex-mobile-footer">
+            <div class="d-flex justify-content-start">
+              <p align="left" class="font-weight-300 font-poppins" style="margin-left: 9px; color:#ffffff">
+                contactanos@dialogus.com.mx
+              </p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between flex-mobile-footer" style="margin-left: -40px">
+          <div class="d-flex justify-content-start" style="margin-left: 0px">
+            <ul class="socialmedia" style="margin-left: 0px">
+              <a class="socialmedia" href="https://twitter.com/Dialogus_LAT"><img src="./assets/js/services/TW.svg"
+                  width="50" style="margin: 5px;"></a>
+              <a href="https://www.facebook.com/DialogusConsultores"><img src="./assets/js/services/FB.svg" width="50"
+                  style="margin: 5px;"></a>
+              <a href="https://www.linkedin.com/company/dialogus-consultores/"><img src="./assets/js/services/IN.svg"
+                  width="50" style="margin: 5px;"></a>
+            </ul>
+          </div>
+        </div>
+          <div class="d-flex justify-content-start flex-column">
+          </div>
+          <div class="d-flex justify-content-start flex-column">
+          </div>
+          <div class="d-flex justify-content-start flex-column">
+          </div>
+          <div class="d-flex justify-content-start flex-column">
+          </div>
+          <div class="d-flex justify-content-start flex-column">
+            <ul class="list-style1" align="left">
+                <router-link to="/about" class="text-footercolor font-weight-500 font-poppins" style="font-size: 23px; margin-left:10px;">
+                  Nosotros
+                  <div class="hr-footermobile" />
+                </router-link>
+            </ul>
+          </div>
+          <div class="vl-footer"></div>
+          <div class="d-flex justify-content-start flex-column">
+            <ul class="list-style1" align="left">
+                <a href="#seccion-services" class="text-footercolor font-weight-500 font-poppins" style="font-size: 23px; margin-left:10px;">
+                  Servicios
+                  <div class="hr-footermobile" />
+                </a>
+            </ul>
+          </div>
+          <div class="vl-footer"></div>
+          <div class="d-flex justify-content-start flex-column">
+            <ul class="list-style1" align="left">
+                <router-link to="/eventos" class="text-footercolor font-weight-500 font-poppins" style="font-size: 23px; margin-left:10px;">
+                  Eventos
+                  <div class="hr-footermobile" />
+                </router-link>
+            </ul>
+          </div>
+          <div class="vl-footer"></div>
+          <div class="d-flex justify-content-start flex-column">
+            <ul class="list-style1" align="left">
+                <router-link to="/contacto" class="text-footercolor font-weight-500 font-poppins" style="font-size: 23px; margin-left:10px;">
+                  Contacto
+                </router-link>
+            </ul>
+          </div>
+          <div class="m-top-28" />
+          <div class="hr-footermobiledown" />
+          <div class="d-flex justify-content-between flex-mobile-footer">
+            <div class="d-flex justify-content-start">
+              <p align="center" class="font-weight-300 font-poppins footer-text">
+                All Rights Reserved &copy; 2021 | Dialogus Consultores
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
   </div>
 </template>
