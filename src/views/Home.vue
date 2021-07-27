@@ -31,7 +31,7 @@
               camino para alcanzar tus objetivos de manera exitosa.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
 
-              <router-link to="/estrategia" class="button-divisiones" style="border: none;" type="none"><span
+              <router-link to="/estrategia" class="button-divisiones" type="none"><span
                   class=" text-button" style="text-transform: none;">Conoce más</span></router-link>
 
             </div>
@@ -49,7 +49,7 @@
               soluciones para el desarrollo del talento
               humano y el desarrollo organizacional.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/capital" class="button-divisiones" style="border: none;"><span
+              <router-link to="/capital" class="button-divisiones"><span
                   class="text-button" style="text-transform: none;">Conoce más</span></router-link>
             </div>
           </div>
@@ -67,7 +67,7 @@
               ética y gestión de riesgos.</span>
             <div class="m-top-28" />
             <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/cumplimiento" class="button-divisiones" style="border: none;"><span
+              <router-link to="/cumplimiento" class="button-divisiones"><span
                   class="text-button" style="text-transform: none;">Conoce más</span></router-link>
             </div>
           </div>
@@ -85,7 +85,7 @@
               empresas
               reforzando el ecosistema mexicano.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
-              <router-link to="/diagnostico" class="button-divisiones" style="border: none;"><span
+              <router-link to="/diagnostico" class="button-divisiones"><span
                   class="text-button" style="text-transform: none;">Conoce más</span></router-link>
             </div>
           </div>
@@ -247,7 +247,7 @@
                     <div class="col-md-12">
                       <div class="quform-submit-inner">
                         <div class="d-flex justify-content-center">
-                          <button class="theme butn-md btn-width-contact" style="border: none;"><span
+                          <button class="theme butn-md btn-width-contact"><span
                               class="text-button">Enviar respuesta</span></button>
                         </div>
                       </div>
@@ -339,8 +339,8 @@
 
     created: function () {
       window.addEventListener('scroll', this.handleScroll);
-      //document.body.scrollTop = 0;
-      //document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
     },
     mounted() {
 

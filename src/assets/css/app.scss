@@ -160,14 +160,16 @@
     -webkit-transition-duration: .2s;
     -o-transition-duration: .2s;
   }
-
   .sub-menu a:active, .sub-menu a:focus {
     color: #35547c !important; 
   }
   .sub-menu a:hover{
     color: #35547c !important;
   }
-
+  .sub-menu a.router-link-exact-active{
+    color: #35547c !important;
+    transition: background-color 0.8s linear 0.2s;
+  }
 
   .schedule-button:hover {
     color: #0098a5 !important;
