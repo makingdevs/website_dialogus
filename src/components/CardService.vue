@@ -1,5 +1,5 @@
 <template>
-  <div class="container" style="margin-top: 10px">
+  <div class="container">
     <div class="row">
       <div class="col-2 mobile-hide">
         <slot></slot>

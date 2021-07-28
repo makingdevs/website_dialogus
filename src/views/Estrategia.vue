@@ -53,6 +53,65 @@
   .containerheader{
     margin-left: 120px;
   }
+  #bannerestrategiaresponsive {
+    display: none;
+  }
+  .pb-8, .py-8 {
+    padding-bottom: 1.5rem;
+}
+  #conteo {
+    background-image: url('../assets/img4.jpeg');
+
+  }
+  #servic{
+    background-image: url('../assets/serv1.jpg');
+  }
+
+  body {
+    color: #fff;
+    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  }
+  .flechaCarus {
+    width : 100px
+  }
+  .ns{
+    text-align: left;
+  }
+  .box {
+    background: #2db34a;
+    border-radius: auto;
+    cursor: pointer;
+    height: auto;
+    line-height: auto;
+    text-align: center;
+    transition-property: background, border-radius;
+    transition-duration: .2s, 1s;
+    transition-timing-function: linear;
+    width: auto;
+  }
+  .Ti1{
+    text-align: left;
+    font-size: 28px;
+  }
+  .Ti2{
+    text-align: left;
+    font-size: 28px;
+    color: #ffc107;
+  }
+  .content-wrapper{
+    color: rgb(0, 0, 0);
+    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  }
+  .card-style4 .date-wrapper {
+    background: #35547c!important;
+  }
+  .team-wrapper .team-wrapper-inner .team-social-links{
+    background: #35547c!important;
+  }
+  .box:hover {
+    background: #ff7b29;
+    border-radius: 50%;
+  }
   @media(max-width: 1199px ){
   #bannerestrategia {
     background-image: url('../assets/js/services/Estrategia/Estrategiaresponsive.svg');
