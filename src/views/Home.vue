@@ -4,7 +4,9 @@
       <video autoplay muted id="video-home">
         <source src="../assets/animacion-cor.mp4" type="video/mp4">
       </video>
-      <button class="boton-prueba">Descargar Guia</button>
+      
+      <button @click="descargarGuia" class="boton-prueba" type="submit">Descargar Guia</button>
+      
     </section>
     <!-- SERVICE================================================== -->
     <section id="seccion-services">
@@ -366,6 +368,9 @@
                         Mensaje: ${this.contact.mensaje}`.replace(/  +/g, '');
 
         window.open(`https://api.whatsapp.com/send?phone=525583817789&text=${encodeURIComponent(message)}`, "_target")
+      },
+      descargarGuia(){
+        window.open("http://dialugos.resources.s3.amazonaws.com/Brochure_Dialogus.pdf", '_blank')
       },
       handleScroll() {
         this.activatedDivisionsIcons();
