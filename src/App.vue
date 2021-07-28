@@ -58,16 +58,16 @@
                       <ul class="p-0">
                         <div class="sub-menu-services p-3">
                           <li>
-                            <router-link to="/estrategia">Estrategia</router-link>
+                            <router-link to="/estrategia" class="subServicios">Estrategia</router-link>
                           </li>
                           <li>
-                            <router-link to="/capital">Capital Humano</router-link>
+                            <router-link to="/capital" class="subServicios">Capital Humano</router-link>
                           </li>
                           <li>
-                            <router-link to="/cumplimiento">Cumplimiento</router-link>
+                            <router-link to="/cumplimiento" class="subServicios">Cumplimiento</router-link>
                           </li>
                           <li>
-                            <router-link to="/diagnostico">Diagnóstico</router-link>
+                            <router-link to="/diagnostico" class="subServicios">Diagnóstico</router-link>
                           </li>
                         </div>
                       </ul>
@@ -325,6 +325,8 @@
             const element = document.getElementById("menu");
             window.scroll(0, 200)
             this.eventFire(element, 'click')
+          }
+          if(event.target.classList.contains("subServicios")){
             const elementServie = document.getElementById("submenuNav");
             this.eventFire(elementServie, 'click')
           }
