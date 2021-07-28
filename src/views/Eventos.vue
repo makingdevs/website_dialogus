@@ -198,10 +198,7 @@
       color: #0098a5; 
       border-radius: 35px;
       }
-      
-    #banner2 {
-        background-image: url('../assets/fondo5.jpeg');
-    }
+   
 .tamañoCuadros{
     object-fit: cover;
     position: absolute;

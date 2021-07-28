@@ -67,13 +67,7 @@
   .pb-8, .py-8 {
     padding-bottom: 1.5rem;
 }
-  #conteo {
-    background-image: url('../assets/img4.jpeg');
 
-  }
-  #servic{
-    background-image: url('../assets/serv1.jpg');
-  }
   .servi{
     background-color: #ffffff!important;
   }
