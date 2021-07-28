@@ -38,7 +38,7 @@
                   <ul class="navbar-nav ms-auto nav-custom" id="nav" style="display: none" @click="hiddenMenu($event)">
                     <li>
                       <router-link to="/home" style="font-size: 16px">
-                        Home
+                        Inicio
                       </router-link>
                     </li>
 
