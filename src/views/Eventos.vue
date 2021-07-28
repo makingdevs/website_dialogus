@@ -35,7 +35,7 @@
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
                         <article class="card card-style2 card-style4  h-100">
                             <div class="card-img">
-                                <img src="../assets/persona2.webp" alt="...">
+                                <img src="../assets/persona2.jpg" alt="...">
                             </div>
                             <div class="card-body">
                                 <ul class="meta-tags">
@@ -54,7 +54,7 @@
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9 ">
                         <article class="card card-style2 card-style4 h-100 ">
                             <div class="card-img">
-                                <img src="../assets/persona4.webp" alt="">
+                                <img src="../assets/persona4.jpg" alt="">
                             </div>
                             <div class="card-body">
                                 <ul class="meta-tags">
@@ -72,7 +72,7 @@
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
                         <article class="card card-style2 card-style4 h-100">
                             <div class="card-img">
-                                <img src="../assets/persona3.webp" alt="...">
+                                <img src="../assets/persona3.jpg" alt="...">
                             </div>
                             <div class="card-body">
                                 <ul class="meta-tags">
@@ -97,7 +97,7 @@
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
                         <article class="card card-style2 card-style4 h-100">
                             <div class="card-img">
-                                <img src="../assets/persona5.webp" alt="...">
+                                <img src="../assets/persona5-min.png" alt="...">
                             </div>
                             <div class="card-body">
                                 <ul class="meta-tags">
@@ -116,7 +116,7 @@
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
                         <article class="card card-style2 card-style4 h-100">
                             <div class="card-img">
-                                <img src="../assets/persona2.webp" alt="...">
+                                <img src="../assets/persona2.jpg" alt="...">
                             </div>
                             <div class="card-body">
                                 <ul class="meta-tags">
@@ -135,7 +135,7 @@
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
                         <article class="card card-style2 card-style4 h-100">
                             <div class="card-img">
-                                <img src="../assets/persona4.webp" alt="...">
+                                <img src="../assets/persona4.jpg" alt="...">
                             </div>
                             <div class="card-body">
                                 <ul class="meta-tags">
