@@ -27,7 +27,7 @@
                   <div class="navbar-header navbar-header-custom">
                     <!-- start logo -->
                     <router-link to="/home" class="navbar-brand">
-                      <img id="logo" src="./assets/logo2.webp" alt="logo" />
+                      <img id="logo" src="./assets/logo2.png" alt="logo" />
                     </router-link>
                     <!-- end logo -->
                   </div>
