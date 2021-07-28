@@ -150,7 +150,7 @@
           <div class="vl-footer"></div>
           <div class="d-flex justify-content-start flex-column">
             <ul class="list-style1" align="left">
-                <router-link to="/estrategia" class="text-footercolor font-weight-500 font-poppins" style="font-size: 23px">
+                <router-link to="/estrategia" class="text-footercolor font-weight-500 font-poppins submenuServices" style="font-size: 23px">
                   Servicios
                 </router-link>
             </ul>
@@ -320,13 +320,13 @@
         }
       },
       hiddenMenu(event) {
-        console.log(event);
-        console.log(event.target.id);
         if (window.innerWidth < 990) {
           if (event.target.id !== 'submenuNav') {
             const element = document.getElementById("menu");
             window.scroll(0, 200)
             this.eventFire(element, 'click')
+            const elementServie = document.getElementById("submenuNav");
+            this.eventFire(elementServie, 'click')
           }
         }
       },
