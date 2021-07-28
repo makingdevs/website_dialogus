@@ -3,29 +3,17 @@
         <!-- PAGE TITLE
         ================================================== -->
         <section id="bannerabout">
-          <div class="container">
+          <div class="containerheader">
             <div class="row">
-              <div class="col-lg-8">
-                <h1 align="left" class="font-weight-700 font-poppins" style="color:#35547c">Nosotros</h1>
+              <div class="col-lg-7">
+                <h1 class="font-weight-700 font-poppins" style="color:#35547c">Nosotros</h1>
                 <div class="hr-header" />
-                <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c">Conoce más acerca de nosotros y nuestra visión para nuestros clientes.</h3>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="banneraboutresponsive">
-          <div class="containerresponsive">
-            <div class="row">
-              <div class="col-lg-8">
-                <h1 align="left" class="font-weight-700 font-poppins" style="color:#35547c; text-align:center;">Nosotros</h1>
-                <div class="hr-headerresponsive" />
-                <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c; text-align:center;">Conoce más acerca de nosotros y nuestra visión para nuestros clientes.</h3>
+                <h3 class="font-weight-300 font-poppins" style="color:#35547c">Conoce más acerca de nosotros y nuestra visión para nuestros clientes.</h3>
               </div>
             </div>
           </div>
         </section>
 
-       
        <!-- Misión Visión Propósito
         ================================================== -->
       <section id="seccion-services">
@@ -33,22 +21,22 @@
           <div class="d-flex justify-content-between bg-about flex-mobile">
 
             <div class="d-flex flex-column bg-card-about">
-              <img align="right" :showç="handleScroll" class="icon-about alignImag divisionsIcons animate__animated" src="../assets/js/services/Nosotros/Nosotros 1.svg" style=" margin-top: -98px; margin-left: 2px;">
+              <img class="icon-about alignImag2 alignImag divisionsIcons" src="../assets/js/services/Nosotros/Nosotros 1.svg" style=" margin-top: -98px; margin-left: 2px;">
               <span align="center" class="text-title font-weight-500 font-poppins">Misión</span><div class="m-top-28" />
-              <div class="hr-border"/><div class="m-top-28" />
+              <div class="hr-border-about"/><div class="m-top-28" />
               <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins">Acompañamos el desarrollo de nuestros clientes, mediante metodologías innovadoras contribuyendo en su rentabilidad, productividad y satisfacción.</span>
             </div>
             <div class="d-flex flex-column bg-card-about">
-              <img class="icon-about alignImag2 alignImag  divisionsIcons animate__animated" src="../assets/js/services/Nosotros/Nosotros 2.svg" style=" margin-top: -98px; margin-left: 2px;">
+              <img class="icon-about alignImag2 alignImag  divisionsIcons" src="../assets/js/services/Nosotros/Nosotros 2.svg" style=" margin-top: -98px; margin-left: 2px;">
               <span align="center" class="text-title font-weight-500 font-poppins">Visión</span><div class="m-top-28" />
-              <div class="hr-border"/><div class="m-top-28" />
+              <div class="hr-border-about"/><div class="m-top-28" />
               <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins">Generar Prosperidad Incluyente mediante el crecimiento y la permanencia de las empresas en el mercado.</span>
             </div>
 
             <div class="d-flex flex-column bg-card-about">
-              <img class="icon-about alignImag2 alignImag divisionsIcons animate__animated" src="../assets/js/services/Nosotros/Nosotros 3.svg" style=" margin-top: -98px; margin-left: 2px;">
+              <img class="icon-about alignImag2 alignImag divisionsIcons" src="../assets/js/services/Nosotros/Nosotros 3.svg" style=" margin-top: -98px; margin-left: 2px;">
               <span align="center" class="text-title font-weight-500 font-poppins">Propósito</span><div class="m-top-28" />
-              <div class="hr-border"/><div class="m-top-28" />
+              <div class="hr-border-about"/><div class="m-top-28" />
               <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins">Apasionados por colaborar en la transformación de nuestros clientes y fomentar relaciones de confianza a largo plazo.</span>
             </div>
           </div>
@@ -310,11 +298,9 @@
     background-size:100%;
     background-repeat: no-repeat;
   }
-  #banneraboutresponsive {
-    display: none;
-  }
-  #bannerservicios {
-    background-color: #35547c!important;
+  .containerheader{
+    margin-left: 120px;
+    text-align: left;
   }
   .seccion-counter{
     margin-top: -120px;
@@ -453,7 +439,30 @@ element.style {
     opacity: 0;
     transform: translateY(-20px);
   }
-  @media(max-width: 1199px ){
+  
+  
+  @media(max-width: 440px ){
+  #bannerabout {
+    background-image: url('../assets/js/services/Nosotrosresponsive.svg');
+    background-size:100%;
+    background-repeat: no-repeat;
+  }
+  .containerheader{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 180px;
+    margin-bottom: -50px;
+  }
+  .hr-header {
+    border-style: Solid;
+    border-color: rgb(255, 212, 31);
+    background-color: rgb(255, 212, 31);
+    border-width: 3px;
+    width: 20%;
+    margin-left: 40%;
+  }
+
   .vl-about {
       display: none;
   }
@@ -467,22 +476,9 @@ element.style {
     margin-top: -120px;
     display: block;
   }
-  #bannerabout{
-    display: none;
   }
-  #banneraboutresponsive {
-    background-image: url('../assets/js/services/Nosotrosresponsive.svg');
-    background-size:100%;
-    background-repeat: no-repeat;
-    display: block;
-  }
-  .containerresponsive{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 180px;
-    margin-bottom: -50px;
-  }
-  }
+
+  
 
 </style>
 

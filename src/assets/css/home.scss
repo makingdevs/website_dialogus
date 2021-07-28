@@ -570,6 +570,14 @@ button > .text-white {
   border-width: 1px;
 }
 
+.hr-border-about {
+  border-style: Solid;
+  border-color: #3f5479;
+  border-color: rgba(63, 84, 121, 1);
+  background-color: #3f5479;
+  border-width: 1px;
+}
+
 
 .hr-header {
   border-style: Solid;
@@ -694,7 +702,7 @@ button > .text-white {
   .h5 {
     color: #ffffff !important;
   }
-  .hr-border-divisiones {
+  .hr-border-about {
     border-color: white;
     background-color: white;
   }
@@ -856,6 +864,10 @@ button > .text-white {
 }
 @media (max-width: 550px) {
   .hr-border-divisiones{
+    width: 90%;
+    margin-left: 5%;
+  }
+  .hr-border-about{
     width: 90%;
     margin-left: 5%;
   }

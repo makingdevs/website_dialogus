@@ -3,23 +3,12 @@
         <!-- PAGE TITLE
         ================================================== -->
         <section id="bannercontacto">
-            <div class="container">
+            <div class="containerheader">
                 <div class="row">
-                    <div class="col-lg-8">
-                      <h1 align="left" class="font-weight-700 font-poppins" style="color:#35547c">Contacto</h1>
+                    <div class="col-lg-7">
+                      <h1  class="font-weight-700 font-poppins" style="color:#35547c">Contacto</h1>
                       <div class="hr-header" />
-                      <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c">Si quieres recibir más información puedes ponerte en contacto con nosotros.</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="bannercontactoresponsive">
-            <div class="containerresponsive">
-                <div class="row">
-                    <div class="col-lg-8">
-                      <h1 align="left" class="font-weight-700 font-poppins" style="color:#35547c; text-align:center;">Contacto</h1>
-                      <div class="hr-headerresponsive" />
-                      <h3 align="left" class="font-weight-300 font-poppins" style="color:#35547c; text-align:center;">Si quieres recibir más información puedes ponerte en contacto con nosotros.</h3>
+                      <h3  class="font-weight-300 font-poppins" style="color:#35547c">Si quieres recibir más información puedes ponerte en contacto con nosotros.</h3>
                     </div>
                 </div>
             </div>
@@ -199,24 +188,30 @@
     background-size:100%;
     background-repeat: no-repeat;
   }
-  #bannercontactoresponsive {
-    display: none;
+  .containerheader{
+    margin-left: 120px;
   }
+
   @media(max-width: 1199px ){
-  #bannercontacto{
-    display: none;
-  }
-  #bannercontactoresponsive {
+  #bannercontacto {
     background-image: url('../assets/js/services/Contactoresponsive.svg');
     background-size:100%;
     background-repeat: no-repeat;
-    display: block;
   }
-  .containerresponsive{
+  .containerheader{
+    text-align: center;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 180px;
     margin-bottom: -50px;
+  }
+  .hr-header {
+    border-style: Solid;
+    border-color: rgb(255, 212, 31);
+    background-color: rgb(255, 212, 31);
+    border-width: 3px;
+    width: 20%;
+    margin-left: 40%;
   }
   }
 </style>
