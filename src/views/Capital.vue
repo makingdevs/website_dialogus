@@ -56,6 +56,45 @@
   }
   .containerheader{
     margin-left: 120px;
+  }
+  #bannercapitalresponsive {
+    display: none;
+  }
+  .pb-8, .py-8 {
+    padding-bottom: 1.5rem;
+}
+
+  .servi{
+    background-color: #ffffff!important;
+  }
+
+  body {
+    color: #fff;
+    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  }
+  .flechaCarus {
+    width : 100px
+  }
+  .ns{
+    text-align: left;
+  }
+  .box {
+    background: #2db34a;
+    border-radius: auto;
+    cursor: pointer;
+    height: auto;
+    line-height: auto;
+    text-align: center;
+    transition-property: background, border-radius;
+    transition-duration: .2s, 1s;
+    transition-timing-function: linear;
+    width: auto;
+  }
+  .Ti1{
+    text-align: left;
+    font-size: 28px;
+  }
+  .Ti2{
     text-align: left;
   }
 

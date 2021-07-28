@@ -19,7 +19,7 @@
           <div class="d-flex flex-column bg-card">
 
             <img align="right" :show="handleScroll" class="icon-divisiones alignImag alignImagDivis divisionsIcons animate__animated"
-              src="../assets/js/services/Recurso 17.svg">
+              src="../assets/js/services/estrategi2.svg">
             <div class="m-top-28" />
 
             <span :show="handleScroll" class="text-title divisionsText animate__animated"
@@ -40,7 +40,7 @@
 
           <div class="d-flex flex-column bg-card">
             <img class="icon-divisiones alignImag2 alignImag alignImagDivis divisionsIcons animate__animated"
-              src="../assets/js/services/Recurso 1.svg">
+              src="../assets/js/services/capital2.svg">
             <div class="m-top-28" />
             <span style="text-align: center; font-weight: 500;" class="text-title divisionsText animate__animated">Capital Humano</span>
             <div class="m-top-28" />
@@ -57,7 +57,7 @@
 
           <div class="d-flex flex-column bg-card">
             <img class="icon-divisiones alignImag2 alignImag alignImagDivis divisionsIcons animate__animated"
-              src="../assets/js/services/Recurso 2.svg" >
+              src="../assets/js/services/cumpli2.svg" >
             <div class="m-top-28" />
             <span style="text-align: center; font-weight: 500;" class="text-title divisionsText animate__animated">Cumplimiento</span>
             <div class="m-top-28" />
@@ -75,7 +75,7 @@
 
           <div class="d-flex flex-column bg-card">
             <img class="icon-divisiones alignImag2 alignImag alignImagDivis divisionsIcons animate__animated"
-              src="../assets/js/services/Recurso 25.svg">
+              src="../assets/js/services/diagno2.svg">
             <div class="m-top-28" />
             <span style="text-align: center; font-weight: 500;" class="text-title divisionsText animate__animated">Diagnóstico</span>
             <div class="m-top-28" />

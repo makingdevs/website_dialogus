@@ -39,7 +39,7 @@ import '../assets/css/home.scss'
     },
     data: () => {
       return {
-        src: 'Recurso 1.svg'
+        src: 'capital2.svg'
       }
     }
   }

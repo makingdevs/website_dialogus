@@ -50,25 +50,25 @@
           <div class="row">
               <div class="d-flex justify-content-between bg-counter flex-mobile">
                 <div class="d-flex flex-column bg-card-counter">
-                  <img align="right" :showç="handleScroll" class="icon-divisiones alignImag divisionsIcons" src="../assets/js/services/Recurso 17.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
+                  <img align="right" :showç="handleScroll" class="icon-divisiones alignImag divisionsIcons" src="../assets/js/services/estrategi2.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
                   <span align="center" class="text-title-counter font-weight-800 font-poppins">107</span><br>
                   <span align="center" class="h5 text-counter font-weight-300 font-poppins">Reuniones con CEO's y Directores para definir la división de sus negocios</span>
                 </div>
                 <div class="vl-about"></div>
                 <div class="d-flex flex-column bg-card-counter">
-                  <img class="icon-divisiones alignImag2 alignImag  divisionsIcons" src="../assets/js/services/Recurso 1.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
+                  <img class="icon-divisiones alignImag2 alignImag  divisionsIcons" src="../assets/js/services/capital2.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
                   <span align="center" class="text-title-counter font-weight-800 font-poppins">338</span><br>
                   <span align="center" class="h5 text-counter font-weight-300 font-poppins">Becarios distribuidos en 23 Áreas y Unidades de Negocio</span>
                 </div>
                 <div class="vl-about"></div>
                 <div class="d-flex flex-column bg-card-counter">
-                  <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/Recurso 2.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
+                  <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/cumpli2.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
                   <span align="center" class="text-title-counter font-weight-800 font-poppins">1500</span><br>
                   <span align="center" class="h5 text-counter font-weight-300 font-poppins">Investigadores certificados para atender denuncias</span>
                 </div>
                 <div class="vl-about"></div>
                 <div class="d-flex flex-column bg-card-counter">
-                  <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/Recurso 25.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
+                  <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/diagno2.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
                   <span align="center" class="text-title-counter font-weight-800 font-poppins">400</span><br>
                   <span align="center" class="h5 text-counter font-weight-300 font-poppins">Proveedores Certificados en los distintos niveles</span>
                 </div>
@@ -314,24 +314,13 @@
     margin-top: -120px;
     display: none;
   }
-  #conteo {
-    background-image: url('../assets/img4.jpeg');
-
-  }
-  #testi {
-    background-image: url('../assets/img4.jpeg');
-
-  }
   .colorLineas{
     background-color: #ffc107 !important;
 }
 .border-radius-50 {
     border-radius: 50%;
 }
-element.style {
-  background-image: url('../assets/img4.jpeg');
 
-  }
 .media-body {
     -ms-flex: 1;
     flex: 1;
