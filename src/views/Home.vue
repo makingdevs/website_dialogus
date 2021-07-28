@@ -7,7 +7,6 @@
       <button class="boton-prueba">Descargar Guia</button>
     </section>
     <!-- SERVICE================================================== -->
-
     <section id="seccion-services">
       <img class="img-hexPagina" src="../assets/js/services/hexagonos-Pagina/hexPagin.svg">
       <div class="container">
@@ -17,14 +16,14 @@
         <div class="d-flex justify-content-between bg-divisions flex-mobile m-top-6rm">
           <div class="d-flex flex-column bg-card">
 
-            <img align="right" :show="handleScroll" class="icon-divisiones alignImag divisionsIcons animate__animated"
-              src="../assets/js/services/Recurso 17.svg" style=" margin-top: -98px; margin-left: 2px;">
+            <img align="right" :show="handleScroll" class="icon-divisiones alignImag alignImagDivis divisionsIcons animate__animated"
+              src="../assets/js/services/Recurso 17.svg">
             <div class="m-top-28" />
 
             <span :show="handleScroll" class="text-title divisionsText animate__animated"
               style="text-align: center; font-weight: 500;">Estrategia</span>
             <div class="m-top-28" />
-            <div class="hr-border" />
+            <div class="hr-border-divisiones" />
             <div class="m-top-28" />
             <span style="text-align: center; font-weight: 300;" :show="handleScroll"
               class="h5 flex-grow-1 text-body divisionsText animate__animated" id="text-estrategia">Definimos el
@@ -38,12 +37,12 @@
           </div>
 
           <div class="d-flex flex-column bg-card">
-            <img class="icon-divisiones alignImag2 alignImag  divisionsIcons animate__animated"
-              src="../assets/js/services/Recurso 1.svg" style=" margin-top: -98px; margin-left: 2px;">
+            <img class="icon-divisiones alignImag2 alignImag alignImagDivis divisionsIcons animate__animated"
+              src="../assets/js/services/Recurso 1.svg">
             <div class="m-top-28" />
             <span style="text-align: center; font-weight: 500;" class="text-title divisionsText animate__animated">Capital Humano</span>
             <div class="m-top-28" />
-            <div class="hr-border" />
+            <div class="hr-border-divisiones" />
             <div class="m-top-28" />
             <span style="text-align: center; font-weight: 300;" class="h5 flex-grow-1 text-body divisionsText animate__animated">Generamos
               soluciones para el desarrollo del talento
@@ -55,12 +54,12 @@
           </div>
 
           <div class="d-flex flex-column bg-card">
-            <img class="icon-divisiones alignImag2 alignImag divisionsIcons animate__animated"
-              src="../assets/js/services/Recurso 2.svg" style=" margin-top: -98px; margin-left: 2px;">
+            <img class="icon-divisiones alignImag2 alignImag alignImagDivis divisionsIcons animate__animated"
+              src="../assets/js/services/Recurso 2.svg" >
             <div class="m-top-28" />
             <span style="text-align: center; font-weight: 500;" class="text-title divisionsText animate__animated">Cumplimiento</span>
             <div class="m-top-28" />
-            <div class="hr-border" />
+            <div class="hr-border-divisiones" />
             <div class="m-top-28" />
             <span style="text-align: center; font-weight: 300;" class="h5 flex-grow-1 text-body divisionsText animate__animated">Blindamos
               a las empresas con sistemas de integridad,
@@ -73,12 +72,12 @@
           </div>
 
           <div class="d-flex flex-column bg-card">
-            <img class="icon-divisiones alignImag2 alignImag divisionsIcons animate__animated"
-              src="../assets/js/services/Recurso 25.svg" style=" margin-top: -98px; margin-left: 2px;">
+            <img class="icon-divisiones alignImag2 alignImag alignImagDivis divisionsIcons animate__animated"
+              src="../assets/js/services/Recurso 25.svg">
             <div class="m-top-28" />
             <span style="text-align: center; font-weight: 500;" class="text-title divisionsText animate__animated">Diagnóstico</span>
             <div class="m-top-28" />
-            <div class="hr-border" />
+            <div class="hr-border-divisiones" />
             <div class="m-top-28" />
             <span style="text-align: center; font-weight: 300;"
               class="h5 flex-grow-1 text-body divisionsText animate__animated">Identificamos fortalezas y debilidades de
@@ -269,18 +268,24 @@
             <div class="m-top-28" />
             <div class="d-flex flex-column cuadrado2 p-2">
               <div class="m-top-28" />
-              <img align="center" class="telef" src="../assets/js/services/telfono.svg">
+              <a href="tel:55 16556739998">
+              <img class="telef" src="../assets/js/services/telfono.svg">
+              </a>
               <div class="m-top-28" />
               <a href="tel:55 16556739998">
                 <p align="center" class="text-cuadrado2">55 16556739998</p>
               </a>
-              <img class="telef" src="../assets/js/services/messa.svg">
+
+              <a class="button" href="mailto:contactanos@dialogus.com.mx">
+              <img class="message-contacto" src="../assets/js/services/messa.svg">
+              </a>
               <div class="m-top-28" />
               <a class="button" href="mailto:contactanos@dialogus.com.mx">
                 <p align="center" class="text-cuadrado2 email-text">contactanos@dialogus.com.mx</p>
               </a>
-
+              <a href="https://goo.gl/maps/NLyroJ8KhabcxJy4A" target="_blank">
               <img class="telef" src="../assets/js/services/ubicacion.svg">
+              </a>
               <div class="m-top-28" />
               <a href="https://goo.gl/maps/NLyroJ8KhabcxJy4A" target="_blank">
                 <p align="center" class="text-cuadrado2">Periferico Sur 4121, Fuentes del Pedregal, Tlalpan, 14140

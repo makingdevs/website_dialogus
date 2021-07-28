@@ -8,10 +8,20 @@
     border-radius: 12px !important;
 }
 
+.fa-calendar-alt{
+  color: #fff;
+}
+.btn-color-button:hover {
+  .fa-calendar-alt {
+    color: #0098a5;
+  }
+}
+
 .menu_area-light .navbar-nav li > ul {
   background: none !important;
   border-radius: 12px !important;
 }
+
 /* home */
   #buttonAgenda {
     margin-top: 19px;
@@ -144,6 +154,23 @@
 }
 /*END FOOTER*/
 
+
+.button-agenda {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  background: #0098a5;
+  font-size: 16px;
+  font-weight: 700;
+  border: 2px solid #0098a5;
+}
+.button-agenda:hover{
+  background: #ffff;
+  border: 2px solid #0098a5;
+}
   a,
   a:active,
   a:focus {

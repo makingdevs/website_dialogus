@@ -15,7 +15,7 @@
             {{bodyText}}
           </div>
           <div class="button-card">
-            <button class="btn-circle schedule-button btn-width-contact text-button small">{{buttonText}}</button>
+            <button class="schedule-button button-text-cardsService">{{buttonText}}</button>
           </div>
         </div>
       </div>
@@ -27,6 +27,7 @@
 </template>
 
 <script>
+import '../assets/css/home.scss'
   export default {
     name: 'CardService',
     props: {
@@ -52,6 +53,25 @@
     padding-right: 0px;
   }
 
+  .button-text-cardsService {
+  width: 37%;
+  padding: unset;
+  border-radius: 15px;
+  background: #0098a5;
+  border: 2px solid #0098a5;  
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+.button-text-cardsService:hover{
+    border-radius: 15px;
+    background: #ffffff;
+    border: 2px solid #0098a5; 
+    .text-button {
+      color: #0098a5 ;
+      word-wrap: break-word;
+    }
+  }
   .col-image-custom {
     height: 375px; 
     padding-left: 0px;
@@ -116,14 +136,19 @@
     }
   }
 
-  @media (max-width:1198px) {
+  @media (max-width:1199px) {
     .verticale-line {
       margin-left: 64px;
+    }
+    .button-text-cardsService {
+      font-size: 15px;
     }
   }
 
   @media (max-width: 990px) {
-
+    .button-text-cardsService {
+      font-size: 11px;
+    }
     .body-text {
       font-size: 11px;
     }
@@ -147,6 +172,9 @@
 
 
   @media (max-width: 768px) {
+    .button-text-cardsService {
+      font-size: 10.5px;
+    }
     .image-container {
       border-radius: 0px 0px 14px 14px;
     }
@@ -163,6 +191,10 @@
       padding-right: 12px;
     }
   }
-
+  @media (max-width: 767px){
+    .button-text-cardsService {
+      font-size: 15px;
+    }
+  }
 
 </style>

@@ -33,38 +33,41 @@
                 <div class="row">
                     <div class="col-lg-4 mb-1-6 mb-md-1-9 mb-lg-0 contact-border">
                         <div class="contact-wrapper">
+                          <a href="tel:55 16556739998">
                             <img v-if="!contactHoverTel" class="icon-contacto" src="../assets/js/services/contacto/contacTel.svg" @mouseover="contactHoverTel = true">
-                            <img v-else class="icon-contacto" src="../assets/js/services/contacto/contacTelHover.svg" @mouseleave="contactHoverTel = false">
+                            <img v-else class="icon-contacto" src="../assets/js/services/contacto/contacTelHover.svg" @mouseleave="contactHoverTel = false"></a>
                             
                             <div class="contact-content">
-                                <h3 class="font-weight-800 mb-2 mb-lg-3">Llámanos</h3>
+                                <h3 class="font-weight-800 mb-2 mb-lg-3 color_33">Llámanos</h3>
 
                                 <a href="tel:55 16556739998">
-                                    <div class="text-dark">(+44) 123 456 789</div>
+                                    <div class="color_33">(+44) 123 456 789</div>
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 mb-1-6 mb-md-1-9 mb-lg-0 contact-border">
                         <div class="contact-wrapper">
+                          <a class="button" href="mailto:contactanos@dialogus.com.mx">
                             <img v-if="!contactHover" class="icon-contacto" src="../assets/js/services/contacto/contacMsg.svg" @mouseover="contactHover = true">
-                            <img v-else class="icon-contacto" src="../assets/js/services/contacto/contacMsgHover.svg" @mouseleave="contactHover = false">
+                            <img v-else class="icon-contacto" src="../assets/js/services/contacto/contacMsgHover.svg" @mouseleave="contactHover = false"></a>
                             <div class="contact-content">
-                                <h4 class="h3 font-weight-800 mb-2 mb-lg-3">Escríbenos</h4>
+                                <h4 class="h3 font-weight-800 mb-2 mb-lg-3 color_33">Escríbenos</h4>
 
                                 <a class="button" href="mailto:contactanos@dialogus.com.mx">
-                                    <div class="text-dark">contactanos@dialogus.com.mx</div></a>
+                                    <div class="color_33">contactanos@dialogus.com.mx</div></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="contact-wrapper">
+                          <a href="https://goo.gl/maps/NLyroJ8KhabcxJy4A" target="_blank">
                             <img v-if="contactHoverUbi" class="icon-contacto" src="../assets/js/services/contacto/contacUbi.svg" @mouseover="contactHoverUbi = false">
-                            <img v-else class="icon-contacto" src="../assets/js/services/contacto/contacUbiHover.svg" @mouseleave="contactHoverUbi = true">
+                            <img v-else class="icon-contacto" src="../assets/js/services/contacto/contacUbiHover.svg" @mouseleave="contactHoverUbi = true"></a>
                             <div class="contact-content ">
-                                <h4 class="h3 font-weight-800 mb-2 mb-lg-3">Visítanos</h4>
+                                <h4 class="h3 font-weight-800 mb-2 mb-lg-3 color_33">Visítanos</h4>
                                 <a href="https://goo.gl/maps/NLyroJ8KhabcxJy4A" target="_blank">
-                                <div class="text-dark">Dialogus Periferico Sur 4121, Fuentes del Pedregal
+                                <div class="color_33">Dialogus Periferico Sur 4121, Fuentes del Pedregal
                                     Equipamiento Periférico Picacho Ajusco Canal 13</div></a>
                             </div>
                         </div>
@@ -188,6 +191,9 @@
     </div>
 </template>
 <style>
+  .color_33 {
+    color: #35547c;
+  }
   #bannercontacto {
     background-image: url('../assets/js/services/Contactohead.svg');
     background-size:100%;

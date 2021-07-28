@@ -61,10 +61,10 @@
                             <router-link to="/estrategia">Estrategia</router-link>
                           </li>
                           <li>
-                            <router-link to="/cumplimiento">Cumplimiento</router-link>
+                            <router-link to="/capital">Capital Humano</router-link>
                           </li>
                           <li>
-                            <router-link to="/capital">Capital Humano</router-link>
+                            <router-link to="/cumplimiento">Cumplimiento</router-link>
                           </li>
                           <li>
                             <router-link to="/diagnostico">Diagnóstico</router-link>
@@ -85,11 +85,11 @@
                       </router-link>
                     </li>
                     <li>
-                      <a class="theme butn-md btn-circle schedule-button btn-color-button" id="buttonAgenda"
-                        data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="cursor: pointer; padding-bottom: 26px !important;"><i
-                          class="ti-calendar me-1 text-white" style="font-weight: 700 !important;"></i>
+                      <button class="btn-circle schedule-button btn-color-button" id="buttonAgenda"
+                        data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="cursor: pointer; padding-bottom: 26px !important;">
+                        <i class="far fa-calendar-alt me-1" style="font-weight: 700 !important;"></i>
                         <span class="text-button" style="font-size: 16px; font-weight: 700;"> Agenda una cita </span>
-                      </a>
+                    </button>
                     </li>
                   </ul>
                   <!-- end menu area -->
@@ -150,9 +150,9 @@
           <div class="vl-footer"></div>
           <div class="d-flex justify-content-start flex-column">
             <ul class="list-style1" align="left">
-                <a href="#seccion-services" class="text-footercolor font-weight-500 font-poppins" style="font-size: 23px">
+                <router-link to="/estrategia" class="text-footercolor font-weight-500 font-poppins" style="font-size: 23px">
                   Servicios
-                </a>
+                </router-link>
             </ul>
           </div>
           <div class="vl-footer"></div>
@@ -248,10 +248,10 @@
           <div class="vl-footer"></div>
           <div class="d-flex justify-content-start flex-column">
             <ul class="list-style1" align="left">
-                <a href="#seccion-services" class="text-footercolor font-weight-500 font-poppins" style="font-size: 23px; margin-left:10px;">
+                <router-link to="/estrategia" class="text-footercolor font-weight-500 font-poppins" style="font-size: 23px; margin-left:10px;">
                   Servicios
                   <div class="hr-footermobile" />
-                </a>
+                </router-link>
             </ul>
           </div>
           <div class="vl-footer"></div>

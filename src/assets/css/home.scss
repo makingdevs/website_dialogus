@@ -61,9 +61,16 @@
 }
 
 .telef {
+  max-width: 14%;
+  height: 33px;
+  vertical-align: top;
+  margin-left: 46%;
+}
+.message-contacto {
   max-width: 100%;
   height: 33px;
   vertical-align: top;
+  margin-left: 44%;
 }
 /*APARTADO DE QUE ES DIALOGUS */
 
@@ -78,6 +85,10 @@
 }
 
 /*apartado de servicios*/
+.alignImagDivis{
+  margin-top: -98px;
+  margin-left: 2px;
+}
 .icon-divisiones {
   max-width: 100%;
   height: 127px;
@@ -407,7 +418,8 @@ button > .text-white {
   line-height: 1.428571429 !important;
   border-radius: 15px !important;
   background: #0098a5 !important;
-
+  font-size: 18px;
+  font-weight: 500;
   border: 2px solid #0098a5
 }
   .butn:hover span, .butn:hover i {
@@ -418,6 +430,7 @@ button > .text-white {
     .text-button {
       color: #0098a5 ;
       word-wrap: break-word;
+
     }
   }
   .btn-width-contact:hover{
@@ -521,6 +534,7 @@ button > .text-white {
 .text-button{
   word-wrap: break-word;
   color: #fff;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -548,7 +562,7 @@ button > .text-white {
   margin-right: 10%;
 }
 
-.hr-border {
+.hr-border-divisiones {
   border-style: Solid;
   border-color: #3f5479;
   border-color: rgba(63, 84, 121, 1);
@@ -660,7 +674,7 @@ button > .text-white {
   .h5 {
     color: #ffffff !important;
   }
-  .hr-border {
+  .hr-border-divisiones {
     border-color: white;
     background-color: white;
   }
@@ -680,7 +694,7 @@ button > .text-white {
   .h5 {
     color: #ffffff !important;
   }
-  .hr-border {
+  .hr-border-divisiones {
     border-color: white;
     background-color: white;
   }
@@ -704,7 +718,7 @@ button > .text-white {
   border: 2px solid #0098a5 !important;
 
   .text-button {
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 500;
   }
 }
@@ -740,7 +754,7 @@ button > .text-white {
   padding: 0px 13px;
 
   .text-button {
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 500;
   }
 }
@@ -780,6 +794,9 @@ button > .text-white {
   .img-hexPagina-contac{
     margin-left: 1160px;
     margin-top: -185px;
+  }
+  .email-text{
+    font-size: 15px;
   }
 }
 @media (max-width: 1328px){
@@ -838,6 +855,13 @@ button > .text-white {
 }
 }
 @media (max-width: 550px) {
+  .hr-border-divisiones{
+    width: 90%;
+    margin-left: 5%;
+  }
+  .button-divisiones {
+    width: 50%;
+  }
   .boton-prueba{
     width: 45%;
   }
@@ -848,6 +872,7 @@ button > .text-white {
    display: none;
   }
 }
+
 /*HEXAGONO POSITION END*/
 
 /*carusel*/
@@ -932,11 +957,11 @@ button > .text-white {
   }
   .alignImag {
     margin-top: 0px !important;
-    margin-left: 5px !important;
+    margin-left: 23px !important;
   }
   .alignImag2 {
     margin-top: 17px !important;
-    margin-left: 5px !important;
+    margin-left: 23px !important;
   }
   .alignImag3 {
     margin-top: 0px !important;
@@ -1107,6 +1132,22 @@ button > .text-white {
     }
   }
   @media (max-width: 500px){
+    .alignImag {
+      margin-top: 0px !important;
+      margin-left: 5px !important;
+    }
+    .alignImag2 {
+      margin-top: 17px !important;
+      margin-left: 5px !important;
+    }
+    .alignImag3 {
+      margin-top: 0px !important;
+      margin-left: 0px !important;
+    }
+    .alignImag4 {
+      margin-top: -90px !important;
+      margin-left: 0px !important;
+    }
     .title-contact{
       width: 500px;
       margin-left: -12px;
