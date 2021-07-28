@@ -123,7 +123,7 @@
 
                         <div class="quform-input">
                           <input v-model="contact.telf" class="form-control form-control1" id="phone" type="text"
-                            name="phone" placeholder="Telefono" />
+                            name="phone" placeholder="Teléfono" />
                         </div>
                       </div>
                     </div>
@@ -148,7 +148,7 @@
 
                         <div class="quform-input">
                           <input v-model="contact.asunto" class="form-control form-control1" id="subject" type="text"
-                            name="subject" placeholder="Tu asunto aqui" />
+                            name="subject" placeholder="Asunto" />
                         </div>
                       </div>
                     </div>
