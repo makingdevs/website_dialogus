@@ -823,6 +823,8 @@ button > .text-white {
   }
   @media (max-width: 1058px){
     .boton-prueba{
+      margin-top: 38%;
+      margin-left: -42%;
       width: 30%;
     }
   }
@@ -859,6 +861,9 @@ button > .text-white {
 }
 }
 @media (max-width: 550px) {
+  .boton-prueba{
+    margin-top: 77%;
+  }
   .hr-border-divisiones{
     width: 90%;
     margin-left: 5%;
@@ -980,6 +985,11 @@ button > .text-white {
     margin-left: 0px !important;
   }
 }
+@media (max-width: 527px){
+  .boton-prueba{
+    margin-top: 75%;
+  }
+}
   /*contacto parte home*/
   @media (max-width: 1399px){
     .title-contact{
@@ -1035,6 +1045,10 @@ button > .text-white {
       word-wrap: break-word;
     }
   @media (max-width: 767px){
+    .boton-prueba{
+      margin-top: 49%;
+    margin-left: -50%;
+    }
     .text-button{
       word-wrap: break-word;
       font-size: 13.5px !important;
@@ -1057,6 +1071,11 @@ button > .text-white {
     }
     .text-cuadrado2{
       word-wrap: break-word;
+    }
+  }
+  @media (max-width: 666px){
+    .boton-prueba{
+      margin-top: 61%;
     }
   }
   @media (max-width: 575px){
@@ -1124,6 +1143,9 @@ button > .text-white {
     }
   }
   @media (max-width: 550px){
+    .boton-prueba{
+      margin-top: 77%;
+    }
     .title-contact{
       width: 550px;
       margin-left: -12px;
@@ -1229,6 +1251,13 @@ button > .text-white {
     }
     .text-button{
       word-wrap: break-word;
+    }
+  }
+  @media (max-width: 340px) {
+    .boton-prueba{
+      font-size: 16px;
+      margin-top: 116%;
+      margin-left: -48%
     }
   }
   /*   END   */
