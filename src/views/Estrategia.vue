@@ -25,19 +25,19 @@
 
           <card-service :title="'Planeación estratégica colaborativa'" :button-text="'Quiero saber más'" :imageSquare="'persona1.png'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Estrategia/Estrategia 1.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Estrategia/Estrategia1.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Estructura organizacional'" :button-text="'Quiero saber más'" :imageSquare="'persona2.jpg'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Estrategia/Estrategia 2.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Estrategia/Estrategia2.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Responsabilidad social'" :button-text="'Quiero saber más'" :imageSquare="'persona3.jpg'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Estrategia/Estrategia 3.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Estrategia/Estrategia3.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Objetivos y Resultados Clave (ORCs)'" :button-text="'Quiero saber más'" :imageSquare="'persona4.jpg'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Estrategia/Estrategia 4.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Estrategia/Estrategia4.svg" alt="" class="icon-service">
           </card-service>
         </section>
                 
