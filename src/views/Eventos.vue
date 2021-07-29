@@ -5,7 +5,7 @@
         <section id="bannereventos">
             <div class="containerheader">
               <div class="row">
-                <div class="col-lg-7">
+                <div class="col-lg-6">
                   <h1 class="font-weight-700 font-poppins" style="color:#35547c">Eventos</h1>
                   <div class="hr-header" />
                   <h3 class="font-weight-300 font-poppins" style="color:#35547c">Contamos con una red de expertos inscríbete a nuestros eventos y lee nuestros blog.</h3>

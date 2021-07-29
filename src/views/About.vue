@@ -430,7 +430,7 @@
   }
   
   
-  @media(max-width: 440px ){
+  @media(max-width: 450px ){
   #bannerabout {
     background-image: url('../assets/js/services/Nosotrosresponsive.svg');
     background-size:100%;
@@ -464,6 +464,28 @@
     background-color: #e8eaea!important;
     margin-top: -120px;
     display: block;
+  }
+  }
+  @media(max-width: 800px)and(min-width: 500px) {
+    #bannerabout {
+    background-image: url('../assets/js/services/Nosotrosresponsive.svg');
+    background-size:100%;
+    background-repeat: no-repeat;
+  }
+  .containerheader{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 300px;
+    margin-bottom: -50px;
+  }
+  .hr-header {
+    border-style: Solid;
+    border-color: rgb(255, 212, 31);
+    background-color: rgb(255, 212, 31);
+    border-width: 3px;
+    width: 20%;
+    margin-left: 40%;
   }
   }
 
