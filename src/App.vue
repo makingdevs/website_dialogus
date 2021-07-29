@@ -88,7 +88,7 @@
                       <button class="btn-circle schedule-button btn-color-button p-2" id="buttonAgenda"
                         data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="cursor: pointer; padding-bottom: 26px !important;">
                         <i class="far fa-calendar-alt me-1" style="font-weight: 700 !important;"></i>
-                        <span class="text-button" style="font-size: 16px; font-weight: 700;"> Agenda una cita </span>
+                        <span class="text-button padding-agenda" style="font-size: 16px; font-weight: 700;"> Agenda una cita </span>
                     </button>
                     </li>
                   </ul>
