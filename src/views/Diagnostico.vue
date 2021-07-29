@@ -25,23 +25,23 @@
 
           <card-service :title="'Análisis para identificar fortalezas'" :button-text="'Quiero saber más'" :imageSquare="'persona1.png'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Diagnostico/Diagnostico 1.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Diagnostico/Diagnostico1.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Identificación de riesgos'" :button-text="'Quiero saber más'" :imageSquare="'persona2.jpg'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Diagnostico/Diagnostico 2.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Diagnostico/Diagnostico2.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Retroalimentación especializada'" :button-text="'Quiero saber más'" :imageSquare="'persona3.jpg'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Diagnostico/Diagnostico 3.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Diagnostico/Diagnostico3.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Evaluación de proveedores'" :button-text="'Quiero saber más'" :imageSquare="'persona4.jpg'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Diagnostico/Diagnostico 4.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Diagnostico/Diagnostico4.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Comunidad CIE'" :button-text="'Quiero saber más'" :imageSquare="'persona5-min.png'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Diagnostico/Diagnostico 5.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Diagnostico/Diagnostico5.svg" alt="" class="icon-service">
           </card-service>
         </section>
                 

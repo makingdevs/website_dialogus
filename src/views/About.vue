@@ -21,20 +21,20 @@
           <div class="d-flex justify-content-between bg-about flex-mobile">
 
             <div class="d-flex flex-column bg-card-about">
-              <img class="icon-about alignImag2 alignImag divisionsIcons" src="../assets/js/services/Nosotros/Nosotros 1.svg" style=" margin-top: -98px; margin-left: 2px;">
+              <img class="icon-about alignImag2 alignImag divisionsIcons" src="../assets/js/services/Nosotros/Nosotros1.svg" style=" margin-top: -98px; margin-left: 2px;">
               <span align="center" class="text-title font-weight-500 font-poppins">Misión</span><div class="m-top-28" />
               <div class="hr-border-about"/><div class="m-top-28" />
               <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins">Acompañamos el desarrollo de nuestros clientes, mediante metodologías innovadoras contribuyendo en su rentabilidad, productividad y satisfacción.</span>
             </div>
             <div class="d-flex flex-column bg-card-about">
-              <img class="icon-about alignImag2 alignImag  divisionsIcons" src="../assets/js/services/Nosotros/Nosotros 2.svg" style=" margin-top: -98px; margin-left: 2px;">
+              <img class="icon-about alignImag2 alignImag  divisionsIcons" src="../assets/js/services/Nosotros/Nosotros2.svg" style=" margin-top: -98px; margin-left: 2px;">
               <span align="center" class="text-title font-weight-500 font-poppins">Visión</span><div class="m-top-28" />
               <div class="hr-border-about"/><div class="m-top-28" />
               <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins">Generar Prosperidad Incluyente mediante el crecimiento y la permanencia de las empresas en el mercado.</span>
             </div>
 
             <div class="d-flex flex-column bg-card-about">
-              <img class="icon-about alignImag2 alignImag divisionsIcons" src="../assets/js/services/Nosotros/Nosotros 3.svg" style=" margin-top: -98px; margin-left: 2px;">
+              <img class="icon-about alignImag2 alignImag divisionsIcons" src="../assets/js/services/Nosotros/Nosotros3.svg" style=" margin-top: -98px; margin-left: 2px;">
               <span align="center" class="text-title font-weight-500 font-poppins">Propósito</span><div class="m-top-28" />
               <div class="hr-border-about"/><div class="m-top-28" />
               <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins">Apasionados por colaborar en la transformación de nuestros clientes y fomentar relaciones de confianza a largo plazo.</span>

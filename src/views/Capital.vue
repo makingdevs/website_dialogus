@@ -25,23 +25,23 @@
 
           <card-service :title="'Semillero de talento'" :button-text="'Quiero saber más'" :imageSquare="'persona1.png'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat.'">
-            <img src="../assets/js/services/Capital/Capital 1.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Capital/Capital1.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Estrategia de capacitación'" :button-text="'Quiero saber más'" :imageSquare="'persona2.jpg'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Capital/Capital 2.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Capital/Capital2.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Formación gamificada'" :button-text="'Quiero saber más'" :imageSquare="'persona3.jpg'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Capital/Capital 3.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Capital/Capital3.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Integración de equipos de trabajo'" :button-text="'Quiero saber más'" :imageSquare="'persona4.jpg'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Capital/Capital 4.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Capital/Capital4.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Gestión de personas'" :button-text="'Quiero saber más'" :imageSquare="'persona5-min.png'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Capital/Capital 5.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Capital/Capital5.svg" alt="" class="icon-service">
           </card-service>
         </section>
                 
