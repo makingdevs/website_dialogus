@@ -37,7 +37,7 @@
           </card-service>
           <card-service :title="'Objetivos y Resultados Clave (ORCs)'" :button-text="'Quiero saber más'" :imageSquare="'persona4.jpg'"
             :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Estrategia/Estrategia 4.svg" alt="" class="img4">
+            <img src="../assets/js/services/Estrategia/Estrategia 4.svg" alt="" class="icon-service">
           </card-service>
         </section>
                 
