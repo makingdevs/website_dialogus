@@ -115,7 +115,7 @@
     background: #ff7b29;
     border-radius: 50%;
   }
-  @media(max-width: 1199px ){
+  @media(max-width: 1000px ){
   #bannerdiagnostico {
     background-image: url('../assets/js/services/Diagnostico/Diagnosticoresponsive.svg');
     background-size:100%;
@@ -125,7 +125,7 @@
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 180px;
+    margin-top: 50%;
     margin-bottom: -50px;
   }
   .hr-header {
