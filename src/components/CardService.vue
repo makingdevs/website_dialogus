@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container m-top-mobile">
     <div class="row">
       <div class="col-2 mobile-hide">
         <slot></slot>
@@ -50,6 +50,7 @@ import '../assets/css/home.scss'
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
   
   .col-body-text-custom {
+    padding-bottom: 10%;
     padding-right: 0px;
   }
 
@@ -73,7 +74,7 @@ import '../assets/css/home.scss'
     }
   }
   .col-image-custom {
-    height: 375px; 
+    padding-bottom: 10%;
     padding-left: 0px;
   }
 
@@ -86,7 +87,7 @@ import '../assets/css/home.scss'
 
   .body-card {
     background-color: #e8eaea;
-    height: 375px;
+    height: 100%;
     width: 100%;
     padding: 30px;
     border-radius: 50px 0px 0px 50px;
@@ -189,6 +190,16 @@ import '../assets/css/home.scss'
 
     .col-body-text-custom {
       padding-right: 12px;
+    }
+    .col-image-custom {
+      padding-bottom: 0%;
+    }
+    .col-body-text-custom {
+      padding-bottom: 0%;
+    }
+    .m-top-mobile {
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
   }
   @media (max-width: 767px){
