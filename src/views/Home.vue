@@ -389,7 +389,7 @@
         if (window.scrollY > 300 && this.animate__animated) {
           const divisionsIcons = document.getElementsByClassName("divisionsIcons")
           for (const division of divisionsIcons) {
-            division.classList.add("animate__fadeInTopLeft")
+            division.classList.add("animate__fadeInDown")
           }
           this.displayСonditions = true;
           this.animate__animated = false;
@@ -400,7 +400,7 @@
         if (window.scrollY < 200 && !this.animate__animated) {
           const divisionsIcons = document.getElementsByClassName("divisionsIcons")
           for (const division of divisionsIcons) {
-            division.classList.remove("animate__fadeInTopLeft")
+            division.classList.remove("animate__fadeInDown")
           }
           this.animate__animated = true;
         }
@@ -409,7 +409,7 @@
         if (window.scrollY > 400 && this.animate__animated_text) {
           const divisionsText = document.getElementsByClassName("divisionsText")
           for (const textDivision of divisionsText) {
-            textDivision.classList.add("animate__fadeInBottomRight")
+            textDivision.classList.add("animate__fadeInUp")
           }
           this.animate__animated_text = false;
         }
@@ -418,7 +418,7 @@
         if (window.scrollY < 200 && !this.animate__animated_text) {
           const divisionsText = document.getElementsByClassName("divisionsText")
           for (const textDivision of divisionsText) {
-            textDivision.classList.remove("animate__fadeInBottomRight")
+            textDivision.classList.remove("animate__fadeInUp")
           }
           this.animate__animated_text = true;
         }
