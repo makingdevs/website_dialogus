@@ -1,12 +1,15 @@
 <template>
   <div>
     <section align="center" class="section-header viewport-header">
-      <video autoplay muted id="video-home">
-        <source src="../assets/animacion-cor.mp4" type="video/mp4">
-      </video>
       
-      <button @click="descargarGuia" class="boton-prueba" type="submit">Descargar Guia</button>
+        <video autoplay muted id="video-home" class="embed-responsive embed-responsive-21by9">
+          <source src="../assets/animacion-cor.mp4" >
+        </video>
+
       
+      <div class="d-flex flex-button-guide">
+        <button class="boton-prueba" @click="descargarGuia">Descargar Guia</button>
+      </div>
     </section>
     <!-- SERVICE================================================== -->
     <section id="seccion-services">
