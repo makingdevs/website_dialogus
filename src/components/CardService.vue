@@ -204,8 +204,9 @@ import '../assets/css/home.scss'
   }
   @media (max-width: 767px){
     .button-text-cardsService {
-      font-size: 15px;
-    }
+     font-size: 12px;
+     width: 58%;
+     font-weight: 500;
+   } 
   }
-
 </style>
