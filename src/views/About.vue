@@ -2,7 +2,7 @@
   <div class="about">
         <!-- PAGE TITLE
         ================================================== -->
-        <section id="bannerabout">
+        <section id="bannerabout" class="banners-services">
           <div class="containerheader">
             <div class="row">
               <div class="col-lg-7">
@@ -21,23 +21,23 @@
           <div class="d-flex justify-content-between bg-about flex-mobile">
 
             <div class="d-flex flex-column bg-card-about">
-              <img class="icon-about alignImag2 alignImag divisionsIcons" src="../assets/js/services/Nosotros/Nosotros1.svg" style=" margin-top: -98px; margin-left: 2px;">
-              <span align="center" class="text-title font-weight-500 font-poppins">Misión</span><div class="m-top-28" />
+              <img :show="handleScrollefect" class="icon-about alignImag2 alignImag nosotrosIcons animate__animated" src="../assets/js/services/Nosotros/Nosotros1.svg" style=" margin-top: -98px; margin-left: 2px;">
+              <span align="center" class="text-title font-weight-500 font-poppins nosotrosText animate__animated">Misión</span><div class="m-top-28" />
               <div class="hr-border-about"/><div class="m-top-28" />
-              <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins">Acompañamos el desarrollo de nuestros clientes, mediante metodologías innovadoras contribuyendo en su rentabilidad, productividad y satisfacción.</span>
+              <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins nosotrosText animate__animated">Acompañamos el desarrollo de nuestros clientes, mediante metodologías innovadoras contribuyendo en su rentabilidad, productividad y satisfacción.</span>
             </div>
             <div class="d-flex flex-column bg-card-about">
-              <img class="icon-about alignImag2 alignImag  divisionsIcons" src="../assets/js/services/Nosotros/Nosotros2.svg" style=" margin-top: -98px; margin-left: 2px;">
-              <span align="center" class="text-title font-weight-500 font-poppins">Visión</span><div class="m-top-28" />
+              <img class="icon-about alignImag2 alignImag nosotrosIcons animate__animated" src="../assets/js/services/Nosotros/Nosotros2.svg" style=" margin-top: -98px; margin-left: 2px;">
+              <span align="center" class="text-title font-weight-500 font-poppins nosotrosText animate__animated">Visión</span><div class="m-top-28" />
               <div class="hr-border-about"/><div class="m-top-28" />
-              <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins">Generar Prosperidad Incluyente mediante el crecimiento y la permanencia de las empresas en el mercado.</span>
+              <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins nosotrosText animate__animated">Generar Prosperidad Incluyente mediante el crecimiento y la permanencia de las empresas en el mercado.</span>
             </div>
 
             <div class="d-flex flex-column bg-card-about">
-              <img class="icon-about alignImag2 alignImag divisionsIcons" src="../assets/js/services/Nosotros/Nosotros3.svg" style=" margin-top: -98px; margin-left: 2px;">
-              <span align="center" class="text-title font-weight-500 font-poppins">Propósito</span><div class="m-top-28" />
+              <img class="icon-about alignImag2 alignImag nosotrosIcons animate__animated" src="../assets/js/services/Nosotros/Nosotros3.svg" style=" margin-top: -98px; margin-left: 2px;">
+              <span align="center" class="text-title font-weight-500 font-poppins nosotrosText animate__animated">Propósito</span><div class="m-top-28" />
               <div class="hr-border-about"/><div class="m-top-28" />
-              <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins">Apasionados por colaborar en la transformación de nuestros clientes y fomentar relaciones de confianza a largo plazo.</span>
+              <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins nosotrosText animate__animated">Apasionados por colaborar en la transformación de nuestros clientes y fomentar relaciones de confianza a largo plazo.</span>
             </div>
           </div>
 
@@ -475,7 +475,13 @@
   import '../assets/css/_main.scss'
   import '../assets/css/home.scss'
   export default {
-
+    data: function () {
+      return {
+        animate__animated_nosotros: true,
+        animate_text_nosotros: true,
+        displayСonditions: false,
+      }
+    },
     created: function () {
       window.addEventListener('scroll', this.handleScroll);
       document.body.scrollTop = 0;
@@ -489,15 +495,54 @@
     },
     
     methods: {
-      exampleMethod() {
-        
-      },
       handleScroll() {
         if (window.scrollY > 1200 && this.stateEffect) {
           this.displayСonditions = true;
           this.stateEffect = false;
         }
-      }
+        this.activatedNosotros();
+        this.returnNosotros();
+        this.animationNosotrosText();
+        this.returnNosotrosText();
+      },
+      activatedNosotros() {
+        if (window.scrollY > 100 && this.animate__animated_nosotros) {
+          const nosotrosIcons = document.getElementsByClassName("nosotrosIcons")
+          for (const nosotros of nosotrosIcons) {
+            nosotros.classList.add("animate__fadeInDown")
+          }
+          this.displayСonditions = true;
+          this.animate__animated_nosotros = false;
+        }
+
+      },
+      returnNosotros() {
+        if (window.scrollY < 150 && !this.animate__animated_nosotros) {
+          const nosotrosIcons = document.getElementsByClassName("nosotrosIcons")
+          for (const nosotros of nosotrosIcons) {
+            nosotros.classList.remove("animate__fadeInDown")
+          }
+          this.animate__animated_nosotros = true;
+        }
+      },
+      animationNosotrosText() {
+        if (window.scrollY > 150 && this.animate_text_nosotros) {
+          const nosotrosText = document.getElementsByClassName("nosotrosText")
+          for (const textNosotros of nosotrosText) {
+            textNosotros.classList.add("animate__fadeInUp")
+          }
+          this.animate_text_nosotros = false;
+        }
+      },
+      returnNosotrosText() {
+        if (window.scrollY < 100 && !this.animate_text_nosotros) {
+          const nosotrosText = document.getElementsByClassName("nosotrosText")
+          for (const textNosotros of nosotrosText) {
+            textNosotros.classList.remove("animate__fadeInUp")
+          }
+          this.animate_text_nosotros = true;
+        }
+      },
     }
   };
 </script>
