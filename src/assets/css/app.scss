@@ -383,3 +383,10 @@
       border-color: transparent #fbfbfb #ffffff transparent !important;
     }
   }
+
+  @media (min-width: 1300px) { 
+    .banners-services {
+      height: 500px
+    }
+
+  }
