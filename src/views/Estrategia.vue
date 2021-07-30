@@ -5,7 +5,7 @@
 
         <!-- PAGE TITLE
         ================================================== -->
-        <section id="bannerestrategia">
+        <section id="bannerestrategia" class="banners-services">
           <div class="containerheader">
             <div class="row">
               <div class="col-lg-7">

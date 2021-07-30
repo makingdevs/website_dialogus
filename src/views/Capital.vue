@@ -5,7 +5,7 @@
 
         <!-- PAGE TITLE
         ================================================== -->
-        <section id="bannercapital">
+        <section id="bannercapital" class="banners-services">
           <div class="containerheader">
             <div class="row">
               <div class="col-lg-7">

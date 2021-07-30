@@ -2,7 +2,7 @@
     <div>
         <!-- PAGE TITLE
         ================================================== -->
-        <section id="bannercontacto">
+        <section id="bannercontacto" class="banners-services">
             <div class="containerheader">
                 <div class="row">
                     <div class="col-lg-7">
