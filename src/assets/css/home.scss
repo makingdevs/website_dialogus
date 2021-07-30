@@ -1167,6 +1167,10 @@ button > .text-white {
     .text-contact{
       font-size: 14px;
     }
+    .email-text {
+      word-wrap: break-word;
+      font-size: 16px;
+    }
   }
   @media (max-width: 500px){
     .alignImag {
@@ -1259,12 +1263,34 @@ button > .text-white {
     .text-button{
       word-wrap: break-word;
     }
+    .email-text {
+      word-wrap: break-word;
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 362px){
+    .email-text {
+      word-wrap: break-word;
+      font-size: 11px;
+    }
   }
   @media (max-width: 340px) {
     .boton-prueba{
       font-size: 16px;
       margin-top: 116%;
       margin-left: -48%
+    }
+    .hr2{
+      margin-top: 54px;
+    }
+  }
+  @media (max-width: 320px){
+    .email-text {
+      word-wrap: break-word;
+      font-size: 10.7px;
+    }
+    .hr2{
+      margin-top: 54px;
     }
   }
   /*   END   */
