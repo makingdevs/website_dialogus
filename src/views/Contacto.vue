@@ -30,7 +30,7 @@
                                 <h3 class="font-weight-800 mb-2 mb-lg-3 color_33">Llámanos</h3>
 
                                 <a href="tel:55 16556739998">
-                                    <div class="color_33">(+44) 123 456 789</div>
+                                    <div class="color_33 fuenteContacto">(+44) 123 456 789</div>
                                 </a>
                             </div>
                         </div>
@@ -44,7 +44,7 @@
                                 <h4 class="h3 font-weight-800 mb-2 mb-lg-3 color_33">Escríbenos</h4>
 
                                 <a class="button" href="mailto:contactanos@dialogus.com.mx">
-                                    <div class="color_33">contactanos@dialogus.com.mx</div></a>
+                                    <div class="color_33 fuenteContacto">contactanos@dialogus.com.mx</div></a>
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@
                             <div class="contact-content ">
                                 <h4 class="h3 font-weight-800 mb-2 mb-lg-3 color_33">Visítanos</h4>
                                 <a href="https://goo.gl/maps/NLyroJ8KhabcxJy4A" target="_blank">
-                                <div class="color_33">Periferico Sur 4121, Fuentes del Pedregal
+                                <div class="color_33 fuenteContacto">Periferico Sur 4121, Fuentes del Pedregal
                                     Equipamiento Periférico Picacho Ajusco Canal 13</div></a>
                             </div>
                         </div>
@@ -182,6 +182,9 @@
 <style>
   .color_33 {
     color: #35547c;
+  }
+  .fuenteContacto{
+    font-weight: 300;
   }
   #bannercontacto {
     background-image: url('../assets/js/services/Contactohead.svg');
