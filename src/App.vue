@@ -37,19 +37,19 @@
                   <!-- menu area -->
                   <ul class="navbar-nav ms-auto nav-custom" id="nav" style="display: none" @click="hiddenMenu($event)">
                     <li>
-                      <router-link to="/home" style="font-size: 16px">
+                      <router-link to="/home" style="font-size: 16px;" class="subFuente">
                         Inicio
                       </router-link>
                     </li>
 
                     <li>
-                      <router-link  to="/about" style="font-size: 16px">
+                      <router-link  to="/about" style="font-size: 16px;" class="subFuente">
                         Nosotros
                       </router-link>
                     </li>
 
                     <li>
-                      <router-link  to="#!" style="font-size: 16px" id="eventService" class="d-flex">
+                      <router-link  to="#!" style="font-size: 16px;" id="eventService" class="d-flex subFuente">
                         <div>
                           servicios
                         </div>
@@ -58,37 +58,37 @@
                       <ul class="p-0">
                         <div class="sub-menu-services p-3">
                           <li>
-                            <router-link to="/estrategia" class="subServicios">Estrategia</router-link>
+                            <router-link to="/estrategia" class="subServicios subFuente">Estrategia</router-link>
                           </li>
                           <li>
-                            <router-link to="/capital" class="subServicios">Capital Humano</router-link>
+                            <router-link to="/capital" class="subServicios subFuente">Capital Humano</router-link>
                           </li>
                           <li>
-                            <router-link to="/cumplimiento" class="subServicios">Cumplimiento</router-link>
+                            <router-link to="/cumplimiento" class="subServicios subFuente">Cumplimiento</router-link>
                           </li>
                           <li>
-                            <router-link to="/diagnostico" class="subServicios">Diagnóstico</router-link>
+                            <router-link to="/diagnostico" class="subServicios subFuente">Diagnóstico</router-link>
                           </li>
                         </div>
                       </ul>
                     </li>
 
                     <li>
-                      <router-link  to="/eventos" style="font-size: 16px">
+                      <router-link  to="/eventos" style="font-size: 16px;" class="subFuente">
                         Eventos
                       </router-link>
                     </li>
 
                     <li>
-                      <router-link to="/contacto" style="font-size: 16px">
+                      <router-link to="/contacto" style="font-size: 16px;" class="subFuente">
                         Contacto
                       </router-link>
                     </li>
                     <li class="d-flex align-items-center">
                       <button class="btn-circle schedule-button btn-color-button p-2" id="buttonAgenda"
                         data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="cursor: pointer; padding-bottom: 26px !important;">
-                        <i class="far fa-calendar-alt me-0" style="font-weight: 700 !important;"></i>
-                        <span class="text-button padding-agenda" style="font-size: 16px; font-weight: 700;"> Agenda una cita </span>
+                        <i class="far fa-calendar-alt me-0" style="font-weight: 500 !important;"></i>
+                        <span class="text-button padding-agenda" style="font-size: 16px; font-weight: 500;"> Agenda una cita </span>
                     </button>
                     </li>
                   </ul>
