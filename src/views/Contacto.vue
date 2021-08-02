@@ -5,7 +5,7 @@
         <section id="bannercontacto" class="banners-services">
             <div class="containerheader">
                 <div class="row">
-                    <div class="col-lg-7">
+                    <div class="col-lg-6">
                       <h1  class="font-weight-700 font-poppins" style="color:#35547c">Contacto</h1>
                       <div class="hr-header" />
                       <h3  class="font-weight-300 font-poppins" style="color:#35547c">Si quieres recibir más información puedes ponerte en contacto con nosotros.</h3>

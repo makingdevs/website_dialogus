@@ -51,25 +51,33 @@
               <div class="d-flex justify-content-between bg-counter flex-mobile">
                 <div class="d-flex flex-column bg-card-counter">
                   <img align="right" :showç="handleScroll" class="icon-divisiones alignImag divisionsIcons" src="../assets/js/services/estrategi2.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
-                  <span align="center" class="text-title-counter font-weight-800 font-poppins">107</span><br>
+                  <div class="iCountUp" align="center">
+                    <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal" :options="options" @ready="onReady"/></span><br>
+                  </div>
                   <span align="center" class="h5 text-counter font-weight-300 font-poppins">Reuniones con CEO's y Directores para definir la división de sus negocios</span>
                 </div>
                 <div class="vl-about"></div>
                 <div class="d-flex flex-column bg-card-counter">
                   <img class="icon-divisiones alignImag2 alignImag  divisionsIcons" src="../assets/js/services/capital2.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
-                  <span align="center" class="text-title-counter font-weight-800 font-poppins">338</span><br>
+                  <div class="iCountUp" align="center">
+                    <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal1" :options="options" @ready="onReady1"/></span><br>
+                  </div>
                   <span align="center" class="h5 text-counter font-weight-300 font-poppins">Becarios distribuidos en 23 Áreas y Unidades de Negocio</span>
                 </div>
                 <div class="vl-about"></div>
                 <div class="d-flex flex-column bg-card-counter">
                   <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/cumpli2.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
-                  <span align="center" class="text-title-counter font-weight-800 font-poppins">1500</span><br>
+                  <div class="iCountUp" align="center">
+                    <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal2" :options="options" @ready="onReady2"/></span><br>
+                  </div>
                   <span align="center" class="h5 text-counter font-weight-300 font-poppins">Investigadores certificados para atender denuncias</span>
                 </div>
                 <div class="vl-about"></div>
                 <div class="d-flex flex-column bg-card-counter">
                   <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/diagno2.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
-                  <span align="center" class="text-title-counter font-weight-800 font-poppins">400</span><br>
+                  <div class="iCountUp" align="center">
+                    <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal3" :options="options" @ready="onReady3"/></span><br>
+                  </div>
                   <span align="center" class="h5 text-counter font-weight-300 font-poppins">Proveedores Certificados en los distintos niveles</span>
                 </div>
               </div>
@@ -474,12 +482,26 @@
 <script>
   import '../assets/css/_main.scss'
   import '../assets/css/home.scss'
+  import ICountUp from 'vue-countup-v2';
   export default {
     data: function () {
       return {
         animate__animated_nosotros: true,
         animate_text_nosotros: true,
         displayСonditions: false,
+        delay: 1000,
+        endVal: 107,
+        endVal1: 338,
+        endVal2: 1500,
+        endVal3: 400,
+        options: {
+          useEasing: true,
+          useGrouping: true,
+          separator: ',',
+          decimal: '.',
+          prefix: '',
+          suffix: ''
+        }
       }
     },
     created: function () {
@@ -491,10 +513,28 @@
 
     },
     components: {
+      ICountUp,
       //VueSlickCarousel,
     },
     
     methods: {
+      onReady: function(instance) {
+        const that = this;
+        instance.update(that.endVal);
+      },
+      onReady1: function(instance) {
+        const that = this;
+        instance.update(that.endVal1);
+      },
+      onReady2: function(instance) {
+        const that = this;
+        instance.update(that.endVal2);
+      },
+      onReady3: function(instance) {
+        const that = this;
+        instance.update(that.endVal3);
+      },
+
       handleScroll() {
         if (window.scrollY > 1200 && this.stateEffect) {
           this.displayСonditions = true;
