@@ -8,7 +8,7 @@
 
       
       <div class="d-flex flex-button-guide">
-        <button class="boton-prueba" @click="descargarGuia">Descargar Guia</button>
+        <button class="boton-prueba" @click="descargarGuia">Descargar Guía</button>
       </div>
     </section>
     <!-- SERVICE================================================== -->
