@@ -13,6 +13,12 @@
   left: 30%;
   z-index: 10;
 }
+.flex-dialogusIma {
+  position: absolute; 
+  margin-top: 352px; 
+  left: 46%;
+  z-index: 10;
+}
 
 .boton-prueba {
   background:#0098a5;
@@ -32,7 +38,7 @@
 
 .viewport-header {
   position: relative;
-  height: 100vh;
+  height: 55vh;
   text-align: center;
   display: flex;
   align-items: center;
@@ -40,7 +46,7 @@
 }
 
 .section-header {
-  padding: 0px;
+  padding: 44px;
 }
 
 .top-position2 {
@@ -50,6 +56,7 @@
   background: #0098a5 !important;
 }
 /* home*/
+
 .cuadrado2 {
   background: #35547c;
   background: rgba(63, 84, 121, 1);
@@ -75,6 +82,25 @@
   vertical-align: top;
 }
 /*APARTADO DE QUE ES DIALOGUS */
+.textoHederHome{
+  font-weight: 500;
+  text-align: left !important;
+  padding: 1%;
+  margin-top: -2%
+}
+.textoHederHome2{
+  font-weight: 500;
+  text-align: right !important;
+  padding: 1%;
+  margin-top: -2%
+}
+.paddinDialogus{
+  padding: 4% !important;
+}
+.verticalLineHome {
+  border-left: thick solid #35547c;
+}
+
 
 /*APARTADO DE QUE ES DIALOGUS */
 
@@ -1087,6 +1113,9 @@ button > .text-white {
     .boton-prueba{
       margin-top: 61%;
     }
+    .viewport-header {
+      height: 75vh;
+    }
   }
   @media (max-width: 575px){
     .text-button{
@@ -1271,10 +1300,21 @@ button > .text-white {
       font-size: 13px;
     }
   }
+  @media (max-width: 375px){
+    .viewport-header {
+      height: 80vh;
+    }
+    .paddinDialogus {
+      padding: 8% !important;
+  }
+  }
   @media (max-width: 362px){
     .email-text {
       word-wrap: break-word;
       font-size: 11px;
+    }
+    .viewport-header {
+      height: 85vh;
     }
   }
   @media (max-width: 340px) {
@@ -1294,6 +1334,9 @@ button > .text-white {
     }
     .hr2{
       margin-top: 54px;
+    }
+    .viewport-header {
+      height: 100vh;
     }
   }
   /*   END   */
