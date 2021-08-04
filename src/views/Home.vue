@@ -1,14 +1,42 @@
 <template>
   <div>
-    <section align="center" class="section-header viewport-header">
-      
-        <video autoplay muted id="video-home" class="embed-responsive embed-responsive-21by9">
-          <source src="../assets/animacion-cor.mp4" >
-        </video>
+    <section class="section-header viewport-header">
+      <div class="d-flex flex-column">
+        <div class="d-flex">
+          <div class="d-flex justify-content-start flex-column animate__animated animate__fadeInLeft">
+            <h2 class class="color_34">¿Qué somos?</h2>
+            <div class="d-flex">
+              <h1 class="d-flex align-items-center">
+                <i class=" fas fa-angle-double-right text-warning"></i>
+              </h1>
+              <div class="verticalLineHome"/>
+              <div class="textoHederHome">Somos una consultora de negocios apasionada
+                por transformar a nuestros clientes y lograr su 
+                permanencia en el mercado.</div>
+            </div>
+          </div>
 
+          <div class="d-flex justify-content-start flex-column animate__animated animate__fadeInRight">
+            <h2 class class="color_33">¿Cómo lo hacemos?</h2>
+            <div class="d-flex">
+              <div class="textoHederHome2 color_34 align-items-end">Acompañamos a nuestros clientes
+                con metodologías innovadoras 
+                contribuyendo a su rentabilidad.
+              </div>
+              <div class="verticalLineHome"/>
+              <h1 class="d-flex align-items-center">
+                <i class=" fas fa-angle-double-left text-warning"></i>
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center animate__animated animate__fadeInUp">
+          <img class="paddinDialogus" src="../assets/testImage.png" alt="">
+        </div>
+      </div>
       
-      <div class="d-flex flex-button-guide">
-        <button class="boton-prueba" @click="descargarGuia">Descargar Guia</button>
+      <div class="d-flex flex-button-guide animate__animated animate__fadeInUp">
+        <button class="boton-prueba" @click="descargarGuia">Descargar Guiá</button>
       </div>
     </section>
     <!-- SERVICE================================================== -->
