@@ -8,9 +8,10 @@
         <section id="bannercapital" class="banners-services">
           <div class="containerheader">
             <div class="row">
-              <div class="col-lg-7">
+              <div class="col-lg-6">
                 <h1 class="font-weight-700 font-poppins" style="color:#35547c">Capital Humano</h1>
                 <div class="hr-header" />
+                <div class="m-top-28" />
                 <h3 class="font-weight-300 font-poppins" style="color:#35547c">Generamos soluciones para la gestión de talento, y buscamos estrategias de bienestar para tu organización.</h3>
               </div>
             </div>

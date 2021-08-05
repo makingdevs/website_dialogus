@@ -8,6 +8,7 @@
                     <div class="col-lg-6">
                       <h1  class="font-weight-700 font-poppins" style="color:#35547c">Contacto</h1>
                       <div class="hr-header" />
+                      <div class="m-top-28" />
                       <h3  class="font-weight-300 font-poppins" style="color:#35547c">Si quieres recibir más información puedes ponerte en contacto con nosotros.</h3>
                     </div>
                 </div>

@@ -8,9 +8,10 @@
         <section id="bannercumplimiento" class="banners-services">
           <div class="containerheader">
             <div class="row">
-              <div class="col-lg-7">
+              <div class="col-lg-6">
                 <h1 class="font-weight-700 font-poppins" style="color:#35547c">Cumplimiento</h1>
                 <div class="hr-header" />
+                <div class="m-top-28" />
                 <h3 class="font-weight-300 font-poppins" style="color:#35547c">Buscamos impulsar una cultura de honestidad y buenos valores para tu organización.</h3>
               </div>
             </div>

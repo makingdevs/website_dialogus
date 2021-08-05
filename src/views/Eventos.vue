@@ -8,6 +8,7 @@
                 <div class="col-lg-6">
                   <h1 class="font-weight-700 font-poppins" style="color:#35547c">Eventos</h1>
                   <div class="hr-header" />
+                  <div class="m-top-28" />
                   <h3 class="font-weight-300 font-poppins" style="color:#35547c">Contamos con una red de expertos inscríbete a nuestros eventos y lee nuestros blog.</h3>
                 </div>
               </div>
@@ -207,7 +208,7 @@
 }
 @media(max-width: 1000px ){
   #bannereventos {
-    background-image: url('../assets/js/services/Capital/Capitalresponsive.svg');
+    background-image: url('../assets/js/services/Eventosresponsive.svg');
     background-size:100%;
     background-repeat: no-repeat;
   }

@@ -208,5 +208,8 @@ import '../assets/css/home.scss'
      width: 58%;
      font-weight: 500;
    } 
+   .m-top-mobile{
+     margin-bottom: 100px;
+   }
   }
 </style>

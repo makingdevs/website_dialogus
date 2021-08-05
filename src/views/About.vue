@@ -5,9 +5,10 @@
         <section id="bannerabout" class="banners-services">
           <div class="containerheader">
             <div class="row">
-              <div class="col-lg-7">
+              <div class="col-lg-6">
                 <h1 class="font-weight-700 font-poppins" style="color:#35547c">Nosotros</h1>
                 <div class="hr-header" />
+                <div class="m-top-28" />
                 <h3 class="font-weight-300 font-poppins" style="color:#35547c">Conoce más acerca de nosotros y nuestra visión para nuestros clientes.</h3>
               </div>
             </div>
@@ -338,6 +339,7 @@
   border-radius: 50%;
   border: 0px solid black;
   background-image: none;
+  margin-top: 50%;
 }
 
 .carousel-control-next-icon:after
@@ -497,8 +499,17 @@
     margin-top: -120px;
     display: block;
   }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    margin-top: 100%;
   }
-
+  }
+  @media(max-width: 700px ){
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    margin-top: 150%;
+  }
+  }
   
 
 </style>
@@ -513,7 +524,7 @@
         animate__animated_nosotros: true,
         animate_text_nosotros: true,
         displayСonditions: false,
-        delay: 1000,
+        delay: 5000,
         endVal: 107,
         endVal1: 338,
         endVal2: 1500,
