@@ -13,6 +13,8 @@
               <div class="textoHederHome">Somos una consultora de negocios apasionada
                 por transformar a nuestros clientes y lograr su 
                 permanencia en el mercado.</div>
+              <img class="lineaHederIzqui animate__animated animate__fadeIn" src="../assets/js/img-header-Inicio/lineaHederIzqui.png" alt="">
+                <img class="lineaHederDerec animate__animated animate__fadeIn" src="../assets/js/img-header-Inicio/lineaHederIzqui.png" alt="">
             </div>
           </div>
 
