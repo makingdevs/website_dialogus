@@ -24,33 +24,33 @@
          <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
           <span class="color_34 font-weight-500 font-poppins">NUESTROS SERVICIOS </span></h1><div class="m-top-28" />
 
-          <card-service :title="'Programas de Ética y Políticas de Integridad'" :button-text="'Quiero saber más'" :imageSquare="'persona1.png'"
-            :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Cumplimiento/Cumplimiento1.svg" alt="" class="icon-service">
-          </card-service>
-          <card-service :title="'Programa de Integridad y Comunicación Empresarial (PICE)'" :button-text="'Quiero saber más'" :imageSquare="'persona2.jpg'"
+          <card-service :title="'Programa de Integridad y Comunicación Empresarial (PICE)'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg1.jpg'"
             :bodyText="'Con la implementación del PICE y la adecuada gestión de su metodología e indicadores lograremos cerrar brechas entre los colaboradores y la alta dirección para la detección oportuna de riesgos que puedan comprometer la cultura de integridad del negocio a la par que se fomenta la mejora continua de las políticas de cumplimiento.'">
-            <img src="../assets/js/services/Cumplimiento/Cumplimiento2.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Cumplimiento/C1.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Políticas para prevenir el acoso y hostigamiento sexual'" :button-text="'Quiero saber más'" :imageSquare="'persona2.jpg'"
+          <card-service :title="'Políticas para prevenir el acoso y hostigamiento sexual'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg2.jpg'"
             :bodyText="'Ayudamos a que todos los colaboradores cuenten con un entorno de trabajo en el que su dignidad sea respetada, asegurándonos que los negocios cumplan con mejores prácticas internacionales y así evitar cualquier riesgo reputacional o legal.'">
-            <img src="../assets/js/services/Cumplimiento/Cumplimiento2.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Cumplimiento/C2.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Certificaciòn a investigadores'" :button-text="'Quiero saber más'" :imageSquare="'persona3.jpg'"
+          <card-service :title="'Certificaciòn a investigadores'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg3.jpg'"
             :bodyText="'Contamos con un programa especializado en habilitar y formar a investigadores internos en la detección oportuna de actos que vulneren las políticas internas de tu negocio.'">
-            <img src="../assets/js/services/Cumplimiento/Cumplimiento3.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Cumplimiento/C3.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Auditorìa interna'" :button-text="'Quiero saber más'" :imageSquare="'persona4.jpg'"
+          <card-service :title="'Auditorìa interna'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg4.jpg'"
             :bodyText="'Te ayudamos a llevar a cabo auditorias, con el fin de corroborar la conformidad de los procesos de acuerdo a la información documentada en tu empresa e identificar las oportunidades de mejora existentes en tu Sistema de Gestión.'">
-            <img src="../assets/js/services/Cumplimiento/Cumplimiento4.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Cumplimiento/C4.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Acompañamiento especializado en implementación de tu Sistema de Gestión (ISO, NOM´s, etc..)'" :button-text="'Quiero saber más'" :imageSquare="'persona5-min.png'"
+          <card-service :title="'Acompañamiento especializado en implementación de tu Sistema de Gestión (ISO, NOM´s, etc..)'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg5.jpg'"
             :bodyText="'Desarrollamos un traje a la medida para cumplir los requerimientos del modelo que necesitas, siguiendo el ritmo de tu empresa, adoptando nuevas metodologías, mejorando la eficacia de los procesos y fomentando el trabajo en equipo.'">
-            <img src="../assets/js/services/Cumplimiento/Cumplimiento5.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Cumplimiento/C5.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Sistemas de Gestión de Cumplimiento'" :button-text="'Quiero saber más'" :imageSquare="'persona5-min.png'"
+          <card-service :title="'Sistemas de Gestión de Cumplimiento'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg6.jpg'"
             :bodyText="'Acompañamos a nuestros clientes en el establecimiento de un sistema de gestión de cumplimiento que se apegue a las buenas prácticas y permita entender el contexto de los negocios para poder blindarlo ante cualquier riesgo que pudiera enfrentar.'">
-            <img src="../assets/js/services/Cumplimiento/Cumplimiento5.svg" alt="" class="icon-service">
+            <img src="../assets/js/services/Cumplimiento/C6.svg" alt="" class="icon-service">
+          </card-service>
+          <card-service :title="'Gestión de procesos de Negocios (BPM)'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg7.jpg'"
+            :bodyText="'Somos especialistas en el diseño y mapeo de procesos de negocio, ayudando a tu empresa a tener los planos que permitan reforzar y automatizar la estructura, eliminar silos, incrementar la calidad de tus productos o servicios y estar preparados a los cambios del entorno.'">
+            <img src="../assets/js/services/Cumplimiento/C7.svg" alt="" class="icon-service">
           </card-service>
         </section>
                 
