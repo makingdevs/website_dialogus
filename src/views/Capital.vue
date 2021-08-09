@@ -23,25 +23,28 @@
 
          <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
           <span class="color_34 font-weight-500 font-poppins">NUESTROS SERVICIOS </span></h1><div class="m-top-28" />
-
-          <card-service :title="'Semillero de talento'" :button-text="'Quiero saber más'" :imageSquare="'persona1.png'"
-            :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat.'">
-            <img src="../assets/js/services/Capital/Capital1.svg" alt="" class="icon-service">
-          </card-service>
-          <card-service :title="'Estrategia de capacitación'" :button-text="'Quiero saber más'" :imageSquare="'persona2.jpg'"
-            :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
+          <card-service :title="'Semillero de Talento (becarios y trainees)'" :button-text="'Quiero saber más'" :imageSquare="'CapitalImg1.jpg'"
+            :bodyText="'Nos apasiona descubrir el talento emergente de nuestras nuevas generaciones, involucrarlos en proyectos desafiantes y objetivos retadores que permiten el fortalecimiento de sus competencias, aptitudes y emociones preparándolos para convertirse en colaboradores de alto desempeño.'">
             <img src="../assets/js/services/Capital/Capital2.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Formación gamificada'" :button-text="'Quiero saber más'" :imageSquare="'persona3.jpg'"
-            :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
+          <card-service :title="'Gestión de Personas'" :button-text="'Quiero saber más'" :imageSquare="'CapitalImg2.jpg'"
+            :bodyText="'Diseñamos estrategias para la gestión integral del talento, acompañándolos durante todo el journey por la organización desde la selección y on-boarding, pasando por el desarrollo hasta la desvinculación del colaborador mediante metodologías y estrategias que propician ambientes de confianza que faciliten la innovación y productividad de los colaboradores.'">
+            <img src="../assets/js/services/Capital/Capital5.svg" alt="" class="icon-service">
+          </card-service>
+          <card-service :title="'Estrategia de Formación Organizacional'" :button-text="'Quiero saber más'" :imageSquare="'CapitalImg2.jpg'"
+            :bodyText="'Entendemos la estrategia, el ADN y los estilos de aprendizaje de las organizaciones para transformarlo en un programa formativo alineado a la estrategia general que los prepare para los desafíos del entorno cambiante.'">
+            <img src="../assets/js/services/Capital/Capital2.svg" alt="" class="icon-service">
+          </card-service>
+          <card-service :title="'Formación Gamificada'" :button-text="'Quiero saber más'" :imageSquare="'CapitalImg4.jpg'"
+            :bodyText="'Buscamos métodos disruptivos de formar a las organizaciones, aplicando herramientas y dinámicas de juego en el contexto laboral y en su cotidianidad, demostrando que a través de nuestros métodos se obtienen beneficios y conocimientos de alto impacto con aplicación al instante.'">
             <img src="../assets/js/services/Capital/Capital3.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Integración de equipos de trabajo'" :button-text="'Quiero saber más'" :imageSquare="'persona4.jpg'"
-            :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
+          <card-service :title="'Integración de Equipos Ejecutivos'" :button-text="'Quiero saber más'" :imageSquare="'CapitalImg5.jpg'"
+            :bodyText="'Habilitamos la interacción, comunicación y colaboración de los equipos ejecutivos partiendo de la consciencia individual y su impacto en la interacción con los equipos.'">
             <img src="../assets/js/services/Capital/Capital4.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Gestión de personas'" :button-text="'Quiero saber más'" :imageSquare="'persona5-min.png'"
-            :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
+          <card-service :title="'Gestión del Cambio'" :button-text="'Quiero saber más'" :imageSquare="'CapitalImg6.jpg'"
+            :bodyText="'Acompañamos a las organizaciones en sus procesos de transformación y cambio mediante metodologías centradas en la persona que sigue de cerca a los involucrados con el fin gestionar impactos en la tecnología, estructura, operación cultura y liderazgo, logrando la adopción del futuro deseado.'">
             <img src="../assets/js/services/Capital/Capital5.svg" alt="" class="icon-service">
           </card-service>
         </section>

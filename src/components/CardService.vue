@@ -100,6 +100,7 @@ import '../assets/css/home.scss'
   .body-text {
     text-align: justify;
     font-family: 'Poppins', sans-serif;
+    font-size: 20px;
   }
 
   .title {

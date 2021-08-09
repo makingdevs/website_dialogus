@@ -24,25 +24,25 @@
          <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
           <span align="center" class="color_34 font-weight-500 font-poppins">NUESTROS SERVICIOS </span></h1><div class="m-top-28" />
 
-          <card-service :title="'Análisis para identificar fortalezas'" :button-text="'Quiero saber más'" :imageSquare="'persona1.png'"
-            :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
+          <card-service :title="'Padrón de Proveedores CIE'" :button-text="'Quiero saber más'" :imageSquare="'DiagnosticoImg1.jpg'"
+            :bodyText="'Las evaluaciones de la Certificación Integral de Empresas (CIE) identifican a los mejores proveedores en el mercado mexicano, a través de análisis especializado en diferentes ramas como legal, cumplimiento, financiera y de responsabilidad social, entre otros. Garantizando así una mejora continúa en sus respectivas cadenas de valor.'">
             <img src="../assets/js/services/Diagnostico/Diagnostico1.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Identificación de riesgos'" :button-text="'Quiero saber más'" :imageSquare="'persona2.jpg'"
-            :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
+          <card-service :title="'Comunidad CIE'" :button-text="'Quiero saber más'" :imageSquare="'DiagnosticoImg2.jpg'"
+            :bodyText="'Acceso exclusivo a las empresas evaluadas y certificadas a eventos y cursos gratuitos sobre temas enfocados al desarrollo y formalización de las empresas para mantener actualizada a sus cadenas de valor en temas de interés empresarial. Cada participante puede llevar a sus equipos de trabajo.'">
             <img src="../assets/js/services/Diagnostico/Diagnostico2.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Retroalimentación especializada'" :button-text="'Quiero saber más'" :imageSquare="'persona3.jpg'"
-            :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
+          <card-service :title="'Diseño y Aplicación de Evaluaciones Especializadas'" :button-text="'Quiero saber más'" :imageSquare="'DiagnosticoImg3.jpg'"
+            :bodyText="'A través de nuestra red de especialistas y herramientas digitales, generamos e implementamos evaluaciones dedicadas y especificas a las necesidades de cada empresa para generar informes de valor que permita a los grupos directivos y líderes empresariales tomar decisiones informadas y efectivas en su empresa.'">
+            <img src="../assets/js/services/Diagnostico/Diagnostico2.svg" alt="" class="icon-service">
+          </card-service>
+          <card-service :title="'Identificación e Interpretación de Riesgos en la Empresa'" :button-text="'Quiero saber más'" :imageSquare="'DiagnosticoImg4.jpg'"
+            :bodyText="'Contamos con acceso a herramientas poderosas que nos permiten revisar los antecedentes legales de personas físicas y morales, así como una medición de cumplimiento de normativas nacionales.'">
             <img src="../assets/js/services/Diagnostico/Diagnostico3.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Evaluación de proveedores'" :button-text="'Quiero saber más'" :imageSquare="'persona4.jpg'"
-            :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
+          <card-service :title="'Retroalimentación especializada para áreas de mejora detectadas'" :button-text="'Quiero saber más'" :imageSquare="'DiagnosticoImg5.jpg'"
+            :bodyText="'A partir de las diversas evaluaciones que podemos aplicar, se entregan resultados puntuales con retroalimentación y definición de riesgos a corto, mediano o largo plazo en temas reputacionales, patrimoniales o de operación, permitiendo a nuestros clientes a tomar decisiones puntuales y en tiempo.'">
             <img src="../assets/js/services/Diagnostico/Diagnostico4.svg" alt="" class="icon-service">
-          </card-service>
-          <card-service :title="'Comunidad CIE'" :button-text="'Quiero saber más'" :imageSquare="'persona5-min.png'"
-            :bodyText="'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna ali- quam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcor- per suscipit lobortis nisl ut aliquip ex ea com- modo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo-'">
-            <img src="../assets/js/services/Diagnostico/Diagnostico5.svg" alt="" class="icon-service">
           </card-service>
         </section>
                 
