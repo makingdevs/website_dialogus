@@ -176,7 +176,19 @@ import '../assets/css/home.scss'
     .button-text-cardsService {
       font-size: 10.5px;
     }
-    .image-container {
+
+  }
+
+  @media (max-width: 767px){
+    .button-text-cardsService {
+     font-size: 12px;
+     width: 58%;
+     font-weight: 500;
+   } 
+   .m-top-mobile{
+     margin-bottom: 100px;
+   }
+       .image-container {
       border-radius: 0px 0px 14px 14px;
     }
 
@@ -201,15 +213,5 @@ import '../assets/css/home.scss'
       margin-top: 10px;
       margin-bottom: 10px;
     }
-  }
-  @media (max-width: 767px){
-    .button-text-cardsService {
-     font-size: 12px;
-     width: 58%;
-     font-weight: 500;
-   } 
-   .m-top-mobile{
-     margin-bottom: 100px;
-   }
   }
 </style>
