@@ -174,7 +174,7 @@
         </div>
         <div class="d-flex justify-content-between flex-mobile-footer">
           <div class="d-flex justify-content-start">
-            <p align="left" class="font-weight-300 font-poppins correo-footer" >
+            <p align="left" class="font-poppins correo-footer" >
               contactanos@dialogus.com.mx
             </p>
           </div>
