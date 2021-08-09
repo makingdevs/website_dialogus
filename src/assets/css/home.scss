@@ -1294,7 +1294,14 @@ button > .text-white {
     }
   }
   /*   END   */
-
+  @media (max-width: 280px){
+    .boton-prueba{
+      margin-top: 0%;
+    }
+    .btn-width-contact {
+      width: 63% !important;
+    }
+  }
   /*carusel 3d controles*/
   @media (max-width: 887px){
     :controlsVisible{
