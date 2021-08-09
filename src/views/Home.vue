@@ -271,9 +271,9 @@
         <div class="col-12 col-lg-4">
           <div class="">
             <div class="m-top-28" />
-            <div class="d-flex flex-column cuadrado2 p-2">
+            <div class="d-flex justify-content-center flex-column cuadrado2 p-2">
               <div class="m-top-28" />
-              <a href="tel:55 16556739998">
+              <a href="tel:55 16556739998" class="d-flex justify-content-center">
               <img class="telef" src="../assets/js/services/telfono.svg">
               </a>
               <div class="m-top-28" />
@@ -281,14 +281,14 @@
                 <p align="center" class="text-cuadrado2">55 16556739998</p>
               </a>
 
-              <a class="button" href="mailto:contactanos@dialogus.com.mx">
+              <a class="button d-flex justify-content-center" href="mailto:contactanos@dialogus.com.mx">
               <img class="message-contacto" src="../assets/js/services/messa.svg">
               </a>
               <div class="m-top-28" />
               <a class="button" href="mailto:contactanos@dialogus.com.mx">
                 <p align="center" class="text-cuadrado2 email-text">contactanos@dialogus.com.mx</p>
               </a>
-              <a href="https://goo.gl/maps/NLyroJ8KhabcxJy4A" target="_blank">
+              <a href="https://goo.gl/maps/NLyroJ8KhabcxJy4A" target="_blank" class="d-flex justify-content-center">
               <img class="telef" src="../assets/js/services/ubicacion.svg">
               </a>
               <div class="m-top-28" />
