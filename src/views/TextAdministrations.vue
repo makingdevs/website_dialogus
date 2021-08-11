@@ -18,7 +18,7 @@
 
         <div class="input-group mb-3">
             <span class="input-group-text" >Titulo</span>
-            <input type="text" class="form-control" placeholder="Titulo de la variable" aria-label="Titulo de la variable" aria-describedby="basic-addon1" v-model="tarjeta.title">
+            <input maxlength = "25" type="text" class="form-control" placeholder="Titulo de la variable" aria-label="Titulo de la variable" aria-describedby="basic-addon1" v-model="tarjeta.title">
         </div>
         <div class="input-group mb-3">
           <span class="input-group-text" >Fecha</span>
@@ -30,15 +30,15 @@
         </div>
         <div class="input-group mb-3">
           <span class="input-group-text" >Descripción</span>
-          <input maxlength = "78" type="text" class="form-control" placeholder="Nombre del valor" aria-label="Nombre del valor" aria-describedby="basic-addon1" v-model="tarjeta.description">
+          <input maxlength = "78" type="text" class="form-control" placeholder="Describe tu tarjeta" aria-label="Describe tu tarjeta" aria-describedby="basic-addon1" v-model="tarjeta.description">
         </div>
         <div class="input-group mb-3">
           <span class="input-group-text" >Registro (url)</span>
-          <input type="text" class="form-control" placeholder="Nombre del valor" aria-label="Nombre del valor" aria-describedby="basic-addon1" v-model="tarjeta.urlRegister">
+          <input type="text" class="form-control" placeholder="URL de Registro" aria-label="URL de Registro" aria-describedby="basic-addon1" v-model="tarjeta.urlRegister">
         </div>
         <div class="input-group mb-3">
           <span class="input-group-text" >Imágen</span>
-          <input type="text" class="form-control" placeholder="Nombre del valor" aria-label="Nombre del valor" aria-describedby="basic-addon1" v-model="tarjeta.image">
+          <input type="text" class="form-control spaceTextosAdmistra" placeholder="URL de Imagen" aria-label="URL de Imagen" aria-describedby="basic-addon1" v-model="tarjeta.image">
         </div>
         <div class="d-flex justify-content-center">
         <button @click="createWord" type="button" class="btn btn-success"> Crear Tarjeta </button>
@@ -71,12 +71,12 @@
               </td>
               <td>
                 <h6 :class="'index_text' + index">{{tarjeta.image}}</h6>
-                <input type="text" class="form-control" name="" :class="'index_' + index" aria-describedby="helpId" placeholder="" v-model="tarjeta.image" style="display: none"/>
+                <input type="text" class="form-control spaceTextosAdmistra" name="" :class="'index_' + index" aria-describedby="helpId" placeholder="" v-model="tarjeta.image" style="display: none"/>
               </td>
               <td>
                 <div class="btn-group" role="group" aria-label="Basic mixed styles example">
                   <button type="button" class="btn btn-success" :id="'index_edit' + index" @click="editEnable(index)">Editar</button>
-                  <button type="button" class="btn btn-success" :class="'index_' + index" style="display:none" @click="unableEdit(index); updateWord(tarjeta)">Save</button>
+                  <button type="button" class="btn btn-success spaceTextosAdmistra" :class="'index_' + index" style="display:none" @click="unableEdit(index); updateWord(tarjeta)">Save</button>
                   <button type="button" class="btn btn-danger" @click="deleteWord(tarjeta)">Eliminar</button>
                 </div>
               </td>
@@ -91,6 +91,9 @@
   #banner3{
     background-image: url('../assets/serv1.jpg')
   }
+  .spaceTextosAdmistra{
+      word-wrap: break-word;
+    }
 </style>
 
 <script>
