@@ -370,7 +370,7 @@
                         Asunto: ${this.contact.asunto}
                         Mensaje: ${this.contact.mensaje}`.replace(/  +/g, '');
 
-        window.open(`https://api.whatsapp.com/send?phone=525583817789&text=${encodeURIComponent(message)}`, "_target")
+        window.open(`https://api.whatsapp.com/send?phone=525567919880&text=${encodeURIComponent(message)}`, "_target")
       },
       descargarGuia(){
         window.open("http://dialugos.resources.s3.amazonaws.com/Brochure_Dialogus.pdf", '_blank')
