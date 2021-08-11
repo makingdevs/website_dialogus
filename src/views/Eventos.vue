@@ -20,157 +20,34 @@
         <section class="blog">
             <div class="container">
                     <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
-                        <span class="color_34">Proximos Eventos </span></h1> <div class="m-top-28" />
-                <div class="row">
-                    <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
-                        <article class="card card-style2 card-style4  h-100">
-                            <div class="card-img">
-                                <img src="../assets/persona2.jpg" alt="...">
+                        <span class="color_34"> EVENTOS Y CURSOS </span></h1> <div class="m-top-28" />
+                <div class="row" >
+                    <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9" :index="index" v-for="(tarjeta, index) in TarjetasCarruselTable" :key="index">
+                        <article class="card card-style2 card-style4 h-100">
+                            <div class="card-img"><img :src="tarjeta.image" alt="..." class="tamañoEventos">
                             </div>
                             <div class="card-body">
                                 <ul class="meta-tags">
                                     <li>
                                         <router-link to="/eventosDetalles" class="text-dark">
-                                            <i class="ti-calendar me-1 text-warning"></i> Feb 19, 2021
+                                            <i class="ti-calendar me-1 text-warning"></i> {{tarjeta.date}}
                                         </router-link>
                                     </li>
                                 </ul>
-                                <h3 class="h4 mb-3">5 Facts about life coach that will make you think twice.</h3>
-                                <p  align="left" class="text-dark">The purpose of the masterclass is to introduce the key thoughts supporting the psychodynamic approach.</p>
+                                <h3 class="h4 mb-3">{{tarjeta.title}}</h3>
+                                <p  align="left" class="text-dark">{{tarjeta.description}}</p>
+                                <div class="d-flex justify-content-center">
+                                    <a class="tolowercase button-register" :href="tarjeta.urlRegister" target="_blank"
+                                    ><span class="text-button">Regístrate </span></a>
+                                  </div> 
 
                             </div>
                         </article>
                     </div>
-                    <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9 ">
-                        <article class="card card-style2 card-style4 h-100 ">
-                            <div class="card-img">
-                                <img src="../assets/persona4.jpg" alt="">
-                            </div>
-                            <div class="card-body">
-                                <ul class="meta-tags">
-                                    <li>
-                                        <router-link to="/eventosDetalles" class="text-dark">
-                                            <i class="ti-calendar me-1 text-warning"></i> Feb 09, 2021
-                                        </router-link>
-                                    </li>
-                                </ul>
-                                <h3 class="h4 mb-3">20 Wonderful life coach. Number 16 is absolutely stunning!</h3>
-                                <p align="left" class="text-dark">The purpose of the masterclass is to introduce the key thoughts supporting the psychodynamic approach.</p>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
-                        <article class="card card-style2 card-style4 h-100">
-                            <div class="card-img">
-                                <img src="../assets/persona3.jpg" alt="...">
-                            </div>
-                            <div class="card-body">
-                                <ul class="meta-tags">
-                                    <li>
-                                        <router-link to="#!" class="text-dark">
-                                            <i class="ti-calendar me-1 text-warning"></i> Jan 24, 2021
-                                        </router-link>
-                                    </li>
-
-                                </ul>
-                                <h3 class="h4 mb-3">How to have a fantastic life coach with minimal spending?</h3>
-                                <p  align="left" class="text-dark">The purpose of the masterclass is to introduce the key thoughts supporting the psychodynamic approach.</p>
-                            </div>
-                        </article>
-                    </div>
-                            <!-- Event GRID
-        ================================================== -->
-                
-                    <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
-                        <span class="color_34">Conoce Nuestro Blog</span></h1>
-                        <div class="m-top-28" /><div class="m-top-28" /><div class="m-top-28" />
-                    <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
-                        <article class="card card-style2 card-style4 h-100">
-                            <div class="card-img">
-                                <img src="../assets/persona5-min.png" alt="...">
-                            </div>
-                            <div class="card-body">
-                                <ul class="meta-tags">
-                                    <li>
-                                        <router-link to="#!" class="text-dark">
-                                            <i class="ti-calendar me-1 text-warning"></i> Jan 24, 2021
-                                        </router-link>
-                                    </li>
-
-                                </ul>
-                                <h3 class="h4 mb-3">How to have a fantastic life coach with minimal spending?</h3>
-                                <p  align="left" class="text-dark">The purpose of the masterclass is to introduce the key thoughts supporting the psychodynamic approach.</p>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
-                        <article class="card card-style2 card-style4 h-100">
-                            <div class="card-img">
-                                <img src="../assets/persona2.jpg" alt="...">
-                            </div>
-                            <div class="card-body">
-                                <ul class="meta-tags">
-                                    <li>
-                                        <router-link to="#!" class="text-dark">
-                                            <i class="ti-calendar me-1 text-warning"></i> Jan 24, 2021
-                                        </router-link>
-                                    </li>
-
-                                </ul>
-                                <h3 class="h4 mb-3">How to have a fantastic life coach with minimal spending?</h3>
-                                <p  align="left" class="text-dark">The purpose of the masterclass is to introduce the key thoughts supporting the psychodynamic approach.</p>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9">
-                        <article class="card card-style2 card-style4 h-100">
-                            <div class="card-img">
-                                <img src="../assets/persona4.jpg" alt="...">
-                            </div>
-                            <div class="card-body">
-                                <ul class="meta-tags">
-                                    <li>
-                                        <router-link to="#!" class="text-dark">
-                                            <i class="ti-calendar me-1 text-warning"></i> Jan 24, 2021
-                                        </router-link>
-                                    </li>
-
-                                </ul>
-                                <h3 class="h4 mb-3">How to have a fantastic life coach with minimal spending?</h3>
-                                <p  align="left" class="text-dark">The purpose of the masterclass is to introduce the key thoughts supporting the psychodynamic approach.</p>
-                            </div>
-                        </article>
-                    </div>
-                
-
+                    
                 </div>
-
             </div>
         </section>
-        <slide :index="index" class="" v-for="(tarjeta, index) in TarjetasCarruselTable" :key="index">
-          <div class="card text-dark">
-            <div class="card-img"><img :src="tarjeta.image" alt="..." class="tamañoEventos">
-            </div>
-            <div class="card-body">
-              <h5 align="center">
-                <router-link to="/eventos" class="text-white">{{tarjeta.title}}</router-link>
-              </h5>
-              <div align="center" class="event-meta-list">
-                <span class="me-0 me-xl-2 text-white"><i
-                    class="ti-calendar me-2 custom-icon"></i>{{tarjeta.date}}</span>
-                <span class="text-white"><i class="ti-time custom-icon me-2"></i>{{tarjeta.time}}</span>
-              </div>
-              <p align="center" class="card-description-carousel">{{tarjeta.description}}</p>
-              <div class="mt-7" />
-              
-              <div class="d-flex justify-content-center">
-                <a class="tolowercase button-register" :href="tarjeta.urlRegister" target="_blank"
-                ><span class="text-button">Regístrate </span></a>
-              </div>
-            </div>
-          </div>
-        </slide>
-
     </div>
 </template>
 
