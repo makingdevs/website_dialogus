@@ -147,6 +147,29 @@
 
             </div>
         </section>
+        <slide :index="index" class="" v-for="(tarjeta, index) in TarjetasCarruselTable" :key="index">
+          <div class="card text-dark">
+            <div class="card-img"><img :src="tarjeta.image" alt="..." class="tamañoEventos">
+            </div>
+            <div class="card-body">
+              <h5 align="center">
+                <router-link to="/eventos" class="text-white">{{tarjeta.title}}</router-link>
+              </h5>
+              <div align="center" class="event-meta-list">
+                <span class="me-0 me-xl-2 text-white"><i
+                    class="ti-calendar me-2 custom-icon"></i>{{tarjeta.date}}</span>
+                <span class="text-white"><i class="ti-time custom-icon me-2"></i>{{tarjeta.time}}</span>
+              </div>
+              <p align="center" class="card-description-carousel">{{tarjeta.description}}</p>
+              <div class="mt-7" />
+              
+              <div class="d-flex justify-content-center">
+                <a class="tolowercase button-register" :href="tarjeta.urlRegister" target="_blank"
+                ><span class="text-button">Regístrate </span></a>
+              </div>
+            </div>
+          </div>
+        </slide>
 
     </div>
 </template>
@@ -231,7 +254,21 @@
 
 </style>
 <script>
+  import '../assets/css/_main.scss';
+  import '../assets/css/home.scss';
+  import { TarjetasCarruselTableRef } from '../dbConnection'
 export default{
+    
+    name: "home",
+    firebase: {
+      TarjetasCarruselTable: TarjetasCarruselTableRef
+    },
+    watch: {
+      TarjetasCarruselTable: function () {
+        this.renderComponent = false;
+        setTimeout(() => this.renderComponent = true, 1000);
+      },
+    },
     created: function () {
       window.addEventListener('scroll', this.handleScroll);
       document.body.scrollTop = 0;
