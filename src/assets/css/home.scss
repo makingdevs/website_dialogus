@@ -6,7 +6,9 @@
   top: 0;
   left: 0;
 }
-
+.arrowsPadding {
+  padding: 1%;
+}
 .hide-desktop {
   display: none;
 }
@@ -92,11 +94,8 @@
   margin-left: 44%;
 }
 /*APARTADO DE QUE ES DIALOGUS */
-.animate__animated.animate__fadeInLeft {
-  --animate-duration: 3s;
-}
 .animate__animated.animate__fadeIn {
-  --animate-duration: 5s;
+  --animate-duration: 10s;
 }
 .lineaHederIzqui{
   position: absolute;
@@ -1004,8 +1003,13 @@ button > .text-white {
     margin-top: -97px;
   }
 }
-@media (max-width: 994px) {
-
+@media (max-width: 995px) {
+  .lineaHederIzqui{
+    display: none;
+  }
+  .lineaHederDerec{
+    display: none;
+  }
   .img-hexPagina-carrusel{
     display: none;
   }
@@ -1187,6 +1191,9 @@ button > .text-white {
     }
   }
   @media (max-width: 991px){
+    .verticalLineHome {
+      padding: 0.5%;
+    }
     .lineaHederDerec{
       display: none;
     }
@@ -1197,15 +1204,11 @@ button > .text-white {
       margin-top: 108%;
     }
     .viewport-header {
-      height: 64vh;
+      height: 80vh;
     }
-    .lineCortaHome{
-      display: block;
-      position: absolute;
-      margin-top: 18%;
-      margin-left: -18%;
-      height: 28%;
-    } 
+    .paddinDialogusTexto{
+      padding: 2%;
+    }
     .fa-angle-double-left{
       display: none;
     }
@@ -1215,15 +1218,8 @@ button > .text-white {
     .textoHederHome2{
       text-align: left !important;
     }
-    .lineLargaHome{
-      display: block;
-      position: absolute;
-      margin-top: 18%;
-      margin-left: -24%;
-      height: 50%;
-    } 
     .w-texto-header-home{
-      width: 50% !important;
+      width: 100% !important;
       align-self: flex-end;
     }
     .bg-contact{
@@ -1251,28 +1247,16 @@ button > .text-white {
       word-wrap: break-word;
     }
   @media (max-width: 820px){
-    .lineCortaHome {
-      margin-left: -20%;
-      height: 24%;
-    } 
-    .lineLargaHome {
-      height: 46%;
-      margin-left: -28%;
-    }
   .viewport-header {
-    height: 66vh;
+    height: 77vh;
     }
     .boton-prueba{
       margin-top: 119%;
     }
   }
-  @media (max-width: 767px){
-    .lineCortaHome {
-      margin-left: -18%;
-      height: 22%;
-    }
-    .lineLargaHome {
-      height: 43%;
+  @media (max-width: 768px){
+    .viewport-header {
+      height: 67vh;
     }
     .boton-prueba{
       margin-top: 94%;
@@ -1394,7 +1378,7 @@ button > .text-white {
       width: 39%;
     }
     .boton-prueba{
-      margin-top: 144%;
+      margin-top: 88%;
     }
     .title-contact{
       width: 550px;
@@ -1416,35 +1400,24 @@ button > .text-white {
     }
   }
   @media (max-width: 540px){
+    .w-texto-header-home {
+      width: 100% !important;
+      align-self: flex-end;
+    }
     .lineCortaHome {
-      margin-left: -27%;
-      height: 22%;
+      display: none;
     }
     .lineLargaHome {
-      height: 55%;
-      margin-top: 16.5%;
-      margin-left: -40%;
-      width: 39%;
+      display: none;
     }
     .boton-prueba{
-      margin-top: 144%;
+      margin-top: 88%;
     } 
     .viewport-header {
-      height: 100vh;
+      height: 71vh;
     }
   }
   @media (max-width: 500px){
-    .lineCortaHome {
-      margin-left: -33%;
-      height: 25%;
-      margin-top: 18%;
-    }
-    .lineLargaHome {
-      height: 61%;
-      margin-top: 18%;
-      margin-left: -40%;
-      width: 39%;
-    }
     .boton-prueba{
       margin-top: 144%;
     }
@@ -1471,7 +1444,7 @@ button > .text-white {
     .text-contac-cuadro{
       width: 500px;
     }
-  .bg-contact{
+    .bg-contact{
     height: 522px;
     width: 500px;
     }
@@ -1482,7 +1455,7 @@ button > .text-white {
       word-wrap: break-word;
     }
   }
-  @media (max-width: 494px){
+  @media (max-width: 496px){
     .w-texto-header-home{
       width: 100% !important;
       align-self: flex-end;
@@ -1575,10 +1548,13 @@ button > .text-white {
   }
   @media (max-width: 375px){
     .viewport-header {
-      height: 82vh;
+      height: 64vh;
     }
     .paddinDialogus {
       padding: 8% !important;
+    }
+    .paddinDialogusTexto {
+      padding: 0% !important;
     }
     .boton-prueba{
       margin-top: 77%;
@@ -1590,14 +1566,24 @@ button > .text-white {
       word-wrap: break-word;
       font-size: 11px;
     }
+  }
+  @media (max-width: 353px){
     .viewport-header {
-      height: 85vh;
+      height: 70vh;
+    }
+    .boton-prueba{
+      font-size: 16px;
+      margin-top: 126%;
+      margin-left: -48%
     }
   }
   @media (max-width: 340px) {
+    .viewport-header {
+      height: 74vh;
+    }
     .boton-prueba{
       font-size: 16px;
-      margin-top: 116%;
+      margin-top: 126%;
       margin-left: -48%
     }
     .hr2{
@@ -1605,15 +1591,15 @@ button > .text-white {
     }
   }
   @media (max-width: 320px){
+    .viewport-header {
+      height: 77vh;
+    }
     .email-text {
       word-wrap: break-word;
       font-size: 10.7px;
     }
     .hr2{
       margin-top: 54px;
-    }
-    .viewport-header {
-      height: 115vh;
     }
     .boton-prueba{
       margin-top: 161%;

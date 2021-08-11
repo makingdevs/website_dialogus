@@ -3,10 +3,10 @@
     <section class="section-header viewport-header">
       <div class="d-flex flex-column">
         <div class="d-flex order-lg-1 order-2 flex-lg-row flex-column w-texto-header-home">
-          <div class="d-flex justify-content-start flex-column animate__animated animate__fadeInDown">
-            <h2 class class="color_34">¿Qué somos?</h2>
+          <div class="d-flex justify-content-start flex-column animate__animated animate__fadeInRight paddinDialogusTexto">
+            <h2 class="color_34">¿Qué somos?</h2>
             <div class="d-flex">
-              <h1 class="d-flex align-items-center">
+              <h1 class="d-flex align-items-center arrowsPadding">
                 <i class=" fas fa-angle-double-right text-warning"></i>
               </h1>
               <div class="verticalLineHome"/>
@@ -18,21 +18,21 @@
             </div>
           </div>
 
-          <div class="d-flex justify-content-start flex-column animate__animated animate__fadeInDown spaceTextos">
-            <h2 class class="color_33">¿Cómo lo hacemos?</h2>
+          <div class="d-flex justify-content-start flex-column animate__animated animate__fadeInLeft spaceTextos paddinDialogusTexto">
+            <h2 class="color_33">¿Cómo lo hacemos?</h2>
             <div class="d-flex">
               <div class="textoHederHome2 color_34 align-items-end order-lg-1 order-2">Acompañamos a nuestros clientes
                 con metodologías innovadoras 
                 contribuyendo a su rentabilidad.
               </div>
               <div class="verticalLineHome order-lg-2 order-1"/>
-              <div class="hide-desktop">
+              <div class="hide-desktop arrowsPadding">
                 <h1 class="d-flex align-items-center">
                   <i class="fas fa-angle-double-right text-warning"></i>
                 </h1>
               </div>
               <div class="hide-mobile order-lg-4 align-items-center">
-                <h1 class="d-flex align-items-center">
+                <h1 class="d-flex align-items-center arrowsPadding">
                   <i class="fas fa-angle-double-left text-warning"></i>
                 </h1>
               </div>
