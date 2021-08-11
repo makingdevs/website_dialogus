@@ -4,7 +4,7 @@
       <div class="d-flex flex-column">
         <div class="d-flex order-lg-1 order-2 flex-lg-row flex-column w-texto-header-home">
           <div class="d-flex justify-content-start flex-column animate__animated animate__fadeInRight paddinDialogusTexto">
-            <h2 class="color_34">¿Qué somos?</h2>
+            <h2 class="color_34">¿Quiénes Somos?</h2>
             <div class="d-flex">
               <h1 class="d-flex align-items-center arrowsPadding">
                 <i class=" fas fa-angle-double-right text-warning"></i>
@@ -47,7 +47,7 @@
       </div>
       
       <div class="d-flex flex-button-guide animate__animated animate__fadeInLeft">
-        <button class="boton-prueba" @click="descargarGuia">Descargar Guiá</button>
+        <button class="boton-prueba" @click="descargarGuia">Descargar Guía</button>
       </div>
     </section>
 
