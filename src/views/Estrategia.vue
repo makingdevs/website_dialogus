@@ -9,6 +9,7 @@
           <div class="containerheader">
             <div class="row">
               <div class="col-lg-6">
+                <div class="m-top-28" />
                 <h1 class="font-weight-700 font-poppins" style="color:#35547c">Estrategia</h1>
                 <div class="hr-header" />
                 <div class="m-top-28" />

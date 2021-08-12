@@ -9,6 +9,7 @@
           <div class="containerheader">
             <div class="row">
               <div class="col-lg-6">
+                <div class="m-top-28" />
                 <h1 class="font-weight-700 font-poppins" style="color:#35547c">Capital Humano</h1>
                 <div class="hr-header" />
                 <div class="m-top-28" />
@@ -31,7 +32,7 @@
             :bodyText="'Diseñamos estrategias para la gestión integral del talento, acompañándolos durante todo el journey por la organización desde la selección y on-boarding, pasando por el desarrollo hasta la desvinculación del colaborador mediante metodologías y estrategias que propician ambientes de confianza que faciliten la innovación y productividad de los colaboradores.'">
             <img src="../assets/js/services/Capital/CH2.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Estrategia de Formación Organizacional'" :button-text="'Quiero saber más'" :imageSquare="'CapitalImg2.jpg'"
+          <card-service :title="'Estrategia de Formación Organizacional'" :button-text="'Quiero saber más'" :imageSquare="'CapitalImg3.jpg'"
             :bodyText="'Entendemos la estrategia, el ADN y los estilos de aprendizaje de las organizaciones para transformarlo en un programa formativo alineado a la estrategia general que los prepare para los desafíos del entorno cambiante.'">
             <img src="../assets/js/services/Capital/CH3.svg" alt="" class="icon-service">
           </card-service>

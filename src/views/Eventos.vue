@@ -6,6 +6,7 @@
             <div class="containerheader">
               <div class="row">
                 <div class="col-lg-6">
+                  <div class="m-top-28" />
                   <h1 class="font-weight-700 font-poppins" style="color:#35547c">Eventos</h1>
                   <div class="hr-header" />
                   <div class="m-top-28" />
@@ -20,7 +21,7 @@
         <section class="blog">
             <div class="container">
                     <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
-                        <span class="color_34"> EVENTOS Y CURSOS </span></h1> <div class="m-top-28" />
+                        <span class="color_34"> EVENTOS </span></h1> <div class="m-top-28" />
                 <div class="row" >
                     <div class="col-lg-6 col-xl-4 mb-1-6 mb-md-1-9" :index="index" v-for="(tarjeta, index) in TarjetasCarruselTable" :key="index">
                         <article class="card card-style2 card-style4 h-100">
