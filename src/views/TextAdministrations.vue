@@ -50,6 +50,7 @@
             <tr>
               <th scope="col">Titulo</th>
               <th scope="col">Fecha</th>
+              <th scope="col">Hora</th>
               <th scope="col">Descripción</th>
               <th scope="col">Imagen</th>
               <th scope="col"></th>
@@ -64,6 +65,10 @@
               <td>
                 <h6 :class="'index_text' + index">{{tarjeta.date}}</h6>
                 <input type="text" class="form-control" name="" :class="'index_' + index" aria-describedby="helpId" placeholder="" v-model="tarjeta.date" style="display: none"/>
+              </td>
+              <td>
+                <h6 :class="'index_text' + index">{{tarjeta.time}}</h6>
+                <input type="text" class="form-control" name="" :class="'index_' + index" aria-describedby="helpId" placeholder="" v-model="tarjeta.time" style="display: none"/>
               </td>
               <td>
                 <h6 :class="'index_text' + index">{{tarjeta.description}}</h6>
