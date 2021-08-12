@@ -5,9 +5,11 @@
         <section id="bannercontacto" class="banners-services">
             <div class="containerheader">
                 <div class="row">
-                    <div class="col-lg-7">
+                    <div class="col-lg-6">
+                      <div class="m-top-28" />
                       <h1  class="font-weight-700 font-poppins" style="color:#35547c">Contacto</h1>
                       <div class="hr-header" />
+                      <div class="m-top-28" />
                       <h3  class="font-weight-300 font-poppins" style="color:#35547c">Si quieres recibir más información puedes ponerte en contacto con nosotros.</h3>
                     </div>
                 </div>
@@ -56,8 +58,8 @@
                             <div class="contact-content ">
                                 <h4 class="h3 font-weight-800 mb-2 mb-lg-3 color_33">Visítanos</h4>
                                 <a href="https://goo.gl/maps/NLyroJ8KhabcxJy4A" target="_blank">
-                                <div class="color_33 fuenteContacto">Periferico Sur 4121, Fuentes del Pedregal
-                                    Equipamiento Periférico Picacho Ajusco Canal 13</div></a>
+                                <div class="color_33 fuenteContacto">Periférico Sur 4121, Fuentes del Pedregal
+                                    Equipamiento Periférico Picacho Ajusco</div></a>
                             </div>
                         </div>
                     </div>
@@ -262,7 +264,7 @@
                         Asunto: ${this.contact.asunto}
                         Mensaje: ${this.contact.mensaje}`.replace(/  +/g, '');
 
-                window.open(`https://api.whatsapp.com/send?phone=525583817789&text=${encodeURIComponent(message)}`, "_target")
+                window.open(`https://api.whatsapp.com/send?phone=525567919880&text=${encodeURIComponent(message)}`, "_target")
             },
         },
     };
