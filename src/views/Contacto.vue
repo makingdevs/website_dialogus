@@ -32,7 +32,7 @@
                                 <h3 class="font-weight-800 mb-2 mb-lg-3 color_33">Llámanos</h3>
 
                                 <a href="tel:55 16556739998">
-                                    <div class="color_33 fuenteContacto">(+44) 123 456 789</div>
+                                    <div class="color_33 fuenteContacto">(+52) 55 679 198 80</div>
                                 </a>
                             </div>
                         </div>

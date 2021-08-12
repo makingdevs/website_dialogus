@@ -273,7 +273,7 @@
               </a>
               <div class="m-top-28" />
               <a href="tel:55 16556739998">
-                <p align="center" class="text-cuadrado2">55 16556739998</p>
+                <p align="center" class="text-cuadrado2">55 67919880</p>
               </a>
 
               <a class="button d-flex justify-content-center" href="mailto:contactanos@dialogus.com.mx">
