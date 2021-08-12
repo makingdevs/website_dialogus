@@ -31,8 +31,8 @@
             <div class="hr-border-divisiones" />
             <div class="m-top-28" />
             <span style="text-align: center; font-weight: 300;" :show="handleScroll"
-              class="h5 flex-grow-1 text-body divisionsText animate__animated" id="text-estrategia">Definimos el
-              camino para alcanzar tus objetivos de manera exitosa.</span>
+              class="h5 flex-grow-1 text-body divisionsText animate__animated" id="text-estrategia">Transformamos a las organizaciones para que logren un alto desempeño a
+              través de soluciones eficientes e innovadoras.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
 
               <router-link to="/estrategia" class="button-divisiones" type="none"><span
@@ -49,9 +49,8 @@
             <div class="m-top-28" />
             <div class="hr-border-divisiones" />
             <div class="m-top-28" />
-            <span style="text-align: center; font-weight: 300;" class="h5 flex-grow-1 text-body divisionsText animate__animated">Generamos
-              soluciones para el desarrollo del talento
-              humano y el desarrollo organizacional.</span>
+            <span style="text-align: center; font-weight: 300;" class="h5 flex-grow-1 text-body divisionsText animate__animated">Generamos soluciones para la gestión de talento, y buscamos
+            estrategias de bienestar para tu organización.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
               <router-link to="/capital" class="button-divisiones"><span
                   class="text-button" style="text-transform: none;">Conoce más</span></router-link>
@@ -66,9 +65,8 @@
             <div class="m-top-28" />
             <div class="hr-border-divisiones" />
             <div class="m-top-28" />
-            <span style="text-align: center; font-weight: 300;" class="h5 flex-grow-1 text-body divisionsText animate__animated">Blindamos
-              a las empresas con sistemas de integridad,
-              ética y gestión de riesgos.</span>
+            <span style="text-align: center; font-weight: 300;" class="h5 flex-grow-1 text-body divisionsText animate__animated">Buscamos impulsar y acompañar a las empresas en la
+            construcción de una cultura de integridad y buenos valores que se alinee a la organización y su estrategia.</span>
             <div class="m-top-28" />
             <div class="d-flex justify-content-center mt-5 mb-5">
               <router-link to="/cumplimiento" class="button-divisiones"><span
@@ -85,9 +83,8 @@
             <div class="hr-border-divisiones" />
             <div class="m-top-28" />
             <span style="text-align: center; font-weight: 300;"
-              class="h5 flex-grow-1 text-body divisionsText animate__animated">Identificamos fortalezas y debilidades de
-              empresas
-              reforzando el ecosistema mexicano.</span>
+              class="h5 flex-grow-1 text-body divisionsText animate__animated">Identificamos áreas de oportunidad de las empresas por medio de
+              herramientas de monitoreo y análisis.</span>
             <div class="d-flex justify-content-center mt-5 mb-5">
               <router-link to="/diagnostico" class="button-divisiones"><span
                   class="text-button" style="text-transform: none;">Conoce más</span></router-link>
@@ -116,9 +113,7 @@
               alt="...">
             <div class="m-top-28" />
             <div class="m-top-28" />
-            <div align="center" class="h4 color_33 presentamosText animate__animated" style="font-weight: 300;">Somos una consultora que ofrece
-              una amplia gama de servicios
-              disruptivos e innovadores, siempre poniendo a la gente al centro de las soluciones.</div>
+            <div align="center" class="h4 color_33 presentamosText animate__animated" style="font-weight: 300;">Una consultora que ofrece servicios disruptivos e innovadores, siempre poniendo a la gente al centro de las soluciones.</div>
           </div>
 
 
@@ -293,7 +288,7 @@
               </a>
               <div class="m-top-28" />
               <a href="https://goo.gl/maps/NLyroJ8KhabcxJy4A" target="_blank">
-                <p align="center" class="text-cuadrado2">Periferico Sur 4121, Fuentes del Pedregal, Tlalpan, 14140
+                <p align="center" class="text-cuadrado2">Periférico Sur 4121, Fuentes del Pedregal, Tlalpan, 14140
                   Ciudad de México, CDMX</p>
               </a>
             </div>

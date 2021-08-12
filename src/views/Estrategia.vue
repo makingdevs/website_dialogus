@@ -28,7 +28,7 @@
             <img src="../assets/js/services/Estrategia/E1.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Estructura Organizacional'" :button-text="'Quiero saber más'" :imageSquare="'EstrategiaImg2.jpg'"
-            :bodyText="'Definimos un modelo operacional de alto desempeño para el futuro y diseñamos la estructura organizacional alineada con la estrategia de tu negocio. Establecemos las capacidades necesarias en la fuerza de trabajo y proponemos las mejores las prácticas para garantizar que la organización cuente con las personas correctas en los lugares correctos.'">
+            :bodyText="'Definimos un modelo operacional de alto desempeño para el futuro y diseñamos la estructura organizacional alineada con la estrategia de tu negocio. Establecemos las capacidades necesarias en la fuerza de trabajo y proponemos las mejores prácticas para garantizar que la organización cuente con las personas correctas en los lugares correctos.'">
             <img src="../assets/js/services/Estrategia/E2.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Responsabilidad Social'" :button-text="'Quiero saber más'" :imageSquare="'EstrategiaImg3.jpg'"

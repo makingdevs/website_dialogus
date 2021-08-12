@@ -32,15 +32,15 @@
             :bodyText="'Ayudamos a que todos los colaboradores cuenten con un entorno de trabajo en el que su dignidad sea respetada, asegurándonos que los negocios cumplan con mejores prácticas internacionales y así evitar cualquier riesgo reputacional o legal.'">
             <img src="../assets/js/services/Cumplimiento/C2.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Certificaciòn a investigadores'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg3.jpg'"
+          <card-service :title="'Certificación a investigadores'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg3.jpg'"
             :bodyText="'Contamos con un programa especializado en habilitar y formar a investigadores internos en la detección oportuna de actos que vulneren las políticas internas de tu negocio.'">
             <img src="../assets/js/services/Cumplimiento/C3.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Auditorìa interna'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg4.jpg'"
+          <card-service :title="'Auditoría interna'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg4.jpg'"
             :bodyText="'Te ayudamos a llevar a cabo auditorias, con el fin de corroborar la conformidad de los procesos de acuerdo a la información documentada en tu empresa e identificar las oportunidades de mejora existentes en tu Sistema de Gestión.'">
             <img src="../assets/js/services/Cumplimiento/C4.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Acompañamiento especializado en implementación de tu Sistema de Gestión (ISO, NOM´s, etc..)'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg5.jpg'"
+          <card-service :title="'Acompañamiento especializado en implementación de tu Sistema de Gestión.'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg5.jpg'"
             :bodyText="'Desarrollamos un traje a la medida para cumplir los requerimientos del modelo que necesitas, siguiendo el ritmo de tu empresa, adoptando nuevas metodologías, mejorando la eficacia de los procesos y fomentando el trabajo en equipo.'">
             <img src="../assets/js/services/Cumplimiento/C5.svg" alt="" class="icon-service">
           </card-service>

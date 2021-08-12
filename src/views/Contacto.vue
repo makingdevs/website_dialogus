@@ -57,8 +57,8 @@
                             <div class="contact-content ">
                                 <h4 class="h3 font-weight-800 mb-2 mb-lg-3 color_33">Visítanos</h4>
                                 <a href="https://goo.gl/maps/NLyroJ8KhabcxJy4A" target="_blank">
-                                <div class="color_33 fuenteContacto">Periferico Sur 4121, Fuentes del Pedregal
-                                    Equipamiento Periférico Picacho Ajusco Canal 13</div></a>
+                                <div class="color_33 fuenteContacto">Periférico Sur 4121, Fuentes del Pedregal
+                                    Equipamiento Periférico Picacho Ajusco</div></a>
                             </div>
                         </div>
                     </div>

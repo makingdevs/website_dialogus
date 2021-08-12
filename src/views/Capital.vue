@@ -44,7 +44,7 @@
             <img src="../assets/js/services/Capital/CH5.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Gestión del Cambio'" :button-text="'Quiero saber más'" :imageSquare="'CapitalImg6.jpg'"
-            :bodyText="'Acompañamos a las organizaciones en sus procesos de transformación y cambio mediante metodologías centradas en la persona que sigue de cerca a los involucrados con el fin gestionar impactos en la tecnología, estructura, operación cultura y liderazgo, logrando la adopción del futuro deseado.'">
+            :bodyText="'Acompañamos a las organizaciones en sus procesos de transformación y cambio mediante metodologías centradas en la persona que sigue de cerca a los involucrados con el fin gestionar impactos en la tecnología, estructura, operación, cultura y liderazgo, logrando la adopción del futuro deseado.'">
             <img src="../assets/js/services/Capital/CH6.svg" alt="" class="icon-service">
           </card-service>
         </section>

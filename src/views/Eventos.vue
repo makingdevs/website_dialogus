@@ -9,7 +9,7 @@
                   <h1 class="font-weight-700 font-poppins" style="color:#35547c">Eventos</h1>
                   <div class="hr-header" />
                   <div class="m-top-28" />
-                  <h3 class="font-weight-300 font-poppins" style="color:#35547c">Contamos con una red de expertos inscríbete a nuestros eventos y lee nuestros blog.</h3>
+                  <h3 class="font-weight-300 font-poppins" style="color:#35547c">Descubre más con la oferta que tenemos de eventos y cursos de la mano de nuestros expertos.</h3>
                 </div>
               </div>
             </div>

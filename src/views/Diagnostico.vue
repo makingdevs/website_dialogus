@@ -33,7 +33,7 @@
             <img src="../assets/js/services/Diagnostico/D2.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Diseño y Aplicación de Evaluaciones Especializadas'" :button-text="'Quiero saber más'" :imageSquare="'DiagnosticoImg3.jpg'"
-            :bodyText="'A través de nuestra red de especialistas y herramientas digitales, generamos e implementamos evaluaciones dedicadas y especificas a las necesidades de cada empresa para generar informes de valor que permita a los grupos directivos y líderes empresariales tomar decisiones informadas y efectivas en su empresa.'">
+            :bodyText="'A través de nuestra red de especialistas y herramientas digitales, generamos e implementamos evaluaciones dedicadas y específicas a las necesidades de cada empresa para generar informes de valor que permita a los grupos directivos y líderes empresariales tomar decisiones informadas y efectivas en su empresa.'">
             <img src="../assets/js/services/Diagnostico/D3.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Identificación e Interpretación de Riesgos en la Empresa'" :button-text="'Quiero saber más'" :imageSquare="'DiagnosticoImg4.jpg'"

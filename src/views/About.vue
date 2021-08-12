@@ -55,7 +55,7 @@
                   <div class="iCountUp" align="center">
                     <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal" :options="options" @ready="onReady"/></span><br>
                   </div>
-                  <span align="center" class="h5 text-counter font-weight-300 font-poppins">Reuniones con CEO's y Directores para definir la división de sus negocios</span>
+                  <span align="center" class="h5 text-counter font-weight-300 font-poppins">CEO's y Directores que definieron la visión de sus negocios.</span>
                 </div>
                 <div class="vl-about"></div>
                 <div class="d-flex flex-column bg-card-counter">
@@ -63,7 +63,7 @@
                   <div class="iCountUp" align="center">
                     <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal1" :options="options" @ready="onReady1"/></span><br>
                   </div>
-                  <span align="center" class="h5 text-counter font-weight-300 font-poppins">Becarios distribuidos en 23 Áreas y Unidades de Negocio</span>
+                  <span align="center" class="h5 text-counter font-weight-300 font-poppins">Talentos universitarios incorporados al mundo laboral.</span>
                 </div>
                 <div class="vl-about"></div>
                 <div class="d-flex flex-column bg-card-counter">
@@ -71,7 +71,7 @@
                   <div class="iCountUp" align="center">
                     <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal2" :options="options" @ready="onReady2"/></span><br>
                   </div>
-                  <span align="center" class="h5 text-counter font-weight-300 font-poppins">Investigadores certificados para atender denuncias</span>
+                  <span align="center" class="h5 text-counter font-weight-300 font-poppins">Investigadores capacitados para la atención de denuncias internas.</span>
                 </div>
                 <div class="vl-about"></div>
                 <div class="d-flex flex-column bg-card-counter">
@@ -79,7 +79,7 @@
                   <div class="iCountUp" align="center">
                     <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal3" :options="options" @ready="onReady3"/></span><br>
                   </div>
-                  <span align="center" class="h5 text-counter font-weight-300 font-poppins">Proveedores Certificados en los distintos niveles</span>
+                  <span align="center" class="h5 text-counter font-weight-300 font-poppins">Empresas evaluadas para ser proveedores de excelencia.</span>
                 </div>
               </div>
 
@@ -98,31 +98,10 @@
                         <div class="d-flex flex-column bg-card-testimonios">
                           <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
                           <div class="m-top-28" />
-                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
-                          <div class="rating" align="center">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                          </div>
-                        </div>
-                        <div class="d-flex flex-column bg-card-testimonios">
-                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
-                          <div class="m-top-28" />
-                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
-                          <div class="rating" align="center">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                          </div>
-                        </div>
-                        <div class="d-flex flex-column bg-card-testimonios">
-                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
-                          <div class="m-top-28" />
-                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
+                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Los chicos del semillero me sorprenden con su entusiasmo y las ganas
+                          que tienen de participar y aprender y su labor, refuerza nuestra
+                          estructura. Son una parte de Face Analytics.</span>
+                          <span align="center" class="h5 flex-grow-1 text-body font-weight-500 font-poppins" id="text-estrategia">Directora de Innovación Tecnológica, Grupo Salinas.</span>
                           <div class="rating" align="center">
                             <span><i class="fas fa-star"></i></span>
                             <span><i class="fas fa-star"></i></span>
@@ -138,31 +117,11 @@
                         <div class="d-flex flex-column bg-card-testimonios">
                           <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
                           <div class="m-top-28" />
-                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
-                          <div class="rating" align="center">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                          </div>
-                        </div>
-                        <div class="d-flex flex-column bg-card-testimonios">
-                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
-                          <div class="m-top-28" />
-                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
-                          <div class="rating" align="center">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                          </div>
-                        </div>
-                        <div class="d-flex flex-column bg-card-testimonios">
-                          <img align="left" :showç="handleScroll" class="icon-testimonios alignImag3 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
-                          <div class="m-top-28" />
-                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
+                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">El semillero de ciberseguirdad acompaña a TotalSec en la
+                            implementación y ejecución de este programa que prepara a los
+                            jóvenes profesionales para enfrentar las amenazas de la seguridad
+                            cibernética.</span>
+                          <span align="center" class="h5 flex-grow-1 text-body font-weight-500 font-poppins" id="text-estrategia">TotalSec</span>
                           <div class="rating" align="center">
                             <span><i class="fas fa-star"></i></span>
                             <span><i class="fas fa-star"></i></span>
@@ -196,7 +155,10 @@
                         <div class="d-flex flex-column bg-card-testimonios-mobile">
                           <img align="left" :showç="handleScroll" class="icon-testimonios-mobile alignImag4 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
                           <div class="m-top-28" />
-                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
+                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Los chicos del semillero me sorprenden con su entusiasmo y las ganas
+                          que tienen de participar y aprender y su labor, refuerza nuestra
+                          estructura. Son una parte de Face Analytics.</span>
+                          <span align="center" class="h5 flex-grow-1 text-body font-weight-500 font-poppins" id="text-estrategia">Directora de Innovación Tecnológica, Grupo Salinas.</span>
                           <div class="rating" align="center">
                             <span><i class="fas fa-star"></i></span>
                             <span><i class="fas fa-star"></i></span>
@@ -212,71 +174,11 @@
                         <div class="d-flex flex-column bg-card-testimonios-mobile">
                           <img align="left" :showç="handleScroll" class="icon-testimonios-mobile alignImag4 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
                           <div class="m-top-28" />
-                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
-                          <div class="rating" align="center">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="d-flex justify-content-between bg-testimonios flex-mobile">
-                        <div class="d-flex flex-column bg-card-testimonios-mobile">
-                          <img align="left" :showç="handleScroll" class="icon-testimonios-mobile alignImag4 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
-                          <div class="m-top-28" />
-                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
-                          <div class="rating" align="center">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="d-flex justify-content-between bg-testimonios flex-mobile">
-                        <div class="d-flex flex-column bg-card-testimonios-mobile">
-                          <img align="left" :showç="handleScroll" class="icon-testimonios-mobile alignImag4 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
-                          <div class="m-top-28" />
-                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
-                          <div class="rating" align="center">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="d-flex justify-content-between bg-testimonios flex-mobile">
-                        <div class="d-flex flex-column bg-card-testimonios-mobile">
-                          <img align="left" :showç="handleScroll" class="icon-testimonios-mobile alignImag4 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
-                          <div class="m-top-28" />
-                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
-                          <div class="rating" align="center">
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                            <span><i class="fas fa-star"></i></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="d-flex justify-content-between bg-testimonios flex-mobile">
-                        <div class="d-flex flex-column bg-card-testimonios-mobile">
-                          <img align="left" :showç="handleScroll" class="icon-testimonios-mobile alignImag4 divisionsIcons" src="../assets/js/services/Nosotros/comillas.svg" style=" margin-top: -98px; margin-left: 2px;">
-                          <div class="m-top-28" />
-                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</span>
+                          <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins" id="text-estrategia">El semillero de ciberseguirdad acompaña a TotalSec en la
+                          implementación y ejecución de este programa que prepara a los
+                          jóvenes profesionales para enfrentar las amenazas de la seguridad
+                          cibernética.</span>
+                          <span align="center" class="h5 flex-grow-1 text-body font-weight-500 font-poppins" id="text-estrategia">TotalSec</span>
                           <div class="rating" align="center">
                             <span><i class="fas fa-star"></i></span>
                             <span><i class="fas fa-star"></i></span>
