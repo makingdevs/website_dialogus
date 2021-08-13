@@ -13,8 +13,8 @@
               <div class="textoHederHome">Somos una consultora de negocios apasionada
                 por transformar a nuestros clientes y lograr su 
                 permanencia en el mercado.</div>
-              <img class="lineaHederIzqui animate__animated animate__fadeIn" src="../assets/js/img-header-Inicio/lineaHederIzqui.png" alt="">
-                <img class="lineaHederDerec animate__animated animate__fadeIn" src="../assets/js/img-header-Inicio/lineaHederIzqui.png" alt="">
+              <img class="lineaHederIzqui animate__animated animate__bounce" src="../assets/js/img-header-Inicio/lineIzquieHeder.svg" alt="">
+                <img class="lineaHederDerec animate__animated animate__bounce" src="../assets/js/img-header-Inicio/lineDerechaHeder.svg" alt="">
             </div>
           </div>
 
@@ -33,7 +33,7 @@
               </div>
               <div class="hide-mobile order-lg-4 align-items-center">
                 <h1 class="d-flex align-items-center arrowsPadding">
-                  <i class="fas fa-angle-double-left text-warning"></i>
+                  <i class="fas fa-angle-double-left text-warning arrowsPadding2"></i>
                 </h1>
               </div>
             </div>
@@ -41,8 +41,6 @@
         </div>
         <div class="d-flex justify-content-center order-lg-2 order-1">
           <img class="paddinDialogus animate__animated animate__fadeInUp " src="../assets/js/img-header-Inicio/logoDialo.png" alt="">
-          <img class="lineCortaHome animate__animated animate__fadeInLeft" src="../assets/js/img-header-Inicio/lineacorta.png" alt="">
-          <img class="lineLargaHome animate__animated animate__fadeInLeft" src="../assets/js/img-header-Inicio/lineaLarga.png" alt="">
         </div>
       </div>
       
