@@ -341,9 +341,6 @@
  .rating span{
    color: #ffbc51;
  }
- .hr2{
-   top: 150px;
- }
   .v--vtt-test,
   .v--vtt-test_odd {
     will-change: transform, opacity;
