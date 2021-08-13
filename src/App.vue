@@ -302,6 +302,7 @@
     },
     components: {},
     created: function () {
+      console.log('Version 1.0');
       this.changeColorNabvarWithScroll();
     },
     mounted() {
