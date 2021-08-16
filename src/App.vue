@@ -274,7 +274,7 @@
           <div class="m-top-28" />
           <div class="hr-footermobiledown" />
           <div class="d-flex justify-content-between flex-mobile-footer">
-            <div class="d-flex justify-content-start">
+            <div class="d-flex Consultores">
               <p align="center" class="font-weight-300 font-poppins footer-text">
                 All Rights Reserved &copy; 2021 | Dialogus Consultores
               </p>

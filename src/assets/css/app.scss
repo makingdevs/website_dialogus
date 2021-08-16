@@ -280,6 +280,9 @@
         width: 100%;
         margin-left: 5%;
       }
+      .Consultores{
+        margin-left: 16%;
+      }
   }  
 
   @media screen and (max-width: 991px) {
@@ -295,6 +298,12 @@
       height: 10px;
       background: #35547c !important;
       content: "";
+    }
+    .list-style1{
+      margin-bottom: 10px;
+    }
+    .hr-footermobile{
+      margin-top: 10px;
     }
     .navbar-nav .submenu-button:after {
       position: absolute;
@@ -386,10 +395,21 @@
     .footer-text{
       margin-left: 0%;
     }
+    .Consultores{
+      margin-left: 10%;
+    }
+  }
+  @media (max-width: 380px){
+    .Consultores{
+      margin-left: 5%;
+    }
   }
   @media (max-width: 362px){
     .correo-footer{
       font-size: 17px;
+    }
+    .Consultores{
+      margin-left: 4%;
     }
   }
   @media (max-width: 318px){

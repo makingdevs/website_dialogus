@@ -59,7 +59,7 @@
                 <div class="d-flex flex-column bg-card-counter">
                   <span align="center" class="text-title2-counter font-weight-300 font-poppins">Estrategia</span>
                   <div class="m-top-28" />
-                  <img align="right" :showç="handleScroll" class="icon-divisiones alignImag divisionsIcons" src="../assets/js/services/estrategi2.svg" style=" margin-top: 0px; margin-left: 2px;">
+                  <img align="right" :showç="handleScroll" class="icon-divisiones alignImag divisionsIcons" src="../assets/js/services/estrategi2.svg" style=" margin-top: 0px; margin-left: 2px;"><div class="m-top-28" />
                   <div class="iCountUp" align="center">
                     <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal" :options="options" @ready="onReady"/></span><br>
                   </div>
@@ -69,7 +69,7 @@
                 <div class="d-flex flex-column bg-card-counter">
                   <span align="center" class="text-title2-counter font-weight-300 font-poppins">Capital Humano</span>
                   <div class="m-top-28" />
-                  <img class="icon-divisiones alignImag2 alignImag  divisionsIcons" src="../assets/js/services/capital2.svg" style=" margin-top: 0px; margin-left: 2px;">
+                  <img class="icon-divisiones alignImag2 alignImag  divisionsIcons" src="../assets/js/services/capital2.svg" style=" margin-top: 0px; margin-left: 2px;"><div class="m-top-28" />
                   <div class="iCountUp" align="center">
                     <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal1" :options="options" @ready="onReady1"/></span><br>
                   </div>
@@ -79,7 +79,7 @@
                 <div class="d-flex flex-column bg-card-counter">
                   <span align="center" class="text-title2-counter font-weight-300 font-poppins">Cumplimiento</span>
                   <div class="m-top-28" />
-                  <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/cumpli2.svg" style=" margin-top: 0px; margin-left: 2px;">
+                  <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/cumpli2.svg" style=" margin-top: 0px; margin-left: 2px;"><div class="m-top-28" />
                   <div class="iCountUp" align="center">
                     <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal2" :options="options" @ready="onReady2"/></span><br>
                   </div>
@@ -89,7 +89,7 @@
                 <div class="d-flex flex-column bg-card-counter">
                   <span align="center" class="text-title2-counter font-weight-300 font-poppins">Diagnóstico</span>
                   <div class="m-top-28" />
-                  <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/diagno2.svg" style=" margin-top: 0px; margin-left: 2px;">
+                  <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/diagno2.svg" style=" margin-top: 0px; margin-left: 2px;"><div class="m-top-28" />
                   <div class="iCountUp" align="center">
                     <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal3" :options="options" @ready="onReady3"/></span><br>
                   </div>
@@ -340,7 +340,7 @@
   .vl-about {
     margin-top: 70px !important;
     border-left: 2px solid #ffcc00;
-    height: 380px !important;
+    height: 320px !important;
 }
 
   .image-tamaño {
