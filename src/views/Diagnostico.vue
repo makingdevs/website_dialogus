@@ -25,23 +25,23 @@
          <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
           <span align="center" class="color_34 font-weight-500 font-poppins">NUESTROS SERVICIOS </span></h1><div class="m-top-28" />
 
-          <card-service :title="'Padrón de Proveedores CIE'" :button-text="'Quiero saber más'" :imageSquare="'DiagnosticoImg1.jpg'"
+          <card-service :title="'Padrón de Proveedores CIE'" :button-text="'Quiero saber más'" :imageSquare="'DiagnosticoImg1.jpg'" :urlservice="'https://bit.ly/37RKfVr'"
             :bodyText="'Las evaluaciones de la Certificación Integral de Empresas (CIE) identifican a los mejores proveedores en el mercado mexicano, a través de análisis especializado en diferentes ramas como legal, cumplimiento, financiera y de responsabilidad social, entre otros. Garantizando así una mejora continúa en sus respectivas cadenas de valor.'">
             <img src="../assets/js/services/Diagnostico/D1.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Comunidad CIE'" :button-text="'Quiero saber más'" :imageSquare="'DiagnosticoImg2.jpg'"
+          <card-service :title="'Comunidad CIE'" :button-text="'Quiero saber más'" :imageSquare="'DiagnosticoImg2.jpg'" :urlservice="'https://bit.ly/3CFzQKt'"
             :bodyText="'Acceso exclusivo a las empresas evaluadas y certificadas a eventos y cursos gratuitos sobre temas enfocados al desarrollo y formalización de las empresas para mantener actualizada a sus cadenas de valor en temas de interés empresarial. Cada participante puede llevar a sus equipos de trabajo.'">
             <img src="../assets/js/services/Diagnostico/D2.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Diseño y Aplicación de Evaluaciones Especializadas'" :button-text="'Quiero saber más'" :imageSquare="'DiagnosticoImg3.jpg'"
+          <card-service :title="'Diseño y Aplicación de Evaluaciones Especializadas'" :button-text="'Quiero saber más'" :imageSquare="'DiagnosticoImg3.jpg'" :urlservice="'https://bit.ly/3sdtxJl'"
             :bodyText="'A través de nuestra red de especialistas y herramientas digitales, generamos e implementamos evaluaciones dedicadas y específicas a las necesidades de cada empresa para generar informes de valor que permita a los grupos directivos y líderes empresariales tomar decisiones informadas y efectivas en su empresa.'">
             <img src="../assets/js/services/Diagnostico/D3.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Identificación e Interpretación de Riesgos en la Empresa'" :button-text="'Quiero saber más'" :imageSquare="'DiagnosticoImg4.jpg'"
+          <card-service :title="'Identificación e Interpretación de Riesgos en la Empresa'" :button-text="'Quiero saber más'" :imageSquare="'DiagnosticoImg4.jpg'" :urlservice="'https://bit.ly/3xBaV7a'"
             :bodyText="'Contamos con acceso a herramientas poderosas que nos permiten revisar los antecedentes legales de personas físicas y morales, así como una medición de cumplimiento de normativas nacionales.'">
             <img src="../assets/js/services/Diagnostico/D4.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Retroalimentación especializada para áreas de mejora detectadas'" :button-text="'Quiero saber más'" :imageSquare="'DiagnosticoImg5.jpg'"
+          <card-service :title="'Retroalimentación especializada para áreas de mejora detectadas'" :button-text="'Quiero saber más'" :imageSquare="'DiagnosticoImg5.jpg'" :urlservice="'https://bit.ly/2VQ09wp'"
             :bodyText="'A partir de las diversas evaluaciones que podemos aplicar, se entregan resultados puntuales con retroalimentación y definición de riesgos a corto, mediano o largo plazo en temas reputacionales, patrimoniales o de operación, permitiendo a nuestros clientes a tomar decisiones puntuales y en tiempo.'">
             <img src="../assets/js/services/Diagnostico/D5.svg" alt="" class="icon-service">
           </card-service>

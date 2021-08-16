@@ -15,9 +15,9 @@
             {{bodyText}}
           </div>
           <div class="button-card">
-            <button class="schedule-button button-text-cardsService">{{buttonText}}</button>
+           <a href=""><button class="schedule-button button-text-cardsService">{{buttonText}}</button></a>
           </div>
-        </div>
+        </div>  
       </div>
       <div class="col-md-4 col-sm-12 col-image-custom">
         <img class="image-container" :src="require(`../assets/${imageSquare}`)">
@@ -35,7 +35,8 @@ import '../assets/css/home.scss'
       bodyText: String,
       imageUrl: String,
       buttonText: String,
-      imageSquare: String
+      imageSquare: String,
+      urlservice: String
     },
     data: () => {
       return {
@@ -108,6 +109,7 @@ import '../assets/css/home.scss'
     font-family: 'Poppins', sans-serif;
     margin-top: 25px;
     font-size: 25px;
+    line-height: normal;
   }
 
   .verticale-line {

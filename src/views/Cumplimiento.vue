@@ -25,31 +25,31 @@
          <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
           <span class="color_34 font-weight-500 font-poppins">NUESTROS SERVICIOS </span></h1><div class="m-top-28" />
 
-          <card-service :title="'Programa de Integridad y Comunicación Empresarial (PICE)'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg1.jpg'"
+          <card-service :title="'Programa de Integridad y Comunicación Empresarial (PICE)'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg1.jpg'" :urlservice="'https://bit.ly/2VJY4CS'"
             :bodyText="'Con la implementación del PICE y la adecuada gestión de su metodología e indicadores lograremos cerrar brechas entre los colaboradores y la alta dirección para la detección oportuna de riesgos que puedan comprometer la cultura de integridad del negocio a la par que se fomenta la mejora continua de las políticas de cumplimiento.'">
             <img src="../assets/js/services/Cumplimiento/C1.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Políticas para prevenir el acoso y hostigamiento sexual'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg2.jpg'"
+          <card-service :title="'Políticas para prevenir el acoso y hostigamiento sexual'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg2.jpg'" :urlservice="'https://bit.ly/2UgaoKi'"
             :bodyText="'Ayudamos a que todos los colaboradores cuenten con un entorno de trabajo en el que su dignidad sea respetada, asegurándonos que los negocios cumplan con mejores prácticas internacionales y así evitar cualquier riesgo reputacional o legal.'">
             <img src="../assets/js/services/Cumplimiento/C2.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Certificación a investigadores'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg3.jpg'"
+          <card-service :title="'Certificación a investigadores'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg3.jpg'" :urlservice="'https://bit.ly/3CHDNOP'"
             :bodyText="'Contamos con un programa especializado en habilitar y formar a investigadores internos en la detección oportuna de actos que vulneren las políticas internas de tu negocio.'">
             <img src="../assets/js/services/Cumplimiento/C3.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Auditoría interna'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg4.jpg'"
+          <card-service :title="'Auditoría interna'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg4.jpg'" :urlservice="'https://bit.ly/3lXUlfF'"
             :bodyText="'Te ayudamos a llevar a cabo auditorias, con el fin de corroborar la conformidad de los procesos de acuerdo a la información documentada en tu empresa e identificar las oportunidades de mejora existentes en tu Sistema de Gestión.'">
             <img src="../assets/js/services/Cumplimiento/C4.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Acompañamiento especializado en implementación de tu Sistema de Gestión.'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg5.jpg'"
+          <card-service :title="'Acompañamiento especializado en implementación de tu Sistema de Gestión.'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg5.jpg'" :urlservice="'https://bit.ly/3xHIswg'"
             :bodyText="'Desarrollamos un traje a la medida para cumplir los requerimientos del modelo que necesitas, siguiendo el ritmo de tu empresa, adoptando nuevas metodologías, mejorando la eficacia de los procesos y fomentando el trabajo en equipo.'">
             <img src="../assets/js/services/Cumplimiento/C5.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Sistemas de Gestión de Cumplimiento'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg6.jpg'"
+          <card-service :title="'Sistemas de Gestión de Cumplimiento'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg6.jpg'" :urlservice="'https://bit.ly/3iDP4aX'"
             :bodyText="'Acompañamos a nuestros clientes en el establecimiento de un sistema de gestión de cumplimiento que se apegue a las buenas prácticas y permita entender el contexto de los negocios para poder blindarlo ante cualquier riesgo que pudiera enfrentar.'">
             <img src="../assets/js/services/Cumplimiento/C6.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Gestión de procesos de Negocios (BPM)'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg7.jpg'"
+          <card-service :title="'Gestión de procesos de Negocios (BPM)'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg7.jpg'" :urlservice="'https://bit.ly/2UhIIoo'"
             :bodyText="'Somos especialistas en el diseño y mapeo de procesos de negocio, ayudando a tu empresa a tener los planos que permitan reforzar y automatizar la estructura, eliminar silos, incrementar la calidad de tus productos o servicios y estar preparados a los cambios del entorno.'">
             <img src="../assets/js/services/Cumplimiento/C7.svg" alt="" class="icon-service">
           </card-service>

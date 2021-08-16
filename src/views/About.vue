@@ -50,9 +50,16 @@
         ================================================== -->
         <section class="seccion-counter">
           <div class="row">
+              <div class="bg-counter-title" align="center">
+                <div class="m-top-28" />
+                <span align="center" class="CounterTitle font-weight-700 font-poppins">Dialogus en Cifras</span>
+                <div class="m-top-28" />
+              </div>
               <div class="d-flex justify-content-between bg-counter flex-mobile">
                 <div class="d-flex flex-column bg-card-counter">
-                  <img align="right" :showç="handleScroll" class="icon-divisiones alignImag divisionsIcons" src="../assets/js/services/estrategi2.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
+                  <span align="center" class="text-title2-counter font-weight-300 font-poppins">Estrategia</span>
+                  <div class="m-top-28" />
+                  <img align="right" :showç="handleScroll" class="icon-divisiones alignImag divisionsIcons" src="../assets/js/services/estrategi2.svg" style=" margin-top: 0px; margin-left: 2px;">
                   <div class="iCountUp" align="center">
                     <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal" :options="options" @ready="onReady"/></span><br>
                   </div>
@@ -60,7 +67,9 @@
                 </div>
                 <div class="vl-about"></div>
                 <div class="d-flex flex-column bg-card-counter">
-                  <img class="icon-divisiones alignImag2 alignImag  divisionsIcons" src="../assets/js/services/capital2.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
+                  <span align="center" class="text-title2-counter font-weight-300 font-poppins">Capital Humano</span>
+                  <div class="m-top-28" />
+                  <img class="icon-divisiones alignImag2 alignImag  divisionsIcons" src="../assets/js/services/capital2.svg" style=" margin-top: 0px; margin-left: 2px;">
                   <div class="iCountUp" align="center">
                     <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal1" :options="options" @ready="onReady1"/></span><br>
                   </div>
@@ -68,7 +77,9 @@
                 </div>
                 <div class="vl-about"></div>
                 <div class="d-flex flex-column bg-card-counter">
-                  <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/cumpli2.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
+                  <span align="center" class="text-title2-counter font-weight-300 font-poppins">Cumplimiento</span>
+                  <div class="m-top-28" />
+                  <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/cumpli2.svg" style=" margin-top: 0px; margin-left: 2px;">
                   <div class="iCountUp" align="center">
                     <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal2" :options="options" @ready="onReady2"/></span><br>
                   </div>
@@ -76,7 +87,9 @@
                 </div>
                 <div class="vl-about"></div>
                 <div class="d-flex flex-column bg-card-counter">
-                  <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/diagno2.svg" style=" margin-top: 0px; margin-left: 2px;"><br>
+                  <span align="center" class="text-title2-counter font-weight-300 font-poppins">Diagnóstico</span>
+                  <div class="m-top-28" />
+                  <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/diagno2.svg" style=" margin-top: 0px; margin-left: 2px;">
                   <div class="iCountUp" align="center">
                     <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal3" :options="options" @ready="onReady3"/></span><br>
                   </div>
@@ -280,6 +293,9 @@
     clip-path: polygon(0% 0, 50% 0%, 100% 0%, 100% 100%, 50%  100%, 0 100%);
     
   }
+  .text-title2-counter{
+    font-size: 40px;
+  }
   .text-counter {
     font-size: 20px !important;
     color: #ffffff !important;
@@ -306,6 +322,11 @@
     background: #ffc107;
     border-radius: 50%;
   }
+  .CounterTitle{
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+  }
   .Ti1{
     text-align: left;
     font-size: 28px;
@@ -317,9 +338,9 @@
     color: #ffcc00;
   }
   .vl-about {
-    margin-top: 60px !important;
+    margin-top: 70px !important;
     border-left: 2px solid #ffcc00;
-    height: 310px !important;
+    height: 380px !important;
 }
 
   .image-tamaño {
@@ -363,6 +384,17 @@
     transform: translateY(-20px);
   }
   
+  @media(max-width: 1030px ){
+    .text-title2-counter{
+      font-size: 23px;
+    }
+    .vl-about {
+      display: none;
+    }
+    .bg-card-counter{
+      margin-top: -10px;
+    }
+  }
   
   @media(max-width: 1000px ){
   #bannerabout {
@@ -370,6 +402,12 @@
     background-size:100%;
     background-repeat: no-repeat;
   }
+  .text-title2-counter{
+    font-size: 16px;
+  }
+  .bg-card-counter{
+      margin-bottom: -10px;
+    }
   .containerheader{
     text-align: center;
     margin-left: 10px;
@@ -408,6 +446,9 @@
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
     margin-top: 150%;
+  }
+  .text-title2-counter{
+    font-size: 35px;
   }
   }
   

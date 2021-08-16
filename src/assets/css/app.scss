@@ -267,6 +267,9 @@
     }
   @media(max-width: 1040px ){
 
+    .footer-text{
+      font-size: 18px;
+    }
     #webfooter{
       display: block;
     }
@@ -367,6 +370,10 @@
     }
   }
   @media (max-width: 550px){
+    .footer-text{
+      font-size: 11px;
+      margin-left: 30%;
+    }
     #webfooter{
       display: none;
     }
