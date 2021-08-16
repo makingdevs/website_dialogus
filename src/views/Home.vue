@@ -1,16 +1,54 @@
 <template>
   <div>
-    <section align="center" class="section-header viewport-header">
-      
-        <video autoplay muted id="video-home" class="embed-responsive embed-responsive-21by9">
-          <source src="../assets/animacion-cor.mp4" >
-        </video>
+    <section class="section-header viewport-header">
+      <div class="d-flex flex-column">
+        <div class="d-flex order-lg-1 order-2 flex-lg-row flex-column w-texto-header-home">
+          <div class="d-flex justify-content-start flex-column animate__animated animate__fadeInRight paddinDialogusTexto">
+            <h2 class="color_34">¿Quiénes Somos?</h2>
+            <div class="d-flex">
+              <h1 class="d-flex align-items-center arrowsPadding">
+                <i class=" fas fa-angle-double-right text-warning"></i>
+              </h1>
+              <div class="verticalLineHome"/>
+              <div class="textoHederHome color_33">Somos una consultora de negocios apasionada
+                por transformar a nuestros clientes y lograr su 
+                permanencia en el mercado.</div>
+              <img class="lineaHederIzqui animate__animated animate__bounce" src="../assets/js/img-header-Inicio/lineIzquieHeder.svg" alt="">
+                <img class="lineaHederDerec animate__animated animate__bounce" src="../assets/js/img-header-Inicio/lineDerechaHeder.svg" alt="">
+            </div>
+          </div>
 
+          <div class="d-flex justify-content-start flex-column animate__animated animate__fadeInLeft spaceTextos paddinDialogusTexto">
+            <h2 class="color_33">¿Cómo lo hacemos?</h2>
+            <div class="d-flex">
+              <div class="textoHederHome2 color_34 align-items-end order-lg-1 order-2">Acompañamos a nuestros clientes
+                con metodologías innovadoras 
+                contribuyendo a su rentabilidad.
+              </div>
+              <div class="verticalLineHome order-lg-2 order-1"/>
+              <div class="hide-desktop arrowsPadding">
+                <h1 class="d-flex align-items-center">
+                  <i class="fas fa-angle-double-right text-warning"></i>
+                </h1>
+              </div>
+              <div class="hide-mobile order-lg-4 align-items-center">
+                <h1 class="d-flex align-items-center arrowsPadding">
+                  <i class="fas fa-angle-double-left text-warning arrowsPadding2"></i>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center order-lg-2 order-1">
+          <img class="paddinDialogus animate__animated animate__fadeInUp " src="../assets/js/img-header-Inicio/logoDialo.png" alt="">
+        </div>
+      </div>
       
-      <div class="d-flex flex-button-guide">
+      <div class="d-flex flex-button-guide animate__animated animate__fadeInLeft">
         <button class="boton-prueba" @click="descargarGuia">Descargar Guía</button>
       </div>
     </section>
+
     <!-- SERVICE================================================== -->
     <section id="seccion-services">
       <img class="img-hexPagina" src="../assets/js/services/hexagonos-Pagina/hexPagin.svg">
