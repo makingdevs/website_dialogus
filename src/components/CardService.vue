@@ -15,9 +15,9 @@
             {{bodyText}}
           </div>
           <div class="button-card">
-           <a href=""><button class="schedule-button button-text-cardsService">{{buttonText}}</button></a>
+           <a :href="urlservice" target="_blank"><button class="schedule-button button-text-cardsService">{{buttonText}}</button></a>
           </div>
-        </div>  
+        </div>
       </div>
       <div class="col-md-4 col-sm-12 col-image-custom">
         <img class="image-container" :src="require(`../assets/${imageSquare}`)">
@@ -49,7 +49,7 @@ import '../assets/css/home.scss'
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
-  
+
   .col-body-text-custom {
     padding-bottom: 10%;
     padding-right: 0px;
@@ -60,7 +60,7 @@ import '../assets/css/home.scss'
   padding: unset;
   border-radius: 15px;
   background: #0098a5;
-  border: 2px solid #0098a5;  
+  border: 2px solid #0098a5;
   font-size: 18px;
   font-weight: 500;
   color: #fff;
@@ -68,7 +68,7 @@ import '../assets/css/home.scss'
 .button-text-cardsService:hover{
     border-radius: 15px;
     background: #ffffff;
-    border: 2px solid #0098a5; 
+    border: 2px solid #0098a5;
     .text-button {
       color: #0098a5 ;
       word-wrap: break-word;
@@ -187,7 +187,7 @@ import '../assets/css/home.scss'
      font-size: 12px;
      width: 58%;
      font-weight: 500;
-   } 
+   }
    .m-top-mobile{
      margin-bottom: 100px;
    }
@@ -200,7 +200,7 @@ import '../assets/css/home.scss'
     }
 
     .col-image-custom {
-      padding-left: 12px; 
+      padding-left: 12px;
     }
 
     .col-body-text-custom {
