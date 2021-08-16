@@ -10,7 +10,7 @@
                 <i class=" fas fa-angle-double-right text-warning"></i>
               </h1>
               <div class="verticalLineHome"/>
-              <div class="textoHederHome">Somos una consultora de negocios apasionada
+              <div class="textoHederHome color_33">Somos una consultora de negocios apasionada
                 por transformar a nuestros clientes y lograr su 
                 permanencia en el mercado.</div>
               <img class="lineaHederIzqui animate__animated animate__bounce" src="../assets/js/img-header-Inicio/lineIzquieHeder.svg" alt="">
