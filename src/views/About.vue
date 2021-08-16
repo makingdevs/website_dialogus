@@ -63,6 +63,7 @@
                   <div class="iCountUp" align="center">
                     <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal" :options="options" @ready="onReady"/></span><br>
                   </div>
+                  <div class="m-top-28" />
                   <span align="center" class="h5 text-counter font-weight-300 font-poppins">CEO's y Directores que definieron la visión de sus negocios.</span>
                 </div>
                 <div class="vl-about"></div>
@@ -73,6 +74,7 @@
                   <div class="iCountUp" align="center">
                     <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal1" :options="options" @ready="onReady1"/></span><br>
                   </div>
+                  <div class="m-top-28" />
                   <span align="center" class="h5 text-counter font-weight-300 font-poppins">Talentos universitarios incorporados al mundo laboral.</span>
                 </div>
                 <div class="vl-about"></div>
@@ -83,6 +85,7 @@
                   <div class="iCountUp" align="center">
                     <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal2" :options="options" @ready="onReady2"/></span><br>
                   </div>
+                  <div class="m-top-28" />
                   <span align="center" class="h5 text-counter font-weight-300 font-poppins">Investigadores capacitados para la atención de denuncias internas.</span>
                 </div>
                 <div class="vl-about"></div>
@@ -93,6 +96,7 @@
                   <div class="iCountUp" align="center">
                     <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal3" :options="options" @ready="onReady3"/></span><br>
                   </div>
+                  <div class="m-top-28" />
                   <span align="center" class="h5 text-counter font-weight-300 font-poppins">Empresas evaluadas para ser proveedores de excelencia.</span>
                 </div>
               </div>
@@ -340,7 +344,7 @@
   .vl-about {
     margin-top: 70px !important;
     border-left: 2px solid #ffcc00;
-    height: 320px !important;
+    height: 350px !important;
 }
 
   .image-tamaño {
