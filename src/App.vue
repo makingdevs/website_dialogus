@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="app">
     <!-- navbar -->
-    <header class="header-style1 menu_area-light">
+    <header class="header-style1 menu_area-light navbarMovil">
       <div class="navbar-default nav">
         <!-- start top search -->
         <div class="top-search bg-primary">
