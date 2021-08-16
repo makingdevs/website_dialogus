@@ -99,13 +99,13 @@
   position: absolute;
   margin-left: 48%;
   margin-top: 2%;
-  height: 284%;
+  height: 260%;
 }
 .lineaHederDerec{
   position: absolute;
   margin-left: 108%;
   margin-top: 2%;
-  height: 188%;
+  height: 176%;
   transform: scaleX(-1);
 }
 .lineCortaHome{
@@ -853,6 +853,22 @@ button > .text-white {
   .img-hexPagina-contac {
     margin-left: 1313px;
   }
+}
+@media (max-width:1578px) {
+  .lineaHederIzqui {
+    position: absolute;
+    margin-left: 62%;
+    margin-top: 2%;
+    height: 201%;
+  }
+  .lineaHederDerec {
+    position: absolute;
+    margin-left: 113%;
+    margin-top: 2%;
+    height: 168%;
+    transform: scaleX(-1);
+}
+
 }
 @media (max-width:1486px) {
   .img-hexPagina-contac {
