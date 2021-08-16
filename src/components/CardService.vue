@@ -114,7 +114,7 @@ import '../assets/css/home.scss'
 
   .verticale-line {
     border-left: 10px solid #ffc107;
-    height: 430px;
+    height: 100%;
     margin-left: 90px;
   }
 
