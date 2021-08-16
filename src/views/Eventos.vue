@@ -147,6 +147,11 @@ export default{
         setTimeout(() => this.renderComponent = true, 1000);
       },
     },
+    data : function () {
+      return{
+          TarjetasCarruselTable: []
+        }
+      },
     created: function () {
       window.addEventListener('scroll', this.handleScroll);
       document.body.scrollTop = 0;
