@@ -2,8 +2,8 @@
   <div>
     <section class="section-header viewport-header">
       <div class="d-flex flex-column">
-        <div class="d-flex">
-          <div class="d-flex justify-content-start flex-column animate__animated animate__fadeInLeft">
+        <div class="d-flex order-lg-1 order-2 flex-lg-row flex-column w-texto-header-home">
+          <div class="d-flex justify-content-start flex-column animate__animated animate__fadeInDown">
             <h2 class="color_34">¿Qué somos?</h2>
             <div class="d-flex">
               <h1 class="d-flex align-items-center">
@@ -16,29 +16,39 @@
             </div>
           </div>
 
-          <div class="d-flex justify-content-start flex-column animate__animated animate__fadeInRight">
+          <div class="d-flex justify-content-start flex-column animate__animated animate__fadeInDown spaceTextos">
             <h2 class="color_33">¿Cómo lo hacemos?</h2>
             <div class="d-flex">
-              <div class="textoHederHome2 color_34 align-items-end">Acompañamos a nuestros clientes
+              <div class="textoHederHome2 color_34 align-items-end order-lg-1 order-2">Acompañamos a nuestros clientes
                 con metodologías innovadoras 
                 contribuyendo a su rentabilidad.
               </div>
-              <div class="verticalLineHome"/>
-              <h1 class="d-flex align-items-center">
-                <i class=" fas fa-angle-double-left text-warning"></i>
-              </h1>
+              <div class="verticalLineHome order-lg-2 order-1"/>
+              <div class="hide-desktop">
+                <h1 class="d-flex align-items-center">
+                  <i class="fas fa-angle-double-right text-warning"></i>
+                </h1>
+              </div>
+              <div class="hide-mobile order-lg-4 align-items-center">
+                <h1 class="d-flex align-items-center">
+                  <i class="fas fa-angle-double-left text-warning"></i>
+                </h1>
+              </div>
             </div>
           </div>
         </div>
-        <div class="d-flex justify-content-center animate__animated animate__fadeInUp">
-          <img class="paddinDialogus" src="../assets/testImage.png" alt="">
+        <div class="d-flex justify-content-center order-lg-2 order-1">
+          <img class="paddinDialogus animate__animated animate__fadeInUp " src="../assets/js/img-header-Inicio/logoDialo.png" alt="">
+          <img class="lineCortaHome animate__animated animate__fadeInLeft" src="../assets/js/img-header-Inicio/lineacorta.png" alt="">
+          <img class="lineLargaHome animate__animated animate__fadeInLeft" src="../assets/js/img-header-Inicio/lineaLarga.png" alt="">
         </div>
       </div>
       
-      <div class="d-flex flex-button-guide animate__animated animate__fadeInUp">
+      <div class="d-flex flex-button-guide animate__animated animate__fadeInLeft">
         <button class="boton-prueba" @click="descargarGuia">Descargar Guiá</button>
       </div>
     </section>
+
     <!-- SERVICE================================================== -->
     <section id="seccion-services">
       <img class="img-hexPagina" src="../assets/js/services/hexagonos-Pagina/hexPagin.svg">
