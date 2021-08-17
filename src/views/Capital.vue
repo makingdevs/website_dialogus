@@ -113,7 +113,7 @@
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 60%;
+    margin-top: 61%;
     margin-bottom: -50px;
   }
   .hr-header {
@@ -147,6 +147,7 @@ export default {
     window.addEventListener('scroll', this.handleScroll);
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+    console.log("hola");
   },
   components: {
     CardService
