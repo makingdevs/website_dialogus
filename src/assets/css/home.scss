@@ -44,7 +44,7 @@
 
 .viewport-header {
   position: relative;
-  height: 77vh;
+  margin-top: 8%;
   text-align: center;
   display: flex;
   align-items: center;
@@ -1059,10 +1059,6 @@ button > .text-white {
     object-fit: contain;
   }
 
-  .section-header {
-    height: 550px;
-  }
-
   .hr-border-divisiones{
     width: 90%;
     margin-left: 5%;
@@ -1185,9 +1181,6 @@ button > .text-white {
   }
 }
 @media (max-width: 527px){
-  .boton-prueba{
-    margin-top: 75%;
-  }
 }
   /*contacto parte home*/
   @media (max-width: 1399px){
@@ -1228,12 +1221,7 @@ button > .text-white {
     .lineaHederIzqui{
       display: none;
     }
-    .boton-prueba{
-      margin-top: 36%;
-    }
-    .viewport-header {
-      height: 102vh;
-    }
+    
     .paddinDialogusTexto{
       padding: 2%;
     }
@@ -1247,6 +1235,7 @@ button > .text-white {
     .w-texto-header-home{
       width: 100% !important;
       align-self: flex-end;
+      margin: 7%;
     }
     .bg-contact{
       height: 558px;
@@ -1273,21 +1262,8 @@ button > .text-white {
       word-wrap: break-word;
     }
   @media (max-width: 820px){
-  .viewport-header {
-    height: 101vh;
-    }
-    .boton-prueba{
-      margin-top: 36%;
-    }
   }
   @media (max-width: 768px){
-    .viewport-header {
-      height: 96vh;
-    }
-    .boton-prueba{
-      margin-top: 36%;
-    margin-left: -50%;
-    }
     .text-button{
       word-wrap: break-word;
       font-size: 13.4px !important;
@@ -1320,9 +1296,6 @@ button > .text-white {
     .lineLargaHome {
       height: 46%;
       margin-left: -36%;
-    }
-    .boton-prueba{
-      margin-top: 36%;
     }
   }
   @media (max-width: 575px){
@@ -1400,9 +1373,6 @@ button > .text-white {
       margin-left: -40%;
       width: 39%;
     }
-    .boton-prueba{
-      margin-top: 36%;
-    }
     .title-contact{
       width: 550px;
       margin-left: -12px;
@@ -1433,17 +1403,8 @@ button > .text-white {
     .lineLargaHome {
       display: none;
     }
-    .boton-prueba{
-      margin-top: 36%;
-    } 
-    .viewport-header {
-      height: 99vh;
-    }
   }
   @media (max-width: 500px){
-    .boton-prueba{
-      margin-top: 36%;
-    }
     .alignImag {
       margin-top: 0px !important;
       margin-left: 5px !important;
@@ -1491,9 +1452,6 @@ button > .text-white {
     }
     .spaceTextos{
       margin-top: 5%;
-    }
-    .boton-prueba{
-      margin-top: 92%;
     }
   }
   @media (max-width: 491px){
@@ -1558,30 +1516,15 @@ button > .text-white {
     }
   }
   @media (max-width: 414px){
-    .boton-prueba{
-      margin-top: 36%;
-      margin-left: -38%;
-    }
   }
   @media (max-width: 411px){
-    .boton-prueba{
-      margin-top: 36%;
-      margin-left: -38%
-    }
   }
   @media (max-width: 375px){
-    .viewport-header {
-      height: 105vh;
-    }
     .paddinDialogus {
       padding: 8% !important;
     }
     .paddinDialogusTexto {
       padding: 0% !important;
-    }
-    .boton-prueba{
-      margin-top: 38%;
-      margin-left: -38%;
     }
   }
   @media (max-width: 362px){
@@ -1591,32 +1534,13 @@ button > .text-white {
     }
   }
   @media (max-width: 353px){
-    .viewport-header {
-      height: 107vh;
-    }
-    .boton-prueba{
-      font-size: 16px;
-      margin-top: 37%;
-      margin-left: -25%;
-    }
   }
   @media (max-width: 340px) {
-    .viewport-header {
-      height: 107vh;
-    }
-    .boton-prueba{
-      font-size: 16px;
-      margin-top: 37%;
-      margin-left: -25%;
-    }
     .hr2{
       margin-top: 7%;
     }
   }
   @media (max-width: 320px){
-    .viewport-header {
-      height: 112vh;
-    }
     .email-text {
       word-wrap: break-word;
       font-size: 10.7px;
@@ -1624,18 +1548,14 @@ button > .text-white {
     .hr2{
       margin-top: 7%;
     }
-    .boton-prueba{
-      margin-top: 30%;
-      margin-left: -12%;
-    }
   }
   /*   END   */
   @media (max-width: 280px){
-    .boton-prueba{
-      margin-top: 35%;
-    }
     .btn-width-contact {
       width: 63% !important;
+    }
+    .boton-prueba{
+      font-size: 15px;
     }
   }
   /*carusel 3d controles*/

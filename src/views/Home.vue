@@ -1,7 +1,7 @@
 <template>
   <div>
-    <section class="d-flex section-header viewport-header flex-column">
-      <div class="d-flex flex-column">
+    <section class="d-flex section-header  flex-column">
+      <div class="d-flex viewport-header flex-column">
         <div class="d-flex order-lg-1 order-2 flex-lg-row flex-column w-texto-header-home">
           <div class="d-flex justify-content-start flex-column animate__animated animate__fadeInRight paddinDialogusTexto">
             <h2 class="color_34">¿Quiénes Somos?</h2>
@@ -44,7 +44,7 @@
         </div>
       </div>
       
-      <div class="d-flex animate__animated animate__fadeInLeft">
+      <div class="d-flex justify-content-center animate__animated animate__fadeInLeft">
         <button class="boton-prueba" @click="descargarGuia">Descargar Guía</button>
       </div>
     </section>
