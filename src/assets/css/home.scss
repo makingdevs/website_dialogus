@@ -1,11 +1,4 @@
 /* home */
-#video-home {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-}
 .arrowsPadding {
   padding: 1%;
 }
@@ -102,13 +95,13 @@
   position: absolute;
   margin-left: 48%;
   margin-top: 2%;
-  height: 106%;
+  height: 99%;
 }
 .lineaHederDerec{
   position: absolute;
   margin-left: 108%;
   margin-top: 2%;
-  height: 106%;
+  height: 99%;
 }
 
 .lineCortaHome{
@@ -926,9 +919,9 @@ button > .text-white {
     margin-top: 3%;
   }
   .lineaHederDerec {
-    margin-top: 0%;
-    margin-left: 96%;
-    height: 100%;
+    margin-left: 109%;
+    height: 85%;
+    margin-top: 3%;
   }
 }
 @media (max-width: 1328px){
@@ -986,13 +979,13 @@ button > .text-white {
   }
   @media (max-width:1177px){
     .lineaHederIzqui {
-      margin-left: 93%;
-      height: 71%;
-      margin-top: 5%;
+      margin-left: 65%;
+      height: 63%;
+      margin-top: 7%;
     }
     .lineaHederDerec {
       margin-left: 119%;
-      height: 64%;
+      height: 63%;
       margin-top: 7%;
     }
   }
@@ -1236,7 +1229,7 @@ button > .text-white {
       display: none;
     }
     .boton-prueba{
-      margin-top: 108%;
+      margin-top: 36%;
     }
     .viewport-header {
       height: 102vh;
@@ -1284,7 +1277,7 @@ button > .text-white {
     height: 101vh;
     }
     .boton-prueba{
-      margin-top: 119%;
+      margin-top: 36%;
     }
   }
   @media (max-width: 768px){
@@ -1292,7 +1285,7 @@ button > .text-white {
       height: 96vh;
     }
     .boton-prueba{
-      margin-top: 94%;
+      margin-top: 36%;
     margin-left: -50%;
     }
     .text-button{
@@ -1329,10 +1322,7 @@ button > .text-white {
       margin-left: -36%;
     }
     .boton-prueba{
-      margin-top: 61%;
-    }
-    .viewport-header {
-      
+      margin-top: 36%;
     }
   }
   @media (max-width: 575px){
@@ -1411,7 +1401,7 @@ button > .text-white {
       width: 39%;
     }
     .boton-prueba{
-      margin-top: 88%;
+      margin-top: 36%;
     }
     .title-contact{
       width: 550px;
@@ -1444,7 +1434,7 @@ button > .text-white {
       display: none;
     }
     .boton-prueba{
-      margin-top: 88%;
+      margin-top: 36%;
     } 
     .viewport-header {
       height: 99vh;
@@ -1452,7 +1442,7 @@ button > .text-white {
   }
   @media (max-width: 500px){
     .boton-prueba{
-      margin-top: 144%;
+      margin-top: 36%;
     }
     .alignImag {
       margin-top: 0px !important;
@@ -1569,13 +1559,13 @@ button > .text-white {
   }
   @media (max-width: 414px){
     .boton-prueba{
-      margin-top: 106%;
+      margin-top: 36%;
       margin-left: -38%;
     }
   }
   @media (max-width: 411px){
     .boton-prueba{
-      margin-top: 106%;
+      margin-top: 36%;
       margin-left: -38%
     }
   }
@@ -1590,7 +1580,7 @@ button > .text-white {
       padding: 0% !important;
     }
     .boton-prueba{
-      margin-top: 106%;
+      margin-top: 38%;
       margin-left: -38%;
     }
   }
@@ -1606,8 +1596,8 @@ button > .text-white {
     }
     .boton-prueba{
       font-size: 16px;
-      margin-top: 173%;
-      margin-left: -48%
+      margin-top: 37%;
+      margin-left: -25%;
     }
   }
   @media (max-width: 340px) {
@@ -1616,8 +1606,8 @@ button > .text-white {
     }
     .boton-prueba{
       font-size: 16px;
-      margin-top: 173%;
-      margin-left: -48%
+      margin-top: 37%;
+      margin-left: -25%;
     }
     .hr2{
       margin-top: 54px;
@@ -1635,19 +1625,17 @@ button > .text-white {
       margin-top: 54px;
     }
     .boton-prueba{
-      margin-top: 200%;
+      margin-top: 30%;
+      margin-left: -12%;
     }
   }
   /*   END   */
   @media (max-width: 280px){
     .boton-prueba{
-      margin-top: 223%;
+      margin-top: 35%;
     }
     .btn-width-contact {
       width: 63% !important;
-    }
-    .viewport-header {
-      height: 116vh;
     }
   }
   /*carusel 3d controles*/

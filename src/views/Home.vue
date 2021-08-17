@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="section-header viewport-header">
+    <section class="d-flex section-header viewport-header flex-column">
       <div class="d-flex flex-column">
         <div class="d-flex order-lg-1 order-2 flex-lg-row flex-column w-texto-header-home">
           <div class="d-flex justify-content-start flex-column animate__animated animate__fadeInRight paddinDialogusTexto">
@@ -44,7 +44,7 @@
         </div>
       </div>
       
-      <div class="d-flex flex-button-guide animate__animated animate__fadeInLeft">
+      <div class="d-flex animate__animated animate__fadeInLeft">
         <button class="boton-prueba" @click="descargarGuia">Descargar Guía</button>
       </div>
     </section>
