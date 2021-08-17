@@ -40,7 +40,7 @@
           </div>
         </div>
         <div class="d-flex justify-content-center order-lg-2 order-1">
-          <img class="paddinDialogus animate__animated animate__fadeInUp " src="../assets/js/img-header-Inicio/logoDialo.png" alt="">
+          <img class="paddinDialogusImgeGeader animate__animated animate__fadeInUp " src="../assets/js/img-header-Inicio/logoDialo.png" alt="">
         </div>
       </div>
       
