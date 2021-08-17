@@ -253,7 +253,6 @@
 
         methods: {
             testMethod(){
-                console.log(" Hoal");
             },
             sendNotification() {
                 const message = `Hola! \nMe quiero comunicar con ustedes
