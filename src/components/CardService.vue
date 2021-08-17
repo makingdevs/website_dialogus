@@ -154,7 +154,7 @@ import '../assets/css/home.scss'
       font-size: 11px;
     }
     .body-text {
-      font-size: 11px;
+      font-size: 15px;
     }
 
     .mobile-hide {

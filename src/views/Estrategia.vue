@@ -120,7 +120,7 @@
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 50%;
+    margin-top: 60%;
     margin-bottom: -50px;
   }
   .hr-header {
@@ -130,6 +130,15 @@
     border-width: 3px;
     width: 20%;
     margin-left: 40%;
+  }
+  }
+  @media(max-width: 700px ){
+    .containerheader{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50%;
+    margin-bottom: -50px;
   }
   }
 </style>

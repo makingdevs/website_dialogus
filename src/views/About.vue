@@ -298,7 +298,7 @@
     
   }
   .text-title2-counter{
-    font-size: 40px;
+    font-size: 36px;
   }
   .text-counter {
     font-size: 20px !important;
@@ -396,7 +396,8 @@
       display: none;
     }
     .bg-card-counter{
-      margin-top: -10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
   }
   
@@ -410,8 +411,9 @@
     font-size: 16px;
   }
   .bg-card-counter{
-      margin-bottom: -10px;
-    }
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   .containerheader{
     text-align: center;
     margin-left: 10px;
@@ -454,6 +456,11 @@
   .text-title2-counter{
     font-size: 35px;
   }
+  .CounterTitle{
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+  }
   }
   
 
@@ -469,7 +476,7 @@
         animate__animated_nosotros: true,
         animate_text_nosotros: true,
         displayСonditions: false,
-        delay: 5000,
+        delay: 3000,
         endVal: 107,
         endVal1: 338,
         endVal2: 1500,
