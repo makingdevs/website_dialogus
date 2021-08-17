@@ -33,7 +33,7 @@
             <img src="../assets/js/services/Estrategia/E2.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Responsabilidad Social'" :button-text="'Quiero saber más'" :imageSquare="'EstrategiaImg3.jpg'" :urlservice="'https://bit.ly/3fWaiiq'"
-            :bodyText="'Acompañamos el cambio de paradigma en el ser, pensar y hacer de las organizaciones en su proceso de certificación como Empresa Socialmente Responsable por parte del CEMEFI*, con la intención de demostrar la congruencia entre sus actividades y su impacto social y ambiental. * Centro Mexicano para la Filantropía (CEMEFI)'">
+            :bodyText="'Acompañamos el cambio de paradigma en el ser, pensar y hacer de las organizaciones en su proceso de certificación como Empresa Socialmente Responsable por parte del CEMEFI*, con la intención de demostrar la congruencia entre sus actividades y su impacto social y ambiental. *Centro Mexicano para la Filantropía (CEMEFI)'">
             <img src="../assets/js/services/Estrategia/E3.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Objetivos y Resultados Clave (ORCs) / Balanced Scorecard (BSC)'" :button-text="'Quiero saber más'" :imageSquare="'EstrategiaImg4.jpg'" :urlservice="'https://bit.ly/3sc7z9p'"
