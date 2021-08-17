@@ -95,8 +95,8 @@
   vertical-align: top;
 }
 /*APARTADO DE QUE ES DIALOGUS */
-.animate__animated.animate__bounce {
-  --animate-duration: 3s;
+.animate__animated .animate__fadeInUp {
+  --animate-duration: 2.5s;
 }
 .lineaHederIzqui{
   position: absolute;
@@ -122,13 +122,15 @@
   font-weight: 500;
   text-align: left !important;
   padding: 1%;
-  margin-top: -2%
+  margin-top: -2%;
+  font-size: 15.5px;
 }
 .textoHederHome2{
   font-weight: 500;
   text-align: right !important;
   padding: 1%;
-  margin-top: -2%
+  margin-top: -2%;
+  font-size: 15.5px;
 }
 .paddinDialogus{
   padding: 4% !important;
@@ -973,26 +975,26 @@ button > .text-white {
   }
   @media (max-width:1222px){
     .lineaHederIzqui {
-      margin-left: 63%;
-      height: 62%;
-      margin-top: 8%;
+      margin-left: 91%;
+      height: 78%;
+      margin-top: 4%;
     }
     .lineaHederDerec {
-      margin-left: 106%;
-      height: 95%;
-      margin-top: 1%;
+      margin-left: 100%;
+      height: 78%;
+      margin-top: 4%;
     }
   }
   @media (max-width:1177px){
     .lineaHederIzqui {
-      margin-left: 90%;
-      height: 95%;
-      margin-top: 0%;
+      margin-left: 93%;
+      height: 71%;
+      margin-top: 5%;
     }
     .lineaHederDerec {
-      margin-left: 102%;
-      height: 96%;
-      margin-top: 0%;
+      margin-left: 119%;
+      height: 64%;
+      margin-top: 7%;
     }
   }
   @media (max-width: 1100px){
@@ -1246,9 +1248,9 @@ button > .text-white {
     .fa-angle-double-left{
       display: none;
     }
-   
     .textoHederHome2{
       text-align: left !important;
+
     }
     .w-texto-header-home{
       width: 100% !important;
