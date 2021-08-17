@@ -133,7 +133,7 @@
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 60%;
+    margin-top: 61%;
     margin-bottom: -50px;
   }
   .hr-header {
