@@ -45,7 +45,7 @@
       </div>
       
       <div class="d-flex flex-button-guide animate__animated animate__fadeInLeft">
-        <button class="boton-prueba" @click="descargarGuia">Descargar Guía</button>
+        <button class="boton-prueba " @click="descargarGuia">Descargar Guía</button>
       </div>
     </section>
 
