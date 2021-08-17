@@ -488,7 +488,7 @@
         animate__animated_nosotros: true,
         animate_text_nosotros: true,
         displayСonditions: false,
-        delay: 3000,
+        duration: 4,
         endVals: {
           strategy: 107,
           human: 338,
@@ -521,10 +521,10 @@
         const target = document.getElementById('intercet-items');
         const observer = new IntersectionObserver(this.handleIntersection);
         observer.observe(target);
-        this.numberElements.strategy = new CountUp('number-strategy', this.delay);
-        this.numberElements.human = new CountUp('number-human', this.delay);
-        this.numberElements.talent = new CountUp('number-talent', this.delay);
-        this.numberElements.capacity = new CountUp('number-capacity', this.delay);
+        this.numberElements.strategy = new CountUp('number-strategy', 0, {duration: this.duration});
+        this.numberElements.human = new CountUp('number-human', 0, {duration: this.duration});
+        this.numberElements.talent = new CountUp('number-talent', 0, {duration: this.duration});
+        this.numberElements.capacity = new CountUp('number-capacity', 0, {duration: this.duration});
       })
     },
     components: {
