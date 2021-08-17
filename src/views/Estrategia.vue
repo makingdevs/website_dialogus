@@ -1,5 +1,5 @@
 <template>
-  <div class="Services">
+  <div class="Services py-5">
         <!-- PAGE SERVICES CARD
         ================================================== -->
 

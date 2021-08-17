@@ -1,5 +1,5 @@
 <template>
-    <div class="eventos"> 
+    <div class="eventos py-5"> 
         <!-- PAGE TITLE
         ================================================== -->
         <section id="bannereventos" class="banners-services">
