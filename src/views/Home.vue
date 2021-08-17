@@ -13,8 +13,8 @@
               <div class="textoHederHome color_33">Somos una consultora de negocios apasionada
                 por transformar a nuestros clientes y lograr su 
                 permanencia en el mercado.</div>
-              <img class="lineaHederIzqui animate__animated animate__bounce" src="../assets/js/img-header-Inicio/lineIzquieHeder.svg" alt="">
-                <img class="lineaHederDerec animate__animated animate__bounce" src="../assets/js/img-header-Inicio/lineDerechaHeder.svg" alt="">
+              <img class="lineaHederIzqui animate__animated animate__fadeInUp" src="../assets/js/img-header-Inicio/lineIzquieHeder.svg" alt="">
+                <img class="lineaHederDerec animate__animated animate__fadeInUp" src="../assets/js/img-header-Inicio/lineDerechaHeder.svg" alt="">
             </div>
           </div>
 
@@ -311,7 +311,7 @@
               </a>
               <div class="m-top-28" />
               <a href="tel:55 16556739998">
-                <p align="center" class="text-cuadrado2">55 67919880</p>
+                <p align="center" class="text-cuadrado2">(+52) 55 679 198 80</p>
               </a>
 
               <a class="button d-flex justify-content-center" href="mailto:contactanos@dialogus.com.mx">
