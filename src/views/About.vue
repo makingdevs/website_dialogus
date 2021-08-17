@@ -23,7 +23,7 @@
           <div class="d-flex justify-content-between bg-about flex-mobile">
 
             <div class="d-flex flex-column bg-card-about">
-              <img :show="handleScrollefect" class="icon-about alignImag2 alignImag nosotrosIcons animate__animated" src="../assets/js/services/Nosotros/Nosotros1.svg" style=" margin-top: -98px; margin-left: 2px;">
+              <img class="icon-about alignImag2 alignImag nosotrosIcons animate__animated" src="../assets/js/services/Nosotros/Nosotros1.svg" style=" margin-top: -98px; margin-left: 2px;">
               <span align="center" class="text-title font-weight-500 font-poppins nosotrosText animate__animated">Misión</span><div class="m-top-28" />
               <div class="hr-border-about"/><div class="m-top-28" />
               <span align="center" class="h5 flex-grow-1 text-body font-weight-300 font-poppins nosotrosText animate__animated">Acompañamos el desarrollo de nuestros clientes, mediante metodologías innovadoras contribuyendo en su rentabilidad, productividad y satisfacción.</span>
@@ -59,9 +59,11 @@
                 <div class="d-flex flex-column bg-card-counter">
                   <span align="center" class="text-title2-counter font-weight-300 font-poppins">Estrategia</span>
                   <div class="m-top-28" />
-                  <img align="right" :showç="handleScroll" class="icon-divisiones alignImag divisionsIcons" src="../assets/js/services/estrategi2.svg" style=" margin-top: 0px; margin-left: 2px;"><div class="m-top-28" />
-                  <div class="iCountUp" align="center">
-                    <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal" :options="options" @ready="onReady"/></span><br>
+                  <img align="right" :show="handleScroll" class="icon-divisiones alignImag divisionsIcons" src="../assets/js/services/estrategi2.svg" style=" margin-top: 0px; margin-left: 2px;"><div class="m-top-28" />
+                  <div class="iCountUp" align="center" id="intercet-items">
+                    <span align="center" class="text-title-counter font-weight-800 font-poppins" id='number-strategy'>
+                      0
+                    </span><br>
                   </div>
                   <div class="m-top-28" />
                   <span align="center" class="h5 text-counter font-weight-300 font-poppins">CEO's y Directores que definieron la visión de sus negocios.</span>
@@ -72,7 +74,10 @@
                   <div class="m-top-28" />
                   <img class="icon-divisiones alignImag2 alignImag  divisionsIcons" src="../assets/js/services/capital2.svg" style=" margin-top: 0px; margin-left: 2px;"><div class="m-top-28" />
                   <div class="iCountUp" align="center">
-                    <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal1" :options="options" @ready="onReady1"/></span><br>
+                    <span align="center" class="text-title-counter font-weight-800 font-poppins" id="number-human">
+                      0
+                    </span>
+                    <br>
                   </div>
                   <div class="m-top-28" />
                   <span align="center" class="h5 text-counter font-weight-300 font-poppins">Talentos universitarios incorporados al mundo laboral.</span>
@@ -83,7 +88,10 @@
                   <div class="m-top-28" />
                   <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/cumpli2.svg" style=" margin-top: 0px; margin-left: 2px;"><div class="m-top-28" />
                   <div class="iCountUp" align="center">
-                    <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal2" :options="options" @ready="onReady2"/></span><br>
+                    <span align="center" class="text-title-counter font-weight-800 font-poppins" id="number-talent">
+                      0
+                    </span>
+                    <br>
                   </div>
                   <div class="m-top-28" />
                   <span align="center" class="h5 text-counter font-weight-300 font-poppins">Investigadores capacitados para la atención de denuncias internas.</span>
@@ -94,7 +102,10 @@
                   <div class="m-top-28" />
                   <img class="icon-divisiones alignImag2 alignImag divisionsIcons" src="../assets/js/services/diagno2.svg" style=" margin-top: 0px; margin-left: 2px;"><div class="m-top-28" />
                   <div class="iCountUp" align="center">
-                    <span align="center" class="text-title-counter font-weight-800 font-poppins"><ICountUp :delay="delay" :endVal="endVal3" :options="options" @ready="onReady3"/></span><br>
+                    <span align="center" class="text-title-counter font-weight-800 font-poppins" id="number-capacity">
+                      0
+                    </span>
+                    <br>
                   </div>
                   <div class="m-top-28" />
                   <span align="center" class="h5 text-counter font-weight-300 font-poppins">Empresas evaluadas para ser proveedores de excelencia.</span>
@@ -469,18 +480,27 @@
 <script>
   import '../assets/css/_main.scss'
   import '../assets/css/home.scss'
-  import ICountUp from 'vue-countup-v2';
+  import { CountUp } from 'countup.js';
   export default {
+    name: 'About',
     data: function () {
       return {
         animate__animated_nosotros: true,
         animate_text_nosotros: true,
         displayСonditions: false,
         delay: 3000,
-        endVal: 107,
-        endVal1: 338,
-        endVal2: 1500,
-        endVal3: 400,
+        endVals: {
+          strategy: 107,
+          human: 338,
+          talent: 1500,
+          capacity: 400,
+        },
+        numberElements: {
+          strategy: null,
+          human: null,
+          talent: null,
+          capacity: null,
+        },
         options: {
           useEasing: true,
           useGrouping: true,
@@ -497,31 +517,30 @@
       document.documentElement.scrollTop = 0;
     },
     mounted() {
-
+      this.$nextTick(function () {
+        const target = document.getElementById('intercet-items');
+        const observer = new IntersectionObserver(this.handleIntersection);
+        observer.observe(target);
+        this.numberElements.strategy = new CountUp('number-strategy', this.delay);
+        this.numberElements.human = new CountUp('number-human', this.delay);
+        this.numberElements.talent = new CountUp('number-talent', this.delay);
+        this.numberElements.capacity = new CountUp('number-capacity', this.delay);
+      })
     },
     components: {
-      ICountUp,
       //VueSlickCarousel,
     },
     
     methods: {
-      onReady: function(instance) {
-        const that = this;
-        instance.update(that.endVal);
+      handleIntersection(entries){
+        const [entry] = entries;
+        if (entry.isIntersecting) {
+          this.numberElements.strategy.update(this.endVals.strategy);
+          this.numberElements.human.update(this.endVals.human);
+          this.numberElements.talent.update(this.endVals.talent);
+          this.numberElements.capacity.update(this.endVals.capacity);
+        }
       },
-      onReady1: function(instance) {
-        const that = this;
-        instance.update(that.endVal1);
-      },
-      onReady2: function(instance) {
-        const that = this;
-        instance.update(that.endVal2);
-      },
-      onReady3: function(instance) {
-        const that = this;
-        instance.update(that.endVal3);
-      },
-
       handleScroll() {
         if (window.scrollY > 1200 && this.stateEffect) {
           this.displayСonditions = true;
