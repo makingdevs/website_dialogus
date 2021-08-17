@@ -22,7 +22,7 @@
 
 .flex-button-guide {
   position: absolute; 
-  margin-top: 352px; 
+  margin-top: 318px; 
   left: 30%;
   z-index: 10;
 }
@@ -1569,13 +1569,13 @@ button > .text-white {
   }
   @media (max-width: 414px){
     .boton-prueba{
-      margin-top: 66%;
+      margin-top: 106%;
       margin-left: -38%;
     }
   }
   @media (max-width: 411px){
     .boton-prueba{
-      margin-top: 70%;
+      margin-top: 106%;
       margin-left: -38%
     }
   }
@@ -1590,7 +1590,7 @@ button > .text-white {
       padding: 0% !important;
     }
     .boton-prueba{
-      margin-top: 16%;
+      margin-top: 106%;
       margin-left: -38%;
     }
   }
@@ -1606,7 +1606,7 @@ button > .text-white {
     }
     .boton-prueba{
       font-size: 16px;
-      margin-top: 126%;
+      margin-top: 173%;
       margin-left: -48%
     }
   }
@@ -1616,7 +1616,7 @@ button > .text-white {
     }
     .boton-prueba{
       font-size: 16px;
-      margin-top: 126%;
+      margin-top: 173%;
       margin-left: -48%
     }
     .hr2{
@@ -1625,7 +1625,7 @@ button > .text-white {
   }
   @media (max-width: 320px){
     .viewport-header {
-      height: 126vh;
+      height: 91vh;
     }
     .email-text {
       word-wrap: break-word;
@@ -1635,7 +1635,7 @@ button > .text-white {
       margin-top: 54px;
     }
     .boton-prueba{
-      margin-top: 161%;
+      margin-top: 200%;
     }
   }
   /*   END   */
@@ -1645,6 +1645,9 @@ button > .text-white {
     }
     .btn-width-contact {
       width: 63% !important;
+    }
+    .viewport-header {
+      height: 116vh;
     }
   }
   /*carusel 3d controles*/
