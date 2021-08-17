@@ -390,7 +390,7 @@
   
   @media(max-width: 1030px ){
     .text-title2-counter{
-      font-size: 23px;
+      font-size: 26px;
     }
     .vl-about {
       display: none;
@@ -408,7 +408,7 @@
     background-repeat: no-repeat;
   }
   .text-title2-counter{
-    font-size: 16px;
+    font-size: 18px;
   }
   .bg-card-counter{
     margin-top: 10px;
