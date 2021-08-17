@@ -415,7 +415,7 @@
   @media(max-width: 1000px ){
   #bannerabout {
     background-image: url('../assets/js/services/Nosotrosresponsive.svg');
-    background-size:100%;
+    background-size: 100%;
     background-repeat: no-repeat;
   }
   .text-title2-counter{

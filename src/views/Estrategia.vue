@@ -113,7 +113,7 @@
   @media(max-width: 1000px ){
   #bannerestrategia {
     background-image: url('../assets/js/services/Estrategia/Estrategiaresponsive.svg');
-    background-size:100%;
+    background-size: 100%;
     background-repeat: no-repeat;
   }
   .containerheader{
