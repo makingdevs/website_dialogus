@@ -117,7 +117,7 @@
             <div style="margin-right: 39px;" />
             <h5 class="modal-title text-white" id="staticBackdropLabel" align="center">Agenda una cita</h5>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"
-              style="margin: 0px"></button>
+              style="margin: 0px; opacity: 1.5;"></button>
           </div>
           <div class="modal-body calendly-custom">
             <vue-calendly url="https://calendly.com/dialogus" class="calendly-custom"></vue-calendly>
