@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import VueMeta from 'vue-meta'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import router from './router'
@@ -34,6 +35,7 @@ import 'coach/js/isotope.pkgd.min.js'
 import './assets/js/main-theme.js'
 import VueCalendly from 'vue-calendly';
 
+Vue.use(VueMeta);
 Vue.use(VueCalendly);
 
 Vue.use(VueRouter)

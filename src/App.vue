@@ -295,6 +295,20 @@
   import './assets/css/app.scss'
   export default {
     name: "app",
+    metaInfo: {
+      title: 'Dialogus',
+      titleTemplate: '%s | Consultora de Negocios | México',
+      htmlAttrs: {
+        lang: 'es'
+      },
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'description', content: 'Dialogus es una firma de consultoría dedicada a construir confianza para sus clientes mediante servicios especializados y prácticas de negocio innovadoras, generando eficiencia y prosperidad.'},
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'keywords:', content: 'consultoría, Líneas de denuncia, estrategia empresarial, gestión del talento, Consultora, Compliance, responsabilidad social empresarial, desarrollo organizacional, Consultoría empresarial, Sistemas de gestión, planeación estratégica, Bienestar organizacional, Consultoría de negocios, Mapeo de procesos, estructura organizacional, Riesgos empresariales, Soluciones empresariales, IS0, NOM, NMX, Balanced Score Card, Certificación Empresarial, Transformación de negocios, Ética empresarial, Programa de becarios, Evaluación empresarial' },
+        { name: 'author:', content: 'Dialogus' },
+      ]
+    },
     data: function () {
       return {
         title: "Dialogus",
