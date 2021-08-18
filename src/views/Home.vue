@@ -177,7 +177,7 @@
             </div>
             <div class="card-body">
               <h5 align="center">
-                <router-link to="/eventos" class="text-white">{{tarjeta.title}}</router-link>
+                <router-link to="/eventos" class="text-white font-poppins">{{tarjeta.title}}</router-link>
               </h5>
               <div align="center" class="event-meta-list">
                 <span class="me-0 me-xl-2 text-white"><i
