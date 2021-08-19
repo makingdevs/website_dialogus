@@ -319,7 +319,7 @@
         }
       },
       openCalendly(value){
-        if(window.screen.width < 550){
+        if(window.screen.height < 1000){
           const element = document.getElementById("container-navbar")
           element.style.display = value;
         }
