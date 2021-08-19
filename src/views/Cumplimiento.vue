@@ -60,7 +60,7 @@
 </template>
 <style>
   #bannercumplimiento {
-    background-image: url('../assets/js/services/H5.jpg');
+    background-image: url('../assets/js/services/H6.jpg');
     background-size:100%;
     background-repeat: no-repeat;
   }
