@@ -60,7 +60,11 @@
 </template>
 <style>
   #bannercumplimiento {
+<<<<<<< HEAD
     background-image: url('../assets/js/services/H6.jpg');
+=======
+    background-image: url('../assets/js/services/H5.jpg');
+>>>>>>> 7754274 (#143 adjusting heders in servicios)
     background-size:100%;
     background-repeat: no-repeat;
   }
