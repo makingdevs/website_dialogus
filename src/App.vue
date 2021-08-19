@@ -111,7 +111,7 @@
     <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
       aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered ">
+      <div class="modal-dialog modal-dialog-centered marginCalendario">
         <div class="modal-content" style="background: transparent; border: 0px;">
           <div class="modal-header justify-content-between" style="border: 0; padding: 10px 0px;">
             <div style="margin-right: 39px;" />
