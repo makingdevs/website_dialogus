@@ -311,7 +311,7 @@
     
   }
   .text-title2-counter{
-    font-size: 34px;
+    font-size: 26.8px;
   }
   .text-counter {
     font-size: 20px !important;
@@ -403,7 +403,7 @@
   
   @media(max-width: 1030px ){
     .text-title2-counter{
-      font-size: 26px;
+      font-size: 26.9px;
     }
     .vl-about {
       display: none;
@@ -415,67 +415,101 @@
   }
   
   @media(max-width: 1000px ){
-  #bannerabout {
-    background-image: url('../assets/js/services/Nosotrosresponsive.svg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
-  .text-title2-counter{
-    font-size: 18px;
-  }
-  .bg-card-counter{
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .containerheader{
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 50%;
-    margin-bottom: -50px;
-  }
-  .hr-header {
-    border-style: Solid;
-    border-color: rgb(255, 212, 31);
-    background-color: rgb(255, 212, 31);
-    border-width: 3px;
-    width: 20%;
-    margin-left: 40%;
-  }
+    #bannerabout {
+      background-image: url('../assets/js/services/Nosotrosresponsive.svg');
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+    .text-title2-counter{
+      font-size: 19.4px;
+    }
+    .text-counter {
+      font-size: 18px !important;
+    }
+    .bg-counter{
+      font-size: 30px;
+    }
+    .bg-card-counter{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .containerheader{
+      text-align: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 50%;
+      margin-bottom: -50px;
+    }
+    .hr-header {
+      border-style: Solid;
+      border-color: rgb(255, 212, 31);
+      background-color: rgb(255, 212, 31);
+      border-width: 3px;
+      width: 20%;
+      margin-left: 40%;
+    }
 
-  .vl-about {
+    .vl-about {
+        display: none;
+    }
+    .testimonios{
+      background-color: #e8eaea!important;
+      margin-top: -120px;
+      margin-bottom: -50px;
       display: none;
+    }
+    .testimoniosmobile{
+      background-color: #e8eaea!important;
+      margin-top: -120px;
+      margin-bottom: -50px;
+      display: block;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      margin-top: 100%;
+    }
   }
-  .testimonios{
-    background-color: #e8eaea!important;
-    margin-top: -120px;
-    margin-bottom: -50px;
-    display: none;
-  }
-  .testimoniosmobile{
-    background-color: #e8eaea!important;
-    margin-top: -120px;
-    margin-bottom: -50px;
-    display: block;
-  }
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    margin-top: 100%;
-  }
+  @media(max-width: 781px ){
+    .text-title2-counter{
+      font-size: 16.9px;
+    }
+    .text-counter {
+      font-size: 15px !important;
+    }
+    .bg-counter{
+      font-size: 23px;
+    }
   }
   @media(max-width: 700px ){
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
     margin-top: 150%;
   }
-  .text-title2-counter{
-    font-size: 35px;
+    .text-title2-counter{
+      font-size: 12px;
+    }
+    .text-counter {
+      font-size: 11px !important;
+    }
+    .bg-counter{
+      font-size: 19px;
+    }
+    .CounterTitle{
+      text-align: center;
+      font-size: 30px;
+      color: #ffffff;
+    }
   }
-  .CounterTitle{
-    text-align: center;
-    font-size: 30px;
-    color: #ffffff;
-  }
+   @media(max-width: 550px ){
+    .text-title2-counter{
+      font-size: 35px;
+    }
+    .text-counter {
+      font-size: 20px !important;
+    }
+    .bg-counter{
+      font-size: 35px;
+    }
   }
   
 
