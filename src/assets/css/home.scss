@@ -752,6 +752,7 @@ button > .text-white {
 
   .text-title {
     color: white;
+    text-align: center;
   }
 }
 
@@ -772,6 +773,7 @@ button > .text-white {
 
   .text-title {
     color: white;
+    text-align: center;
   }
 }
 
@@ -1101,30 +1103,36 @@ button > .text-white {
 @media only screen and (max-width: 1399px) {
   .text-title {
     font-size: 25px;
+    text-align: center;
   }
 
   .text-body {
     font-size: 18px !important;
+    text-align: center;
   }
 }
 
 @media only screen and (max-width: 1200px) {
   .text-title {
     font-size: 20px;
+    text-align: center;
   }
 
   .text-body {
     font-size: 18px !important;
+    text-align: center;
   }
 }
 
 @media only screen and (max-width: 991px) {
   .text-title {
     font-size: 17.6px;
+    text-align: center;
   }
 
   .text-body {
     font-size: 18px !important;
+    text-align: center;
   }
 
   .bg-card {
@@ -1137,10 +1145,12 @@ button > .text-white {
 
   .text-title {
     font-size: 13.4px;
+    text-align: center;
   }
 
   .text-body {
     font-size: 12px !important;
+    text-align: center;
   }
   .button-divisiones{
     padding: 0px 11px;
@@ -1159,10 +1169,12 @@ button > .text-white {
 @media only screen and (max-width: 550px) {
   .text-title {
     font-size: 25px;
+    text-align: center;
   }
 
   .text-body {
     font-size: 20px !important;
+    text-align: center;
   }
   .flex-mobile {
     flex-direction: column;

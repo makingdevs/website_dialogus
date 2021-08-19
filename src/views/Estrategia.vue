@@ -47,7 +47,7 @@
 </template>
 <style>
   #bannerestrategia {
-    background-image: url('../assets/js/services/Estrategia/Estrategiahead.svg');
+    background-image: url('../assets/js/services/H4.jpg');
     background-size:100%;
     background-repeat: no-repeat !important;
   }

@@ -312,10 +312,12 @@
   }
   .text-title2-counter{
     font-size: 26.8px;
+    text-align: center;
   }
   .text-counter {
     font-size: 20px !important;
     color: #ffffff !important;
+    text-align: center;
   }
   .video_btn2{
     background: #35547c!important;
@@ -404,6 +406,7 @@
   @media(max-width: 1030px ){
     .text-title2-counter{
       font-size: 26.9px;
+      text-align: center;
     }
     .vl-about {
       display: none;
@@ -422,9 +425,11 @@
     }
     .text-title2-counter{
       font-size: 19.4px;
+      text-align: center;
     }
     .text-counter {
       font-size: 18px !important;
+      text-align: center;
     }
     .bg-counter{
       font-size: 30px;
@@ -472,9 +477,11 @@
   @media(max-width: 781px ){
     .text-title2-counter{
       font-size: 16.9px;
+      text-align: center;
     }
     .text-counter {
       font-size: 15px !important;
+      text-align: center;
     }
     .bg-counter{
       font-size: 23px;
@@ -487,9 +494,11 @@
   }
     .text-title2-counter{
       font-size: 12px;
+      text-align: center;
     }
     .text-counter {
       font-size: 11px !important;
+      text-align: center;
     }
     .bg-counter{
       font-size: 19px;
@@ -503,9 +512,11 @@
    @media(max-width: 550px ){
     .text-title2-counter{
       font-size: 35px;
+      text-align: center;
     }
     .text-counter {
       font-size: 20px !important;
+      text-align: center;
     }
     .bg-counter{
       font-size: 35px;

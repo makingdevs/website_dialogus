@@ -52,7 +52,7 @@
 </template>
 <style>
   #bannerdiagnostico {
-    background-image: url('../assets/js/services/Diagnostico/Diagnosticohead.svg');
+    background-image: url('../assets/js/services/H7.jpg');
     background-size:100%;
     background-repeat: no-repeat !important;
 

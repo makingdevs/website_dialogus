@@ -105,7 +105,7 @@
 
   @media(max-width: 1000px ){
   #bannercapital {
-    background-image: url('../assets/js/services/Capital/Capitalresponsive.svg');
+    background-image: url('../assets/js/services/H5.jpg');
     background-size:100%;
     background-repeat: no-repeat !important;
   }
