@@ -55,7 +55,7 @@
 </template>
 <style>
   #bannercapital {
-    background-image: url('../assets/js/services/Capital/Capitalhead.svg');
+    background-image: url('../assets/js/services/H5.jpg');
     background-size:100%;
     background-repeat: no-repeat;
   }
@@ -105,7 +105,7 @@
 
   @media(max-width: 1000px ){
   #bannercapital {
-    background-image: url('../assets/js/services/H5.jpg');
+    background-image: url('../assets/js/services/Capital/Capitalresponsive.svg');
     background-size:100%;
     background-repeat: no-repeat !important;
   }
