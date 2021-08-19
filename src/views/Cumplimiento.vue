@@ -60,7 +60,7 @@
 </template>
 <style>
   #bannercumplimiento {
-    background-image: url('../assets/js/services/Cumplimiento/Cumplimientohead.svg');
+    background-image: url('../assets/js/services/H6.jpg');
     background-size:100%;
     background-repeat: no-repeat;
   }
@@ -125,7 +125,7 @@
   }
   @media(max-width: 1000px ){
   #bannercumplimiento {
-    background-image: url('../assets/js/services/H6.jpg');
+    background-image: url('../assets/js/services/Cumplimiento/Cumplimientoresponsive.svg');
     background-size:100%;
     background-repeat: no-repeat !important;
   }
