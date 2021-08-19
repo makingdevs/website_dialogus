@@ -236,7 +236,7 @@
   #bannerabout {
     background-image: url('../assets/js/services/Nosotroshead.svg');
     background-size:100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
   }
   .containerheader{
     margin-left: 120px;
@@ -248,10 +248,12 @@
   .testimonios{
     background-color: #e8eaea!important;
     margin-top: -120px;
+    margin-bottom: -50px;
   }
   .testimoniosmobile{
     background-color: #e8eaea!important;
     margin-top: -120px;
+    margin-bottom: -50px;
     display: none;
   }
   .colorLineas{
@@ -309,7 +311,7 @@
     
   }
   .text-title2-counter{
-    font-size: 36px;
+    font-size: 34px;
   }
   .text-counter {
     font-size: 20px !important;
@@ -447,11 +449,13 @@
   .testimonios{
     background-color: #e8eaea!important;
     margin-top: -120px;
+    margin-bottom: -50px;
     display: none;
   }
   .testimoniosmobile{
     background-color: #e8eaea!important;
     margin-top: -120px;
+    margin-bottom: -50px;
     display: block;
   }
   .carousel-control-prev-icon,

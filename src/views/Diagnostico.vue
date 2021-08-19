@@ -54,7 +54,7 @@
   #bannerdiagnostico {
     background-image: url('../assets/js/services/Diagnostico/Diagnosticohead.svg');
     background-size:100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
 
   }
   .containerheader{

@@ -190,7 +190,7 @@
   #bannercontacto {
     background-image: url('../assets/js/services/Contactohead.svg');
     background-size:100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
   }
   .containerheader{
     margin-left: 120px;

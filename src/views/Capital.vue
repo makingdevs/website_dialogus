@@ -107,7 +107,7 @@
   #bannercapital {
     background-image: url('../assets/js/services/Capital/Capitalresponsive.svg');
     background-size:100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
   }
   .containerheader{
     text-align: center;
