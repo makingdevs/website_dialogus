@@ -20,7 +20,7 @@
         </div>
         <!-- end top search -->
         <div class="container">
-          <div class="row align-items-center">
+          <div class="row align-items-center" id="container-navbar">
             <div class="col-12 col-lg-12">
               <div class="menu_area">
                 <nav class="navbar navbar-expand-lg navbar-light p-0">
@@ -85,7 +85,7 @@
                       </router-link>
                     </li>
                     <li class="d-flex align-items-center">
-                      <button class="btn-circle schedule-button btn-color-button p-2" id="buttonAgenda"
+                      <button class="btn-circle schedule-button btn-color-button p-2" id="buttonAgenda" @click="openCalendly('none')"
                         data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="cursor: pointer; padding-bottom: 26px !important;">
                         <i class="far fa-calendar-alt me-0" style="font-weight: 500 !important;"></i>
                         <span class="text-button padding-agenda" style="font-size: 16px; font-weight: 500;"> Agenda una cita </span>
@@ -111,17 +111,16 @@
     <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
       aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered marginCalendario">
+      <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content" style="background: transparent; border: 0px;">
           <div class="modal-header justify-content-between" style="border: 0; padding: 10px 0px;">
             <div style="margin-right: 39px;" />
             <h5 class="modal-title text-white" id="staticBackdropLabel" align="center">Agenda una cita</h5>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"
-              style="margin: 0px; opacity: 1.5;"></button>
+              style="margin: 0px; opacity: 1.5;" @click="openCalendly('flex')"></button>
           </div>
           <div class="modal-body calendly-custom">
-            <vue-calendly url="https://calendly.com/dialogus" class="calendly-custom"></vue-calendly>
-
+            <vue-calendly url="https://calendly.com/dialogus" class="calendly-custom" ></vue-calendly>
           </div>
 
         </div>
@@ -317,6 +316,12 @@
           var evObj = document.createEvent('Events');
           evObj.initEvent(typeEvent, true, false);
           element.dispatchEvent(evObj);
+        }
+      },
+      openCalendly(value){
+        if(window.screen.width < 550){
+          const element = document.getElementById("container-navbar")
+          element.style.display = value;
         }
       },
       hiddenMenu(event) {
