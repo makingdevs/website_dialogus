@@ -588,8 +588,7 @@
           this.numberElements.human.update(this.endVals.human);
           this.numberElements.talent.update(this.endVals.talent);
           this.numberElements.capacity.update(this.endVals.capacity);
-          console.log("Hola");
-        }
+        } 
       },
       handleScroll() {
         if (window.scrollY > 1200 && this.stateEffect) {
