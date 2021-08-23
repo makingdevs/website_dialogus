@@ -49,6 +49,31 @@
       </div>
     </section>
 
+    <!-- ABOUTUS ================================================== -->
+    <section class="bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-6 mb-md-8 mb-lg-0">
+            <div class="pe-lg-1-9 pe-xl-2-5 text-center">
+              <img class="box-custom presentamosAnimation animate__animated" src="../assets/que es.jpeg" alt="...">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div align="center" class="h1 color_33 presentamosAnimation animate__animated">Te presentamos</div>
+            <div class="m-top-28" />
+            <img align="center" class="img2 presentamosText animate__animated" src="../assets/js/services/Recurso 6.svg"
+              alt="...">
+            <div class="m-top-28" />
+            <div class="m-top-28" />
+            <div align="center" class="h4 color_33 presentamosText animate__animated" style="font-weight: 300;">Una consultora que ofrece servicios disruptivos e innovadores, siempre poniendo a la gente al centro de las soluciones.</div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+    <!--END ABOUTUS =============================================== -->
+
     <!-- SERVICE================================================== -->
     <section id="seccion-services">
       <img class="img-hexPagina" src="../assets/js/services/hexagonos-Pagina/hexPagin.svg">
@@ -134,32 +159,6 @@
 
     </section>
     <!-- END SERVICE============================================== -->
-
-    <!-- ABOUTUS ================================================== -->
-    <section class="bg-light">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 mb-6 mb-md-8 mb-lg-0">
-            <div class="pe-lg-1-9 pe-xl-2-5 text-center">
-              <img class="box-custom presentamosAnimation animate__animated" src="../assets/que es.jpeg" alt="...">
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div align="center" class="h1 color_33 presentamosAnimation animate__animated">Te presentamos</div>
-            <div class="m-top-28" />
-            <img align="center" class="img2 presentamosText animate__animated" src="../assets/js/services/Recurso 6.svg"
-              alt="...">
-            <div class="m-top-28" />
-            <div class="m-top-28" />
-            <div align="center" class="h4 color_33 presentamosText animate__animated" style="font-weight: 300;">Una consultora que ofrece servicios disruptivos e innovadores, siempre poniendo a la gente al centro de las soluciones.</div>
-          </div>
-
-
-        </div>
-      </div>
-    </section>
-    <!--END ABOUTUS =============================================== -->
-
 
     <!-- ONLINE COURSES
         ================================================== -->
@@ -419,7 +418,7 @@
         this.returnPresentamosText();
       },
       activatedDivisionsIcons() {
-        if (window.scrollY > 300 && this.animate__animated) {
+        if (window.scrollY > 1000 && this.animate__animated) {
           const divisionsIcons = document.getElementsByClassName("divisionsIcons")
           for (const division of divisionsIcons) {
             division.classList.add("animate__fadeInDown")
@@ -439,7 +438,7 @@
         }
       },
       animationDivisionsText() {
-        if (window.scrollY > 400 && this.animate__animated_text) {
+        if (window.scrollY > 1100 && this.animate__animated_text) {
           const divisionsText = document.getElementsByClassName("divisionsText")
           for (const textDivision of divisionsText) {
             textDivision.classList.add("animate__fadeInUp")
@@ -458,7 +457,7 @@
       },
 
       animationPresentamos() {
-        if (window.scrollY > 1200 && this.animate_presentamos) {
+        if (window.scrollY > 250 && this.animate_presentamos) {
           const presentamos = document.getElementsByClassName("presentamosAnimation")
           for (const presentamosAnimation of presentamos) {
             presentamosAnimation.classList.add("animate__fadeInDown")
@@ -477,7 +476,7 @@
       },
 
       presentamosText() {
-        if (window.scrollY > 1200 && this.animate_presentamos_text) {
+        if (window.scrollY > 250 && this.animate_presentamos_text) {
           const textPresentamos = document.getElementsByClassName("presentamosText")
           for (const presentamosTextAnimation of textPresentamos) {
             presentamosTextAnimation.classList.add("animate__fadeInUp")
@@ -486,7 +485,7 @@
         }
       },
       returnPresentamosText() {
-        if (window.scrollY < 250 && !this.animate_presentamos_text) {
+        if (window.scrollY < 200 && !this.animate_presentamos_text) {
           const textPresentamos = document.getElementsByClassName("presentamosText")
           for (const presentamosTextAnimation of textPresentamos) {
             presentamosTextAnimation.classList.remove("animate__fadeInUp")
