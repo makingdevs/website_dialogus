@@ -62,10 +62,10 @@
           <div class="m-top-28" />
           <div>Para mejorar tu experiencia y visualizar de manera correcta este sitio, obtén la última versión de tu navegador favorito.</div>
           <div class="m-top-28" />
-          <div class="d-flex justify-content-evenly">
-            <img src="../assets/google-chrome.svg" alt="" width="10%">
-            <img src="../assets/safari.svg" alt="" width="10%">
-            <img src="../assets/firefox.svg" alt="" width="10%">
+          <div style="text-align: center;">
+            <img src="../assets/google-chrome.svg" alt="" width="10%" style="margin: 10px;">
+            <img src="../assets/safari.svg" alt="" width="10%" style="margin: 10px;">
+            <img src="../assets/firefox.svg" alt="" width="10%" style="margin: 10px;">
           </div>
         </div>
         <div class="modal-footer" style='justify-content:center'>
