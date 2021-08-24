@@ -60,7 +60,7 @@
         <div class="modal-body">
           Este navegador no es compatible con algunas funciones de nuestra página web.
           <div class="m-top-28" />
-          <div>Para merorar tu experiencia y visualizar de manera correcta este sitio, obtén la ultima versión de tu navegador favorito.</div>
+          <div>Para mejorar tu experiencia y visualizar de manera correcta este sitio, obtén la última versión de tu navegador favorito.</div>
           <div class="m-top-28" />
           <div class="d-flex justify-content-evenly">
             <img src="../assets/google-chrome.svg" alt="" width="10%">
