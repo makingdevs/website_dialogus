@@ -64,8 +64,8 @@
           <div class="m-top-28" />
           <div class="d-flex justify-content-evenly">
             <img src="../assets/google-chrome.svg" alt="" width="10%">
-            <img src="../assets/firefox.svg" alt="" width="10%">
             <img src="../assets/safari.svg" alt="" width="10%">
+            <img src="../assets/firefox.svg" alt="" width="10%">
           </div>
         </div>
         <div class="modal-footer" style='justify-content:center'>
