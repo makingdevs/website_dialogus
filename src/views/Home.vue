@@ -49,6 +49,33 @@
       </div>
     </section>
 
+<!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content messageVersion">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Actualiza tu Navegador</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Este navegador no es compatible con algunas funciones de nuestra página web.
+          <div class="m-top-28" />
+          <div>Para merorar tu experiencia y visualizar de manera correcta este sitio, obtén la ultima versión de tu navegador favorito.</div>
+          <div class="m-top-28" />
+          <div class="d-flex justify-content-evenly">
+            <img src="../assets/google-chrome.svg" alt="" width="10%">
+            <img src="../assets/firefox.svg" alt="" width="10%">
+            <img src="../assets/safari.svg" alt="" width="10%">
+          </div>
+        </div>
+        <div class="modal-footer" style='justify-content:center'>
+          <div class="d-flex justify-content-center">
+            <button type="button" class="boton-prueba" data-bs-dismiss="modal">Aceptar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
     <!-- ABOUTUS ================================================== -->
     <section class="bg-light">
       <div class="container">
@@ -343,8 +370,12 @@
 <script>
   import { Carousel3d, Slide } from 'vue-carousel-3d';
   import VueTextTransition from 'vue-text-transition';
-  import '../assets/css/_main.scss'
-  import '../assets/css/home.scss'
+  import '../assets/css/_main.scss';
+  import '../assets/css/home.scss';
+  import { validateVersion }from '../assets/js/navigatorVersion';
+  // eslint-disable-next-line no-unused-vars
+  import { Modal } from 'bootstrap';
+  
 
   import { TarjetasCarruselTableRef } from '../dbConnection'
   export default {
@@ -378,14 +409,20 @@
         }
       }
     },
-
+    mounted() {
+      this.$nextTick(function () {
+        const modal = new Modal(document.getElementById('exampleModal'))
+        const navaitor = validateVersion();
+        console.log(navaitor);
+        if(navaitor){
+          modal.show();
+        }
+      })
+    },
     created: function () {
       window.addEventListener('scroll', this.handleScroll);
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
-    },
-    mounted() {
-
     },
     components: {
       Carousel3d,

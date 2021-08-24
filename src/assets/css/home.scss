@@ -1,4 +1,7 @@
 /* home */
+.messageVersion {
+  border-radius: 21px !important;
+}
 .arrowsPadding {
   padding: 1%;
 }
@@ -227,10 +230,6 @@
   .next[data-v-05517ad0], .prev[data-v-05517ad0] {
     color: rgb(104, 103, 103) !important;
   }
-}
-
-#banner {
-  background-image: url("../animacion-cor.mp4");
 }
 
 .fade-in-image {

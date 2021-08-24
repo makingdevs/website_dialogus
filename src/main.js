@@ -41,6 +41,7 @@ import { rtdbPlugin } from 'vuefire'
 Vue.use(rtdbPlugin)
 Vue.config.productionTip = false
 
+
 new Vue({
   router,
   render: h => h(App)
