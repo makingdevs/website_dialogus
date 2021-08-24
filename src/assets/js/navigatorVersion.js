@@ -26,7 +26,7 @@ function validateVersion() {
     return true;
   }
 
-  if (navigator.name == 'Safari' && Number(navigator.version) < 12) {
+  if (navigator.name == 'Safari' && Number(navigator.version) < 13) {
     return true;
   }
 
