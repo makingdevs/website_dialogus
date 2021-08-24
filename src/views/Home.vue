@@ -57,10 +57,10 @@
           <h5 class="modal-title" id="exampleModalLabel">Actualiza tu Navegador</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body">
+        <div class="modal-body text-black">
           Este navegador no es compatible con algunas funciones de nuestra página web.
           <div class="m-top-28" />
-          <div>Para merorar tu experiencia y visualizar de manera correcta este sitio, obtén la ultima versión de tu navegador favorito.</div>
+          <div class="text-black">Para mejorar tu experiencia y visualizar de manera correcta este sitio, obtén la última versión de tu navegador favorito.</div>
           <div class="m-top-28" />
           <div class="d-flex justify-content-evenly">
             <img src="../assets/google-chrome.svg" alt="" width="10%">
