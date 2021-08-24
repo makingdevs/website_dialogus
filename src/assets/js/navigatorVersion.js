@@ -18,7 +18,7 @@ function get_browser() {
 
 function validateVersion() {
   const navigator = get_browser()
-  if (navigator.name == 'Chrome' && Number(navigator.version) < 95) {
+  if (navigator.name == 'Chrome' && Number(navigator.version) < 65) {
     return true;
   }
 
