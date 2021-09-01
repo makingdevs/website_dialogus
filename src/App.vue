@@ -136,7 +136,7 @@
       <div id="contacto" class="container-fluid" style="margin-top: 70px">
         <div class="d-flex justify-content-between flex-mobile-footer">
           <div class="d-flex justify-content-start">
-            <img src="./assets/js/services/DiaBlan.svg" alt="..." width="300"
+            <img src="./assets/Logo-ESR.svg" alt="..." width="300"
               style="margin-left: 0px; margin-top: -60px;">
           </div>
           <div class="d-flex justify-content-start flex-column" style="margin-left: 15%;">
