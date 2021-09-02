@@ -36,6 +36,12 @@
 
                   <!-- menu area -->
                   <ul class="navbar-nav ms-auto nav-custom" id="nav" style="display: none" @click="hiddenMenu($event)">
+                    <a class="socialmedia" href="https://twitter.com/Dialogus_LAT"><img src="./assets/js/services/TW.svg"
+                  width="50" style="margin: 5px;"></a>
+              <a href="https://www.facebook.com/DialogusConsultores"><img src="./assets/js/services/FB.svg" width="50"
+                  style="margin: 5px;"></a>
+              <a href="https://www.linkedin.com/company/dialogus-consultores/"><img src="./assets/js/services/IN.svg"
+                  width="50" style="margin: 5px;"></a>
                     <li>
                       <router-link to="/home" style="font-size: 16px;" class="subFuente">
                         Inicio
