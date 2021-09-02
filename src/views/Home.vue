@@ -372,6 +372,7 @@
   import VueTextTransition from 'vue-text-transition';
   import '../assets/css/_main.scss';
   import '../assets/css/home.scss';
+  import { hideLoader } from '../assets/js/utils';
   import { validateVersion }from '../assets/js/navigatorVersion';
   // eslint-disable-next-line no-unused-vars
   import { Modal } from 'bootstrap';
@@ -411,6 +412,7 @@
     },
     mounted() {
       this.$nextTick(function () {
+        hideLoader();
         const modal = new Modal(document.getElementById('exampleModal'))
         const navaitor = validateVersion();
         console.log(navaitor);

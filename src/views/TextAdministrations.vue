@@ -105,6 +105,7 @@
 
 import { TarjetasCarruselTableRef } from '../dbConnection'
 import auth from '@/assets/js/auth/auth.js';
+import { hideLoader } from '../assets/js/utils';
 export default {
   name: "TextAdministration",
   firebase: {
@@ -132,7 +133,8 @@ export default {
     this.title = this.TarjetasCarruselTable[0];
   },
   mounted(){
-   this.title = this.TarjetasCarruselTable[0]; 
+   this.title = this.TarjetasCarruselTable[0];
+   hideLoader(); 
   },
   components: {
   },

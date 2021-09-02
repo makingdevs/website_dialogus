@@ -134,6 +134,7 @@
 <script>
   import '../assets/css/_main.scss';
   import '../assets/css/home.scss';
+  import { hideLoader } from '../assets/js/utils';
   import { TarjetasCarruselTableRef } from '../dbConnection'
 export default{
     
@@ -156,6 +157,9 @@ export default{
       window.addEventListener('scroll', this.handleScroll);
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+    },
+    mounted() {
+      hideLoader();
     },
 };
 </script>
