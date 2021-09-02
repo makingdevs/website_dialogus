@@ -138,6 +138,7 @@
 
 <script>
 import CardService from '../components/CardService.vue';
+import { hideLoader } from '../assets/js/utils';
 export default {
   name: "Services",
   data: () => {
@@ -147,6 +148,9 @@ export default {
     window.addEventListener('scroll', this.handleScroll);
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+  },
+  mounted() {
+    hideLoader();
   },
   components: {
     CardService

@@ -530,6 +530,7 @@
   import '../assets/css/_main.scss'
   import '../assets/css/home.scss'
   import { CountUp } from 'countup.js';
+  import { hideLoader } from '../assets/js/utils';
   export default {
     name: 'About',
     data: function () {
@@ -567,6 +568,7 @@
     },
     mounted() {
       this.$nextTick(function () {
+        hideLoader();
         const target = document.getElementById('intercet-items');
         const observer = new IntersectionObserver(this.handleIntersection);
         observer.observe(target);

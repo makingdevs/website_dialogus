@@ -49,6 +49,7 @@
 </style>
 <script>
 import auth from '@/assets/js/auth/auth.js';
+import { hideLoader } from '../assets/js/utils';
 export default {
   name: "Login",
   data: function (){
@@ -71,6 +72,7 @@ export default {
 
   },
   mounted(){
+    hideLoader();
   },
   components: {
   },

@@ -221,6 +221,7 @@
 </style>
 <script>
     import '../assets/css/contact.scss'
+    import { hideLoader } from '../assets/js/utils';
     export default {
         name: "Contacto",
         watch: {
@@ -248,7 +249,7 @@
             document.documentElement.scrollTop = 0;
         },
         mounted() {
-
+          hideLoader();
         },
 
         methods: {
