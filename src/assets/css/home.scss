@@ -1,4 +1,10 @@
 /* home */
+.images-float{
+  position: fixed;
+  top: 43%;
+  z-index: 1;
+}
+
 .messageVersion {
   border-radius: 21px !important;
 }
@@ -1029,6 +1035,9 @@ button > .text-white {
     .img-hexPagina-contac{
       margin-top: -11px;
       margin-left: 920px;
+    }
+    .image-none{
+      display: none;
     }
   }
 @media (max-width: 1199px) {

@@ -36,12 +36,6 @@
 
                   <!-- menu area -->
                   <ul class="navbar-nav ms-auto nav-custom" id="nav" style="display: none" @click="hiddenMenu($event)">
-                    <a class="socialmedia" href="https://twitter.com/Dialogus_LAT"><img src="./assets/js/services/TW.svg"
-                  width="50" style="margin: 5px;"></a>
-              <a href="https://www.facebook.com/DialogusConsultores"><img src="./assets/js/services/FB.svg" width="50"
-                  style="margin: 5px;"></a>
-              <a href="https://www.linkedin.com/company/dialogus-consultores/"><img src="./assets/js/services/IN.svg"
-                  width="50" style="margin: 5px;"></a>
                     <li>
                       <router-link to="/home" style="font-size: 16px;" class="subFuente">
                         Inicio
@@ -142,7 +136,7 @@
       <div id="contacto" class="container-fluid" style="margin-top: 70px">
         <div class="d-flex justify-content-between flex-mobile-footer">
           <div class="d-flex justify-content-start">
-            <img src="./assets/Logo-ESRwhite.svg" alt="..." width="300"
+            <img src="./assets/js/services/DiaBlan.svg" alt="..." width="300"
               style="margin-left: 0px; margin-top: -60px;">
           </div>
           <div class="d-flex justify-content-start flex-column" style="margin-left: 15%;">
@@ -196,6 +190,7 @@
                   style="margin: 5px;"></a>
               <a href="https://www.linkedin.com/company/dialogus-consultores/"><img src="./assets/js/services/IN.svg"
                   width="50" style="margin: 5px;"></a>
+              <img src="./assets/logoESP-white.svg" width="25%" style="margin: 5px;">
             </ul>
           </div>
           <div class="d-flex flex-column bg-card-footer1">
@@ -212,7 +207,7 @@
       <div id="contacto" class="container-fluid" style="margin-top: 100px">
         <div class="d-flex justify-content-between flex-mobile-footer">
           <div class="d-flex justify-content-start">
-            <img src="./assets/Logo-ESRwhite.svg" alt="..." width="300"
+            <img src="./assets/js/services/DiaBlan.svg" alt="..." width="300"
               style="margin-left: 0px; margin-top: -60px;">
           </div>
           <div class="d-flex justify-content-between flex-mobile-footer">
@@ -231,6 +226,7 @@
                   style="margin: 5px;"></a>
               <a href="https://www.linkedin.com/company/dialogus-consultores/"><img src="./assets/js/services/IN.svg"
                   width="50" style="margin: 5px;"></a>
+               <img src="./assets/logoESP-white.svg" width="25%" style="margin: 5px;">
             </ul>
           </div>
         </div>

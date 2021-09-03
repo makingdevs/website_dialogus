@@ -48,6 +48,14 @@
         <button class="boton-prueba" @click="descargarGuia">Descargar Guía</button>
       </div>
     </section>
+    <div class="d-flex flex-column images-float">
+      <a class="socialmedia" href="https://twitter.com/Dialogus_LAT"><img class="image-none" src="../assets/js/services/twuiColor.svg"
+                  width="50" style="margin: 5px;"></a>
+      <a href="https://www.facebook.com/DialogusConsultores"><img class="image-none" src="../assets/js/services/faceColor.svg" width="50"
+                  style="margin: 5px;"></a>
+      <a href="https://www.linkedin.com/company/dialogus-consultores/"><img class="image-none" src="../assets/js/services/inColor.svg"
+                  width="50" style="margin: 5px;"></a>
+    </div>
 
 <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
