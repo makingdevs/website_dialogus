@@ -190,7 +190,7 @@
                   style="margin: 5px;"></a>
               <a href="https://www.linkedin.com/company/dialogus-consultores/"><img src="./assets/js/services/IN.svg"
                   width="50" style="margin: 5px;"></a>
-              <img src="./assets/logoESP-white.svg" width="25%" style="margin: 5px;">
+              <img src="./assets/logoESP-white.svg" width="120" style="margin: 5px;">
             </ul>
           </div>
           <div class="d-flex flex-column bg-card-footer1">
@@ -226,7 +226,7 @@
                   style="margin: 5px;"></a>
               <a href="https://www.linkedin.com/company/dialogus-consultores/"><img src="./assets/js/services/IN.svg"
                   width="50" style="margin: 5px;"></a>
-               <img src="./assets/logoESP-white.svg" width="25%" style="margin: 5px;">
+               <img src="./assets/logoESP-white.svg" width="120" style="margin: 5px;">
             </ul>
           </div>
         </div>
