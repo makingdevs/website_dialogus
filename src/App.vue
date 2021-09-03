@@ -198,6 +198,27 @@
               All Rights Reserved &copy; 2021 | Dialogus Consultores
             </p>
           </div>
+          <!-- Button trigger modal -->
+          <button type="button" class="button-aviso-footer" data-bs-toggle="modal" data-bs-target="#priv" style="color:#ffffff">
+            Aviso de Privacidad
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="priv" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content" id="priv-content">
+                <div class="modal-header">
+                  <h3 class="font-weight-700 font-poppins" style="color:#ffffff">Aviso de Privacidad</h3>
+                </div>
+                <div class="modal-body">
+                  <h3 class="font-weight-300 font-poppins" style="color:#ffffff">Texto</h3>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="button-aviso" data-bs-dismiss="modal" style="color:#ffffff">Aceptar</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
@@ -279,6 +300,26 @@
               <p align="center" class="font-weight-300 font-poppins footer-text">
                 All Rights Reserved &copy; 2021 | Dialogus Consultores
               </p>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="button-aviso-footer" data-bs-toggle="modal" data-bs-target="#privmobile" style="color:#ffffff">
+              Aviso de Privacidad
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="privmobile" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content" id="priv-content">
+                  <div class="modal-header">
+                    <h3 class="font-weight-700 font-poppins" style="color:#ffffff">Aviso de Privacidad</h3>
+                  </div>
+                  <div class="modal-body">
+                    <h3 class="font-weight-300 font-poppins" style="color:#ffffff">Texto</h3>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="button-aviso" data-bs-dismiss="modal" style="color:#ffffff">Aceptar</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

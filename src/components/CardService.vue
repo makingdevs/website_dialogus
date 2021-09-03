@@ -44,6 +44,9 @@ import '../assets/css/home.scss'
       }
     }
   }
+  window.onscroll = function() {
+    console.log("Vertical: " + window.scrollY);
+  };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
