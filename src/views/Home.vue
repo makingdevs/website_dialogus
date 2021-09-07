@@ -429,8 +429,8 @@
     },
     created: function () {
       window.addEventListener('scroll', this.handleScroll);
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
+      //document.body.scrollTop = 0;
+      //document.documentElement.scrollTop = 0;
     },
     components: {
       Carousel3d,
