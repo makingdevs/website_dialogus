@@ -190,7 +190,6 @@
                   style="margin: 5px;"></a>
               <a href="https://www.linkedin.com/company/dialogus-consultores/"><img src="./assets/js/services/IN.svg"
                   width="50" style="margin: 5px;"></a>
-              <img src="./assets/logoESP-white.svg" width="120" style="margin: 5px;">
             </ul>
             <div class="d-flex justify-content-center">
               <img src="./assets/logoESP-white.svg" width="38%" style="margin: 5px;">
