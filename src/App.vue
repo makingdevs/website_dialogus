@@ -192,7 +192,7 @@
                   width="50" style="margin: 5px;"></a>
             </ul>
             <div class="d-flex justify-content-center">
-              <img src="./assets/logoESP-white.svg" width="25%" style="margin: 5px;">
+              <img src="./assets/logoESP-white.svg" width="38%" style="margin: 5px;">
             </div>
           </div>
           <div class="d-flex flex-column bg-card-footer1">
