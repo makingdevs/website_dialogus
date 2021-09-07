@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-2 mobile-hide">
         <slot></slot>
-        <div class="verticale-line"></div>
+        <div class="verticale-line" id="pruebalinea"></div>
       </div>
       <div class="col-md-6 col-sm-12 col-body-text-custom">
         <div class="d-flex flex-column body-card">
@@ -45,7 +45,10 @@ import '../assets/css/home.scss'
     }
   }
   window.onscroll = function() {
-    console.log("Vertical: " + window.scrollY);
+    var scroll = window.scrollY;
+    var linea = (scroll)/5;
+    console.log(linea);
+    document.querySelector('#pruebalinea').style.height = linea + "%";
   };
 </script>
 
@@ -113,6 +116,10 @@ import '../assets/css/home.scss'
     margin-top: 25px;
     font-size: 25px;
     line-height: normal;
+  }
+
+  #pruebalinea {
+    height: 0%;
   }
 
   .verticale-line {
