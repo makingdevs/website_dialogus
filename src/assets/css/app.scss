@@ -1,9 +1,8 @@
-#loaderPage{
-  position: fixed;
-	width: 100%;
-	height: 100vh;
-	background: #122c52 url('../js/services/PageSpeed.gif') no-repeat center;
-	z-index: 999;
+
+
+body {
+  margin: 0 !important;
+  background: unset !important;
 }
 
 .btn-color-button:hover{
