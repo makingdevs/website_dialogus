@@ -43,7 +43,6 @@
           <img class="paddinDialogusImgeGeader animate__animated animate__fadeInUp " src="../assets/js/img-header-Inicio/logoDialo.png" alt="">
         </div>
       </div>
-      
       <div class="d-flex justify-content-center animate__animated animate__fadeInLeft">
         <button class="boton-prueba" @click="descargarGuia">Descargar Guía</button>
       </div>
