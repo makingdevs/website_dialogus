@@ -48,6 +48,7 @@
         <button class="boton-prueba" @click="descargarGuia">Descargar Guía</button>
       </div>
     </section>
+<<<<<<< HEAD
     <div class="d-flex flex-column images-float">
       <a class="socialmedia" href="https://twitter.com/Dialogus_LAT"><img class="image-none" src="../assets/js/services/twuiColor.svg"
                   width="50" style="margin: 5px;"></a>
@@ -57,6 +58,8 @@
                   width="50" style="margin: 5px;"></a>
     </div>
 
+=======
+>>>>>>> 753c6b1 (#149 loader implementation)
 <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
