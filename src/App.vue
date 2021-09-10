@@ -198,7 +198,7 @@
           <div class="d-flex flex-column bg-card-footer1">
             <p align="center" class="font-weight-300 font-poppins footer-text">
               All Rights Reserved &copy; 2021 | Dialogus Consultores | 
-              <a href="#priv" data-bs-toggle="modal" data-bs-target="#priv" class="text-footercolor font-weight-500 font-poppins">Aviso de Privacidad</a>
+              <a href="https://www.dialogus.com.mx/documentos/Aviso%20de%20Privacidad%202021%20Dialogus.pdf" class="text-footercolor font-weight-500 font-poppins">Aviso de Privacidad</a>
             </p>
           </div>
         </div>
@@ -281,7 +281,7 @@
             <div class="d-flex Consultores">
               <p align="center" class="font-weight-300 font-poppins footer-text">
                 All Rights Reserved &copy; 2021 | Dialogus Consultores | 
-              <a href="#priv" data-bs-toggle="modal" data-bs-target="#priv" class="text-footercolor font-weight-500 font-poppins">Aviso de Privacidad</a>
+              <a href="https://www.dialogus.com.mx/documentos/Aviso%20de%20Privacidad%202021%20Dialogus.pdf" class="text-footercolor font-weight-500 font-poppins">Aviso de Privacidad</a>
               </p>
             </div>
           </div>
