@@ -5,7 +5,7 @@ function hideLoader() {
     body.style.background = null
     body.style.textAlign = null
     const e = document.getElementById("loader-app")
-    e.remove();
+    e?.remove();
 }
 
 export { hideLoader }

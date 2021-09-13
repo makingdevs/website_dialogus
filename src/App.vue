@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="app hide">
+  <div id="app" class="app">
     <!-- navbar -->
     <header class="header-style1 menu_area-light navbarMovil">
       <div class="navbar-default nav">
