@@ -46,7 +46,7 @@ import '../assets/css/home.scss'
   }
   window.onscroll = function() {
     var scroll = window.scrollY;
-    var linea = (scroll)/6;
+    var linea = ((scroll)/5)-75;
     document.querySelector('#pruebalinea').style.height = linea + "%";
   };
 </script>
