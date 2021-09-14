@@ -42,13 +42,16 @@ import '../assets/css/home.scss'
       return {
         src: 'capital2.svg'
       }
+    },
+    created: function () {
+      window.onscroll = function() {
+        var scroll = window.scrollY;
+        var linea = ((scroll)/5)-75;
+        document.querySelector('#pruebalinea').style.height = linea + "%";
+      };
     }
-  }
-  window.onscroll = function() {
-    var scroll = window.scrollY;
-    var linea = ((scroll)/5)-75;
-    document.querySelector('#pruebalinea').style.height = linea + "%";
   };
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
