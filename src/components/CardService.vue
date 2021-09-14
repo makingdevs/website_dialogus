@@ -26,31 +26,6 @@
   </div>
 </template>
 
-<script>
-import '../assets/css/home.scss'
-  export default {
-    name: 'CardService',
-    props: {
-      title: String,
-      bodyText: String,
-      imageUrl: String,
-      buttonText: String,
-      imageSquare: String,
-      urlservice: String
-    },
-    data: () => {
-      return {
-        src: 'capital2.svg'
-      }
-    }
-  }
-  window.onscroll = function() {
-    var scroll = window.scrollY;
-    var linea = ((scroll)/5)-75;
-    document.querySelector('#pruebalinea').style.height = linea + "%";
-  };
-</script>
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
@@ -227,3 +202,43 @@ import '../assets/css/home.scss'
     }
   }
 </style>
+
+<script>
+import '../assets/css/home.scss'
+  export default {
+    name: 'CardService',
+    props: {
+      title: String,
+      bodyText: String,
+      imageUrl: String,
+      buttonText: String,
+      imageSquare: String,
+      urlservice: String
+    },
+    data: () => {
+      return {
+        src: 'capital2.svg'
+      }
+    },
+    mounted() {
+    },
+    created: function () {
+      window.addEventListener('scroll', this.handleScroll);
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+      window.onscroll = function() {
+          let scroll = window.scrollY;
+          let linea = ((scroll)/5)-75;
+          const element = document.querySelector("#pruebalinea");
+          if(element){
+            element.style.height = linea + "%";
+          }
+      };
+    },
+    components: {
+    },
+    methods: {
+
+    },
+  }
+</script>
