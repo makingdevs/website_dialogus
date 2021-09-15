@@ -182,7 +182,7 @@
           </div>
         </div>
         <div class="d-flex justify-content-between flex-mobile-footer" style="margin-left: -40px">
-          <div class="d-flex justify-content-center flex-column" style="margin-left: 0px">
+          <div class="d-flex flex-column" style="margin-left: 0px">
             <ul class="d-flex socialmedia justify-content-center" style="margin-left: 0px">
               <a class="socialmedia" href="https://twitter.com/Dialogus_LAT"><img src="./assets/js/services/TW.svg"
                   width="50" style="margin: 5px;"></a>
@@ -192,12 +192,12 @@
                   width="50" style="margin: 5px;"></a>
             </ul>
             <div class="d-flex justify-content-center">
-              <img src="./assets/logoESP-white.svg" width="38%" style="margin: 5px;">
+              <img src="./assets/logoESP-white.svg" width="130" style="margin: 5px;">
             </div>
           </div>
           <div class="d-flex flex-column bg-card-footer1">
             <p align="center" class="font-weight-300 font-poppins footer-text">
-              All Rights Reserved &copy; 2021 | Dialogus Consultores | 
+              All Rights Reserved &copy; 2021 | Dialogus Consultores |
               <a href="https://www.dialogus.com.mx/documentos/Aviso%20de%20Privacidad%202021%20Dialogus.pdf" target="_blank" class="text-footercolor font-weight-500 font-poppins">Aviso de Privacidad</a>
             </p>
           </div>
