@@ -37,8 +37,8 @@
             :bodyText="'Contamos con un programa especializado en habilitar y formar a investigadores internos en la detección oportuna de actos que vulneren las políticas internas de tu negocio.'">
             <img src="../assets/js/services/Cumplimiento/C3.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Auditoría interna'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg4.jpg'" :urlservice="'https://bit.ly/3lXUlfF'"
-            :bodyText="'Te ayudamos a llevar a cabo auditorias, con el fin de corroborar la conformidad de los procesos de acuerdo a la información documentada en tu empresa e identificar las oportunidades de mejora existentes en tu Sistema de Gestión.'">
+          <card-service :title="'Auditoría'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg4.jpg'" :urlservice="'https://bit.ly/3lXUlfF'"
+            :bodyText="'Evaluamos el nivel de cumplimiento de tu Sistema de Gestión según la normatividad aplicable verificando las políticas, procesos y procedimientos, así como su nivel de implementación dentro de tu organización. Contamos con auditores experimentados para auditar diversos tipos de organizaciones haciendo de la auditoría una auténtica herramienta de productividad y mejora.'">
             <img src="../assets/js/services/Cumplimiento/C4.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Acompañamiento especializado en implementación de tu Sistema de Gestión.'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg5.jpg'" :urlservice="'https://bit.ly/3xHIswg'"
