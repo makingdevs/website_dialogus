@@ -26,8 +26,12 @@
           <span class="color_34 font-weight-500 font-poppins">NUESTROS SERVICIOS </span></h1><div class="m-top-28" />
 
           <card-service :title="'Programa de Integridad y Comunicación Empresarial (PICE)'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg1.jpg'" :urlservice="'https://bit.ly/2VJY4CS'"
-            :bodyText="'Con la implementación del PICE y la adecuada gestión de su metodología e indicadores lograremos cerrar brechas entre los colaboradores y la alta dirección para la detección oportuna de riesgos que puedan comprometer la cultura de integridad del negocio a la par que se fomenta la mejora continua de las políticas de cumplimiento.'">
+            :bodyText="'Con más de 10 años de experiencia implementando Programas de Comunicación Empresarial efectivos hemos logrado escuchar lo que los empleados tienen que expresar, garantizando así la confianza y la comunicación sana dentro de las empresas. Sin importar el tamaño de tu negocio es una obligación cumplir con protocolos que lo protejan de posibles riesgos (denuncias), a la par que fomentan entornos de innovación (ideas), comunicación (preguntas) y estímulos no económicos (reconocimientos).'">
             <img src="../assets/js/services/Cumplimiento/C1.svg" alt="" class="icon-service">
+          </card-service>
+          <card-service :title="'Programas de Integridad Empresarial'" :button-text="'Contáctanos'" :imageSquare="'Cumplimientox.jpg'" :urlservice="'/contacto'"
+            :bodyText="'Como empresas sabemos que el factor humano es el principal riesgo. Por ello, el compliance funge como tu mejor  aliado ya que busca prevenir, detectar y remediar cualquier situación que impacte a la organización. Con nuestro equipo de consultores te acompañamos en el diseño e implementación de estrategias centradas en las personas como agentes activos que sumen en blindar a tu empresa y fomentar ambientes de confianza que lleven a la madurez de tu cultura de integridad.'">
+            <img src="../assets/js/services/Cumplimiento/stars.svg" alt="" class="icon-service">
           </card-service>
           <card-service :title="'Políticas para prevenir el acoso y hostigamiento sexual'" :button-text="'Quiero saber más'" :imageSquare="'CumplimientoImg2.jpg'" :urlservice="'https://bit.ly/2UgaoKi'"
             :bodyText="'Ayudamos a que todos los colaboradores cuenten con un entorno de trabajo en el que su dignidad sea respetada, asegurándonos que los negocios cumplan con mejores prácticas internacionales y así evitar cualquier riesgo reputacional o legal.'">
