@@ -29,7 +29,7 @@
             :bodyText="'Con más de 10 años de experiencia implementando Programas de Comunicación Empresarial efectivos hemos logrado escuchar lo que los empleados tienen que expresar, garantizando así la confianza y la comunicación sana dentro de las empresas. Sin importar el tamaño de tu negocio es una obligación cumplir con protocolos que lo protejan de posibles riesgos (denuncias), a la par que fomentan entornos de innovación (ideas), comunicación (preguntas) y estímulos no económicos (reconocimientos).'">
             <img src="../assets/js/services/Cumplimiento/C1.svg" alt="" class="icon-service">
           </card-service>
-          <card-service :title="'Programas de Integridad Empresarial'" :button-text="'Contáctanos'" :imageSquare="'Cumplimientox.jpg'" :urlservice="'/contacto'"
+          <card-service :title="'Programas de Integridad Empresarial'" :button-text="'Quiero saber más'" :imageSquare="'Cumplimientox.jpg'" :urlservice="'https://bit.ly/3CtJfU0'"
             :bodyText="'Como empresas sabemos que el factor humano es el principal riesgo. Por ello, el compliance funge como tu mejor  aliado ya que busca prevenir, detectar y remediar cualquier situación que impacte a la organización. Con nuestro equipo de consultores te acompañamos en el diseño e implementación de estrategias centradas en las personas como agentes activos que sumen en blindar a tu empresa y fomentar ambientes de confianza que lleven a la madurez de tu cultura de integridad.'">
             <img src="../assets/js/services/Cumplimiento/stars.svg" alt="" class="icon-service">
           </card-service>
