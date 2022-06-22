@@ -24,14 +24,14 @@
                 <div class="row">
                     <div class="col-lg-4 mb-1-6 mb-md-1-9 mb-lg-0 contact-border">
                         <div class="contact-wrapper">
-                          <a href="tel:55 16556739998">
+                          <a href="tel:5567919880">
                             <img v-if="!contactHoverTel" class="icon-contacto" src="../assets/js/services/contacto/contacTel.svg" @mouseover="contactHoverTel = true">
                             <img v-else class="icon-contacto" src="../assets/js/services/contacto/contacTelHover.svg" @mouseleave="contactHoverTel = false"></a>
                             
                             <div class="contact-content">
                                 <h3 class="font-weight-800 mb-2 mb-lg-3 color_33">Llámanos</h3>
 
-                                <a href="tel:55 16556739998">
+                                <a href="tel:5567919880">
                                     <div class="color_33 fuenteContacto">(+52) 55 679 198 80</div>
                                 </a>
                             </div>
