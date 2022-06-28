@@ -291,15 +291,6 @@
 
   </div>
 </template>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P1M2PV51MH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-P1M2PV51MH');
-</script>
 
 <script>
   import jQuery from 'jquery';
