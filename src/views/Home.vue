@@ -340,11 +340,11 @@
             <div class="m-top-28" />
             <div class="d-flex justify-content-center flex-column cuadrado2 p-2">
               <div class="m-top-28" />
-              <a href="tel:55 16556739998" class="d-flex justify-content-center">
+              <a href="tel:55 67919880" class="d-flex justify-content-center">
               <img class="telef" src="../assets/js/services/telfono.svg">
               </a>
               <div class="m-top-28" />
-              <a href="tel:55 16556739998">
+              <a href="tel:55 67919880">
                 <p align="center" class="text-cuadrado2">(+52) 55 679 198 80</p>
               </a>
 
