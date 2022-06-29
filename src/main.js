@@ -1,6 +1,4 @@
 import Vue from 'vue'
-import VueAnalytics from 'vue-analytics'
-import Hotjar from 'vue-hotjar'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import router from './router'
@@ -42,16 +40,6 @@ Vue.use(VueRouter)
 import { rtdbPlugin } from 'vuefire'
 Vue.use(rtdbPlugin)
 Vue.config.productionTip = false
-
-Vue.use(VueAnalytics, {
-  id: 'UA-206678261-1', //ID TEST
-  router
-})
-
-Vue.use (Hotjar, {
-  id: '3042813' //ID TEST
-})
-
 
 new Vue({
   router,
