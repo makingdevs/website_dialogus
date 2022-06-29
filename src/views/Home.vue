@@ -22,7 +22,7 @@
             <h2 class="color_33">¿Cómo lo hacemos?</h2>
             <div class="d-flex">
               <div class="textoHederHome2 color_34 align-items-end order-lg-1 order-2">Acompañamos a nuestros clientes
-                con metodologías innovadoras
+                con metodologías innovadoras 
                 contribuyendo a su rentabilidad.
               </div>
               <div class="verticalLineHome order-lg-2 order-1"/>
@@ -375,16 +375,6 @@
         ================================================== -->
   </div>
 </template>
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:3042844,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
 <script>
   import { Carousel3d, Slide } from 'vue-carousel-3d';
   import VueTextTransition from 'vue-text-transition';
