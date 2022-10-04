@@ -24,7 +24,7 @@
 
          <h1 align="center"><i class="fas fa-angle-double-right text-warning"></i>
           <span class="color_34 font-weight-500 font-poppins">NUESTROS SERVICIOS </span></h1><div class="m-top-28" />
-          <card-service :title="'Semillero de Talento (becarios y trainees)'" :button-text="'Quiero saber más'" :imageSquare="'CapitalImg1.jpg'" :urlservice="'https://bit.ly/3CF8fJo'"
+          <card-service :title="'Semillero de Talento (becarios y trainees)'" :button-text="'Quiero saber más'" :imageSquare="'CapitalImg1.jpg'" :urlservice="'https://semillerodetalento.dialogus.com.mx/hc/es'"
             :bodyText="'Nos apasiona descubrir el talento emergente de nuestras nuevas generaciones, involucrarlos en proyectos desafiantes y objetivos retadores que permiten el fortalecimiento de sus competencias, aptitudes y emociones preparándolos para convertirse en colaboradores de alto desempeño.'">
             <img src="../assets/js/services/Capital/CH1.svg" alt="" class="icon-service">
           </card-service>
@@ -49,8 +49,7 @@
             <img src="../assets/js/services/Capital/CH6.svg" alt="" class="icon-service">
           </card-service>
         </section>
-                
-        
+
   </div>
 </template>
 <style>
@@ -157,4 +156,3 @@ export default {
   }
 };
 </script>
-
