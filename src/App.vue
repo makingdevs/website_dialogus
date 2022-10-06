@@ -198,7 +198,7 @@
           <div class="d-flex flex-column bg-card-footer1">
             <p align="center" class="font-weight-300 font-poppins footer-text">
               All Rights Reserved &copy; 2021 | Dialogus Consultores |
-              <a href="https://www.dialogus.com.mx/documentos/Aviso%20de%20Privacidad%202021%20Dialogus.pdf" target="_blank" class="text-footercolor font-weight-500 font-poppins">Aviso de Privacidad</a>
+              <a @click="descargarAvisoPrivacidad" style="cursor: pointer;" target="_blank" class="text-footercolor font-weight-500 font-poppins">Aviso de Privacidad</a>
             </p>
           </div>
         </div>
@@ -281,7 +281,7 @@
             <div class="d-flex Consultores">
               <p align="center" class="font-weight-300 font-poppins footer-text">
                 All Rights Reserved &copy; 2021 | Dialogus Consultores | 
-              <a href="https://www.dialogus.com.mx/documentos/Aviso%20de%20Privacidad%202021%20Dialogus.pdf" target="_blank" class="text-footercolor font-weight-500 font-poppins">Aviso de Privacidad</a>
+              <a style="cursor: pointer;" @click="descargarAvisoPrivacidad" target="_blank" class="text-footercolor font-weight-500 font-poppins">Aviso de Privacidad</a>
               </p>
             </div>
           </div>
@@ -322,6 +322,9 @@
           evObj.initEvent(typeEvent, true, false);
           element.dispatchEvent(evObj);
         }
+      },
+      descargarAvisoPrivacidad(){
+        window.open("https://portal.dialogus.com.mx/hc/es/article_attachments/10183174652179/Aviso_de_privacidad.pdf", '_blank')
       },
       openCalendly(value){
         if(window.screen.height < 1000){
